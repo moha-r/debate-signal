@@ -8,6 +8,13 @@ _MODAL_ACTION = re.compile(
     r"(?:(?:need|have) to\s+)?(?:be\s+)?([a-z]+)\b",re.I)
 _REPLY_CUE = re.compile(r"\b(?:because|since|therefore|instead|thus|for example|for instance|according to)\b|^(?:that|this|these|those) (?:is|are|would|will|could|cannot|does|suggests?|\w+ (?:is|would|could))\b",re.I)
 _AGREEMENT = re.compile(r"^(?:i agree|we agree|you(?:'re| are) right|that's a fair point)\b",re.I)
+_DIRECT_REFERENCE = re.compile(
+    r"^(?:this|that)\s+(?:(?:proposal|plan|policy|claim|argument|point|idea)\s+)?"
+    r"(?:would|will|could|might|does|means|suggests)\b", re.I,
+)
+_ADVERSE_CONSEQUENCE = re.compile(
+    r"\b(?:can(?:not|'t)|could(?: not|n't))\s+(?:afford|fund|cover|meet|provide|handle)\b", re.I,
+)
 
 _INTRO = re.compile(
     r"^(?:i (?:agree|disagree)(?: that| because)?|we agree(?: that)?|"
@@ -36,6 +43,23 @@ def action_verb(text):
 
 def has_reply_cue(text):
     return bool(_REPLY_CUE.search(text.strip()))
+
+
+def is_grounded_reply(source, target, relation, *, probability, similarity, candidate_count):
+    """Preserve a local response when it directly identifies the preceding contribution."""
+    if source['number'] != target['number'] + 1:
+        return False
+    text = source['text'].strip().replace('’', "'")
+    if _DIRECT_REFERENCE.match(text):
+        return probability >= .52 and similarity >= .33
+    if relation != 'attack':
+        return False
+    if re.match(r'^but\b', text, re.I):
+        return probability >= .80 and similarity >= .40
+    # A single earlier proposal can be challenged by a concrete feasibility objection.
+    return (candidate_count == 1 and probability >= .65 and similarity >= .50
+            and source.get('speaker') not in (None, 'Unknown', target.get('speaker'))
+            and bool(_ADVERSE_CONSEQUENCE.search(text)))
 
 
 def relation_rank(confidence, similarity, distance):

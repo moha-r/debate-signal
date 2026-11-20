@@ -1,0 +1,45 @@
+{
+  "scope": "Same 178 authored turns, actual serving models and analyzer. Author-labelled target IDs and answer links. Old selector replayed by disabling the new artifact. No ASR, network or microphone.",
+  "before": {
+    "turns": 178,
+    "correct_roles": 159,
+    "reference_links": 76,
+    "predicted_links": 78,
+    "correct_targets": 69,
+    "false_links": 9,
+    "precision": 0.8846153846153846,
+    "recall": 0.9078947368421053,
+    "f1": 0.8961038961038961,
+    "correct_answer_links": 23,
+    "reference_answer_links": 23,
+    "predicted_answer_links": 23,
+    "median_ms": 33.74,
+    "p95_ms": 184.08
+  },
+  "after": {
+    "turns": 178,
+    "correct_roles": 160,
+    "reference_links": 76,
+    "predicted_links": 69,
+    "correct_targets": 69,
+    "false_links": 0,
+    "precision": 1.0,
+    "recall": 0.9078947368421053,
+    "f1": 0.9517241379310345,
+    "correct_answer_links": 23,
+    "reference_answer_links": 23,
+    "predicted_answer_links": 23,
+    "median_ms": 33.53,
+    "p95_ms": 187.97
+  },
+  "source_hashes": {
+    "argument_models.py": "af3325edbc5c7b2e3eac14f0873f5a5373d23263817c777f4f47372aecc931dc",
+    "argument_link_selector.py": "2cd72145931935ba17261ed003ff713ab7c874a7a254d5dfd2333bf0c186f5ff",
+    "answer_extraction.py": "e828c5311717b7672146af95a9164b800b586833856aa1e86a45cb1bebe409b0",
+    "conversation_insights.py": "8ae81d456b3ee71f74e5544e007dad2f9a9bb3455e61209b3e27413a90b5af6b",
+    "dialogue_relations.py": "8113371396196031e4492225be8d53dfdc3c6410f43a4306458cfa717feccab6",
+    "moderation_session.py": "1dee1d6d67bcb0de661db06ba17eb2fc3d6d99617cfcaba9b6ec02428412fd3e",
+    "question_tracker.py": "327b2c052c5e11bfafeb5d9f4e1db05872329e8a1d4db9609ce10e5f22e7beaa",
+    "relation_context.py": "28792cbb04beb182080f98cb30413dbbdf9cedeba4c06688919dd3c7ab1c413f"
+  }
+}

@@ -11,6 +11,7 @@ POLICY = {"dominance_share": .70, "minimum_speech_seconds": 30}
 QUESTION = re.compile(r"^(?:what|why|how|who|when|where|which|can|could|should|would|do|does|did|is|are)\b", re.I)
 REBUTTAL = re.compile(r"\b(?:i disagree|that is incorrect|that's incorrect|on the contrary|however|but that|does not follow|doesn't follow|not necessarily)\b", re.I)
 SUPPORT = re.compile(r"\b(?:because|for example|for instance|according to|research|study|studies|data|evidence|statistics|survey)\b", re.I)
+DIRECT_REASON = re.compile(r"\b(?:because|for example|for instance|according to)\b", re.I)
 AGREEMENT = re.compile(r"^(?:yes[, .]|i agree\b|we agree\b|you(?:'re| are) right\b|that(?:'s| is) a fair point\b)", re.I)
 EVIDENCE_REQUEST = re.compile(r"\b(?:evidence|source|sources|proof|study|data|support that)\b", re.I)
 
@@ -39,7 +40,7 @@ def quotation_context(text, recent):
 def argument_for(turn, previous, encoder, *, trace=None):
     from argument_models import available, load_models, role_scores, relation_scores, vector, words
     from question_tracker import REFERENCE, question_info, find_responses, outside_quotes, response_status
-    from relation_context import action_verb, has_reply_cue, relation_rank, retrieval_score
+    from relation_context import action_verb, has_reply_cue, is_grounded_reply, relation_rank, retrieval_score
     text=turn['text']; visible=outside_quotes(text).strip()
     info=question_info(text,turn.get('_topic_text',''))
     answers=find_responses(turn,previous,encoder)
@@ -84,7 +85,7 @@ def argument_for(turn, previous, encoder, *, trace=None):
         role,cue,explicit='rebuttal','Explicit challenge or negated agreement','attack'
     elif AGREEMENT.search(visible):
         role,cue,explicit='agreement','Explicit agreement language','support'
-    elif SUPPORT.search(visible) and re.search(r'\b(?:because|for example|for instance|according to)\b',visible,re.I):
+    elif DIRECT_REASON.search(visible):
         role,cue='reason','Explicit reason or evidence reference (unverified)'
     elif re.search(r'\b(?:should|must|ought to)\b',visible,re.I):
         role,cue='claim','Explicit policy position'
@@ -109,6 +110,7 @@ def argument_for(turn, previous, encoder, *, trace=None):
     if not previous and role in ('reason','rebuttal') and re.search(r"\bshould\b",visible,re.I) and not negative and not SUPPORT.search(visible):
         role,cue='claim','Opening policy position'
     link=None
+    link_assessment=None
     if role in ('claim','reason','rebuttal','agreement'):
         candidates=[t for t in previous if t.get('argument',{}).get('role') in ('claim','reason','rebuttal','agreement')
                     and not t.get('personal_attack')
@@ -186,8 +188,35 @@ def argument_for(turn, previous, encoder, *, trace=None):
             if trace is not None:
                 trace['ranked_targets']=[item[1]['number'] for item in ranked]
                 trace['explicit_relation']=explicit
-            if ranked and (len(ranked)==1 or ranked[0][0]-ranked[1][0]>=relation_margin):
-                score,target,relation,probability,sim=ranked[0]
+            selected = ranked[0] if ranked and (len(ranked)==1 or ranked[0][0]-ranked[1][0]>=relation_margin) else None
+            # Keep direct speech-act evidence and the independently matched answers.
+            # A standalone position has to beat both "no relationship" and plausible alternatives.
+            explicit_reason = role == 'reason' and DIRECT_REASON.search(visible)
+            if backend.get('link_selector') and probabilities and explicit is None and not explicit_reason:
+                from argument_link_selector import choose_link, load_link_selector, rank_links
+                selector = load_link_selector()
+                scored = [dict(target, raw=scores, similarity=similarity[target['number']])
+                          for target, scores in zip(candidates[:backend['max_candidates']], probabilities)]
+                verified = rank_links(selector['model'], turn, scored)
+                choice = choose_link(verified, threshold=selector['threshold'], margin=selector['margin'])
+                if trace is not None:
+                    trace['contextual_rank'] = verified
+                if choice is not None:
+                    score, number, relation = choice
+                    target = next(candidate for candidate in scored if candidate['number'] == number)
+                    selected = (score, target, relation, target['raw'][relation], target['similarity'])
+                    link_assessment = 'contextual'
+                elif selected is not None and (
+                    (role == 'reason' and selected[3] >= .75 and selected[4] >= .58)
+                    or is_grounded_reply(turn, selected[1], selected[2], probability=selected[3],
+                                         similarity=selected[4], candidate_count=len(scored))
+                ):
+                    link_assessment = 'grounded_reply'
+                else:
+                    selected = None
+                    link_assessment = 'uncertain'
+            if selected is not None:
+                score,target,relation,probability,sim=selected
                 link={'turn':target['number'],'relation':relation,'confidence':round(probability,4),'similarity':round(sim,4),'tentative':True}
                 if relation=='attack' and explicit is None and role in ('claim','reason') and probability>=.80 and not SUPPORT.search(visible):
                     role,cue,confidence='rebuttal','Likely conflict with an earlier position',None
@@ -205,7 +234,8 @@ def argument_for(turn, previous, encoder, *, trace=None):
         trace.update(role=role, cue=cue, link=link, topic=turn['topic']['state'])
     return {'role':role,'cue':cue,'link':link,'method':method,'role_confidence':confidence,
             'evidence_requested':role=='question' and info['evidence_requested'],
-            'question':info if role=='question' else None,'answers':answers,'relation_model':backend}
+            'question':info if role=='question' else None,'answers':answers,'relation_model':backend,
+            'link_assessment':link_assessment}
 
 
 def voice_timing(event, recording_id):
@@ -345,6 +375,8 @@ def correct_argument(session, number, role, target, relation, reason):
         if stale_answers or stale_edge:
             later.setdefault('argument_original',deepcopy(argument))
             if stale_answers: argument['answers']=[a for a in argument.get('answers',[]) if a['turn']!=number]
-            if stale_edge: argument['link']=None
+            if stale_edge:
+                argument['link']=None
+                argument.pop('link_assessment', None)
             argument['dependency_note']=f'Reference to turn {number} invalidated by moderator correction.'
     return updated

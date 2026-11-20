@@ -1,0 +1,54 @@
+{
+  "scope": "Causal support/attack link selection with pre-grounded broadcast turns and fixed retrieval. Development threshold fitted by episode. Test episodes were reused during model exploration.",
+  "input_sha256": "f828f6b3c448c6f4cdad443955f8c3f05568bc12fd8d9a1adbb68a1cf9d289b9",
+  "artifact_sha256": "9813fa0fa8f838f0fe925ad0dad33354b48dfdd8de91e96ce672a13509d566dd",
+  "development_episodes": [
+    "MM2019DDay",
+    "Money",
+    "bankingsystem",
+    "britishempire"
+  ],
+  "test_episodes": [
+    "MM2019Hypocrisy",
+    "MoralMazeGreenBelt",
+    "problem",
+    "welfare"
+  ],
+  "selected_on_development": {
+    "threshold": 0.63,
+    "margin": 0.14,
+    "turns": 256,
+    "targets": 86,
+    "predicted": 94,
+    "correct": 35,
+    "target_correct": 36,
+    "spurious": 43,
+    "precision": 0.3723404255319149,
+    "recall": 0.4069767441860465,
+    "f1": 0.3888888888888889
+  },
+  "test_before": {
+    "turns": 547,
+    "targets": 161,
+    "reachable": 113,
+    "predicted": 357,
+    "target_correct": 57,
+    "correct": 47,
+    "spurious": 230,
+    "precision": 0.13165266106442577,
+    "recall": 0.2919254658385093,
+    "f1": 0.18146718146718147,
+    "target_f1": 0.22007722007722008
+  },
+  "test_after": {
+    "turns": 547,
+    "targets": 161,
+    "predicted": 166,
+    "correct": 53,
+    "target_correct": 53,
+    "spurious": 103,
+    "precision": 0.3192771084337349,
+    "recall": 0.32919254658385094,
+    "f1": 0.3241590214067278
+  }
+}

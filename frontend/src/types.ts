@@ -73,6 +73,7 @@ export interface ArgumentNode {
   role: 'claim' | 'reason' | 'rebuttal' | 'question' | 'agreement' | 'unclassified';
   cue: string;
   link: { turn: number; similarity: number | null; tentative: boolean; relation?: 'support' | 'attack' | 'answers'; confidence?: number | null } | null;
+  link_assessment?: 'uncertain' | 'contextual' | 'grounded_reply' | null;
   role_confidence?: number | null;
   annotation_source?: string;
   review?: { reason: string; time: string };

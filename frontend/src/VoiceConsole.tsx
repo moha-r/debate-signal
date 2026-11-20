@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { AudioLines, CircleAlert, KeyRound, LoaderCircle, Mic, Settings2, Square, X } from 'lucide-react';
+import { AudioLines, CircleAlert, LoaderCircle, Mic, Settings2, Square, X } from 'lucide-react';
 import { speakerName, type Session, type TurnSpeaker } from './types';
 
 type Phase = 'off' | 'preparing' | 'connecting' | 'recording' | 'finishing';
@@ -46,8 +46,6 @@ export default function VoiceConsole(props: Props) {
   const [phase, setPhase] = useState<Phase>('off');
   const phaseRef = useRef<Phase>('off');
   const [configured, setConfigured] = useState<boolean | null>(null);
-  const [key, setKey] = useState('');
-  const [editKey, setEditKey] = useState(false);
   const [transcript, setTranscript] = useState('');
   const [confirmedSpeaker, setConfirmedSpeaker] = useState<TurnSpeaker | null>(null);
   const [message, setMessage] = useState('');
@@ -163,9 +161,8 @@ export default function VoiceConsole(props: Props) {
 
   async function start() {
     if (!sessionId || phaseRef.current !== 'off') return;
-    if ((editKey || !configured) && !key.trim()) {
-      setSettingsOpen(true);
-      show('Enter your AssemblyAI key to start.', true);
+    if (!configured) {
+      show('Recording is currently unavailable. Contact the site administrator.', true);
       return;
     }
     if (!navigator.mediaDevices?.getUserMedia || !window.AudioContext || !window.AudioWorkletNode) {
@@ -214,15 +211,13 @@ export default function VoiceConsole(props: Props) {
       socket.current = active;
       transition('connecting');
       active.onopen = () => {
-        if (socket.current === active) active.send(JSON.stringify({ type: 'connect', key: key.trim() }));
+        if (socket.current === active) active.send(JSON.stringify({ type: 'connect' }));
       };
       active.onmessage = ({ data }) => {
         if (socket.current !== active) return;
         const event = JSON.parse(data) as VoiceEvent;
         switch (event.type) {
           case 'ready':
-            setEditKey(false);
-            if (configured && !editKey) setKey('');
             source.connect(worklet);
             clockStart.current = performance.now();
             transition('recording');
@@ -249,10 +244,6 @@ export default function VoiceConsole(props: Props) {
             break;
           case 'error':
             recover(event.draft || draft.current);
-            if (event.message.toLowerCase().includes('key')) {
-              setEditKey(true);
-              setSettingsOpen(true);
-            }
             disconnect();
             show(event.message, true);
             break;
@@ -352,10 +343,6 @@ export default function VoiceConsole(props: Props) {
           <option key={device.deviceId} value={device.deviceId}>{device.label || `Microphone ${index + 1}`}</option>)}
       </select></label>
       {phase !== 'off' && <p>End the recording to change your microphone.</p>}
-      {phase === 'off' && <label><span><KeyRound size={12}/> AssemblyAI API key</span>
-        <input type="password" value={key} onChange={(event) => { setKey(event.target.value); setEditKey(true); }}
-          placeholder={configured ? 'Server key configured' : 'Enter your API key'} maxLength={256} autoComplete="off"/>
-      </label>}
     </div>}
   </section>;
 }

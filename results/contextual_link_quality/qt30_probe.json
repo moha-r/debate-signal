@@ -1,0 +1,38 @@
+{
+  "scope": "New to the selector. Two sampled BBC Question Time episodes. The underlying RoBERTa model card lists QT30 as training data; no independence claim for the pair scorer. Pre-grounded turns.",
+  "episodes": [
+    "qt11112021wtxt",
+    "qt19082021wtxt"
+  ],
+  "pair_scores_sha256": "8f4f9b8911bb68f3daed6b0d5bef8a31a85d2bc03fd94a9e40b0edf363cf76d9",
+  "exclusions": {
+    "chronological_maps": 2,
+    "approximate_order_maps": 20,
+    "future_target": 49,
+    "ungrounded": 86
+  },
+  "before": {
+    "turns": 305,
+    "targets": 45,
+    "reachable": 21,
+    "predicted": 174,
+    "target_correct": 10,
+    "correct": 10,
+    "spurious": 146,
+    "precision": 0.05747126436781609,
+    "recall": 0.2222222222222222,
+    "f1": 0.091324200913242,
+    "target_f1": 0.091324200913242
+  },
+  "after": {
+    "turns": 305,
+    "targets": 45,
+    "predicted": 103,
+    "correct": 14,
+    "target_correct": 14,
+    "spurious": 88,
+    "precision": 0.13592233009708737,
+    "recall": 0.3111111111111111,
+    "f1": 0.1891891891891892
+  }
+}

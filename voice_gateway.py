@@ -21,16 +21,16 @@ IDLE_TIMEOUT = 60
 MAX_VOICE_SECONDS = int(os.getenv('MAX_VOICE_SECONDS','900'))
 if not 1 <= MAX_VOICE_SECONDS <= 3600:
     raise ValueError('MAX_VOICE_SECONDS must be between 1 and 3600.')
-_local_key = ""
+VOICE_UNAVAILABLE = "Recording is currently unavailable. Contact the site administrator."
 
 
-def configure_local_key(key):
-    global _local_key
-    _local_key = key.strip()
+def server_voice_key():
+    key = os.getenv("ASSEMBLYAI_API_KEY", "").strip()
+    return key if key.isascii() and not any(character.isspace() for character in key) else ""
 
 
 def has_voice_key():
-    return bool(_local_key or os.getenv("ASSEMBLYAI_API_KEY", "").strip())
+    return bool(server_voice_key())
 
 
 class VoiceError(Exception):
@@ -52,10 +52,8 @@ def provider_message(raw):
         detail = str(message.get("error") or message.get("message", "")).casefold()
         if "too many concurrent sessions" in detail:
             raise VoiceError("AssemblyAI is limiting new sessions. Wait one minute before reconnecting.")
-        if "insufficient" in detail or "balance" in detail:
-            raise VoiceError("Check the remaining AssemblyAI credit in your dashboard.")
-        if "unauthorized" in detail or "invalid api" in detail:
-            raise VoiceError("AssemblyAI rejected the key or model access. Check your key and try again.")
+        if any(term in detail for term in ("insufficient", "balance", "unauthorized", "invalid api")):
+            raise VoiceError(VOICE_UNAVAILABLE)
         raise VoiceError("AssemblyAI could not continue transcription. Reconnect to try again.")
     return message
 
@@ -83,12 +81,9 @@ async def serve_voice(socket: WebSocket, commit_turn, *, endpoint=ENDPOINT, max_
         hello = command(first)
         if hello.get("type") != "connect":
             raise VoiceError("Reconnect to set up the voice session.")
-        supplied = hello.get("key", "")
-        if not isinstance(supplied, str) or len(supplied) > 256:
-            raise VoiceError("Check the AssemblyAI key and try again.")
-        key = supplied.strip() or _local_key or os.getenv("ASSEMBLYAI_API_KEY", "").strip()
-        if not key or not key.isascii() or any(character.isspace() for character in key):
-            raise VoiceError("Enter an AssemblyAI API key to connect.")
+        key = server_voice_key()
+        if not key:
+            raise VoiceError(VOICE_UNAVAILABLE)
         params = urlencode({
             "speech_model": MODEL, "sample_rate": 16000, "encoding": "pcm_s16le",
             "language_codes": json.dumps(["en"]), "mode": "balanced",
@@ -196,7 +191,7 @@ async def serve_voice(socket: WebSocket, commit_turn, *, endpoint=ENDPOINT, max_
         if isinstance(error, VoiceError):
             message = str(error)
         elif isinstance(error, InvalidStatus) and error.response.status_code in (401, 403):
-            message = "AssemblyAI rejected the key or model access. Check your key and try again."
+            message = VOICE_UNAVAILABLE
         else:
             message = "The connection to AssemblyAI ended. Start again to continue."
         with suppress(WebSocketDisconnect, RuntimeError, OSError):

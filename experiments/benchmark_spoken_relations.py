@@ -70,17 +70,17 @@ def extract(graph):
     return turns, sorted(edges), counts
 
 
-def make_cache(output, *, reretrieve=False, prior_cache=None):
+def make_cache(output, *, reretrieve=False, prior_cache=None, corpus=CORPUS):
     if output.exists():
         return
-    manifest = json.loads((CORPUS/'manifest.json').read_text())
+    manifest = json.loads((corpus/'manifest.json').read_text())
     encoder = load_resources()[2]
     model = TransformerPairs()
     groups, exclusions = [], Counter()
     from relation_context import retrieval_score
     for episode, ident, _, digest in manifest['maps']:
         import hashlib
-        raw = (CORPUS/f'{ident}.json').read_bytes()
+        raw = (corpus/f'{ident}.json').read_bytes()
         assert hashlib.sha256(raw).hexdigest()==digest
         turns, edges, counts = extract(json.loads(raw))
         exclusions.update(counts)
@@ -139,6 +139,7 @@ if __name__ == '__main__':
     from pathlib import Path
     parser.add_argument('output',type=Path)
     parser.add_argument('--prior-cache',type=Path)
+    parser.add_argument('--corpus',type=Path,default=CORPUS)
     parser.add_argument('--context-retrieval',action='store_true')
     args=parser.parse_args()
-    make_cache(args.output,reretrieve=args.context_retrieval,prior_cache=args.prior_cache)
+    make_cache(args.output,reretrieve=args.context_retrieval,prior_cache=args.prior_cache,corpus=args.corpus)

@@ -8,6 +8,7 @@ const roles: Record<ArgumentNode['role'], string> = {
   claim: 'Claim', reason: 'Reason / evidence', rebuttal: 'Rebuttal', question: 'Question', agreement: 'Agreement', unclassified: 'Other contribution',
 };
 const responseLabels: Record<string,string> = { possible_answer: 'Potential answer', confirmed_answer: 'Moderator-confirmed answer', partial_answer: 'Partial response', uncertain_answer: 'Uncertain response', insufficient_evidence: 'Evidence not supplied', declined: 'Declined to answer' };
+const linkLabels = { support: 'Supports', attack: 'Challenges', answers: 'Responds to' };
 
 export function Participation({ session, nameFor }: { session: Session; nameFor: NameFor }) {
   const data = session.insights?.participation;
@@ -28,19 +29,28 @@ function AudioMark() { return <span className="timing-mark" aria-hidden="true">{
 export function ArgumentMap({ session, nameFor, onSource, compact = false, busy = false, onCorrect }: { session: Session; nameFor: NameFor; onSource: (turn: number) => void; compact?: boolean; busy?: boolean; onCorrect?: (turn: number, correction: ArgumentCorrection) => void }) {
   const [filter, setFilter] = useState('all');
   const nodes = session.insights?.arguments || [];
+  const nodesByTurn = new Map(nodes.map(node => [node.turn, node]));
   const visible = nodes.filter((n) => filter === 'all' ? n.role !== 'unclassified' : (n.roles || [n.role]).includes(filter));
   const shown = compact ? visible.slice(-3) : visible;
   return <section className={`surface argument-panel ${compact ? 'compact' : ''}`}>
     <div className="small-heading"><h2><GitBranch size={16}/> {compact ? 'Argument trail' : 'How the argument connects'}</h2><span className="tag lavender">{visible.length} contributions</span></div>
     <p className="section-description">Follow claims, reasons and responses back to the conversation.</p>
     {!compact && <div className="argument-filters" aria-label="Filter argument roles">{[['all','All'],['claim','Claims'],['reason','Reasons / evidence'],['rebuttal','Rebuttals'],['question','Questions'],['agreement','Agreements'],['unclassified','Other']].map(([value,label]) => <button key={value} aria-pressed={filter === value} className={filter === value ? 'active' : ''} onClick={() => setFilter(value)}>{label}<span>{value === 'all' ? nodes.filter(n=>n.role !== 'unclassified').length : nodes.filter(n=>(n.roles || [n.role]).includes(value)).length}</span></button>)}</div>}
-    {shown.length ? <ol className="argument-trail">{shown.map((node) => <li key={node.turn} className={`argument-node role-${node.role}`}>
+    {shown.length ? <ol className="argument-trail">{shown.map((node) => {
+      const link = node.link;
+      const target = link && nodesByTurn.get(link.turn);
+      return <li key={node.turn} className={`argument-node role-${node.role}`}>
       <span className="argument-pin" aria-hidden="true"/><div className="argument-node-heading"><span className="role-label">{roles[node.role]}{node.role !== 'reason' && node.roles?.includes('reason') ? ' · Reason / evidence' : ''}</span><span>{nameFor(node.speaker)}</span><button className="source-link" onClick={() => onSource(node.turn)}>Turn {node.turn}<ArrowUpRight size={12}/></button></div>
       <p>{node.text}</p>
-      {node.link && <button className="argument-connection" onClick={() => onSource(node.link!.turn)}><GitBranch size={12}/>{node.link.tentative ? 'Suggested: ' : 'Moderator: '}{node.link.relation === 'answers' ? 'responds to' : node.link.relation === 'attack' ? 'challenges' : node.link.relation === 'support' ? 'supports' : 'relates to'} turn {node.link.turn}<ArrowUpRight size={11}/></button>}
+      {link && <button className="argument-connection" onClick={() => onSource(link.turn)}>
+        <span><GitBranch size={12}/>{link.relation ? linkLabels[link.relation] : 'Relates to'} turn {link.turn} · {link.tentative ? 'Suggested' : 'Moderator reviewed'}<ArrowUpRight size={11}/></span>
+        {!compact && target && <q>{target.text.length > 180 ? `${target.text.slice(0, 177).trimEnd()}…` : target.text}</q>}
+      </button>}
+      {!link && !compact && node.link_assessment === 'uncertain' && <p className="argument-uncertainty">Connection unclear · review if needed</p>}
       {node.evidence_requested && <span className="evidence-request"><MessageCircleQuestion size={12}/> Evidence requested</span>}
-      {!compact && <><small className="argument-cue">{node.cue}{node.role_confidence != null ? ` · Model score ${Math.round(node.role_confidence*100)}% (uncalibrated)` : ''}{node.annotation_source === 'moderator' ? ' · Moderator reviewed' : ''}{!node.link && ['claim','reason','rebuttal','agreement'].includes(node.role) ? ' · No reliable target selected' : ''}</small>{onCorrect && <ArgumentReview key={`${node.turn}-${session.revision}`} node={node} nodes={nodes} busy={busy} onSave={(correction)=>onCorrect(node.turn,correction)}/>}</>}
-    </li>)}</ol> : <div className="calm-empty"><GitBranch size={26}/><strong>{nodes.length ? 'No contributions in this view.' : 'The first idea starts the trail.'}</strong><p>{nodes.length ? 'Try another role filter.' : 'Start a conversation to see its arguments take shape.'}</p></div>}
+      {!compact && <><small className="argument-cue">{node.cue}{node.role_confidence != null ? ` · Model score ${Math.round(node.role_confidence*100)}% (uncalibrated)` : ''}{node.annotation_source === 'moderator' ? ' · Moderator reviewed' : ''}</small>{onCorrect && <ArgumentReview key={`${node.turn}-${session.revision}`} node={node} nodes={nodes} busy={busy} onSave={(correction)=>onCorrect(node.turn,correction)}/>}</>}
+    </li>;
+    })}</ol> : <div className="calm-empty"><GitBranch size={26}/><strong>{nodes.length ? 'No contributions in this view.' : 'The first idea starts the trail.'}</strong><p>{nodes.length ? 'Try another role filter.' : 'Start a conversation to see its arguments take shape.'}</p></div>}
     <p className="insight-note">Suggested roles and links · evidence references are unverified.</p>
   </section>;
 }

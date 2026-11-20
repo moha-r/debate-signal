@@ -71,7 +71,7 @@ def replay(output):
     output.mkdir(parents=True)
     for name, rows in [('decisions', decisions), ('errors', errors)]:
         (output / f'{name}.jsonl').write_text(''.join(json.dumps(row, ensure_ascii=False) + '\n' for row in rows))
-    sources = ('argument_models.py', 'answer_extraction.py', 'conversation_insights.py',
+    sources = ('argument_models.py', 'argument_link_selector.py', 'answer_extraction.py', 'conversation_insights.py',
                'dialogue_relations.py', 'moderation_session.py', 'question_tracker.py', 'relation_context.py')
     summary = {'turns': len(decisions), 'error_turns': len(errors),
                'errors': dict(Counter(kind for row in errors for kind in row['error_types'])),

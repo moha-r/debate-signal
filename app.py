@@ -5,7 +5,8 @@ import html
 
 import gradio as gr
 
-from moderation_session import analyze_turn, new_session, review_alert
+from moderation_session import analyze_turn, load_attack_bundle, new_session, review_alert, score_attack
+from nlp_pipeline import preprocess_text
 
 
 CSS = """
@@ -15,6 +16,19 @@ CSS = """
 #masthead h1 {font-family: 'Bricolage Grotesque', 'Arial', sans-serif; font-size: 34px; line-height: 1.1; margin: 0;}
 #masthead p {color: #52617d; margin: 7px 0 0; font-size: 14px;}
 .workspace-panel {background: #fff; border: 1px solid #d7dfef; border-radius: 16px; padding: 18px !important;}
+.sentence-input, .sentence-result {min-height: 244px;}
+.sentence-heading {margin: 0; font-family: 'Bricolage Grotesque', Arial, sans-serif; font-size: 22px; color: #172344;}
+.sentence-status {min-height: 124px; margin-top: 12px; padding: 16px; background: #f4f6fc; border: 1px solid #d7dfef; border-radius: 12px; color: #172344;}
+.sentence-decision h3 {margin: 0 0 14px; font-family: 'Bricolage Grotesque', Arial, sans-serif; font-size: clamp(24px, 4vw, 32px); line-height: 1.15; color: #253872;}
+.sentence-decision.is-flagged {background: #fff5f6; border-color: #e7bfc8;}
+.sentence-decision.is-flagged h3 {color: #8d294b;}
+.sentence-score {display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 3px 16px; margin-top: 10px; font-size: 14px;}
+.sentence-score strong {font-family: 'IBM Plex Mono', monospace; font-variant-numeric: tabular-nums;}
+.sentence-score meter {display: block; width: 100%; height: 9px; grid-column: 1 / -1; appearance: none;}
+.sentence-score meter::-webkit-meter-bar {background: #dfe5f2; border: 0; border-radius: 5px;}
+.sentence-score meter::-webkit-meter-optimum-value {background: #5363ab; border-radius: 5px;}
+.sentence-score meter::-moz-meter-bar {background: #5363ab; border-radius: 5px;}
+.sentence-note {font-size: 12px; margin: 12px 0 0; color: #52617d;}
 .conversation {height: 390px; overflow-y: auto; padding-right: 5px;}
 .turn {display: grid; grid-template-columns: 44px 1fr; gap: 12px; margin: 0 0 18px;}
 .speaker {width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; border-radius: 11px; font-weight: 700; background: #e7eefb; color: #305a96;}
@@ -35,6 +49,33 @@ button:focus-visible, textarea:focus-visible {outline: 3px solid #8497f0 !import
 @media(max-width: 700px) {.conversation {height: 300px;} #masthead h1 {font-size: 28px;}}
 """
 HEAD = '<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=IBM+Plex+Mono&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">'
+SENTENCE_PROMPT = '<p class="sentence-status">Analyze a sentence to see the classification and both probabilities.</p>'
+
+
+def analyze_sentence(text):
+    """Show the calibrated personal-attack decision for a standalone sentence."""
+    text = (text or "").strip()
+    processed = preprocess_text(text)
+    if not processed:
+        return '<p class="sentence-status" role="alert">Enter an English sentence with words to analyze.</p>', ""
+
+    bundle = load_attack_bundle()
+    probability = score_attack(text, bundle)
+    threshold = bundle["threshold"]
+    flagged = probability >= threshold
+    decision = "Personal attack" if flagged else "No personal attack"
+    style = " is-flagged" if flagged else ""
+    scores = "".join(
+        f'<div class="sentence-score"><span>{label}</span><strong>{value:.2%}</strong>'
+        f'<meter min="0" max="1" value="{value}" aria-hidden="true"></meter></div>'
+        for label, value in (("Personal attack", probability), ("No personal attack", 1 - probability))
+    )
+    return (
+        f'<section class="sentence-status sentence-decision{style}" role="status">'
+        f'<h3>{decision}</h3>{scores}'
+        f'<p class="sentence-note">Personal attack threshold {threshold:.0%}</p></section>',
+        processed,
+    )
 
 
 def relative_time(session, timestamp):
@@ -140,7 +181,32 @@ def build_app():
             '<header id="masthead"><h1>DebateSignal</h1>'
             '<p>Moderator workspace · English discussion</p></header>'
         )
-        with gr.Row(equal_height=False):
+        event_options = {"concurrency_id": "moderation", "concurrency_limit": 1}
+        with gr.Tab("Sentence check"), gr.Row(equal_height=False):
+            with gr.Column(scale=6, elem_classes=["workspace-panel", "sentence-input"]):
+                sentence = gr.Textbox(
+                    label="English sentence", lines=4, submit_btn="Analyze sentence",
+                    placeholder="Type or paste a sentence to check for a personal attack.",
+                )
+                clear = gr.Button("Clear", variant="secondary", size="sm")
+                gr.Examples(
+                    examples=["I don't think uniforms help students learn.", "You're a complete idiot."],
+                    inputs=sentence, label="Example sentences", cache_examples=False,
+                )
+            with gr.Column(scale=5, elem_classes=["workspace-panel", "sentence-result"]):
+                gr.HTML('<h2 class="sentence-heading">Classification</h2>')
+                result = gr.HTML(SENTENCE_PROMPT)
+                model_text = gr.Textbox(label="Text after preprocessing", lines=2, interactive=False)
+            sentence.submit(
+                analyze_sentence, inputs=sentence, outputs=[result, model_text],
+                api_name="analyze_sentence", **event_options,
+            )
+            clear.click(
+                lambda: ("", SENTENCE_PROMPT, ""), outputs=[sentence, result, model_text],
+                api_name=False, **event_options,
+            )
+
+        with gr.Tab("Debate workspace"), gr.Row(equal_height=False):
             with gr.Column(scale=7, elem_classes="workspace-panel"):
                 with gr.Row():
                     topic_input = gr.Textbox(
@@ -170,7 +236,6 @@ def build_app():
                     processed = gr.Textbox(label="Text after preprocessing", lines=2, interactive=False)
         shared = [state, status, transcript, queue, selection]
         all_outputs = [*shared, processed, probabilities, topic_result, utterance]
-        event_options = {"concurrency_id": "moderation", "concurrency_limit": 1}
         start.click(start_session, inputs=topic_input, outputs=all_outputs, **event_options)
         send.click(submit_turn, inputs=[state, speaker, utterance], outputs=all_outputs, **event_options)
         reviewed.click(

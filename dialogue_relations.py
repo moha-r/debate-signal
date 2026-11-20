@@ -89,12 +89,17 @@ def relation_backend():
     if model is None:
         return {'backend': 'local-logistic'}
     policy = json.loads(POLICY_PATH.read_text())
-    return {
+    metadata = {
         'backend': 'dialogue-roberta', 'model': MODEL_ID, 'revision': MODEL_REVISION,
         'device': 'cpu', 'max_candidates': MAX_CANDIDATES, 'max_tokens': MAX_TOKENS,
         'threshold': policy['threshold'], 'margin': policy['margin'],
         'license': 'CC BY-NC-SA 4.0',
     }
+    from argument_link_selector import load_link_selector
+    selector = load_link_selector()
+    if selector is not None:
+        metadata['link_selector'] = {key: selector[key] for key in ('version', 'threshold', 'margin')}
+    return metadata
 
 
 def score_candidates(model, text, candidates):

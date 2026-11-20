@@ -1,7 +1,9 @@
 """A local provider fixture verifies timestamps survive the actual streaming relay."""
 import asyncio
 import json
+import os
 import unittest
+from unittest.mock import patch
 
 from websockets.asyncio.server import serve
 from voice_gateway import serve_voice, MODEL
@@ -25,6 +27,17 @@ class Socket:
 
 
 class VoiceTimingGateway(unittest.IsolatedAsyncioTestCase):
+    def setUp(self):
+        self.enterContext(patch.dict(os.environ, {'ASSEMBLYAI_API_KEY': 'server-fixture-key'}))
+
+    async def test_public_client_cannot_supply_a_key_when_the_server_has_none(self):
+        socket = Socket()
+        with patch.dict(os.environ, {'ASSEMBLYAI_API_KEY': ''}), patch('voice_gateway.connect') as connect:
+            await serve_voice(socket, None)
+        connect.assert_not_called()
+        self.assertEqual(socket.messages[-1]['type'], 'error')
+        self.assertIn('unavailable', socket.messages[-1]['message'])
+
     async def test_duration_limit_flushes_final_turn_and_terminates_provider(self):
         socket=Socket()
         # Continuous PCM must not indefinitely renew the recording's total duration.
@@ -59,7 +72,9 @@ class VoiceTimingGateway(unittest.IsolatedAsyncioTestCase):
     async def test_final_words_have_one_recording_id_and_duplicate_turns_are_ignored(self):
         event={'type':'Turn','turn_order':0,'end_of_turn':True,'speaker_label':'A','transcript':'Uniforms help families.',
                'words':[{'start':100,'end':500,'speaker':'A','word_is_final':True}]}
+        authorization = []
         async def provider(connection):
+            authorization.append(connection.request.headers.get('Authorization'))
             await connection.send(json.dumps({'type':'Begin','configuration':{'model':MODEL,'speaker_labels':True}}))
             async for raw in connection:
                 if json.loads(raw)['type']=='ForceEndpoint':
@@ -76,6 +91,7 @@ class VoiceTimingGateway(unittest.IsolatedAsyncioTestCase):
         async with serve(provider,'127.0.0.1',0) as server:
             port=server.sockets[0].getsockname()[1]
             await serve_voice(socket,commit,endpoint=f'ws://127.0.0.1:{port}')
+        self.assertEqual(authorization, ['server-fixture-key'])
         self.assertEqual(len(commits),1)
         self.assertEqual(commits[0][2]['intervals'][0]['end_ms'],500)
         self.assertTrue(commits[0][2]['recording_id'])

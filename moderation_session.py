@@ -21,11 +21,22 @@ MONITOR_FIELDS = ("previous_text", "previous_relevant", "off_topic_count", "aler
 
 
 @lru_cache(maxsize=1)
+def load_attack_bundle():
+    bundle = joblib.load(ROOT / "artifacts/LinearSVC_alert.joblib")
+    bundle['artifact_sha256'] = hashlib.sha256((ROOT / 'artifacts/LinearSVC_alert.joblib').read_bytes()).hexdigest()
+    return bundle
+
+
+def score_attack(text, bundle):
+    margin = bundle["pipeline"].decision_function([text])
+    return float(bundle["sigmoid"].predict_proba(margin[:, None])[0, 1])
+
+
+@lru_cache(maxsize=1)
 def load_resources():
     from sentence_transformers import SentenceTransformer
 
-    bundle = joblib.load(ROOT / "artifacts/LinearSVC_alert.joblib")
-    bundle['artifact_sha256'] = hashlib.sha256((ROOT / 'artifacts/LinearSVC_alert.joblib').read_bytes()).hexdigest()
+    bundle = load_attack_bundle()
     policy = json.loads((ROOT / "results/topic_policy.json").read_text())
     encoder = SentenceTransformer(MODEL_ID, revision=MODEL_REVISION, device="cpu")
     return bundle, policy, encoder
@@ -71,8 +82,7 @@ def analyze_turn(session, speaker, text, resources=None, *, argument_trace=None)
     resources = resources or load_resources()
     bundle, policy, encoder = resources
     start = perf_counter()
-    margin = bundle["pipeline"].decision_function([text])
-    probability = float(bundle["sigmoid"].predict_proba(margin[:, None])[0, 1])
+    probability = score_attack(text, bundle)
     attack = probability >= bundle["threshold"]
     context = quotation_context(text, session['turns'][-4:])
     attack = attack and not context['suppressed']

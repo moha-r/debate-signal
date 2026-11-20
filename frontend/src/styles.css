@@ -58,7 +58,10 @@
 .source-link { display: inline-flex; align-items: center; gap: 4px; background: transparent; border: 0; padding: 0; color: #87669c; font-size: 11px; text-align: left; }
 .source-link:hover { text-decoration: underline; }
 .argument-node > p { font-size: 13px; line-height: 1.8; color: #524959; margin-top: 10px; }
-.argument-connection { margin-top: 12px; display: inline-flex; gap: 5px; align-items: center; border: 0; padding: 5px 7px; color: #8c759d; background: #f0e9f6; border-radius: 4px; font-size: 10px; }
+.argument-connection { margin-top: 12px; display: inline-flex; flex-direction: column; gap: 4px; align-items: flex-start; text-align: left; max-width: 100%; border: 0; padding: 6px 8px; color: #654a77; background: #f0e9f6; border-radius: 4px; font-size: 11px; }
+.argument-connection > span { display: inline-flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+.argument-connection q { display: block; overflow-wrap: anywhere; color: #544363; font-size: 12px; line-height: 1.45; }
+.argument-node .argument-uncertainty { margin-top: 8px; color: #6e607b; font-size: 11px; }
 .argument-cue { display: block; margin-top: 10px; color: #988a9e; font-size: 9px; }
 .evidence-request { display: flex; align-items: center; gap: 5px; font-size: 10px; color: #a27f4e; margin-top: 10px; }
 .argument-panel.compact { padding: 18px; }

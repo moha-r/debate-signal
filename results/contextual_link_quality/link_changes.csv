@@ -1,0 +1,10 @@
+fixture,session,turn,text,reference_targets,before,after
+argument_quality_audit,remote-evidence-negation,5,Then we should compare attendance before replacing classroom lectures.,[],"(2, 'attack')",
+argument_quality_audit,energy-same-speaker,4,That is why we should compare construction schedules with expected electricity demand.,[],"(3, 'support')",
+argument_quality_audit,plastic-irrelevant-reason,5,Reusable shopping bags would still need to be affordable.,[],"(2, 'attack')",
+argument_quality_audit,pets-agreement-correction,4,I am not saying that dogs should be banned from every public place.,[],"(3, 'attack')",
+argument_quality_audit,pets-agreement-correction,5,A separate fenced area could give park visitors a choice.,[],"(3, 'support')",
+argument_quality_audit,distance-window,5,Remote appointments should allow screen sharing.,[],"(3, 'attack')",
+argument_quality_audit,distance-window,7,Office hour appointments should have a clear time limit.,[],"(6, 'support')",
+argument_quality_audit,distance-window,8,Students could send documents before their remote appointment.,[],"(7, 'support')",
+dialogue_quality_challenge_v3,night-buses,6,A late-night network would require a subsidy the council cannot afford.,[1],"(4, 'support')",
