@@ -25,7 +25,7 @@ MAX_CONCURRENT_VOICE = int(os.getenv('MAX_CONCURRENT_VOICE','2'))
 if not 1 <= MAX_CONCURRENT_VOICE <= 8:
     raise ValueError('MAX_CONCURRENT_VOICE must be between 1 and 8.')
 
-app = FastAPI(title="Moderator workspace", docs_url=None, redoc_url=None, openapi_url=None)
+app = FastAPI(title="DebateSignal · Moderator workspace", docs_url=None, redoc_url=None, openapi_url=None)
 sessions = OrderedDict()
 lock = Lock()
 voice_sessions = set()

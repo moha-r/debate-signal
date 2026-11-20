@@ -1,4 +1,4 @@
-# Jiha · Where's your argument?
+# DebateSignal
 
 A moderator workspace for an English discussion between two participants, with a public introduction and individual moderator accounts. The moderator sets a motion and records the two automatically labeled voices. Suggested personal-attack and sustained topic-drift alerts, an argument trail, measured participation and a source-linked report support human review.
 
@@ -37,9 +37,11 @@ The JSON in `results/assemblyai/replay.json` records word error rate, final tran
 
 ## Run the debate dashboard
 
-The imported landing page lives in `landing/`; the workspace lives in `frontend/`. Both use React, TypeScript and Three.js, and are served by one Python service. Build both from the project directory.
+The imported landing page lives in `landing/`; the workspace lives in `frontend/`. Both use React, TypeScript and Three.js, and are served by one Python service. Clone the repository and build both interfaces from the project directory.
 
 ```sh
+git clone https://github.com/moha-r/debate-signal.git
+cd debate-signal
 npm --prefix frontend ci
 npm --prefix landing ci
 npm --prefix frontend run build

@@ -1,5 +1,5 @@
 /**
- * Single configurable destination for the "Where's your argument?" workspace application.
+ * Single configurable destination for the "DebateSignal" workspace application.
  * Override at build time with VITE_APP_URL, or use the same-origin /app/ default.
  */
 const RAW_APP_URL =

@@ -390,7 +390,7 @@ function App() {
     {sidebarOpen && <button className="nav-scrim" aria-label="Close navigation" onClick={() => setSidebarOpen(false)}/>}
     <aside className={`app-sidebar ${sidebarOpen ? 'mobile-open' : ''}`}>
       <button className="sidebar-close btn icon" aria-label="Close navigation menu" onClick={() => setSidebarOpen(false)}><X size={15}/></button>
-      <a className="wordmark" href="#home" onClick={(event) => { event.preventDefault(); navigate('home'); }} aria-label="Where’s your argument? Home"><span className="brand-gem"><Sparkles size={18}/></span><span>Where’s your<br/><strong>argument?</strong></span></a>
+      <a className="wordmark" href="#home" onClick={(event) => { event.preventDefault(); navigate('home'); }} aria-label="DebateSignal Home"><span className="brand-gem"><Sparkles size={18}/></span><span>Debate<strong>Signal</strong></span></a>
       <button className="btn primary sidebar-create" disabled={voiceBusy || busy || loading} onClick={() => newDebate()}><Plus size={16}/> New debate</button>
       <span className="nav-label">WORKSPACE</span>
       <nav aria-label="Main navigation">

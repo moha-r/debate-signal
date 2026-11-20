@@ -395,7 +395,7 @@ export function PostScrollSections({
                 A clear picture of the current version
               </h3>
               <p className="mt-2 text-sm text-[#524B6B]">
-                Where’s your argument? is an experimental academic prototype
+                DebateSignal is an experimental academic prototype
                 that runs locally. Here is what it provides today and what it
                 intentionally does not claim.
               </p>
@@ -533,7 +533,7 @@ export function PostScrollSections({
           <div>
             <div className="flex items-center gap-2 text-sm font-semibold text-[#1E1934]">
               <span className="pearl-mini h-4 w-4 rounded-full ring-1 ring-[#D4D9E6]" aria-hidden="true" />
-              <span>Where’s your argument?</span>
+              <span>DebateSignal</span>
             </div>
             <p className="mt-1 text-xs text-[#787192]">
               Experimental academic project running locally · Human-led debate

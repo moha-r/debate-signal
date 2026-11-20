@@ -1,6 +1,6 @@
-# Where’s your argument? — Landing Page
+# DebateSignal — Landing Page
 
-Introductory and interactive exploration page for **Where’s your argument?**, a calm debate moderation workspace for two-person English debates.
+Introductory and interactive exploration page for **DebateSignal**, a calm debate moderation workspace for two-person English debates.
 
 ## Running Locally
 

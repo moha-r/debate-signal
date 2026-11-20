@@ -29,7 +29,7 @@ export function Navbar({ onOpenLogin }: NavbarProps) {
             className="pearl-mini inline-block h-5 w-5 shrink-0 rounded-full ring-1 ring-[#D4D9E6]"
             aria-hidden="true"
           />
-          <span>Where’s your argument?</span>
+          <span>DebateSignal</span>
         </a>
 
         {/* Zone 2: Clean single-line navigation links */}

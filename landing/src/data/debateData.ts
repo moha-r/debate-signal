@@ -198,7 +198,7 @@ export interface FaqItem {
 
 export const FAQ_ITEMS: FaqItem[] = [
   {
-    question: 'What does Where’s your argument? do?',
+    question: 'What does DebateSignal do?',
     answer:
       'It helps a human moderator follow a two-person English debate through live transcription, suggested personal-attack and topic-drift alerts, an argument trail, and a source-linked session report.',
   },

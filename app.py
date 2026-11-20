@@ -134,10 +134,10 @@ def act_on_alert(session, alert_id, decision):
 
 def build_app():
     empty = render_session(None)
-    with gr.Blocks(title="Where's your argument? · Moderator workspace") as demo:
+    with gr.Blocks(title="DebateSignal · Moderator workspace") as demo:
         state = gr.State(None)
         gr.HTML(
-            '<header id="masthead"><h1>Where’s your argument?</h1>'
+            '<header id="masthead"><h1>DebateSignal</h1>'
             '<p>Moderator workspace · English discussion</p></header>'
         )
         with gr.Row(equal_height=False):

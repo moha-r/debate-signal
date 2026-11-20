@@ -1,6 +1,6 @@
 # Project Landing Page Design and Development Handoff Brief
 
-## Where’s your argument?
+## DebateSignal
 
 **For the landing page designer and developer**  
 **Current version documented: November 18, 2026**  
@@ -12,7 +12,7 @@ This document describes the product, brand identity, user experience, and requir
 
 ## 1. Read This Summary First
 
-**Where’s your argument? is a workspace that helps a human moderator follow a two-person debate in English, transcribe speech with speaker attribution, flag possible personal attacks and sustained topic drift, and review arguments, participation, and outcomes with a way to trace every observation back to its source.**
+**DebateSignal is a workspace that helps a human moderator follow a two-person debate in English, transcribe speech with speaker attribution, flag possible personal attacks and sustained topic drift, and review arguments, participation, and outcomes with a way to trace every observation back to its source.**
 
 The core scenario involves **two people having a discussion while a human moderator follows along on screen**. The moderator sets the debate question and starts recording once. The two participants take turns speaking into a shared microphone. Their turns appear on screen while the moderator monitors alerts, speaking time, and the argument trail. When recording ends, the moderator proceeds to the session report and review.
 
@@ -580,7 +580,7 @@ Do not add an Evidence verified or Debate winner badge to the scene. All visuals
 
 ## 12. Frequently Asked Questions and Ready-to-Use Copy
 
-### What does Where’s your argument? do?
+### What does DebateSignal do?
 
 > It helps a human moderator follow a two-person English debate through live transcription, suggested personal-attack and topic-drift alerts, an argument trail and a source-linked session report.
 
