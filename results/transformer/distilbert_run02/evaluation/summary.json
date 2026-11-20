@@ -1,0 +1,147 @@
+{
+  "inference_policy": {
+    "mode": "whole",
+    "max_length": 128,
+    "threshold": 0.3,
+    "validation_options": {
+      "whole": {
+        "threshold": 0.3,
+        "precision": 0.8016378525932666,
+        "recall": 0.8225957049486461,
+        "alerts": 1099,
+        "macro_f1": 0.8933732673289903,
+        "precision_target_met": true,
+        "target_precision": 0.8,
+        "minimum_alerts": 100,
+        "selection_data": "training-only validation"
+      },
+      "overlap": {
+        "threshold": 0.47,
+        "precision": 0.8011204481792717,
+        "recall": 0.8011204481792717,
+        "alerts": 1071,
+        "macro_f1": 0.8874088286833628,
+        "precision_target_met": true,
+        "target_precision": 0.8,
+        "minimum_alerts": 100,
+        "selection_data": "training-only validation"
+      }
+    },
+    "selection": "Maximize recall at at least 80% validation precision and 100 alerts. Break ties using macro F1 and prefer the simpler whole-turn rule. If no option qualifies, compare macro F1.",
+    "score": "Uncalibrated softmax. The operating threshold is selected using WikiDetox validation.",
+    "model_sha256": "7f583a3b980203338f5c845de47ae1ca33f4d7746e6db75868f61276d50ed0bf"
+  },
+  "wiki_test": {
+    "Current LinearSVC alert": {
+      "n": 22921,
+      "threshold": 0.35,
+      "accuracy": 0.9486060817590856,
+      "attack_precision": 0.8037231889923108,
+      "attack_recall": 0.7413213885778276,
+      "tn": 19757,
+      "fp": 485,
+      "fn": 693,
+      "tp": 1986,
+      "brier": 0.03843267240712057,
+      "macro_precision": 0.8849178292149817,
+      "macro_recall": 0.8586806527910381,
+      "macro_f1": 0.8711564783612437,
+      "weighted_precision": 0.9471324562483038,
+      "weighted_recall": 0.9486060817590856,
+      "weighted_f1": 0.9476995757939316
+    },
+    "DistilBERT candidate": {
+      "n": 22921,
+      "threshold": 0.3,
+      "accuracy": 0.9535796867501418,
+      "attack_precision": 0.7836318932209343,
+      "attack_recall": 0.8327734229189996,
+      "tn": 19626,
+      "fp": 616,
+      "fn": 448,
+      "tp": 2231,
+      "brier": 0.0346890779021161,
+      "macro_precision": 0.8806572338476895,
+      "macro_recall": 0.9011708237013731,
+      "macro_f1": 0.8905320785196154,
+      "weighted_precision": 0.9550019857096369,
+      "weighted_recall": 0.9535796867501418,
+      "weighted_f1": 0.954188597252167
+    }
+  },
+  "authored_regression": {
+    "Current LinearSVC alert": {
+      "n": 168,
+      "threshold": 0.35,
+      "accuracy": 0.8035714285714286,
+      "attack_precision": 0.8227848101265823,
+      "attack_recall": 0.7738095238095238,
+      "tn": 70,
+      "fp": 14,
+      "fn": 19,
+      "tp": 65,
+      "brier": 0.1563582293843524,
+      "macro_precision": 0.8046508320295833,
+      "macro_recall": 0.8035714285714286,
+      "macro_f1": 0.8033972835916168,
+      "weighted_precision": 0.8046508320295833,
+      "weighted_recall": 0.8035714285714286,
+      "weighted_f1": 0.8033972835916166
+    },
+    "DistilBERT candidate": {
+      "n": 168,
+      "threshold": 0.3,
+      "accuracy": 0.9285714285714286,
+      "attack_precision": 0.9390243902439024,
+      "attack_recall": 0.9166666666666666,
+      "tn": 79,
+      "fp": 5,
+      "fn": 7,
+      "tp": 77,
+      "brier": 0.06026738716992551,
+      "macro_precision": 0.9288145207033465,
+      "macro_recall": 0.9285714285714286,
+      "macro_f1": 0.9285613040396882,
+      "weighted_precision": 0.9288145207033465,
+      "weighted_recall": 0.9285714285714286,
+      "weighted_f1": 0.9285613040396883
+    }
+  },
+  "cpu_single_turn_latency": {
+    "Current LinearSVC alert": {
+      "median_ms": 0.5849790177308023,
+      "p95_ms": 0.7889603497460485,
+      "samples": 60,
+      "device": "cpu"
+    },
+    "DistilBERT candidate": {
+      "median_ms": 14.972791948821396,
+      "p95_ms": 19.553741376148533,
+      "samples": 60,
+      "device": "cpu"
+    }
+  },
+  "evaluation_device_single_turn_latency": {
+    "Current LinearSVC alert": {
+      "median_ms": 0.8446875144727528,
+      "p95_ms": 1.2444076885003594,
+      "samples": 60,
+      "device": "cpu"
+    },
+    "DistilBERT candidate": {
+      "median_ms": 12.870583566837013,
+      "p95_ms": 14.38065832480788,
+      "samples": 60,
+      "device": "mps"
+    }
+  },
+  "adoption_checks": {
+    "heldout_precision_at_least_80_percent": false,
+    "heldout_recall_improved": true,
+    "heldout_macro_f1_improved": true,
+    "regression_false_alerts_not_increased": true,
+    "regression_missed_attacks_not_increased": true
+  },
+  "evaluation_seconds": 249.47527970804367,
+  "scope": "Original test contains human-labeled WikiDetox comments. The project assistant authored the dialogue regression inputs before training. Natural recording and independent dialogue annotation are pending."
+}

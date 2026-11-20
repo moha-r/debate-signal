@@ -1,0 +1,15 @@
+{
+  "/": {
+    "status": 200,
+    "final_url": "http://127.0.0.1:7863/"
+  },
+  "/login": {
+    "status": 200,
+    "final_url": "http://127.0.0.1:7863/login"
+  },
+  "/app/": {
+    "status": 200,
+    "final_url": "http://127.0.0.1:7863/login?next=%2Fapp%2F"
+  },
+  "argument_write_without_login": 401
+}

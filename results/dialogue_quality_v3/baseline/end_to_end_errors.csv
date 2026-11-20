@@ -1,0 +1,17 @@
+session,turn,speaker,text,reference_role,predicted_role,reference_links,predicted_link,reference_evidence_request,predicted_evidence_request,topic_state,personal_attack,cue
+night-buses,3,A,The buses could also stop near the main hospital.,claim,rebuttal,[],1,False,False,on_topic,False,Locally trained contextual role classifier
+night-buses,4,B,The municipal transit department would assign its existing night-shift drivers.,claim,reason,[2],1,False,False,on_topic,False,Locally trained contextual role classifier
+night-buses,5,A,I agree that the existing night-shift drivers can handle the routes.,agreement,agreement,[4],2,False,False,on_topic,False,Explicit agreement language
+night-buses,6,B,A late-night network would require a subsidy the council cannot afford.,rebuttal,rebuttal,[1],,False,False,on_topic,False,Locally trained contextual role classifier
+market-canopies,1,A,Covered market stalls would protect vendors from heavy rain.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+market-canopies,3,A,The town should publish a map of stall locations.,claim,claim,[],1,False,False,on_topic,False,Explicit policy position
+lab-kits,1,A,Loaned science kits could let remote students complete their experiments.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+lab-kits,3,A,The collection point would be next to the science library entrance.,claim,claim,[2],1,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+lab-kits,4,B,"The kits might be returned with missing components, leaving other students unable to finish.",rebuttal,rebuttal,[1],2,False,False,on_topic,False,Locally trained contextual role classifier
+lab-kits,5,A,Each borrower could sign a checklist so missing components are replaced before the kit is lent again.,rebuttal,claim,[4],1,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+community-gardens,1,A,Gardens would increase access to fresh produce.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+community-gardens,3,A,The program could start on June 12.,claim,unclassified,[],,False,False,off_topic,False,Outside the current discussion; argument role withheld
+community-gardens,4,B,We estimate ninety plots across the three parks.,claim,claim,[2],1,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+printer-stations,1,A,Accessible printers would make public documents easier to obtain.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+printer-stations,3,A,An attendant at the service desk can take a file and print it on request.,claim,reason,[2],1,False,False,on_topic,False,Locally trained contextual role classifier
+printer-stations,5,A,The library should run workshops on digital literacy.,claim,claim,[],1,False,False,on_topic,False,Explicit policy position

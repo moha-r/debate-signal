@@ -1,0 +1,187 @@
+{
+  "scope": "Part 2 development documents only. Exact earlier target AND relation label. Search a fixed grid for highest F1 with precision >= .60 and at least 10 predictions. None if infeasible.",
+  "model": "raruidol/ArgumentMining-EN-ARI-AIF-RoBERTa_L",
+  "revision": "7e7747dcc124d85e704edb11355fae452edada9c",
+  "documents": [
+    "micro_c162",
+    "micro_c198",
+    "micro_c149",
+    "micro_c008",
+    "micro_c059",
+    "micro_c080",
+    "micro_c051",
+    "micro_c004",
+    "micro_c002",
+    "micro_c032",
+    "micro_c132",
+    "micro_c172",
+    "micro_c071",
+    "micro_c151",
+    "micro_c040",
+    "micro_c061",
+    "micro_c068",
+    "micro_c168",
+    "micro_c072",
+    "micro_c049",
+    "micro_c017",
+    "micro_c200",
+    "micro_c075",
+    "micro_c048",
+    "micro_c183",
+    "micro_c204"
+  ],
+  "rows": 96,
+  "trials": [
+    {
+      "threshold": 0.5,
+      "margin": 0.015,
+      "predicted": 83,
+      "correct": 38,
+      "reference": 75,
+      "precision": 0.4578313253012048,
+      "recall": 0.5066666666666667,
+      "f1": 0.4810126582278481
+    },
+    {
+      "threshold": 0.5,
+      "margin": 0.05,
+      "predicted": 65,
+      "correct": 33,
+      "reference": 75,
+      "precision": 0.5076923076923077,
+      "recall": 0.44,
+      "f1": 0.4714285714285714
+    },
+    {
+      "threshold": 0.5,
+      "margin": 0.1,
+      "predicted": 50,
+      "correct": 29,
+      "reference": 75,
+      "precision": 0.58,
+      "recall": 0.38666666666666666,
+      "f1": 0.464
+    },
+    {
+      "threshold": 0.6,
+      "margin": 0.015,
+      "predicted": 81,
+      "correct": 36,
+      "reference": 75,
+      "precision": 0.4444444444444444,
+      "recall": 0.48,
+      "f1": 0.46153846153846156
+    },
+    {
+      "threshold": 0.6,
+      "margin": 0.05,
+      "predicted": 63,
+      "correct": 31,
+      "reference": 75,
+      "precision": 0.49206349206349204,
+      "recall": 0.41333333333333333,
+      "f1": 0.4492753623188406
+    },
+    {
+      "threshold": 0.6,
+      "margin": 0.1,
+      "predicted": 49,
+      "correct": 27,
+      "reference": 75,
+      "precision": 0.5510204081632653,
+      "recall": 0.36,
+      "f1": 0.43548387096774194
+    },
+    {
+      "threshold": 0.7,
+      "margin": 0.015,
+      "predicted": 79,
+      "correct": 35,
+      "reference": 75,
+      "precision": 0.4430379746835443,
+      "recall": 0.4666666666666667,
+      "f1": 0.45454545454545453
+    },
+    {
+      "threshold": 0.7,
+      "margin": 0.05,
+      "predicted": 61,
+      "correct": 30,
+      "reference": 75,
+      "precision": 0.4918032786885246,
+      "recall": 0.4,
+      "f1": 0.4411764705882353
+    },
+    {
+      "threshold": 0.7,
+      "margin": 0.1,
+      "predicted": 47,
+      "correct": 26,
+      "reference": 75,
+      "precision": 0.5531914893617021,
+      "recall": 0.3466666666666667,
+      "f1": 0.4262295081967213
+    },
+    {
+      "threshold": 0.8,
+      "margin": 0.015,
+      "predicted": 77,
+      "correct": 35,
+      "reference": 75,
+      "precision": 0.45454545454545453,
+      "recall": 0.4666666666666667,
+      "f1": 0.4605263157894737
+    },
+    {
+      "threshold": 0.8,
+      "margin": 0.05,
+      "predicted": 60,
+      "correct": 30,
+      "reference": 75,
+      "precision": 0.5,
+      "recall": 0.4,
+      "f1": 0.4444444444444444
+    },
+    {
+      "threshold": 0.8,
+      "margin": 0.1,
+      "predicted": 46,
+      "correct": 26,
+      "reference": 75,
+      "precision": 0.5652173913043478,
+      "recall": 0.3466666666666667,
+      "f1": 0.4297520661157025
+    },
+    {
+      "threshold": 0.9,
+      "margin": 0.015,
+      "predicted": 71,
+      "correct": 33,
+      "reference": 75,
+      "precision": 0.4647887323943662,
+      "recall": 0.44,
+      "f1": 0.4520547945205479
+    },
+    {
+      "threshold": 0.9,
+      "margin": 0.05,
+      "predicted": 58,
+      "correct": 28,
+      "reference": 75,
+      "precision": 0.4827586206896552,
+      "recall": 0.37333333333333335,
+      "f1": 0.42105263157894735
+    },
+    {
+      "threshold": 0.9,
+      "margin": 0.1,
+      "predicted": 50,
+      "correct": 25,
+      "reference": 75,
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4
+    }
+  ],
+  "selected": null
+}

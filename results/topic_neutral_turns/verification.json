@@ -1,0 +1,312 @@
+{
+  "scope": "English authored text, real MiniLM and current production analyzer. Bulk topic regressions isolate the argument graph. No ASR measuring.",
+  "before_reproduction": [
+    {
+      "text": "What do you think?",
+      "speaker": "A",
+      "topic": {
+        "state": "off_topic",
+        "score": 0.005960129201412201,
+        "direct_score": 0.005960129201412201,
+        "used_context": false,
+        "alert": false,
+        "off_topic_count": 1
+      },
+      "new_alerts": []
+    },
+    {
+      "text": "Your turn.",
+      "speaker": "B",
+      "topic": {
+        "state": "off_topic",
+        "score": -0.044872432947158813,
+        "direct_score": -0.044872432947158813,
+        "used_context": false,
+        "alert": true,
+        "off_topic_count": 2
+      },
+      "new_alerts": [
+        "Topic drift"
+      ]
+    },
+    {
+      "text": "Schools should use affordable uniforms.",
+      "speaker": "A",
+      "topic": {
+        "state": "on_topic",
+        "score": 0.8027390241622925,
+        "direct_score": 0.8027390241622925,
+        "used_context": false,
+        "alert": false,
+        "off_topic_count": 0
+      },
+      "new_alerts": []
+    },
+    {
+      "text": "Um, can you tell me more?",
+      "speaker": "B",
+      "topic": {
+        "state": "off_topic",
+        "score": -0.08220977336168289,
+        "direct_score": -0.08220977336168289,
+        "used_context": false,
+        "alert": false,
+        "off_topic_count": 1
+      },
+      "new_alerts": []
+    },
+    {
+      "text": "What do you think about football?",
+      "speaker": "A",
+      "topic": {
+        "state": "on_topic",
+        "score": 0.22998955845832825,
+        "direct_score": 0.22998955845832825,
+        "used_context": false,
+        "alert": false,
+        "off_topic_count": 0
+      },
+      "new_alerts": []
+    },
+    {
+      "text": "Football scores.",
+      "speaker": "B",
+      "topic": {
+        "state": "off_topic",
+        "score": 0.01742398738861084,
+        "direct_score": 0.01742398738861084,
+        "used_context": false,
+        "alert": false,
+        "off_topic_count": 1
+      },
+      "new_alerts": []
+    }
+  ],
+  "after_cases": [
+    {
+      "case": 1,
+      "text": "What do you think?",
+      "expected_state": "unclear",
+      "state": "unclear",
+      "score": null,
+      "direct_score": null,
+      "used_context": false,
+      "alert": false,
+      "off_topic_count": 0,
+      "reason": "conversation_management"
+    },
+    {
+      "case": 1,
+      "text": "Your turn.",
+      "expected_state": "unclear",
+      "state": "unclear",
+      "score": null,
+      "direct_score": null,
+      "used_context": false,
+      "alert": false,
+      "off_topic_count": 0,
+      "reason": "conversation_management"
+    },
+    {
+      "case": 1,
+      "text": "Schools should use affordable uniforms.",
+      "expected_state": "on_topic",
+      "state": "on_topic",
+      "score": 0.8027390241622925,
+      "direct_score": 0.8027390241622925,
+      "used_context": false,
+      "alert": false,
+      "off_topic_count": 0
+    },
+    {
+      "case": 1,
+      "text": "Um, can you tell me more?",
+      "expected_state": "unclear",
+      "state": "unclear",
+      "score": null,
+      "direct_score": null,
+      "used_context": false,
+      "alert": false,
+      "off_topic_count": 0,
+      "reason": "conversation_management"
+    },
+    {
+      "case": 1,
+      "text": "What do you think about football?",
+      "expected_state": "off_topic",
+      "state": "off_topic",
+      "score": 0.08383210003376007,
+      "direct_score": 0.08383210003376007,
+      "used_context": false,
+      "alert": false,
+      "off_topic_count": 1
+    },
+    {
+      "case": 1,
+      "text": "Football scores.",
+      "expected_state": "off_topic",
+      "state": "off_topic",
+      "score": 0.01742398738861084,
+      "direct_score": 0.01742398738861084,
+      "used_context": false,
+      "alert": true,
+      "off_topic_count": 2
+    },
+    {
+      "case": 2,
+      "text": "what do you",
+      "expected_state": "unclear",
+      "state": "unclear",
+      "score": null,
+      "direct_score": null,
+      "used_context": false,
+      "alert": false,
+      "off_topic_count": 0,
+      "reason": "conversation_management"
+    },
+    {
+      "case": 2,
+      "text": "think",
+      "expected_state": "unclear",
+      "state": "unclear",
+      "score": null,
+      "direct_score": null,
+      "used_context": false,
+      "alert": false,
+      "off_topic_count": 0,
+      "reason": "conversation_management"
+    },
+    {
+      "case": 2,
+      "text": "Well, go ahead",
+      "expected_state": "unclear",
+      "state": "unclear",
+      "score": null,
+      "direct_score": null,
+      "used_context": false,
+      "alert": false,
+      "off_topic_count": 0,
+      "reason": "conversation_management"
+    },
+    {
+      "case": 2,
+      "text": "What do you think about uniforms?",
+      "expected_state": "on_topic",
+      "state": "on_topic",
+      "score": 0.5748587250709534,
+      "direct_score": 0.5748587250709534,
+      "used_context": false,
+      "alert": false,
+      "off_topic_count": 0
+    },
+    {
+      "case": 2,
+      "text": "What do you think about my cat?",
+      "expected_state": "off_topic",
+      "state": "off_topic",
+      "score": -0.0798807144165039,
+      "direct_score": -0.0798807144165039,
+      "used_context": false,
+      "alert": false,
+      "off_topic_count": 1
+    },
+    {
+      "case": 2,
+      "text": "Yeah, okay. Tell me more.",
+      "expected_state": "unclear",
+      "state": "unclear",
+      "score": null,
+      "direct_score": null,
+      "used_context": false,
+      "alert": false,
+      "off_topic_count": 1,
+      "reason": "conversation_management"
+    },
+    {
+      "case": 2,
+      "text": "My cat likes catnip and sleeps on the sofa.",
+      "expected_state": "off_topic",
+      "state": "off_topic",
+      "score": -0.07071247696876526,
+      "direct_score": -0.07071247696876526,
+      "used_context": false,
+      "alert": true,
+      "off_topic_count": 2
+    }
+  ],
+  "regression": {
+    "original_reserved": {
+      "turns": 44,
+      "before": {
+        "event_precision": 1.0,
+        "event_recall": 0.6666666666666666,
+        "event_f1": 0.8,
+        "false_alerts": 0,
+        "events": 3,
+        "detected": 2,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.0,
+        "turn_macro_f1": 0.9479166666666666
+      },
+      "after": {
+        "event_precision": 1.0,
+        "event_recall": 0.6666666666666666,
+        "event_f1": 0.8,
+        "false_alerts": 0,
+        "events": 3,
+        "detected": 2,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.0
+      }
+    },
+    "challenge": {
+      "turns": 60,
+      "before": {
+        "event_precision": 1.0,
+        "event_recall": 0.75,
+        "event_f1": 0.8571428571428571,
+        "false_alerts": 0,
+        "events": 4,
+        "detected": 3,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.0,
+        "turn_macro_f1": 0.9023199023199023
+      },
+      "after": {
+        "event_precision": 1.0,
+        "event_recall": 0.75,
+        "event_f1": 0.8571428571428571,
+        "false_alerts": 0,
+        "events": 4,
+        "detected": 3,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.0
+      }
+    },
+    "expanded": {
+      "turns": 288,
+      "before": {
+        "event_precision": 0.9444444444444444,
+        "event_recall": 0.9444444444444444,
+        "event_f1": 0.9444444444444444,
+        "false_alerts": 1,
+        "events": 18,
+        "detected": 17,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.041666666666666664,
+        "turn_macro_f1": 0.9195672116993147
+      },
+      "after": {
+        "event_precision": 0.9444444444444444,
+        "event_recall": 0.9444444444444444,
+        "event_f1": 0.9444444444444444,
+        "false_alerts": 1,
+        "events": 18,
+        "detected": 17,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.041666666666666664
+      }
+    }
+  },
+  "authenticated_http_sqlite": "passed"
+}

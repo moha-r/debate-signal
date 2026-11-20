@@ -1,0 +1,452 @@
+{
+  "scope": {
+    "author": "Project assistant",
+    "scope": "New authored targeted challenge frozen before candidate fitting/scoring. Not independent human annotation. Do not use for training or threshold selection.",
+    "created": "2026-11-18"
+  },
+  "fixture_sha256": "c87d252b3accc176d15f13f903e4c8020f0a924cc7137a01fc74b5eda8d4ab28",
+  "source_sha256": {
+    "argument_models.py": "4164494d52d2c98086e21e5eae3688ff6bc9bd7920704d73377595002fb8276f",
+    "question_tracker.py": "3655c5f82c58397596c20e1f9c325916b2737c8f3e4d60ba109e05c542b066f0",
+    "conversation_insights.py": "736b490d47311d8e8fc628f35ea42f5c9166cf6d72ccef61c72c984aba4d606a",
+    "moderation_session.py": "2a39c68e01fd4cd1c6d787d839c4cae197f68c68bff82389c3dbdce4d6f6773c",
+    "local_dashboard.py": "3ae7bd373ec8159e16ba5d839d238659b2ca1a4e7050db8d85428d324fc31bc5",
+    "auth_store.py": "d33af459dfde9257e28c870d3d364bcc1bdf8d149030b97f8a5a773b0d260846",
+    "session_store.py": "7de7423545d43c410afc2a46db2eb8ecb23cef05395b648115d839cb090b2daf",
+    "voice_gateway.py": "b82aab0c8273fc3d3b193c7dcf99e5ca5f3f40d18d9e62fd900fa442bb09b7dd"
+  },
+  "model_sha256": "9a9cf318c27074076a942d7b6f4bf774b2b9202722630d96614a1ca8659a48e5",
+  "runtime": {
+    "python": "3.13.13",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "packages": {
+      "numpy": "2.4.6",
+      "scikit-learn": "1.6.1",
+      "sentence-transformers": "6.3.0",
+      "torch": "2.15.0",
+      "fastapi": "0.163.2",
+      "starlette": "1.10.0",
+      "websockets": "16.1.1"
+    }
+  },
+  "isolated": {
+    "roles": {
+      "n": 44,
+      "accuracy": 0.7272727272727273,
+      "macro_f1": 0.7595704948646125,
+      "classes": {
+        "claim": {
+          "precision": 0.8571428571428571,
+          "recall": 0.6,
+          "f1-score": 0.7058823529411765,
+          "support": 20.0
+        },
+        "reason": {
+          "precision": 0.3076923076923077,
+          "recall": 1.0,
+          "f1-score": 0.47058823529411764,
+          "support": 4.0
+        },
+        "rebuttal": {
+          "precision": 0.8333333333333334,
+          "recall": 0.625,
+          "f1-score": 0.7142857142857143,
+          "support": 8.0
+        },
+        "question": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 8.0
+        },
+        "agreement": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 2.0
+        },
+        "unclassified": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 2.0
+        },
+        "accuracy": 0.7272727272727273,
+        "macro avg": {
+          "precision": 0.8330280830280831,
+          "recall": 0.7875,
+          "f1-score": 0.7595704948646125,
+          "support": 44.0
+        },
+        "weighted avg": {
+          "precision": 0.8418248418248417,
+          "recall": 0.7272727272727273,
+          "f1-score": 0.7510822510822511,
+          "support": 44.0
+        }
+      },
+      "confusion_labels": [
+        "claim",
+        "reason",
+        "rebuttal",
+        "question",
+        "agreement",
+        "unclassified"
+      ],
+      "confusion": [
+        [
+          12,
+          7,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "links": {
+      "turns": 44,
+      "gold_linked_turns": 19,
+      "predicted_links": 9,
+      "correct_links": 5,
+      "precision": 0.5555555555555556,
+      "recall": 0.2631578947368421,
+      "f1": 0.35714285714285715,
+      "no_link_turns": 25,
+      "false_links_on_no_link_turns": 4,
+      "false_link_rate": 0.16
+    },
+    "question_answers": {
+      "reference_pairs": 5,
+      "predicted_pairs": 9,
+      "correct_pairs": 5,
+      "precision": 0.5555555555555556,
+      "recall": 1.0,
+      "f1": 0.7142857142857143
+    },
+    "evidence_requests": {
+      "reference_pairs": 4,
+      "predicted_pairs": 4,
+      "correct_pairs": 4,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "source_integrity_errors": [],
+    "beyond_link_window": 1
+  },
+  "end_to_end": {
+    "roles": {
+      "n": 44,
+      "accuracy": 0.7272727272727273,
+      "macro_f1": 0.7595704948646125,
+      "classes": {
+        "claim": {
+          "precision": 0.8571428571428571,
+          "recall": 0.6,
+          "f1-score": 0.7058823529411765,
+          "support": 20.0
+        },
+        "reason": {
+          "precision": 0.3076923076923077,
+          "recall": 1.0,
+          "f1-score": 0.47058823529411764,
+          "support": 4.0
+        },
+        "rebuttal": {
+          "precision": 0.8333333333333334,
+          "recall": 0.625,
+          "f1-score": 0.7142857142857143,
+          "support": 8.0
+        },
+        "question": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 8.0
+        },
+        "agreement": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 2.0
+        },
+        "unclassified": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 2.0
+        },
+        "accuracy": 0.7272727272727273,
+        "macro avg": {
+          "precision": 0.8330280830280831,
+          "recall": 0.7875,
+          "f1-score": 0.7595704948646125,
+          "support": 44.0
+        },
+        "weighted avg": {
+          "precision": 0.8418248418248417,
+          "recall": 0.7272727272727273,
+          "f1-score": 0.7510822510822511,
+          "support": 44.0
+        }
+      },
+      "confusion_labels": [
+        "claim",
+        "reason",
+        "rebuttal",
+        "question",
+        "agreement",
+        "unclassified"
+      ],
+      "confusion": [
+        [
+          12,
+          7,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "links": {
+      "turns": 44,
+      "gold_linked_turns": 19,
+      "predicted_links": 7,
+      "correct_links": 3,
+      "precision": 0.42857142857142855,
+      "recall": 0.15789473684210525,
+      "f1": 0.23076923076923078,
+      "no_link_turns": 25,
+      "false_links_on_no_link_turns": 3,
+      "false_link_rate": 0.12
+    },
+    "question_answers": {
+      "reference_pairs": 5,
+      "predicted_pairs": 7,
+      "correct_pairs": 3,
+      "precision": 0.42857142857142855,
+      "recall": 0.6,
+      "f1": 0.5
+    },
+    "evidence_requests": {
+      "reference_pairs": 4,
+      "predicted_pairs": 4,
+      "correct_pairs": 4,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "source_integrity_errors": [],
+    "beyond_link_window": 1
+  },
+  "external": {
+    "corpus_manifest": {
+      "repository": "https://github.com/peldszus/arg-microtexts",
+      "commit": "6707c133de713130cabe647f2f218681d65fdc15",
+      "archive_sha256": "19544acd64183537314a2c836ebda0e3c40807a0cdecae538519ca951418f1d9",
+      "license": "CC BY-NC-SA 4.0",
+      "usage": "External diagnostic only; not training or serving data.",
+      "xml_files": 112
+    },
+    "documents": 112,
+    "mapping": "No outgoing argumentative edge -> claim; sup/exa -> reason; reb/und -> rebuttal. Additional-premise and multi-edge nodes excluded. Topic/attack states are oracle inputs. Pro/opp roles are mapped to synthetic A/B labels solely for this diagnostic, not actual speaker identification.",
+    "scope": "Externally annotated translated written microtexts, not natural spoken dialogues. This coarse role mapping is not the original corpus task.",
+    "roles": {
+      "n": 555,
+      "accuracy": 0.5945945945945946,
+      "macro_f1": 0.5801337031277555,
+      "classes": {
+        "claim": {
+          "precision": 0.4945054945054945,
+          "recall": 0.8035714285714286,
+          "f1-score": 0.6122448979591837,
+          "support": 112.0
+        },
+        "reason": {
+          "precision": 0.6884615384615385,
+          "recall": 0.6580882352941176,
+          "f1-score": 0.6729323308270677,
+          "support": 272.0
+        },
+        "rebuttal": {
+          "precision": 0.6288659793814433,
+          "recall": 0.3567251461988304,
+          "f1-score": 0.4552238805970149,
+          "support": 171.0
+        },
+        "micro avg": {
+          "precision": 0.6122448979591837,
+          "recall": 0.5945945945945946,
+          "f1-score": 0.603290676416819,
+          "support": 555.0
+        },
+        "macro avg": {
+          "precision": 0.603944337449492,
+          "recall": 0.6061282700214589,
+          "f1-score": 0.5801337031277555,
+          "support": 555.0
+        },
+        "weighted avg": {
+          "precision": 0.6309589843610462,
+          "recall": 0.5945945945945946,
+          "f1-score": 0.593607758808073,
+          "support": 555.0
+        }
+      },
+      "confusion_labels": [
+        "claim",
+        "reason",
+        "rebuttal",
+        "question",
+        "agreement",
+        "unclassified"
+      ],
+      "confusion": [
+        [
+          90,
+          16,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          53,
+          179,
+          30,
+          9,
+          0,
+          1
+        ],
+        [
+          39,
+          65,
+          61,
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "sequential_direct_links": {
+      "turns": 257,
+      "gold_linked_turns": 257,
+      "predicted_links": 28,
+      "correct_links": 21,
+      "precision": 0.75,
+      "recall": 0.08171206225680934,
+      "f1": 0.1473684210526316,
+      "no_link_turns": 0,
+      "false_links_on_no_link_turns": 0,
+      "false_link_rate": 0
+    },
+    "excluded_count": 21,
+    "link_scope": "Only direct sup/exa/reb targets already present within six units. Future targets and relation-targeting undercuts excluded; this selected subset cannot establish whole-corpus link accuracy."
+  }
+}

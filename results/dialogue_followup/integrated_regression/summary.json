@@ -1,0 +1,349 @@
+{
+  "scope": {
+    "author": "Project assistant",
+    "created": "2026-11-18",
+    "scope": "Targeted authored challenge, references frozen before scoring this run. Author has inspected the implementation; not blind or independent human annotation.",
+    "link_definition": "A single predicted link is accepted if it addresses one of the explicitly allowed previous turns. Empty links mean abstention is expected.",
+    "role_definition": "Primary communicative function in the current dialogue. Off-topic and metalinguistic non-arguments are unclassified. Rhetorical/underspecified cases should be reviewed, not treated as universal gold.",
+    "evidence_note": "Any numeric or study-like examples in these fixtures are hypothetical test content, not factual claims."
+  },
+  "fixture_sha256": "e28b29a11f9d3877c26da4da37c32fa10196f280eb2bdb6332e924ad888be3a3",
+  "source_sha256": {
+    "argument_models.py": "af3325edbc5c7b2e3eac14f0873f5a5373d23263817c777f4f47372aecc931dc",
+    "dialogue_relations.py": "d0bc37625a40cf6ad62e8282dd4994f5a3e4d8c201f2339bdd727e5aa290c1be",
+    "question_tracker.py": "3efc6a7f25cb3fd28d9f6414b241ae11f47ce974d7ae6ad96ea57259870c8890",
+    "conversation_insights.py": "20760a9765e9e8777b8859d38a5dea088a64b75c1cad3c420f6c382dc74e51c5",
+    "moderation_session.py": "b117d6575e3a2e5bf93759eb434d1f67a117f330bc1d94a40f9206ab037d673a",
+    "local_dashboard.py": "3ae7bd373ec8159e16ba5d839d238659b2ca1a4e7050db8d85428d324fc31bc5",
+    "auth_store.py": "d33af459dfde9257e28c870d3d364bcc1bdf8d149030b97f8a5a773b0d260846",
+    "session_store.py": "7de7423545d43c410afc2a46db2eb8ecb23cef05395b648115d839cb090b2daf",
+    "voice_gateway.py": "6e6912d060e3c5d3f30f04a534113366fad21e16f2c8ee317b17080cac5a4753"
+  },
+  "relation_policy": {
+    "threshold": 0.5,
+    "margin": 0.015,
+    "predicted": 83,
+    "correct": 38,
+    "reference": 75,
+    "precision": 0.4578313253012048,
+    "recall": 0.5066666666666667,
+    "f1": 0.4810126582278481,
+    "selection": "Highest target-and-relation F1 on the existing Part 2 development document split. No hard precision constraint. The earlier experimental .60 precision condition was an assistant-selected precaution and yielded no candidate.",
+    "development_manifest": "results/dialogue_followup/transformer/calibration.json",
+    "development_manifest_sha256": "715b191f716978c4fbd87144393e025fe0b712af5ea99c7ef74c4e68d9ffa396",
+    "model": "raruidol/ArgumentMining-EN-ARI-AIF-RoBERTa_L",
+    "revision": "7e7747dcc124d85e704edb11355fae452edada9c",
+    "candidate_limit": 6,
+    "token_limit": 256
+  },
+  "model_sha256": "9a9cf318c27074076a942d7b6f4bf774b2b9202722630d96614a1ca8659a48e5",
+  "runtime": {
+    "python": "3.13.13",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "packages": {
+      "numpy": "2.4.6",
+      "scikit-learn": "1.6.1",
+      "sentence-transformers": "6.3.0",
+      "torch": "2.15.0",
+      "fastapi": "0.165.0",
+      "starlette": "1.10.0",
+      "websockets": "16.1.1"
+    }
+  },
+  "isolated": {
+    "roles": {
+      "n": 104,
+      "accuracy": 0.8846153846153846,
+      "macro_f1": 0.912294759334233,
+      "classes": {
+        "claim": {
+          "precision": 0.9714285714285714,
+          "recall": 0.7906976744186046,
+          "f1-score": 0.8717948717948718,
+          "support": 43.0
+        },
+        "reason": {
+          "precision": 0.6521739130434783,
+          "recall": 1.0,
+          "f1-score": 0.7894736842105263,
+          "support": 15.0
+        },
+        "rebuttal": {
+          "precision": 0.8125,
+          "recall": 0.8125,
+          "f1-score": 0.8125,
+          "support": 16.0
+        },
+        "question": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 18.0
+        },
+        "agreement": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 5.0
+        },
+        "unclassified": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "accuracy": 0.8846153846153846,
+        "macro avg": {
+          "precision": 0.9060170807453417,
+          "recall": 0.9338662790697674,
+          "f1-score": 0.912294759334233,
+          "support": 104.0
+        },
+        "weighted avg": {
+          "precision": 0.9091734352603917,
+          "recall": 0.8846153846153846,
+          "f1-score": 0.8877815841378596,
+          "support": 104.0
+        }
+      },
+      "confusion_labels": [
+        "claim",
+        "reason",
+        "rebuttal",
+        "question",
+        "agreement",
+        "unclassified"
+      ],
+      "confusion": [
+        [
+          34,
+          6,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          18,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "links": {
+      "turns": 104,
+      "gold_linked_turns": 45,
+      "predicted_links": 56,
+      "correct_links": 37,
+      "precision": 0.6607142857142857,
+      "recall": 0.8222222222222222,
+      "f1": 0.7326732673267325,
+      "no_link_turns": 59,
+      "false_links_on_no_link_turns": 12,
+      "false_link_rate": 0.2033898305084746
+    },
+    "question_answers": {
+      "reference_pairs": 12,
+      "predicted_pairs": 11,
+      "correct_pairs": 10,
+      "precision": 0.9090909090909091,
+      "recall": 0.8333333333333334,
+      "f1": 0.8695652173913043
+    },
+    "evidence_requests": {
+      "reference_pairs": 9,
+      "predicted_pairs": 9,
+      "correct_pairs": 9,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "source_integrity_errors": [],
+    "beyond_link_window": 1
+  },
+  "end_to_end": {
+    "roles": {
+      "n": 104,
+      "accuracy": 0.8653846153846154,
+      "macro_f1": 0.8681810027204765,
+      "classes": {
+        "claim": {
+          "precision": 0.9714285714285714,
+          "recall": 0.7906976744186046,
+          "f1-score": 0.8717948717948718,
+          "support": 43.0
+        },
+        "reason": {
+          "precision": 0.6521739130434783,
+          "recall": 1.0,
+          "f1-score": 0.7894736842105263,
+          "support": 15.0
+        },
+        "rebuttal": {
+          "precision": 0.8125,
+          "recall": 0.8125,
+          "f1-score": 0.8125,
+          "support": 16.0
+        },
+        "question": {
+          "precision": 1.0,
+          "recall": 0.9444444444444444,
+          "f1-score": 0.9714285714285714,
+          "support": 18.0
+        },
+        "agreement": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "unclassified": {
+          "precision": 0.7777777777777778,
+          "recall": 1.0,
+          "f1-score": 0.875,
+          "support": 7.0
+        },
+        "accuracy": 0.8653846153846154,
+        "macro avg": {
+          "precision": 0.8689800437083046,
+          "recall": 0.8912736864771748,
+          "f1-score": 0.8681810027204765,
+          "support": 104.0
+        },
+        "weighted avg": {
+          "precision": 0.8942161703031268,
+          "recall": 0.8653846153846154,
+          "f1-score": 0.8690811873124626,
+          "support": 104.0
+        }
+      },
+      "confusion_labels": [
+        "claim",
+        "reason",
+        "rebuttal",
+        "question",
+        "agreement",
+        "unclassified"
+      ],
+      "confusion": [
+        [
+          34,
+          6,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          17,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "links": {
+      "turns": 104,
+      "gold_linked_turns": 45,
+      "predicted_links": 53,
+      "correct_links": 33,
+      "precision": 0.6226415094339622,
+      "recall": 0.7333333333333333,
+      "f1": 0.673469387755102,
+      "no_link_turns": 59,
+      "false_links_on_no_link_turns": 12,
+      "false_link_rate": 0.2033898305084746
+    },
+    "question_answers": {
+      "reference_pairs": 12,
+      "predicted_pairs": 7,
+      "correct_pairs": 7,
+      "precision": 1.0,
+      "recall": 0.5833333333333334,
+      "f1": 0.7368421052631579
+    },
+    "evidence_requests": {
+      "reference_pairs": 9,
+      "predicted_pairs": 8,
+      "correct_pairs": 8,
+      "precision": 1.0,
+      "recall": 0.8888888888888888,
+      "f1": 0.9411764705882353
+    },
+    "source_integrity_errors": [],
+    "beyond_link_window": 1
+  },
+  "external": {
+    "status": "not_run",
+    "reason": "Pinned corpus not present; no external accuracy claim."
+  }
+}

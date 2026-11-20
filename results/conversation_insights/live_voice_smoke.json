@@ -1,0 +1,28 @@
+{
+  "scope": "Real AssemblyAI 3.7 relay using an existing scripted audio fixture, not a natural-dialogue accuracy test.",
+  "session_id": "a49e0020-776b-48e2-9100-3e9e3e3be1b5",
+  "transcript": [
+    "School uniforms could reduce pressure to buy expensive clothes."
+  ],
+  "participation": {
+    "seconds": {
+      "A": 2.555,
+      "B": 0.0,
+      "Unknown": 0.0
+    },
+    "shares": {
+      "A": 1.0,
+      "B": 0.0,
+      "Unknown": 0.0
+    },
+    "timed_turns": 1,
+    "untimed_turns": 0,
+    "dominant_speaker": null,
+    "policy": {
+      "dominance_share": 0.7,
+      "minimum_speech_seconds": 30
+    },
+    "measurement": "Union of finalized word intervals per recording; pauses excluded. ASR timing is approximate."
+  },
+  "gateway": "passed"
+}

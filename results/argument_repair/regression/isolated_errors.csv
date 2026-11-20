@@ -1,0 +1,54 @@
+session,turn,speaker,text,reference_role,predicted_role,reference_links,predicted_link,reference_evidence_request,predicted_evidence_request,topic_state,personal_attack,cue
+uniform-cost,5,A,I agree that the school budget needs protection.,agreement,agreement,"[2, 4]",3,False,False,on_topic,False,Explicit agreement language
+transport-implicit,2,B,Removing fares would leave a funding gap for bus maintenance.,rebuttal,rebuttal,[1],,False,False,on_topic,False,Locally trained contextual role classifier
+transport-implicit,3,A,"Because congestion charges could replace fare revenue, bus maintenance could still be funded.",reason,rebuttal,[2],2,False,False,on_topic,False,Locally trained contextual role classifier
+transport-implicit,5,A,The city would collect the charge when drivers enter the central traffic zone.,claim,reason,[4],4,False,False,on_topic,False,Locally trained contextual role classifier
+ai-denial,2,B,I do not agree that AI brainstorming helps students learn.,rebuttal,rebuttal,[1],,False,False,on_topic,False,Explicit challenge or negated agreement
+ai-denial,3,A,"For instance, comparing AI suggestions can help students critique weak ideas.",reason,reason,"[1, 2]",,False,False,on_topic,False,Locally trained contextual role classifier
+ai-denial,4,B,That example does not establish that students develop their own ideas.,rebuttal,rebuttal,[3],,False,False,on_topic,False,Explicit challenge or negated agreement
+remote-evidence-negation,1,A,Recorded lectures improve university attendance.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+remote-evidence-negation,2,B,There is no evidence that recorded lectures improve attendance.,rebuttal,rebuttal,[1],,False,False,on_topic,False,Explicit challenge or negated agreement
+remote-evidence-negation,4,B,I do not have attendance data to support that conclusion.,claim,rebuttal,[3],3,False,False,on_topic,False,Learned attack relation to an earlier contribution
+remote-evidence-negation,5,A,Then we should compare attendance before replacing classroom lectures.,claim,rebuttal,[],,False,False,on_topic,False,Locally trained contextual role classifier
+library-questions,4,B,The overnight staffing cost would depend on the number of paid security shifts.,claim,rebuttal,[2],2,False,False,on_topic,False,Locally trained contextual role classifier
+library-questions,5,A,We do not yet know how many students would visit after midnight.,claim,reason,[3],3,False,False,on_topic,False,Locally trained contextual role classifier
+recycling-quotation,4,B,I agree that contamination makes recycling harder.,agreement,agreement,[3],,False,False,on_topic,False,Explicit agreement language
+energy-same-speaker,2,A,"However, construction delays could make new nuclear capacity arrive too late.",rebuttal,rebuttal,[1],,False,False,on_topic,False,Explicit challenge or negated agreement
+energy-same-speaker,3,B,"For example, electricity shortages may occur while a nuclear plant is still being built.",reason,reason,[2],,False,False,on_topic,False,Locally trained contextual role classifier
+energy-same-speaker,4,A,That is why we should compare construction schedules with expected electricity demand.,claim,rebuttal,[],3,False,False,on_topic,False,Learned attack relation to an earlier contribution
+plastic-irrelevant-reason,2,B,"Because plastic bags can enter waterways, replacing them may reduce litter.",reason,reason,[1],,False,False,on_topic,False,Locally trained contextual role classifier
+plastic-irrelevant-reason,5,A,Reusable shopping bags would still need to be affordable.,claim,rebuttal,[],,False,False,on_topic,False,Locally trained contextual role classifier
+lunch-no-link,2,B,I disagree because universal free lunches would increase the school food budget.,rebuttal,rebuttal,[1],,False,False,on_topic,False,Explicit challenge or negated agreement
+lunch-no-link,4,B,I would rather discuss the lunch menu than answer that question.,unclassified,rebuttal,[],,False,False,off_topic,False,Locally trained contextual role classifier
+lunch-no-link,5,A,"For example, a vegetarian lunch menu could reduce ingredient costs.",reason,reason,"[1, 2]",,False,False,on_topic,False,Locally trained contextual role classifier
+cycling-target,2,B,Removing car parking to build bicycle lanes would harm nearby shops.,rebuttal,reason,[1],,False,False,on_topic,False,Locally trained contextual role classifier
+cycling-target,3,A,"For example, a physical barrier prevents cars from entering the bicycle lane.",reason,reason,[1],2,False,False,on_topic,False,Locally trained contextual role classifier
+phones-negated-agreement,2,B,I agree that looking up terms is useful.,agreement,agreement,[1],,False,False,on_topic,False,Explicit agreement language
+museum-request,2,B,Admission fees help pay for maintaining museum collections.,rebuttal,reason,[1],,False,False,on_topic,False,Locally trained contextual role classifier
+museum-request,4,B,A municipal culture grant could replace some admission revenue.,claim,reason,[3],3,False,False,on_topic,False,Locally trained contextual role classifier
+foodwaste-question-quote,1,A,Charging diners for wasted food could reduce cafeteria waste.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+foodwaste-question-quote,2,B,"The cafeteria poster says ""How can we reduce food waste?"" and recommends smaller portions.",reason,reason,[1],,False,False,on_topic,False,Locally trained contextual role classifier
+foodwaste-question-quote,3,A,There is no proof that a food waste charge changes diner behavior.,rebuttal,rebuttal,[1],,False,False,on_topic,False,Explicit challenge or negated agreement
+foodwaste-question-quote,5,A,Staff would weigh the food left on each returned plate.,claim,reason,[4],4,False,False,on_topic,False,Locally trained contextual role classifier
+pets-agreement-correction,3,A,You are right that some visitors may be uncomfortable around dogs.,agreement,agreement,[2],1,False,False,on_topic,False,Explicit agreement language
+pets-agreement-correction,4,B,I am not saying that dogs should be banned from every public place.,claim,rebuttal,[],1,False,False,on_topic,False,Learned attack relation to an earlier contribution
+pets-agreement-correction,5,A,A separate fenced area could give park visitors a choice.,claim,rebuttal,[],,False,False,on_topic,False,Locally trained contextual role classifier
+exam-implicit,1,A,An oral exam could reveal whether students understand their written answers.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+exam-implicit,2,B,That would penalize students who understand the material but struggle to speak under pressure.,rebuttal,rebuttal,[1],,False,False,on_topic,False,Locally trained contextual role classifier
+exam-implicit,3,A,"For instance, allowing preparation time could reduce pressure during the oral exam.",reason,reason,[2],,False,False,on_topic,False,Locally trained contextual role classifier
+exam-implicit,5,A,I have not provided data about preparation time.,claim,reason,[4],4,False,False,on_topic,False,Locally trained contextual role classifier
+parks-competing-claims,1,A,More trees in public parks could provide shade in hot weather.,claim,rebuttal,[],,False,False,on_topic,False,Locally trained contextual role classifier
+parks-competing-claims,2,B,Public parks should also include sports facilities.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+parks-competing-claims,3,A,"Because trees block direct sunlight, park visitors could rest outside more comfortably.",reason,reason,[1],,False,False,on_topic,False,Locally trained contextual role classifier
+parks-competing-claims,4,B,"However, building sports courts would remove some of the grassy areas.",rebuttal,rebuttal,[2],,False,False,on_topic,False,Explicit challenge or negated agreement
+volunteer-delayed-answer,3,A,Volunteering could connect students with local community groups.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+volunteer-delayed-answer,4,B,We should also discuss transport to volunteer locations.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+volunteer-delayed-answer,5,A,The graduation requirement would be twenty volunteer hours.,claim,rebuttal,[2],2,False,False,on_topic,False,Locally trained contextual role classifier
+distance-window,1,A,Remote office hours could help students who commute long distances.,claim,unclassified,[],,False,False,on_topic,False,Role classifier abstained on an uncertain contribution
+distance-window,3,A,Students would still need to book a time with the lecturer.,claim,rebuttal,[],,False,False,on_topic,False,Locally trained contextual role classifier
+distance-window,4,B,Lecturers should publish their remote office hours each week.,claim,reason,[],2,False,False,on_topic,False,Locally trained contextual role classifier
+distance-window,5,A,Remote appointments should allow screen sharing.,claim,rebuttal,[],2,False,False,on_topic,False,Locally trained contextual role classifier
+distance-window,6,B,Technical support should be available for remote appointments.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+distance-window,7,A,Office hour appointments should have a clear time limit.,claim,reason,[],2,False,False,on_topic,False,Locally trained contextual role classifier
+distance-window,8,B,Students could send documents before their remote appointment.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+distance-window,9,A,The remote office hours would use the university video platform.,claim,reason,[2],2,False,False,on_topic,False,Locally trained contextual role classifier

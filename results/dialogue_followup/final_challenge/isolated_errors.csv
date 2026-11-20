@@ -1,0 +1,15 @@
+session,turn,speaker,text,reference_role,predicted_role,reference_links,predicted_link,reference_evidence_request,predicted_evidence_request,topic_state,personal_attack,cue
+rainwater,2,B,That proposal would require storage tanks that small offices cannot afford.,rebuttal,claim,[1],1,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+rainwater,5,A,We could start with a shared tank for several office gardens.,rebuttal,reason,[2],4,False,False,on_topic,False,Locally trained contextual role classifier
+repair-cafe,1,A,Monthly repair cafes could help residents repair broken household items.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+backpacks,2,A,"On the other hand, classroom storage could reduce the space available for desks.",rebuttal,rebuttal,[1],,False,False,on_topic,False,Explicit challenge or negated agreement
+conference,3,A,Digital schedules could be updated when conference rooms change.,claim,rebuttal,[],,False,False,on_topic,False,Locally trained contextual role classifier
+conference,5,A,I agree that hallway displays would help those attendees.,agreement,agreement,[4],,False,False,on_topic,False,Explicit agreement language
+studio,3,A,Studio bookings would need to avoid student rehearsal times.,claim,claim,[],2,False,False,on_topic,False,Statement responding to an earlier question
+studio,4,B,Local performers should follow the studio equipment rules.,claim,claim,[],3,False,False,on_topic,False,Explicit policy position
+studio,5,A,We should publish a calendar for shared music studio bookings.,claim,claim,[],3,False,False,on_topic,False,Explicit policy position
+studio,6,B,The music studios would need to be cleaned after each booking.,claim,reason,[],5,False,False,on_topic,False,Locally trained contextual role classifier
+studio,7,A,A staff member could check the studio equipment each evening.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+studio,8,B,The college should collect feedback from studio users.,claim,claim,[],1,False,False,on_topic,False,Explicit policy position
+refill,2,B,Refill stations could require maintenance that small shops cannot fund.,rebuttal,claim,[1],1,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+refill,3,A,"For example, several nearby shops could share the maintenance cost of one station.",reason,reason,[2],,False,False,on_topic,False,Explicit reason or evidence reference (unverified)

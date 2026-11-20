@@ -1,0 +1,2534 @@
+id,transform,text,reference,original_prediction,original_probability,processed_identical,attack_probability,prediction,changed
+attack_stress_001,uppercase,YOU ARE A STUPID IDIOT.,1,1,0.9999999084013194,True,0.9999999084013194,1,False
+attack_stress_001,html_wrap,<p>You are a stupid idiot.</p>,1,1,0.9999999084013194,True,0.9999999084013194,1,False
+attack_stress_001,extra_whitespace,"  You  
+ are  
+ a  
+ stupid  
+ idiot.  ",1,1,0.9999999084013194,True,0.9999999084013194,1,False
+attack_stress_001,punctuation_removed,You are a stupid idiot,1,1,0.9999999084013194,True,0.9999999084013194,1,False
+attack_stress_001,disfluency_prefix,um well I mean You are a stupid idiot.,1,1,0.9999999084013194,False,0.9999298464620786,1,False
+attack_stress_001,chat_prefix,btw You are a stupid idiot.,1,1,0.9999999084013194,False,0.999988859007995,1,False
+attack_stress_002,uppercase,YOU HAVE ABSOLUTELY NO BRAIN.,1,0,0.33164517989406606,True,0.33164517989406606,0,False
+attack_stress_002,html_wrap,<p>You have absolutely no brain.</p>,1,0,0.33164517989406606,True,0.33164517989406606,0,False
+attack_stress_002,extra_whitespace,"  You  
+ have  
+ absolutely  
+ no  
+ brain.  ",1,0,0.33164517989406606,True,0.33164517989406606,0,False
+attack_stress_002,punctuation_removed,You have absolutely no brain,1,0,0.33164517989406606,True,0.33164517989406606,0,False
+attack_stress_002,disfluency_prefix,um well I mean You have absolutely no brain.,1,0,0.33164517989406606,False,0.21806249960611673,0,False
+attack_stress_002,chat_prefix,btw You have absolutely no brain.,1,0,0.33164517989406606,False,0.18016732548900333,0,False
+attack_stress_003,uppercase,ONLY A FOOL LIKE YOU WOULD SAY THAT.,1,1,0.5310821032301621,True,0.5310821032301621,1,False
+attack_stress_003,html_wrap,<p>Only a fool like you would say that.</p>,1,1,0.5310821032301621,True,0.5310821032301621,1,False
+attack_stress_003,extra_whitespace,"  Only  
+ a  
+ fool  
+ like  
+ you  
+ would  
+ say  
+ that.  ",1,1,0.5310821032301621,True,0.5310821032301621,1,False
+attack_stress_003,punctuation_removed,Only a fool like you would say that,1,1,0.5310821032301621,True,0.5310821032301621,1,False
+attack_stress_003,disfluency_prefix,um well I mean Only a fool like you would say that.,1,1,0.5310821032301621,False,0.3006103060340825,0,True
+attack_stress_003,chat_prefix,btw Only a fool like you would say that.,1,1,0.5310821032301621,False,0.2926443963871639,0,True
+attack_stress_004,uppercase,YOU ARE A DISHONEST LIAR.,1,1,0.9989284751305311,True,0.9989284751305311,1,False
+attack_stress_004,html_wrap,<p>You are a dishonest liar.</p>,1,1,0.9989284751305311,True,0.9989284751305311,1,False
+attack_stress_004,extra_whitespace,"  You  
+ are  
+ a  
+ dishonest  
+ liar.  ",1,1,0.9989284751305311,True,0.9989284751305311,1,False
+attack_stress_004,punctuation_removed,You are a dishonest liar,1,1,0.9989284751305311,True,0.9989284751305311,1,False
+attack_stress_004,disfluency_prefix,um well I mean You are a dishonest liar.,1,1,0.9989284751305311,False,0.9640192793721842,1,False
+attack_stress_004,chat_prefix,btw You are a dishonest liar.,1,1,0.9989284751305311,False,0.9817204572387075,1,False
+attack_stress_005,uppercase,"SHUT UP, YOU IGNORANT CLOWN.",1,1,0.9950943316826066,True,0.9950943316826066,1,False
+attack_stress_005,html_wrap,"<p>Shut up, you ignorant clown.</p>",1,1,0.9950943316826066,True,0.9950943316826066,1,False
+attack_stress_005,extra_whitespace,"  Shut  
+ up,  
+ you  
+ ignorant  
+ clown.  ",1,1,0.9950943316826066,True,0.9950943316826066,1,False
+attack_stress_005,punctuation_removed,Shut up you ignorant clown,1,1,0.9950943316826066,True,0.9950943316826066,1,False
+attack_stress_005,disfluency_prefix,"um well I mean Shut up, you ignorant clown.",1,1,0.9950943316826066,False,0.966015038071411,1,False
+attack_stress_005,chat_prefix,"btw Shut up, you ignorant clown.",1,1,0.9950943316826066,False,0.9790679301874927,1,False
+attack_stress_006,uppercase,YOU ARE TOO DUMB TO UNDERSTAND THE QUESTION.,1,1,0.7555929421764621,True,0.7555929421764621,1,False
+attack_stress_006,html_wrap,<p>You are too dumb to understand the question.</p>,1,1,0.7555929421764621,True,0.7555929421764621,1,False
+attack_stress_006,extra_whitespace,"  You  
+ are  
+ too  
+ dumb  
+ to  
+ understand  
+ the  
+ question.  ",1,1,0.7555929421764621,True,0.7555929421764621,1,False
+attack_stress_006,punctuation_removed,You are too dumb to understand the question,1,1,0.7555929421764621,True,0.7555929421764621,1,False
+attack_stress_006,disfluency_prefix,um well I mean You are too dumb to understand the question.,1,1,0.7555929421764621,False,0.5564529104778609,1,False
+attack_stress_006,chat_prefix,btw You are too dumb to understand the question.,1,1,0.7555929421764621,False,0.5417590385235016,1,False
+attack_stress_007,uppercase,NOBODY NEEDS TO HEAR YOUR WORTHLESS OPINIONS.,1,0,0.08754075931910642,True,0.08754075931910642,0,False
+attack_stress_007,html_wrap,<p>Nobody needs to hear your worthless opinions.</p>,1,0,0.08754075931910642,True,0.08754075931910642,0,False
+attack_stress_007,extra_whitespace,"  Nobody  
+ needs  
+ to  
+ hear  
+ your  
+ worthless  
+ opinions.  ",1,0,0.08754075931910642,True,0.08754075931910642,0,False
+attack_stress_007,punctuation_removed,Nobody needs to hear your worthless opinions,1,0,0.08754075931910642,True,0.08754075931910642,0,False
+attack_stress_007,disfluency_prefix,um well I mean Nobody needs to hear your worthless opinions.,1,0,0.08754075931910642,False,0.05280468443622738,0,False
+attack_stress_007,chat_prefix,btw Nobody needs to hear your worthless opinions.,1,0,0.08754075931910642,False,0.03983119259105955,0,False
+attack_stress_008,uppercase,YOU ARE A PATHETIC EXCUSE FOR A DEBATER.,1,1,0.9071315810277581,True,0.9071315810277581,1,False
+attack_stress_008,html_wrap,<p>You are a pathetic excuse for a debater.</p>,1,1,0.9071315810277581,True,0.9071315810277581,1,False
+attack_stress_008,extra_whitespace,"  You  
+ are  
+ a  
+ pathetic  
+ excuse  
+ for  
+ a  
+ debater.  ",1,1,0.9071315810277581,True,0.9071315810277581,1,False
+attack_stress_008,punctuation_removed,You are a pathetic excuse for a debater,1,1,0.9071315810277581,True,0.9071315810277581,1,False
+attack_stress_008,disfluency_prefix,um well I mean You are a pathetic excuse for a debater.,1,1,0.9071315810277581,False,0.7926964089724332,1,False
+attack_stress_008,chat_prefix,btw You are a pathetic excuse for a debater.,1,1,0.9071315810277581,False,0.7972022453875933,1,False
+attack_stress_009,uppercase,YOUR STUPIDITY IS WASTING EVERYONE'S TIME.,1,1,0.9969259828673402,True,0.9969259828673402,1,False
+attack_stress_009,html_wrap,<p>Your stupidity is wasting everyone's time.</p>,1,1,0.9969259828673402,True,0.9969259828673402,1,False
+attack_stress_009,extra_whitespace,"  Your  
+ stupidity  
+ is  
+ wasting  
+ everyone's  
+ time.  ",1,1,0.9969259828673402,True,0.9969259828673402,1,False
+attack_stress_009,punctuation_removed,Your stupidity is wasting everyones time,1,1,0.9969259828673402,False,0.998947926317602,1,False
+attack_stress_009,disfluency_prefix,um well I mean Your stupidity is wasting everyone's time.,1,1,0.9969259828673402,False,0.9586184397654859,1,False
+attack_stress_009,chat_prefix,btw Your stupidity is wasting everyone's time.,1,1,0.9969259828673402,False,0.9372854409150374,1,False
+attack_stress_010,uppercase,YOU ARE AN ARROGANT MORON.,1,1,0.9999619979640395,True,0.9999619979640395,1,False
+attack_stress_010,html_wrap,<p>You are an arrogant moron.</p>,1,1,0.9999619979640395,True,0.9999619979640395,1,False
+attack_stress_010,extra_whitespace,"  You  
+ are  
+ an  
+ arrogant  
+ moron.  ",1,1,0.9999619979640395,True,0.9999619979640395,1,False
+attack_stress_010,punctuation_removed,You are an arrogant moron,1,1,0.9999619979640395,True,0.9999619979640395,1,False
+attack_stress_010,disfluency_prefix,um well I mean You are an arrogant moron.,1,1,0.9999619979640395,False,0.9961816718547654,1,False
+attack_stress_010,chat_prefix,btw You are an arrogant moron.,1,1,0.9999619979640395,False,0.9987281308610557,1,False
+attack_stress_011,uppercase,"GET LOST, YOU OBNOXIOUS FOOL.",1,1,0.9061572250547648,True,0.9061572250547648,1,False
+attack_stress_011,html_wrap,"<p>Get lost, you obnoxious fool.</p>",1,1,0.9061572250547648,True,0.9061572250547648,1,False
+attack_stress_011,extra_whitespace,"  Get  
+ lost,  
+ you  
+ obnoxious  
+ fool.  ",1,1,0.9061572250547648,True,0.9061572250547648,1,False
+attack_stress_011,punctuation_removed,Get lost you obnoxious fool,1,1,0.9061572250547648,True,0.9061572250547648,1,False
+attack_stress_011,disfluency_prefix,"um well I mean Get lost, you obnoxious fool.",1,1,0.9061572250547648,False,0.6328580950146179,1,False
+attack_stress_011,chat_prefix,"btw Get lost, you obnoxious fool.",1,1,0.9061572250547648,False,0.6875687336776204,1,False
+attack_stress_012,uppercase,YOU ARE A DISGUSTING BULLY.,1,1,0.9881070009242614,True,0.9881070009242614,1,False
+attack_stress_012,html_wrap,<p>You are a disgusting bully.</p>,1,1,0.9881070009242614,True,0.9881070009242614,1,False
+attack_stress_012,extra_whitespace,"  You  
+ are  
+ a  
+ disgusting  
+ bully.  ",1,1,0.9881070009242614,True,0.9881070009242614,1,False
+attack_stress_012,punctuation_removed,You are a disgusting bully,1,1,0.9881070009242614,True,0.9881070009242614,1,False
+attack_stress_012,disfluency_prefix,um well I mean You are a disgusting bully.,1,1,0.9881070009242614,False,0.8353197750082717,1,False
+attack_stress_012,chat_prefix,btw You are a disgusting bully.,1,1,0.9881070009242614,False,0.8828432074317419,1,False
+attack_stress_013,uppercase,I DISAGREE WITH YOUR CONCLUSION BECAUSE THE SAMPLE IS TOO SMALL.,0,0,0.01958312778452054,True,0.01958312778452054,0,False
+attack_stress_013,html_wrap,<p>I disagree with your conclusion because the sample is too small.</p>,0,0,0.01958312778452054,True,0.01958312778452054,0,False
+attack_stress_013,extra_whitespace,"  I  
+ disagree  
+ with  
+ your  
+ conclusion  
+ because  
+ the  
+ sample  
+ is  
+ too  
+ small.  ",0,0,0.01958312778452054,True,0.01958312778452054,0,False
+attack_stress_013,punctuation_removed,I disagree with your conclusion because the sample is too small,0,0,0.01958312778452054,True,0.01958312778452054,0,False
+attack_stress_013,disfluency_prefix,um well I mean I disagree with your conclusion because the sample is too small.,0,0,0.01958312778452054,False,0.012278603582079047,0,False
+attack_stress_013,chat_prefix,btw I disagree with your conclusion because the sample is too small.,0,0,0.01958312778452054,False,0.009990888038291661,0,False
+attack_stress_014,uppercase,YOUR EVIDENCE DOES NOT ESTABLISH THAT THE POLICY CAUSED THE CHANGE.,0,0,0.035169252792886734,True,0.035169252792886734,0,False
+attack_stress_014,html_wrap,<p>Your evidence does not establish that the policy caused the change.</p>,0,0,0.035169252792886734,True,0.035169252792886734,0,False
+attack_stress_014,extra_whitespace,"  Your  
+ evidence  
+ does  
+ not  
+ establish  
+ that  
+ the  
+ policy  
+ caused  
+ the  
+ change.  ",0,0,0.035169252792886734,True,0.035169252792886734,0,False
+attack_stress_014,punctuation_removed,Your evidence does not establish that the policy caused the change,0,0,0.035169252792886734,True,0.035169252792886734,0,False
+attack_stress_014,disfluency_prefix,um well I mean Your evidence does not establish that the policy caused the change.,0,0,0.035169252792886734,False,0.02586609570329323,0,False
+attack_stress_014,chat_prefix,btw Your evidence does not establish that the policy caused the change.,0,0,0.035169252792886734,False,0.015205903993782504,0,False
+attack_stress_015,uppercase,I THINK YOU HAVE MISUNDERSTOOD THE QUESTION; LET ME CLARIFY IT.,0,0,0.12211318910339274,True,0.12211318910339274,0,False
+attack_stress_015,html_wrap,<p>I think you have misunderstood the question; let me clarify it.</p>,0,0,0.12211318910339274,True,0.12211318910339274,0,False
+attack_stress_015,extra_whitespace,"  I  
+ think  
+ you  
+ have  
+ misunderstood  
+ the  
+ question;  
+ let  
+ me  
+ clarify  
+ it.  ",0,0,0.12211318910339274,True,0.12211318910339274,0,False
+attack_stress_015,punctuation_removed,I think you have misunderstood the question let me clarify it,0,0,0.12211318910339274,True,0.12211318910339274,0,False
+attack_stress_015,disfluency_prefix,um well I mean I think you have misunderstood the question; let me clarify it.,0,0,0.12211318910339274,False,0.049485872757278566,0,False
+attack_stress_015,chat_prefix,btw I think you have misunderstood the question; let me clarify it.,0,0,0.12211318910339274,False,0.04768739633646022,0,False
+attack_stress_016,uppercase,COULD YOU PROVIDE A SOURCE FOR THAT CLAIM?,0,0,0.0023714457960447304,True,0.0023714457960447304,0,False
+attack_stress_016,html_wrap,<p>Could you provide a source for that claim?</p>,0,0,0.0023714457960447304,True,0.0023714457960447304,0,False
+attack_stress_016,extra_whitespace,"  Could  
+ you  
+ provide  
+ a  
+ source  
+ for  
+ that  
+ claim?  ",0,0,0.0023714457960447304,True,0.0023714457960447304,0,False
+attack_stress_016,punctuation_removed,Could you provide a source for that claim,0,0,0.0023714457960447304,True,0.0023714457960447304,0,False
+attack_stress_016,disfluency_prefix,um well I mean Could you provide a source for that claim?,0,0,0.0023714457960447304,False,0.002712311320579861,0,False
+attack_stress_016,chat_prefix,btw Could you provide a source for that claim?,0,0,0.0023714457960447304,False,0.0014586273425918294,0,False
+attack_stress_017,uppercase,THAT ARGUMENT CONTAINS A CONTRADICTION BETWEEN ITS FIRST AND FINAL PREMISES.,0,0,0.012496506143767518,True,0.012496506143767518,0,False
+attack_stress_017,html_wrap,<p>That argument contains a contradiction between its first and final premises.</p>,0,0,0.012496506143767518,True,0.012496506143767518,0,False
+attack_stress_017,extra_whitespace,"  That  
+ argument  
+ contains  
+ a  
+ contradiction  
+ between  
+ its  
+ first  
+ and  
+ final  
+ premises.  ",0,0,0.012496506143767518,True,0.012496506143767518,0,False
+attack_stress_017,punctuation_removed,That argument contains a contradiction between its first and final premises,0,0,0.012496506143767518,True,0.012496506143767518,0,False
+attack_stress_017,disfluency_prefix,um well I mean That argument contains a contradiction between its first and final premises.,0,0,0.012496506143767518,False,0.010889706386044723,0,False
+attack_stress_017,chat_prefix,btw That argument contains a contradiction between its first and final premises.,0,0,0.012496506143767518,False,0.007261995019754522,0,False
+attack_stress_018,uppercase,I DO NOT ACCEPT THE PROPOSED COST ESTIMATE.,0,0,0.019421419456006176,True,0.019421419456006176,0,False
+attack_stress_018,html_wrap,<p>I do not accept the proposed cost estimate.</p>,0,0,0.019421419456006176,True,0.019421419456006176,0,False
+attack_stress_018,extra_whitespace,"  I  
+ do  
+ not  
+ accept  
+ the  
+ proposed  
+ cost  
+ estimate.  ",0,0,0.019421419456006176,True,0.019421419456006176,0,False
+attack_stress_018,punctuation_removed,I do not accept the proposed cost estimate,0,0,0.019421419456006176,True,0.019421419456006176,0,False
+attack_stress_018,disfluency_prefix,um well I mean I do not accept the proposed cost estimate.,0,0,0.019421419456006176,False,0.011841616557846693,0,False
+attack_stress_018,chat_prefix,btw I do not accept the proposed cost estimate.,0,0,0.019421419456006176,False,0.00940474932096742,0,False
+attack_stress_019,uppercase,YOUR CALCULATIONS OMIT MAINTENANCE AND TRAINING EXPENSES.,0,0,0.05910327489425714,True,0.05910327489425714,0,False
+attack_stress_019,html_wrap,<p>Your calculations omit maintenance and training expenses.</p>,0,0,0.05910327489425714,True,0.05910327489425714,0,False
+attack_stress_019,extra_whitespace,"  Your  
+ calculations  
+ omit  
+ maintenance  
+ and  
+ training  
+ expenses.  ",0,0,0.05910327489425714,True,0.05910327489425714,0,False
+attack_stress_019,punctuation_removed,Your calculations omit maintenance and training expenses,0,0,0.05910327489425714,True,0.05910327489425714,0,False
+attack_stress_019,disfluency_prefix,um well I mean Your calculations omit maintenance and training expenses.,0,0,0.05910327489425714,False,0.03759445720956894,0,False
+attack_stress_019,chat_prefix,btw Your calculations omit maintenance and training expenses.,0,0,0.05910327489425714,False,0.021171771468817394,0,False
+attack_stress_020,uppercase,PLEASE LET ME FINISH BEFORE YOU RESPOND.,0,0,0.10410805979882715,True,0.10410805979882715,0,False
+attack_stress_020,html_wrap,<p>Please let me finish before you respond.</p>,0,0,0.10410805979882715,True,0.10410805979882715,0,False
+attack_stress_020,extra_whitespace,"  Please  
+ let  
+ me  
+ finish  
+ before  
+ you  
+ respond.  ",0,0,0.10410805979882715,True,0.10410805979882715,0,False
+attack_stress_020,punctuation_removed,Please let me finish before you respond,0,0,0.10410805979882715,True,0.10410805979882715,0,False
+attack_stress_020,disfluency_prefix,um well I mean Please let me finish before you respond.,0,0,0.10410805979882715,False,0.06180288600650317,0,False
+attack_stress_020,chat_prefix,btw Please let me finish before you respond.,0,0,0.10410805979882715,False,0.047806250885814076,0,False
+attack_stress_021,uppercase,YOU HAVE NOT ANSWERED THE MODERATOR'S QUESTION YET.,0,0,0.011669372702443765,True,0.011669372702443765,0,False
+attack_stress_021,html_wrap,<p>You have not answered the moderator's question yet.</p>,0,0,0.011669372702443765,True,0.011669372702443765,0,False
+attack_stress_021,extra_whitespace,"  You  
+ have  
+ not  
+ answered  
+ the  
+ moderator's  
+ question  
+ yet.  ",0,0,0.011669372702443765,True,0.011669372702443765,0,False
+attack_stress_021,punctuation_removed,You have not answered the moderators question yet,0,0,0.011669372702443765,False,0.019832250857983156,0,False
+attack_stress_021,disfluency_prefix,um well I mean You have not answered the moderator's question yet.,0,0,0.011669372702443765,False,0.018767768244375975,0,False
+attack_stress_021,chat_prefix,btw You have not answered the moderator's question yet.,0,0,0.011669372702443765,False,0.00995949174896422,0,False
+attack_stress_022,uppercase,THAT IS AN UNFAIR CHARACTERIZATION OF MY POSITION.,0,0,0.0032067597548015134,True,0.0032067597548015134,0,False
+attack_stress_022,html_wrap,<p>That is an unfair characterization of my position.</p>,0,0,0.0032067597548015134,True,0.0032067597548015134,0,False
+attack_stress_022,extra_whitespace,"  That  
+ is  
+ an  
+ unfair  
+ characterization  
+ of  
+ my  
+ position.  ",0,0,0.0032067597548015134,True,0.0032067597548015134,0,False
+attack_stress_022,punctuation_removed,That is an unfair characterization of my position,0,0,0.0032067597548015134,True,0.0032067597548015134,0,False
+attack_stress_022,disfluency_prefix,um well I mean That is an unfair characterization of my position.,0,0,0.0032067597548015134,False,0.0036308798173661384,0,False
+attack_stress_022,chat_prefix,btw That is an unfair characterization of my position.,0,0,0.0032067597548015134,False,0.002057886091603893,0,False
+attack_stress_023,uppercase,"THE PROPOSAL IS IMPRACTICAL, ALTHOUGH ITS GOAL IS REASONABLE.",0,0,0.004075910619804771,True,0.004075910619804771,0,False
+attack_stress_023,html_wrap,"<p>The proposal is impractical, although its goal is reasonable.</p>",0,0,0.004075910619804771,True,0.004075910619804771,0,False
+attack_stress_023,extra_whitespace,"  The  
+ proposal  
+ is  
+ impractical,  
+ although  
+ its  
+ goal  
+ is  
+ reasonable.  ",0,0,0.004075910619804771,True,0.004075910619804771,0,False
+attack_stress_023,punctuation_removed,The proposal is impractical although its goal is reasonable,0,0,0.004075910619804771,True,0.004075910619804771,0,False
+attack_stress_023,disfluency_prefix,"um well I mean The proposal is impractical, although its goal is reasonable.",0,0,0.004075910619804771,False,0.005830534600685587,0,False
+attack_stress_023,chat_prefix,"btw The proposal is impractical, although its goal is reasonable.",0,0,0.004075910619804771,False,0.0030907720808421328,0,False
+attack_stress_024,uppercase,I STRONGLY OPPOSE A BAN ON PRIVATE VEHICLES.,0,0,0.028797680914650424,True,0.028797680914650424,0,False
+attack_stress_024,html_wrap,<p>I strongly oppose a ban on private vehicles.</p>,0,0,0.028797680914650424,True,0.028797680914650424,0,False
+attack_stress_024,extra_whitespace,"  I  
+ strongly  
+ oppose  
+ a  
+ ban  
+ on  
+ private  
+ vehicles.  ",0,0,0.028797680914650424,True,0.028797680914650424,0,False
+attack_stress_024,punctuation_removed,I strongly oppose a ban on private vehicles,0,0,0.028797680914650424,True,0.028797680914650424,0,False
+attack_stress_024,disfluency_prefix,um well I mean I strongly oppose a ban on private vehicles.,0,0,0.028797680914650424,False,0.01735000550555516,0,False
+attack_stress_024,chat_prefix,btw I strongly oppose a ban on private vehicles.,0,0,0.028797680914650424,False,0.014838530076753396,0,False
+attack_stress_025,uppercase,THAT IS A STUPID ARGUMENT BECAUSE IT ASSUMES UNLIMITED MONEY.,0,1,0.7709090509147511,True,0.7709090509147511,1,False
+attack_stress_025,html_wrap,<p>That is a stupid argument because it assumes unlimited money.</p>,0,1,0.7709090509147511,True,0.7709090509147511,1,False
+attack_stress_025,extra_whitespace,"  That  
+ is  
+ a  
+ stupid  
+ argument  
+ because  
+ it  
+ assumes  
+ unlimited  
+ money.  ",0,1,0.7709090509147511,True,0.7709090509147511,1,False
+attack_stress_025,punctuation_removed,That is a stupid argument because it assumes unlimited money,0,1,0.7709090509147511,True,0.7709090509147511,1,False
+attack_stress_025,disfluency_prefix,um well I mean That is a stupid argument because it assumes unlimited money.,0,1,0.7709090509147511,False,0.41867815308829043,1,False
+attack_stress_025,chat_prefix,btw That is a stupid argument because it assumes unlimited money.,0,1,0.7709090509147511,False,0.41048956746015125,1,False
+attack_stress_026,uppercase,YOU ARE STUPID BECAUSE YOU CANNOT UNDERSTAND A BUDGET.,1,1,0.9903893120071267,True,0.9903893120071267,1,False
+attack_stress_026,html_wrap,<p>You are stupid because you cannot understand a budget.</p>,1,1,0.9903893120071267,True,0.9903893120071267,1,False
+attack_stress_026,extra_whitespace,"  You  
+ are  
+ stupid  
+ because  
+ you  
+ cannot  
+ understand  
+ a  
+ budget.  ",1,1,0.9903893120071267,True,0.9903893120071267,1,False
+attack_stress_026,punctuation_removed,You are stupid because you cannot understand a budget,1,1,0.9903893120071267,True,0.9903893120071267,1,False
+attack_stress_026,disfluency_prefix,um well I mean You are stupid because you cannot understand a budget.,1,1,0.9903893120071267,False,0.9552312900773858,1,False
+attack_stress_026,chat_prefix,btw You are stupid because you cannot understand a budget.,1,1,0.9903893120071267,False,0.9652117819910515,1,False
+attack_stress_027,uppercase,THE PROPOSAL IS DISHONEST IN THE WAY IT PRESENTS THOSE FIGURES.,0,0,0.008909394414544627,True,0.008909394414544627,0,False
+attack_stress_027,html_wrap,<p>The proposal is dishonest in the way it presents those figures.</p>,0,0,0.008909394414544627,True,0.008909394414544627,0,False
+attack_stress_027,extra_whitespace,"  The  
+ proposal  
+ is  
+ dishonest  
+ in  
+ the  
+ way  
+ it  
+ presents  
+ those  
+ figures.  ",0,0,0.008909394414544627,True,0.008909394414544627,0,False
+attack_stress_027,punctuation_removed,The proposal is dishonest in the way it presents those figures,0,0,0.008909394414544627,True,0.008909394414544627,0,False
+attack_stress_027,disfluency_prefix,um well I mean The proposal is dishonest in the way it presents those figures.,0,0,0.008909394414544627,False,0.01106826139034395,0,False
+attack_stress_027,chat_prefix,btw The proposal is dishonest in the way it presents those figures.,0,0,0.008909394414544627,False,0.007583836332601358,0,False
+attack_stress_028,uppercase,YOU ARE A DISHONEST PERSON WHO CANNOT BE TRUSTED.,1,1,0.7120598888155912,True,0.7120598888155912,1,False
+attack_stress_028,html_wrap,<p>You are a dishonest person who cannot be trusted.</p>,1,1,0.7120598888155912,True,0.7120598888155912,1,False
+attack_stress_028,extra_whitespace,"  You  
+ are  
+ a  
+ dishonest  
+ person  
+ who  
+ cannot  
+ be  
+ trusted.  ",1,1,0.7120598888155912,True,0.7120598888155912,1,False
+attack_stress_028,punctuation_removed,You are a dishonest person who cannot be trusted,1,1,0.7120598888155912,True,0.7120598888155912,1,False
+attack_stress_028,disfluency_prefix,um well I mean You are a dishonest person who cannot be trusted.,1,1,0.7120598888155912,False,0.5560440536376601,1,False
+attack_stress_028,chat_prefix,btw You are a dishonest person who cannot be trusted.,1,1,0.7120598888155912,False,0.534288239493265,1,False
+attack_stress_029,uppercase,THIS POLICY IS CRUEL TO FAMILIES WHO CANNOT AFFORD THE FEES.,0,0,0.08417137985124525,True,0.08417137985124525,0,False
+attack_stress_029,html_wrap,<p>This policy is cruel to families who cannot afford the fees.</p>,0,0,0.08417137985124525,True,0.08417137985124525,0,False
+attack_stress_029,extra_whitespace,"  This  
+ policy  
+ is  
+ cruel  
+ to  
+ families  
+ who  
+ cannot  
+ afford  
+ the  
+ fees.  ",0,0,0.08417137985124525,True,0.08417137985124525,0,False
+attack_stress_029,punctuation_removed,This policy is cruel to families who cannot afford the fees,0,0,0.08417137985124525,True,0.08417137985124525,0,False
+attack_stress_029,disfluency_prefix,um well I mean This policy is cruel to families who cannot afford the fees.,0,0,0.08417137985124525,False,0.05868171984194601,0,False
+attack_stress_029,chat_prefix,btw This policy is cruel to families who cannot afford the fees.,0,0,0.08417137985124525,False,0.03909779225525017,0,False
+attack_stress_030,uppercase,"YOU ARE A CRUEL, WORTHLESS HUMAN BEING.",1,1,0.9720140327819541,True,0.9720140327819541,1,False
+attack_stress_030,html_wrap,"<p>You are a cruel, worthless human being.</p>",1,1,0.9720140327819541,True,0.9720140327819541,1,False
+attack_stress_030,extra_whitespace,"  You  
+ are  
+ a  
+ cruel,  
+ worthless  
+ human  
+ being.  ",1,1,0.9720140327819541,True,0.9720140327819541,1,False
+attack_stress_030,punctuation_removed,You are a cruel worthless human being,1,1,0.9720140327819541,True,0.9720140327819541,1,False
+attack_stress_030,disfluency_prefix,"um well I mean You are a cruel, worthless human being.",1,1,0.9720140327819541,False,0.8744901621855197,1,False
+attack_stress_030,chat_prefix,"btw You are a cruel, worthless human being.",1,1,0.9720140327819541,False,0.8954453734140342,1,False
+attack_stress_031,uppercase,YOUR RESPONSE IS IRRELEVANT TO THE QUESTION ABOUT ACCESS.,0,0,0.04235640062431544,True,0.04235640062431544,0,False
+attack_stress_031,html_wrap,<p>Your response is irrelevant to the question about access.</p>,0,0,0.04235640062431544,True,0.04235640062431544,0,False
+attack_stress_031,extra_whitespace,"  Your  
+ response  
+ is  
+ irrelevant  
+ to  
+ the  
+ question  
+ about  
+ access.  ",0,0,0.04235640062431544,True,0.04235640062431544,0,False
+attack_stress_031,punctuation_removed,Your response is irrelevant to the question about access,0,0,0.04235640062431544,True,0.04235640062431544,0,False
+attack_stress_031,disfluency_prefix,um well I mean Your response is irrelevant to the question about access.,0,0,0.04235640062431544,False,0.03132365955172247,0,False
+attack_stress_031,chat_prefix,btw Your response is irrelevant to the question about access.,0,0,0.04235640062431544,False,0.01923431079894098,0,False
+attack_stress_032,uppercase,YOU ARE IRRELEVANT AND NOBODY CARES WHAT YOU THINK.,1,0,0.046525982011804835,True,0.046525982011804835,0,False
+attack_stress_032,html_wrap,<p>You are irrelevant and nobody cares what you think.</p>,1,0,0.046525982011804835,True,0.046525982011804835,0,False
+attack_stress_032,extra_whitespace,"  You  
+ are  
+ irrelevant  
+ and  
+ nobody  
+ cares  
+ what  
+ you  
+ think.  ",1,0,0.046525982011804835,True,0.046525982011804835,0,False
+attack_stress_032,punctuation_removed,You are irrelevant and nobody cares what you think,1,0,0.046525982011804835,True,0.046525982011804835,0,False
+attack_stress_032,disfluency_prefix,um well I mean You are irrelevant and nobody cares what you think.,1,0,0.046525982011804835,False,0.0523743755614022,0,False
+attack_stress_032,chat_prefix,btw You are irrelevant and nobody cares what you think.,1,0,0.046525982011804835,False,0.036419436561830165,0,False
+attack_stress_033,uppercase,THE EXPLANATION IS CONFUSED AND NEEDS A CLEARER DEFINITION.,0,0,0.03365255411002789,True,0.03365255411002789,0,False
+attack_stress_033,html_wrap,<p>The explanation is confused and needs a clearer definition.</p>,0,0,0.03365255411002789,True,0.03365255411002789,0,False
+attack_stress_033,extra_whitespace,"  The  
+ explanation  
+ is  
+ confused  
+ and  
+ needs  
+ a  
+ clearer  
+ definition.  ",0,0,0.03365255411002789,True,0.03365255411002789,0,False
+attack_stress_033,punctuation_removed,The explanation is confused and needs a clearer definition,0,0,0.03365255411002789,True,0.03365255411002789,0,False
+attack_stress_033,disfluency_prefix,um well I mean The explanation is confused and needs a clearer definition.,0,0,0.03365255411002789,False,0.03347485159753898,0,False
+attack_stress_033,chat_prefix,btw The explanation is confused and needs a clearer definition.,0,0,0.03365255411002789,False,0.021474115755327833,0,False
+attack_stress_034,uppercase,YOU ARE A CONFUSED IDIOT WITH NOTHING USEFUL TO CONTRIBUTE.,1,1,0.9940780043004394,True,0.9940780043004394,1,False
+attack_stress_034,html_wrap,<p>You are a confused idiot with nothing useful to contribute.</p>,1,1,0.9940780043004394,True,0.9940780043004394,1,False
+attack_stress_034,extra_whitespace,"  You  
+ are  
+ a  
+ confused  
+ idiot  
+ with  
+ nothing  
+ useful  
+ to  
+ contribute.  ",1,1,0.9940780043004394,True,0.9940780043004394,1,False
+attack_stress_034,punctuation_removed,You are a confused idiot with nothing useful to contribute,1,1,0.9940780043004394,True,0.9940780043004394,1,False
+attack_stress_034,disfluency_prefix,um well I mean You are a confused idiot with nothing useful to contribute.,1,1,0.9940780043004394,False,0.9656253359425345,1,False
+attack_stress_034,chat_prefix,btw You are a confused idiot with nothing useful to contribute.,1,1,0.9940780043004394,False,0.9750083592248825,1,False
+attack_stress_035,uppercase,THAT PREDICTION IS ABSURD GIVEN THE AVAILABLE EVIDENCE.,0,0,0.03996293135291301,True,0.03996293135291301,0,False
+attack_stress_035,html_wrap,<p>That prediction is absurd given the available evidence.</p>,0,0,0.03996293135291301,True,0.03996293135291301,0,False
+attack_stress_035,extra_whitespace,"  That  
+ prediction  
+ is  
+ absurd  
+ given  
+ the  
+ available  
+ evidence.  ",0,0,0.03996293135291301,True,0.03996293135291301,0,False
+attack_stress_035,punctuation_removed,That prediction is absurd given the available evidence,0,0,0.03996293135291301,True,0.03996293135291301,0,False
+attack_stress_035,disfluency_prefix,um well I mean That prediction is absurd given the available evidence.,0,0,0.03996293135291301,False,0.02686454662720034,0,False
+attack_stress_035,chat_prefix,btw That prediction is absurd given the available evidence.,0,0,0.03996293135291301,False,0.018169549081782282,0,False
+attack_stress_036,uppercase,YOU ARE AN ABSURD LITTLE CLOWN.,1,1,0.9782923841023091,True,0.9782923841023091,1,False
+attack_stress_036,html_wrap,<p>You are an absurd little clown.</p>,1,1,0.9782923841023091,True,0.9782923841023091,1,False
+attack_stress_036,extra_whitespace,"  You  
+ are  
+ an  
+ absurd  
+ little  
+ clown.  ",1,1,0.9782923841023091,True,0.9782923841023091,1,False
+attack_stress_036,punctuation_removed,You are an absurd little clown,1,1,0.9782923841023091,True,0.9782923841023091,1,False
+attack_stress_036,disfluency_prefix,um well I mean You are an absurd little clown.,1,1,0.9782923841023091,False,0.8563499630838259,1,False
+attack_stress_036,chat_prefix,btw You are an absurd little clown.,1,1,0.9782923841023091,False,0.8873397121650708,1,False
+attack_stress_037,uppercase,YOU ARE NOT STUPID; THE INSTRUCTIONS WERE UNCLEAR.,0,1,0.930922471850128,True,0.930922471850128,1,False
+attack_stress_037,html_wrap,<p>You are not stupid; the instructions were unclear.</p>,0,1,0.930922471850128,True,0.930922471850128,1,False
+attack_stress_037,extra_whitespace,"  You  
+ are  
+ not  
+ stupid;  
+ the  
+ instructions  
+ were  
+ unclear.  ",0,1,0.930922471850128,True,0.930922471850128,1,False
+attack_stress_037,punctuation_removed,You are not stupid the instructions were unclear,0,1,0.930922471850128,True,0.930922471850128,1,False
+attack_stress_037,disfluency_prefix,um well I mean You are not stupid; the instructions were unclear.,0,1,0.930922471850128,False,0.7644143238382997,1,False
+attack_stress_037,chat_prefix,btw You are not stupid; the instructions were unclear.,0,1,0.930922471850128,False,0.7825348175680753,1,False
+attack_stress_038,uppercase,I DO NOT THINK YOU ARE AN IDIOT.,0,1,0.99840986815039,True,0.99840986815039,1,False
+attack_stress_038,html_wrap,<p>I do not think you are an idiot.</p>,0,1,0.99840986815039,True,0.99840986815039,1,False
+attack_stress_038,extra_whitespace,"  I  
+ do  
+ not  
+ think  
+ you  
+ are  
+ an  
+ idiot.  ",0,1,0.99840986815039,True,0.99840986815039,1,False
+attack_stress_038,punctuation_removed,I do not think you are an idiot,0,1,0.99840986815039,True,0.99840986815039,1,False
+attack_stress_038,disfluency_prefix,um well I mean I do not think you are an idiot.,0,1,0.99840986815039,False,0.9556234479640717,1,False
+attack_stress_038,chat_prefix,btw I do not think you are an idiot.,0,1,0.99840986815039,False,0.9823626965515494,1,False
+attack_stress_039,uppercase,YOU ARE NOT A LIAR SIMPLY BECAUSE WE DISAGREE.,0,1,0.696118658320657,True,0.696118658320657,1,False
+attack_stress_039,html_wrap,<p>You are not a liar simply because we disagree.</p>,0,1,0.696118658320657,True,0.696118658320657,1,False
+attack_stress_039,extra_whitespace,"  You  
+ are  
+ not  
+ a  
+ liar  
+ simply  
+ because  
+ we  
+ disagree.  ",0,1,0.696118658320657,True,0.696118658320657,1,False
+attack_stress_039,punctuation_removed,You are not a liar simply because we disagree,0,1,0.696118658320657,True,0.696118658320657,1,False
+attack_stress_039,disfluency_prefix,um well I mean You are not a liar simply because we disagree.,0,1,0.696118658320657,False,0.5278581769615409,1,False
+attack_stress_039,chat_prefix,btw You are not a liar simply because we disagree.,0,1,0.696118658320657,False,0.5054963162776753,1,False
+attack_stress_040,uppercase,NOBODY HERE IS CALLING YOU A FOOL.,0,1,0.7217300173498813,True,0.7217300173498813,1,False
+attack_stress_040,html_wrap,<p>Nobody here is calling you a fool.</p>,0,1,0.7217300173498813,True,0.7217300173498813,1,False
+attack_stress_040,extra_whitespace,"  Nobody  
+ here  
+ is  
+ calling  
+ you  
+ a  
+ fool.  ",0,1,0.7217300173498813,True,0.7217300173498813,1,False
+attack_stress_040,punctuation_removed,Nobody here is calling you a fool,0,1,0.7217300173498813,True,0.7217300173498813,1,False
+attack_stress_040,disfluency_prefix,um well I mean Nobody here is calling you a fool.,0,1,0.7217300173498813,False,0.4658433583814389,1,False
+attack_stress_040,chat_prefix,btw Nobody here is calling you a fool.,0,1,0.7217300173498813,False,0.47604701308303343,1,False
+attack_stress_041,uppercase,PLEASE DO NOT TELL PEOPLE THEY ARE WORTHLESS.,0,0,0.11857995619101089,True,0.11857995619101089,0,False
+attack_stress_041,html_wrap,<p>Please do not tell people they are worthless.</p>,0,0,0.11857995619101089,True,0.11857995619101089,0,False
+attack_stress_041,extra_whitespace,"  Please  
+ do  
+ not  
+ tell  
+ people  
+ they  
+ are  
+ worthless.  ",0,0,0.11857995619101089,True,0.11857995619101089,0,False
+attack_stress_041,punctuation_removed,Please do not tell people they are worthless,0,0,0.11857995619101089,True,0.11857995619101089,0,False
+attack_stress_041,disfluency_prefix,um well I mean Please do not tell people they are worthless.,0,0,0.11857995619101089,False,0.07235485028201975,0,False
+attack_stress_041,chat_prefix,btw Please do not tell people they are worthless.,0,0,0.11857995619101089,False,0.0575836508072914,0,False
+attack_stress_042,uppercase,IT WOULD BE WRONG TO CALL YOU AN IGNORANT PERSON.,0,0,0.22242588152224685,True,0.22242588152224685,0,False
+attack_stress_042,html_wrap,<p>It would be wrong to call you an ignorant person.</p>,0,0,0.22242588152224685,True,0.22242588152224685,0,False
+attack_stress_042,extra_whitespace,"  It  
+ would  
+ be  
+ wrong  
+ to  
+ call  
+ you  
+ an  
+ ignorant  
+ person.  ",0,0,0.22242588152224685,True,0.22242588152224685,0,False
+attack_stress_042,punctuation_removed,It would be wrong to call you an ignorant person,0,0,0.22242588152224685,True,0.22242588152224685,0,False
+attack_stress_042,disfluency_prefix,um well I mean It would be wrong to call you an ignorant person.,0,0,0.22242588152224685,False,0.18935260446391972,0,False
+attack_stress_042,chat_prefix,btw It would be wrong to call you an ignorant person.,0,0,0.22242588152224685,False,0.10838438472965847,0,False
+attack_stress_043,uppercase,YOU ARE NOT MERELY MISTAKEN; YOU ARE A COMPLETE IDIOT.,1,1,0.9989418147840158,True,0.9989418147840158,1,False
+attack_stress_043,html_wrap,<p>You are not merely mistaken; you are a complete idiot.</p>,1,1,0.9989418147840158,True,0.9989418147840158,1,False
+attack_stress_043,extra_whitespace,"  You  
+ are  
+ not  
+ merely  
+ mistaken;  
+ you  
+ are  
+ a  
+ complete  
+ idiot.  ",1,1,0.9989418147840158,True,0.9989418147840158,1,False
+attack_stress_043,punctuation_removed,You are not merely mistaken you are a complete idiot,1,1,0.9989418147840158,True,0.9989418147840158,1,False
+attack_stress_043,disfluency_prefix,um well I mean You are not merely mistaken; you are a complete idiot.,1,1,0.9989418147840158,False,0.9921669416524748,1,False
+attack_stress_043,chat_prefix,btw You are not merely mistaken; you are a complete idiot.,1,1,0.9989418147840158,False,0.9950139939092509,1,False
+attack_stress_044,uppercase,I AM NOT GOING TO PRETEND YOU HAVE A BRAIN.,1,0,0.18025482262246198,True,0.18025482262246198,0,False
+attack_stress_044,html_wrap,<p>I am not going to pretend you have a brain.</p>,1,0,0.18025482262246198,True,0.18025482262246198,0,False
+attack_stress_044,extra_whitespace,"  I  
+ am  
+ not  
+ going  
+ to  
+ pretend  
+ you  
+ have  
+ a  
+ brain.  ",1,0,0.18025482262246198,True,0.18025482262246198,0,False
+attack_stress_044,punctuation_removed,I am not going to pretend you have a brain,1,0,0.18025482262246198,True,0.18025482262246198,0,False
+attack_stress_044,disfluency_prefix,um well I mean I am not going to pretend you have a brain.,1,0,0.18025482262246198,False,0.077196275017619,0,False
+attack_stress_044,chat_prefix,btw I am not going to pretend you have a brain.,1,0,0.18025482262246198,False,0.07804548879625156,0,False
+attack_stress_045,uppercase,NO SENSIBLE PERSON IS AS STUPID AS YOU.,1,1,0.9428817955243238,True,0.9428817955243238,1,False
+attack_stress_045,html_wrap,<p>No sensible person is as stupid as you.</p>,1,1,0.9428817955243238,True,0.9428817955243238,1,False
+attack_stress_045,extra_whitespace,"  No  
+ sensible  
+ person  
+ is  
+ as  
+ stupid  
+ as  
+ you.  ",1,1,0.9428817955243238,True,0.9428817955243238,1,False
+attack_stress_045,punctuation_removed,No sensible person is as stupid as you,1,1,0.9428817955243238,True,0.9428817955243238,1,False
+attack_stress_045,disfluency_prefix,um well I mean No sensible person is as stupid as you.,1,1,0.9428817955243238,False,0.4656859748322594,1,False
+attack_stress_045,chat_prefix,btw No sensible person is as stupid as you.,1,1,0.9428817955243238,False,0.7926821749425832,1,False
+attack_stress_046,uppercase,YOU ARE NOT WORTH LISTENING TO.,1,0,0.067521949615976,True,0.067521949615976,0,False
+attack_stress_046,html_wrap,<p>You are not worth listening to.</p>,1,0,0.067521949615976,True,0.067521949615976,0,False
+attack_stress_046,extra_whitespace,"  You  
+ are  
+ not  
+ worth  
+ listening  
+ to.  ",1,0,0.067521949615976,True,0.067521949615976,0,False
+attack_stress_046,punctuation_removed,You are not worth listening to,1,0,0.067521949615976,True,0.067521949615976,0,False
+attack_stress_046,disfluency_prefix,um well I mean You are not worth listening to.,1,0,0.067521949615976,False,0.06547615076560169,0,False
+attack_stress_046,chat_prefix,btw You are not worth listening to.,1,0,0.067521949615976,False,0.04259716588510537,0,False
+attack_stress_047,uppercase,I CANNOT BELIEVE HOW IGNORANT YOU ARE.,1,1,0.47950484223265116,True,0.47950484223265116,1,False
+attack_stress_047,html_wrap,<p>I cannot believe how ignorant you are.</p>,1,1,0.47950484223265116,True,0.47950484223265116,1,False
+attack_stress_047,extra_whitespace,"  I  
+ cannot  
+ believe  
+ how  
+ ignorant  
+ you  
+ are.  ",1,1,0.47950484223265116,True,0.47950484223265116,1,False
+attack_stress_047,punctuation_removed,I cannot believe how ignorant you are,1,1,0.47950484223265116,True,0.47950484223265116,1,False
+attack_stress_047,disfluency_prefix,um well I mean I cannot believe how ignorant you are.,1,1,0.47950484223265116,False,0.11428322432125315,0,True
+attack_stress_047,chat_prefix,btw I cannot believe how ignorant you are.,1,1,0.47950484223265116,False,0.134394453657822,0,True
+attack_stress_048,uppercase,I WILL NOT WASTE ANOTHER MINUTE ON A MORON LIKE YOU.,1,1,0.9908152147745555,True,0.9908152147745555,1,False
+attack_stress_048,html_wrap,<p>I will not waste another minute on a moron like you.</p>,1,1,0.9908152147745555,True,0.9908152147745555,1,False
+attack_stress_048,extra_whitespace,"  I  
+ will  
+ not  
+ waste  
+ another  
+ minute  
+ on  
+ a  
+ moron  
+ like  
+ you.  ",1,1,0.9908152147745555,True,0.9908152147745555,1,False
+attack_stress_048,punctuation_removed,I will not waste another minute on a moron like you,1,1,0.9908152147745555,True,0.9908152147745555,1,False
+attack_stress_048,disfluency_prefix,um well I mean I will not waste another minute on a moron like you.,1,1,0.9908152147745555,False,0.9258921119203358,1,False
+attack_stress_048,chat_prefix,btw I will not waste another minute on a moron like you.,1,1,0.9908152147745555,False,0.9572269133391021,1,False
+attack_stress_049,uppercase,"CALLING SOMEONE ""AN IDIOT"" IS A PERSONAL ATTACK; PLEASE STOP DOING THAT.",0,1,0.8617008316745537,True,0.8617008316745537,1,False
+attack_stress_049,html_wrap,"<p>Calling someone ""an idiot"" is a personal attack; please stop doing that.</p>",0,1,0.8617008316745537,True,0.8617008316745537,1,False
+attack_stress_049,extra_whitespace,"  Calling  
+ someone  
+ ""an  
+ idiot""  
+ is  
+ a  
+ personal  
+ attack;  
+ please  
+ stop  
+ doing  
+ that.  ",0,1,0.8617008316745537,True,0.8617008316745537,1,False
+attack_stress_049,punctuation_removed,Calling someone an idiot is a personal attack please stop doing that,0,1,0.8617008316745537,True,0.8617008316745537,1,False
+attack_stress_049,disfluency_prefix,"um well I mean Calling someone ""an idiot"" is a personal attack; please stop doing that.",0,1,0.8617008316745537,False,0.6941556051804406,1,False
+attack_stress_049,chat_prefix,"btw Calling someone ""an idiot"" is a personal attack; please stop doing that.",0,1,0.8617008316745537,False,0.7109509215643944,1,False
+attack_stress_050,uppercase,SHE REPORTED THAT ANOTHER PARTICIPANT HAD CALLED HER STUPID.,0,1,0.8165240911420498,True,0.8165240911420498,1,False
+attack_stress_050,html_wrap,<p>She reported that another participant had called her stupid.</p>,0,1,0.8165240911420498,True,0.8165240911420498,1,False
+attack_stress_050,extra_whitespace,"  She  
+ reported  
+ that  
+ another  
+ participant  
+ had  
+ called  
+ her  
+ stupid.  ",0,1,0.8165240911420498,True,0.8165240911420498,1,False
+attack_stress_050,punctuation_removed,She reported that another participant had called her stupid,0,1,0.8165240911420498,True,0.8165240911420498,1,False
+attack_stress_050,disfluency_prefix,um well I mean She reported that another participant had called her stupid.,0,1,0.8165240911420498,False,0.6016558276213664,1,False
+attack_stress_050,chat_prefix,btw She reported that another participant had called her stupid.,0,1,0.8165240911420498,False,0.619561782780242,1,False
+attack_stress_051,uppercase,"THE SENTENCE ""YOU ARE WORTHLESS"" SHOULD NOT BE USED IN THIS DEBATE.",0,0,0.18918415963045812,True,0.18918415963045812,0,False
+attack_stress_051,html_wrap,"<p>The sentence ""you are worthless"" should not be used in this debate.</p>",0,0,0.18918415963045812,True,0.18918415963045812,0,False
+attack_stress_051,extra_whitespace,"  The  
+ sentence  
+ ""you  
+ are  
+ worthless""  
+ should  
+ not  
+ be  
+ used  
+ in  
+ this  
+ debate.  ",0,0,0.18918415963045812,True,0.18918415963045812,0,False
+attack_stress_051,punctuation_removed,The sentence you are worthless should not be used in this debate,0,0,0.18918415963045812,True,0.18918415963045812,0,False
+attack_stress_051,disfluency_prefix,"um well I mean The sentence ""you are worthless"" should not be used in this debate.",0,0,0.18918415963045812,False,0.13804070439339544,0,False
+attack_stress_051,chat_prefix,"btw The sentence ""you are worthless"" should not be used in this debate.",0,0,0.18918415963045812,False,0.10015015499984645,0,False
+attack_stress_052,uppercase,"HE APOLOGIZED FOR SAYING ""SHUT UP, FOOL"" DURING THE MEETING.",0,1,0.8601630059765408,True,0.8601630059765408,1,False
+attack_stress_052,html_wrap,"<p>He apologized for saying ""shut up, fool"" during the meeting.</p>",0,1,0.8601630059765408,True,0.8601630059765408,1,False
+attack_stress_052,extra_whitespace,"  He  
+ apologized  
+ for  
+ saying  
+ ""shut  
+ up,  
+ fool""  
+ during  
+ the  
+ meeting.  ",0,1,0.8601630059765408,True,0.8601630059765408,1,False
+attack_stress_052,punctuation_removed,He apologized for saying shut up fool during the meeting,0,1,0.8601630059765408,True,0.8601630059765408,1,False
+attack_stress_052,disfluency_prefix,"um well I mean He apologized for saying ""shut up, fool"" during the meeting.",0,1,0.8601630059765408,False,0.5249235027614839,1,False
+attack_stress_052,chat_prefix,"btw He apologized for saying ""shut up, fool"" during the meeting.",0,1,0.8601630059765408,False,0.6626134415734721,1,False
+attack_stress_053,uppercase,WE SHOULD DISCUSS THE POLICY INSTEAD OF CALLING OPPONENTS MORONS.,0,1,0.7660813082857437,True,0.7660813082857437,1,False
+attack_stress_053,html_wrap,<p>We should discuss the policy instead of calling opponents morons.</p>,0,1,0.7660813082857437,True,0.7660813082857437,1,False
+attack_stress_053,extra_whitespace,"  We  
+ should  
+ discuss  
+ the  
+ policy  
+ instead  
+ of  
+ calling  
+ opponents  
+ morons.  ",0,1,0.7660813082857437,True,0.7660813082857437,1,False
+attack_stress_053,punctuation_removed,We should discuss the policy instead of calling opponents morons,0,1,0.7660813082857437,True,0.7660813082857437,1,False
+attack_stress_053,disfluency_prefix,um well I mean We should discuss the policy instead of calling opponents morons.,0,1,0.7660813082857437,False,0.4350979595768022,1,False
+attack_stress_053,chat_prefix,btw We should discuss the policy instead of calling opponents morons.,0,1,0.7660813082857437,False,0.5055340852508603,1,False
+attack_stress_054,uppercase,"THE MODERATOR ASKED US NOT TO USE THE PHRASE ""YOU HAVE NO BRAIN"".",0,0,0.2017062625646988,True,0.2017062625646988,0,False
+attack_stress_054,html_wrap,"<p>The moderator asked us not to use the phrase ""you have no brain"".</p>",0,0,0.2017062625646988,True,0.2017062625646988,0,False
+attack_stress_054,extra_whitespace,"  The  
+ moderator  
+ asked  
+ us  
+ not  
+ to  
+ use  
+ the  
+ phrase  
+ ""you  
+ have  
+ no  
+ brain"".  ",0,0,0.2017062625646988,True,0.2017062625646988,0,False
+attack_stress_054,punctuation_removed,The moderator asked us not to use the phrase you have no brain,0,0,0.2017062625646988,True,0.2017062625646988,0,False
+attack_stress_054,disfluency_prefix,"um well I mean The moderator asked us not to use the phrase ""you have no brain"".",0,0,0.2017062625646988,False,0.14966448833681767,0,False
+attack_stress_054,chat_prefix,"btw The moderator asked us not to use the phrase ""you have no brain"".",0,0,0.2017062625646988,False,0.11059769805500726,0,False
+attack_stress_055,uppercase,"I MEAN EXACTLY WHAT I SAID: ""YOU ARE AN IDIOT"".",1,1,0.992998747290952,True,0.992998747290952,1,False
+attack_stress_055,html_wrap,"<p>I mean exactly what I said: ""you are an idiot"".</p>",1,1,0.992998747290952,True,0.992998747290952,1,False
+attack_stress_055,extra_whitespace,"  I  
+ mean  
+ exactly  
+ what  
+ I  
+ said:  
+ ""you  
+ are  
+ an  
+ idiot"".  ",1,1,0.992998747290952,True,0.992998747290952,1,False
+attack_stress_055,punctuation_removed,I mean exactly what I said you are an idiot,1,1,0.992998747290952,True,0.992998747290952,1,False
+attack_stress_055,disfluency_prefix,"um well I mean I mean exactly what I said: ""you are an idiot"".",1,1,0.992998747290952,False,0.926857279500126,1,False
+attack_stress_055,chat_prefix,"btw I mean exactly what I said: ""you are an idiot"".",1,1,0.992998747290952,False,0.9674648998581802,1,False
+attack_stress_056,uppercase,"MY DESCRIPTION OF YOU IS SIMPLE: ""A DISHONEST FOOL"".",1,1,0.7729725271970604,True,0.7729725271970604,1,False
+attack_stress_056,html_wrap,"<p>My description of you is simple: ""a dishonest fool"".</p>",1,1,0.7729725271970604,True,0.7729725271970604,1,False
+attack_stress_056,extra_whitespace,"  My  
+ description  
+ of  
+ you  
+ is  
+ simple:  
+ ""a  
+ dishonest  
+ fool"".  ",1,1,0.7729725271970604,True,0.7729725271970604,1,False
+attack_stress_056,punctuation_removed,My description of you is simple a dishonest fool,1,1,0.7729725271970604,True,0.7729725271970604,1,False
+attack_stress_056,disfluency_prefix,"um well I mean My description of you is simple: ""a dishonest fool"".",1,1,0.7729725271970604,False,0.5456208962805649,1,False
+attack_stress_056,chat_prefix,"btw My description of you is simple: ""a dishonest fool"".",1,1,0.7729725271970604,False,0.5584850545244031,1,False
+attack_stress_057,uppercase,"LET ME REPEAT MY MESSAGE TO YOU: ""SHUT UP, MORON"".",1,1,0.9995460820709549,True,0.9995460820709549,1,False
+attack_stress_057,html_wrap,"<p>Let me repeat my message to you: ""shut up, moron"".</p>",1,1,0.9995460820709549,True,0.9995460820709549,1,False
+attack_stress_057,extra_whitespace,"  Let  
+ me  
+ repeat  
+ my  
+ message  
+ to  
+ you:  
+ ""shut  
+ up,  
+ moron"".  ",1,1,0.9995460820709549,True,0.9995460820709549,1,False
+attack_stress_057,punctuation_removed,Let me repeat my message to you shut up moron,1,1,0.9995460820709549,True,0.9995460820709549,1,False
+attack_stress_057,disfluency_prefix,"um well I mean Let me repeat my message to you: ""shut up, moron"".",1,1,0.9995460820709549,False,0.9966705447993437,1,False
+attack_stress_057,chat_prefix,"btw Let me repeat my message to you: ""shut up, moron"".",1,1,0.9995460820709549,False,0.9981809831692299,1,False
+attack_stress_058,uppercase,"EVERYONE SHOULD HEAR THIS ABOUT YOU: ""YOU ARE A PATHETIC LIAR"".",1,1,0.9948346782183566,True,0.9948346782183566,1,False
+attack_stress_058,html_wrap,"<p>Everyone should hear this about you: ""you are a pathetic liar"".</p>",1,1,0.9948346782183566,True,0.9948346782183566,1,False
+attack_stress_058,extra_whitespace,"  Everyone  
+ should  
+ hear  
+ this  
+ about  
+ you:  
+ ""you  
+ are  
+ a  
+ pathetic  
+ liar"".  ",1,1,0.9948346782183566,True,0.9948346782183566,1,False
+attack_stress_058,punctuation_removed,Everyone should hear this about you you are a pathetic liar,1,1,0.9948346782183566,True,0.9948346782183566,1,False
+attack_stress_058,disfluency_prefix,"um well I mean Everyone should hear this about you: ""you are a pathetic liar"".",1,1,0.9948346782183566,False,0.9764536039715895,1,False
+attack_stress_058,chat_prefix,"btw Everyone should hear this about you: ""you are a pathetic liar"".",1,1,0.9948346782183566,False,0.9835940419296422,1,False
+attack_stress_059,uppercase,"TO QUOTE MY OWN ASSESSMENT OF YOU, ""AN ARROGANT IDIOT"".",1,1,0.9921687305194343,True,0.9921687305194343,1,False
+attack_stress_059,html_wrap,"<p>To quote my own assessment of you, ""an arrogant idiot"".</p>",1,1,0.9921687305194343,True,0.9921687305194343,1,False
+attack_stress_059,extra_whitespace,"  To  
+ quote  
+ my  
+ own  
+ assessment  
+ of  
+ you,  
+ ""an  
+ arrogant  
+ idiot"".  ",1,1,0.9921687305194343,True,0.9921687305194343,1,False
+attack_stress_059,punctuation_removed,To quote my own assessment of you an arrogant idiot,1,1,0.9921687305194343,True,0.9921687305194343,1,False
+attack_stress_059,disfluency_prefix,"um well I mean To quote my own assessment of you, ""an arrogant idiot"".",1,1,0.9921687305194343,False,0.9103295562844169,1,False
+attack_stress_059,chat_prefix,"btw To quote my own assessment of you, ""an arrogant idiot"".",1,1,0.9921687305194343,False,0.977693140113335,1,False
+attack_stress_060,uppercase,"I STAND BY CALLING YOU ""A USELESS CLOWN"".",1,1,0.41423754002259183,True,0.41423754002259183,1,False
+attack_stress_060,html_wrap,"<p>I stand by calling you ""a useless clown"".</p>",1,1,0.41423754002259183,True,0.41423754002259183,1,False
+attack_stress_060,extra_whitespace,"  I  
+ stand  
+ by  
+ calling  
+ you  
+ ""a  
+ useless  
+ clown"".  ",1,1,0.41423754002259183,True,0.41423754002259183,1,False
+attack_stress_060,punctuation_removed,I stand by calling you a useless clown,1,1,0.41423754002259183,True,0.41423754002259183,1,False
+attack_stress_060,disfluency_prefix,"um well I mean I stand by calling you ""a useless clown"".",1,1,0.41423754002259183,False,0.19141618220245565,0,True
+attack_stress_060,chat_prefix,"btw I stand by calling you ""a useless clown"".",1,1,0.41423754002259183,False,0.20922516832057028,0,True
+attack_stress_061,uppercase,THIS DAMN MICROPHONE KEEPS CUTTING OUT.,0,0,0.2394051479964803,True,0.2394051479964803,0,False
+attack_stress_061,html_wrap,<p>This damn microphone keeps cutting out.</p>,0,0,0.2394051479964803,True,0.2394051479964803,0,False
+attack_stress_061,extra_whitespace,"  This  
+ damn  
+ microphone  
+ keeps  
+ cutting  
+ out.  ",0,0,0.2394051479964803,True,0.2394051479964803,0,False
+attack_stress_061,punctuation_removed,This damn microphone keeps cutting out,0,0,0.2394051479964803,True,0.2394051479964803,0,False
+attack_stress_061,disfluency_prefix,um well I mean This damn microphone keeps cutting out.,0,0,0.2394051479964803,False,0.09612221167452663,0,False
+attack_stress_061,chat_prefix,btw This damn microphone keeps cutting out.,0,0,0.2394051479964803,False,0.06295248069905655,0,False
+attack_stress_062,uppercase,THE BUS SERVICE IS A BLOODY MESS DURING RUSH HOUR.,0,0,0.21882477292148997,True,0.21882477292148997,0,False
+attack_stress_062,html_wrap,<p>The bus service is a bloody mess during rush hour.</p>,0,0,0.21882477292148997,True,0.21882477292148997,0,False
+attack_stress_062,extra_whitespace,"  The  
+ bus  
+ service  
+ is  
+ a  
+ bloody  
+ mess  
+ during  
+ rush  
+ hour.  ",0,0,0.21882477292148997,True,0.21882477292148997,0,False
+attack_stress_062,punctuation_removed,The bus service is a bloody mess during rush hour,0,0,0.21882477292148997,True,0.21882477292148997,0,False
+attack_stress_062,disfluency_prefix,um well I mean The bus service is a bloody mess during rush hour.,0,0,0.21882477292148997,False,0.15727622651771597,0,False
+attack_stress_062,chat_prefix,btw The bus service is a bloody mess during rush hour.,0,0,0.21882477292148997,False,0.11633059006382795,0,False
+attack_stress_063,uppercase,THAT FUCKING SPREADSHEET DELETED THE ENTIRE BUDGET COLUMN.,0,1,0.9909167458923223,True,0.9909167458923223,1,False
+attack_stress_063,html_wrap,<p>That fucking spreadsheet deleted the entire budget column.</p>,0,1,0.9909167458923223,True,0.9909167458923223,1,False
+attack_stress_063,extra_whitespace,"  That  
+ fucking  
+ spreadsheet  
+ deleted  
+ the  
+ entire  
+ budget  
+ column.  ",0,1,0.9909167458923223,True,0.9909167458923223,1,False
+attack_stress_063,punctuation_removed,That fucking spreadsheet deleted the entire budget column,0,1,0.9909167458923223,True,0.9909167458923223,1,False
+attack_stress_063,disfluency_prefix,um well I mean That fucking spreadsheet deleted the entire budget column.,0,1,0.9909167458923223,False,0.905542810022773,1,False
+attack_stress_063,chat_prefix,btw That fucking spreadsheet deleted the entire budget column.,0,1,0.9909167458923223,False,0.9260027178325589,1,False
+attack_stress_064,uppercase,WHAT THE HELL HAPPENED TO THE PUBLISHED FIGURES?,0,0,0.1140492411561538,True,0.1140492411561538,0,False
+attack_stress_064,html_wrap,<p>What the hell happened to the published figures?</p>,0,0,0.1140492411561538,True,0.1140492411561538,0,False
+attack_stress_064,extra_whitespace,"  What  
+ the  
+ hell  
+ happened  
+ to  
+ the  
+ published  
+ figures?  ",0,0,0.1140492411561538,True,0.1140492411561538,0,False
+attack_stress_064,punctuation_removed,What the hell happened to the published figures,0,0,0.1140492411561538,True,0.1140492411561538,0,False
+attack_stress_064,disfluency_prefix,um well I mean What the hell happened to the published figures?,0,0,0.1140492411561538,False,0.067686606731405,0,False
+attack_stress_064,chat_prefix,btw What the hell happened to the published figures?,0,0,0.1140492411561538,False,0.05182911531441554,0,False
+attack_stress_065,uppercase,"I AM PISSED OFF ABOUT THE DELAY, NOT ABOUT YOU.",0,1,0.8958709535493925,True,0.8958709535493925,1,False
+attack_stress_065,html_wrap,"<p>I am pissed off about the delay, not about you.</p>",0,1,0.8958709535493925,True,0.8958709535493925,1,False
+attack_stress_065,extra_whitespace,"  I  
+ am  
+ pissed  
+ off  
+ about  
+ the  
+ delay,  
+ not  
+ about  
+ you.  ",0,1,0.8958709535493925,True,0.8958709535493925,1,False
+attack_stress_065,punctuation_removed,I am pissed off about the delay not about you,0,1,0.8958709535493925,True,0.8958709535493925,1,False
+attack_stress_065,disfluency_prefix,"um well I mean I am pissed off about the delay, not about you.",0,1,0.8958709535493925,False,0.5699609126573636,1,False
+attack_stress_065,chat_prefix,"btw I am pissed off about the delay, not about you.",0,1,0.8958709535493925,False,0.6598848557431265,1,False
+attack_stress_066,uppercase,THIS IS A SHITTY POLICY FOR PEOPLE WORKING NIGHTS.,0,0,0.11856116312011893,True,0.11856116312011893,0,False
+attack_stress_066,html_wrap,<p>This is a shitty policy for people working nights.</p>,0,0,0.11856116312011893,True,0.11856116312011893,0,False
+attack_stress_066,extra_whitespace,"  This  
+ is  
+ a  
+ shitty  
+ policy  
+ for  
+ people  
+ working  
+ nights.  ",0,0,0.11856116312011893,True,0.11856116312011893,0,False
+attack_stress_066,punctuation_removed,This is a shitty policy for people working nights,0,0,0.11856116312011893,True,0.11856116312011893,0,False
+attack_stress_066,disfluency_prefix,um well I mean This is a shitty policy for people working nights.,0,0,0.11856116312011893,False,0.07301675415131963,0,False
+attack_stress_066,chat_prefix,btw This is a shitty policy for people working nights.,0,0,0.11856116312011893,False,0.048549342184166136,0,False
+attack_stress_067,uppercase,YOU ARE A FUCKING IDIOT.,1,1,0.9999999367178494,True,0.9999999367178494,1,False
+attack_stress_067,html_wrap,<p>You are a fucking idiot.</p>,1,1,0.9999999367178494,True,0.9999999367178494,1,False
+attack_stress_067,extra_whitespace,"  You  
+ are  
+ a  
+ fucking  
+ idiot.  ",1,1,0.9999999367178494,True,0.9999999367178494,1,False
+attack_stress_067,punctuation_removed,You are a fucking idiot,1,1,0.9999999367178494,True,0.9999999367178494,1,False
+attack_stress_067,disfluency_prefix,um well I mean You are a fucking idiot.,1,1,0.9999999367178494,False,0.9999806607536581,1,False
+attack_stress_067,chat_prefix,btw You are a fucking idiot.,1,1,0.9999999367178494,False,0.9999965144519315,1,False
+attack_stress_068,uppercase,"PISS OFF, YOU MISERABLE FOOL.",1,1,0.9994663589581363,True,0.9994663589581363,1,False
+attack_stress_068,html_wrap,"<p>Piss off, you miserable fool.</p>",1,1,0.9994663589581363,True,0.9994663589581363,1,False
+attack_stress_068,extra_whitespace,"  Piss  
+ off,  
+ you  
+ miserable  
+ fool.  ",1,1,0.9994663589581363,True,0.9994663589581363,1,False
+attack_stress_068,punctuation_removed,Piss off you miserable fool,1,1,0.9994663589581363,True,0.9994663589581363,1,False
+attack_stress_068,disfluency_prefix,"um well I mean Piss off, you miserable fool.",1,1,0.9994663589581363,False,0.9933745772830078,1,False
+attack_stress_068,chat_prefix,"btw Piss off, you miserable fool.",1,1,0.9994663589581363,False,0.9969255954492081,1,False
+attack_stress_069,uppercase,YOU ARE A BLOODY MORON.,1,1,0.9996032607766354,True,0.9996032607766354,1,False
+attack_stress_069,html_wrap,<p>You are a bloody moron.</p>,1,1,0.9996032607766354,True,0.9996032607766354,1,False
+attack_stress_069,extra_whitespace,"  You  
+ are  
+ a  
+ bloody  
+ moron.  ",1,1,0.9996032607766354,True,0.9996032607766354,1,False
+attack_stress_069,punctuation_removed,You are a bloody moron,1,1,0.9996032607766354,True,0.9996032607766354,1,False
+attack_stress_069,disfluency_prefix,um well I mean You are a bloody moron.,1,1,0.9996032607766354,False,0.991840926588188,1,False
+attack_stress_069,chat_prefix,btw You are a bloody moron.,1,1,0.9996032607766354,False,0.9959630591635847,1,False
+attack_stress_070,uppercase,SHUT YOUR STUPID MOUTH.,1,1,0.999993779103756,True,0.999993779103756,1,False
+attack_stress_070,html_wrap,<p>Shut your stupid mouth.</p>,1,1,0.999993779103756,True,0.999993779103756,1,False
+attack_stress_070,extra_whitespace,"  Shut  
+ your  
+ stupid  
+ mouth.  ",1,1,0.999993779103756,True,0.999993779103756,1,False
+attack_stress_070,punctuation_removed,Shut your stupid mouth,1,1,0.999993779103756,True,0.999993779103756,1,False
+attack_stress_070,disfluency_prefix,um well I mean Shut your stupid mouth.,1,1,0.999993779103756,False,0.9994417352124404,1,False
+attack_stress_070,chat_prefix,btw Shut your stupid mouth.,1,1,0.999993779103756,False,0.9998864113956719,1,False
+attack_stress_071,uppercase,YOU ARE A SHITTY PERSON WHO ENJOYS WASTING OUR TIME.,1,1,0.9614897949879019,True,0.9614897949879019,1,False
+attack_stress_071,html_wrap,<p>You are a shitty person who enjoys wasting our time.</p>,1,1,0.9614897949879019,True,0.9614897949879019,1,False
+attack_stress_071,extra_whitespace,"  You  
+ are  
+ a  
+ shitty  
+ person  
+ who  
+ enjoys  
+ wasting  
+ our  
+ time.  ",1,1,0.9614897949879019,True,0.9614897949879019,1,False
+attack_stress_071,punctuation_removed,You are a shitty person who enjoys wasting our time,1,1,0.9614897949879019,True,0.9614897949879019,1,False
+attack_stress_071,disfluency_prefix,um well I mean You are a shitty person who enjoys wasting our time.,1,1,0.9614897949879019,False,0.883306461682108,1,False
+attack_stress_071,chat_prefix,btw You are a shitty person who enjoys wasting our time.,1,1,0.9614897949879019,False,0.8951206655180793,1,False
+attack_stress_072,uppercase,"WHAT THE HELL IS WRONG WITH YOU, YOU ARROGANT IDIOT?",1,1,0.9998521705048259,True,0.9998521705048259,1,False
+attack_stress_072,html_wrap,"<p>What the hell is wrong with you, you arrogant idiot?</p>",1,1,0.9998521705048259,True,0.9998521705048259,1,False
+attack_stress_072,extra_whitespace,"  What  
+ the  
+ hell  
+ is  
+ wrong  
+ with  
+ you,  
+ you  
+ arrogant  
+ idiot?  ",1,1,0.9998521705048259,True,0.9998521705048259,1,False
+attack_stress_072,punctuation_removed,What the hell is wrong with you you arrogant idiot,1,1,0.9998521705048259,True,0.9998521705048259,1,False
+attack_stress_072,disfluency_prefix,"um well I mean What the hell is wrong with you, you arrogant idiot?",1,1,0.9998521705048259,False,0.998027662434207,1,False
+attack_stress_072,chat_prefix,"btw What the hell is wrong with you, you arrogant idiot?",1,1,0.9998521705048259,False,0.999380172565355,1,False
+attack_stress_073,uppercase,YOU SEEM INCAPABLE OF EVEN BASIC REASONING.,1,0,0.09359290909629625,True,0.09359290909629625,0,False
+attack_stress_073,html_wrap,<p>You seem incapable of even basic reasoning.</p>,1,0,0.09359290909629625,True,0.09359290909629625,0,False
+attack_stress_073,extra_whitespace,"  You  
+ seem  
+ incapable  
+ of  
+ even  
+ basic  
+ reasoning.  ",1,0,0.09359290909629625,True,0.09359290909629625,0,False
+attack_stress_073,punctuation_removed,You seem incapable of even basic reasoning,1,0,0.09359290909629625,True,0.09359290909629625,0,False
+attack_stress_073,disfluency_prefix,um well I mean You seem incapable of even basic reasoning.,1,0,0.09359290909629625,False,0.08519095916819515,0,False
+attack_stress_073,chat_prefix,btw You seem incapable of even basic reasoning.,1,0,0.09359290909629625,False,0.05884123118523007,0,False
+attack_stress_074,uppercase,"I WOULD EXPLAIN IT, BUT YOU LACK THE INTELLIGENCE TO FOLLOW.",1,0,0.026091478139166534,True,0.026091478139166534,0,False
+attack_stress_074,html_wrap,"<p>I would explain it, but you lack the intelligence to follow.</p>",1,0,0.026091478139166534,True,0.026091478139166534,0,False
+attack_stress_074,extra_whitespace,"  I  
+ would  
+ explain  
+ it,  
+ but  
+ you  
+ lack  
+ the  
+ intelligence  
+ to  
+ follow.  ",1,0,0.026091478139166534,True,0.026091478139166534,0,False
+attack_stress_074,punctuation_removed,I would explain it but you lack the intelligence to follow,1,0,0.026091478139166534,True,0.026091478139166534,0,False
+attack_stress_074,disfluency_prefix,"um well I mean I would explain it, but you lack the intelligence to follow.",1,0,0.026091478139166534,False,0.01605458990721295,0,False
+attack_stress_074,chat_prefix,"btw I would explain it, but you lack the intelligence to follow.",1,0,0.026091478139166534,False,0.013656511425752109,0,False
+attack_stress_075,uppercase,YOU CLEARLY NEVER LEARNED HOW TO THINK.,1,0,0.02671162949393593,True,0.02671162949393593,0,False
+attack_stress_075,html_wrap,<p>You clearly never learned how to think.</p>,1,0,0.02671162949393593,True,0.02671162949393593,0,False
+attack_stress_075,extra_whitespace,"  You  
+ clearly  
+ never  
+ learned  
+ how  
+ to  
+ think.  ",1,0,0.02671162949393593,True,0.02671162949393593,0,False
+attack_stress_075,punctuation_removed,You clearly never learned how to think,1,0,0.02671162949393593,True,0.02671162949393593,0,False
+attack_stress_075,disfluency_prefix,um well I mean You clearly never learned how to think.,1,0,0.02671162949393593,False,0.03377197269097003,0,False
+attack_stress_075,chat_prefix,btw You clearly never learned how to think.,1,0,0.02671162949393593,False,0.020253418750880624,0,False
+attack_stress_076,uppercase,A CHILD COULD UNDERSTAND THIS BETTER THAN YOU.,1,0,0.09079097495795807,True,0.09079097495795807,0,False
+attack_stress_076,html_wrap,<p>A child could understand this better than you.</p>,1,0,0.09079097495795807,True,0.09079097495795807,0,False
+attack_stress_076,extra_whitespace,"  A  
+ child  
+ could  
+ understand  
+ this  
+ better  
+ than  
+ you.  ",1,0,0.09079097495795807,True,0.09079097495795807,0,False
+attack_stress_076,punctuation_removed,A child could understand this better than you,1,0,0.09079097495795807,True,0.09079097495795807,0,False
+attack_stress_076,disfluency_prefix,um well I mean A child could understand this better than you.,1,0,0.09079097495795807,False,0.03254732570121588,0,False
+attack_stress_076,chat_prefix,btw A child could understand this better than you.,1,0,0.09079097495795807,False,0.034847904204807566,0,False
+attack_stress_077,uppercase,YOU HAVE NOTHING BETWEEN YOUR EARS.,1,0,0.3471020959500162,True,0.3471020959500162,0,False
+attack_stress_077,html_wrap,<p>You have nothing between your ears.</p>,1,0,0.3471020959500162,True,0.3471020959500162,0,False
+attack_stress_077,extra_whitespace,"  You  
+ have  
+ nothing  
+ between  
+ your  
+ ears.  ",1,0,0.3471020959500162,True,0.3471020959500162,0,False
+attack_stress_077,punctuation_removed,You have nothing between your ears,1,0,0.3471020959500162,True,0.3471020959500162,0,False
+attack_stress_077,disfluency_prefix,um well I mean You have nothing between your ears.,1,0,0.3471020959500162,False,0.2069719719550092,0,False
+attack_stress_077,chat_prefix,btw You have nothing between your ears.,1,0,0.3471020959500162,False,0.17050205131823506,0,False
+attack_stress_078,uppercase,YOU ARE LIVING PROOF THAT CONFIDENCE DOES NOT REQUIRE INTELLIGENCE.,1,0,0.04985382466668869,True,0.04985382466668869,0,False
+attack_stress_078,html_wrap,<p>You are living proof that confidence does not require intelligence.</p>,1,0,0.04985382466668869,True,0.04985382466668869,0,False
+attack_stress_078,extra_whitespace,"  You  
+ are  
+ living  
+ proof  
+ that  
+ confidence  
+ does  
+ not  
+ require  
+ intelligence.  ",1,0,0.04985382466668869,True,0.04985382466668869,0,False
+attack_stress_078,punctuation_removed,You are living proof that confidence does not require intelligence,1,0,0.04985382466668869,True,0.04985382466668869,0,False
+attack_stress_078,disfluency_prefix,um well I mean You are living proof that confidence does not require intelligence.,1,0,0.04985382466668869,False,0.05446562221568188,0,False
+attack_stress_078,chat_prefix,btw You are living proof that confidence does not require intelligence.,1,0,0.04985382466668869,False,0.035983618250100984,0,False
+attack_stress_079,uppercase,THE REASONING SKIPS A STEP BETWEEN CORRELATION AND CAUSATION.,0,0,0.004502235138137111,True,0.004502235138137111,0,False
+attack_stress_079,html_wrap,<p>The reasoning skips a step between correlation and causation.</p>,0,0,0.004502235138137111,True,0.004502235138137111,0,False
+attack_stress_079,extra_whitespace,"  The  
+ reasoning  
+ skips  
+ a  
+ step  
+ between  
+ correlation  
+ and  
+ causation.  ",0,0,0.004502235138137111,True,0.004502235138137111,0,False
+attack_stress_079,punctuation_removed,The reasoning skips a step between correlation and causation,0,0,0.004502235138137111,True,0.004502235138137111,0,False
+attack_stress_079,disfluency_prefix,um well I mean The reasoning skips a step between correlation and causation.,0,0,0.004502235138137111,False,0.006870442143461329,0,False
+attack_stress_079,chat_prefix,btw The reasoning skips a step between correlation and causation.,0,0,0.004502235138137111,False,0.0033336408882612125,0,False
+attack_stress_080,uppercase,THIS NEEDS A SIMPLER EXPLANATION FOR PEOPLE UNFAMILIAR WITH THE TERMINOLOGY.,0,0,0.019871373742758856,True,0.019871373742758856,0,False
+attack_stress_080,html_wrap,<p>This needs a simpler explanation for people unfamiliar with the terminology.</p>,0,0,0.019871373742758856,True,0.019871373742758856,0,False
+attack_stress_080,extra_whitespace,"  This  
+ needs  
+ a  
+ simpler  
+ explanation  
+ for  
+ people  
+ unfamiliar  
+ with  
+ the  
+ terminology.  ",0,0,0.019871373742758856,True,0.019871373742758856,0,False
+attack_stress_080,punctuation_removed,This needs a simpler explanation for people unfamiliar with the terminology,0,0,0.019871373742758856,True,0.019871373742758856,0,False
+attack_stress_080,disfluency_prefix,um well I mean This needs a simpler explanation for people unfamiliar with the terminology.,0,0,0.019871373742758856,False,0.017915511704453352,0,False
+attack_stress_080,chat_prefix,btw This needs a simpler explanation for people unfamiliar with the terminology.,0,0,0.019871373742758856,False,0.011037577684183767,0,False
+attack_stress_081,uppercase,WE SHOULD CHECK THE ARITHMETIC BEFORE ACCEPTING EITHER ESTIMATE.,0,0,0.013445081444308926,True,0.013445081444308926,0,False
+attack_stress_081,html_wrap,<p>We should check the arithmetic before accepting either estimate.</p>,0,0,0.013445081444308926,True,0.013445081444308926,0,False
+attack_stress_081,extra_whitespace,"  We  
+ should  
+ check  
+ the  
+ arithmetic  
+ before  
+ accepting  
+ either  
+ estimate.  ",0,0,0.013445081444308926,True,0.013445081444308926,0,False
+attack_stress_081,punctuation_removed,We should check the arithmetic before accepting either estimate,0,0,0.013445081444308926,True,0.013445081444308926,0,False
+attack_stress_081,disfluency_prefix,um well I mean We should check the arithmetic before accepting either estimate.,0,0,0.013445081444308926,False,0.01099001944246276,0,False
+attack_stress_081,chat_prefix,btw We should check the arithmetic before accepting either estimate.,0,0,0.013445081444308926,False,0.009073185052726833,0,False
+attack_stress_082,uppercase,YOU MAY HAVE OVERLOOKED THE CONTROL GROUP IN THAT STUDY.,0,0,0.008014687798207963,True,0.008014687798207963,0,False
+attack_stress_082,html_wrap,<p>You may have overlooked the control group in that study.</p>,0,0,0.008014687798207963,True,0.008014687798207963,0,False
+attack_stress_082,extra_whitespace,"  You  
+ may  
+ have  
+ overlooked  
+ the  
+ control  
+ group  
+ in  
+ that  
+ study.  ",0,0,0.008014687798207963,True,0.008014687798207963,0,False
+attack_stress_082,punctuation_removed,You may have overlooked the control group in that study,0,0,0.008014687798207963,True,0.008014687798207963,0,False
+attack_stress_082,disfluency_prefix,um well I mean You may have overlooked the control group in that study.,0,0,0.008014687798207963,False,0.012555634473818814,0,False
+attack_stress_082,chat_prefix,btw You may have overlooked the control group in that study.,0,0,0.008014687798207963,False,0.007241878543031168,0,False
+attack_stress_083,uppercase,THAT ASSUMPTION DOES NOT FOLLOW FROM THE EVIDENCE YOU PRESENTED.,0,0,0.0023650953538613966,True,0.0023650953538613966,0,False
+attack_stress_083,html_wrap,<p>That assumption does not follow from the evidence you presented.</p>,0,0,0.0023650953538613966,True,0.0023650953538613966,0,False
+attack_stress_083,extra_whitespace,"  That  
+ assumption  
+ does  
+ not  
+ follow  
+ from  
+ the  
+ evidence  
+ you  
+ presented.  ",0,0,0.0023650953538613966,True,0.0023650953538613966,0,False
+attack_stress_083,punctuation_removed,That assumption does not follow from the evidence you presented,0,0,0.0023650953538613966,True,0.0023650953538613966,0,False
+attack_stress_083,disfluency_prefix,um well I mean That assumption does not follow from the evidence you presented.,0,0,0.0023650953538613966,False,0.0028721003529784675,0,False
+attack_stress_083,chat_prefix,btw That assumption does not follow from the evidence you presented.,0,0,0.0023650953538613966,False,0.0015795812955994525,0,False
+attack_stress_084,uppercase,I NEED YOU TO EXPLAIN HOW THE PROPOSED EXCEPTION WOULD WORK.,0,0,0.004771261294392997,True,0.004771261294392997,0,False
+attack_stress_084,html_wrap,<p>I need you to explain how the proposed exception would work.</p>,0,0,0.004771261294392997,True,0.004771261294392997,0,False
+attack_stress_084,extra_whitespace,"  I  
+ need  
+ you  
+ to  
+ explain  
+ how  
+ the  
+ proposed  
+ exception  
+ would  
+ work.  ",0,0,0.004771261294392997,True,0.004771261294392997,0,False
+attack_stress_084,punctuation_removed,I need you to explain how the proposed exception would work,0,0,0.004771261294392997,True,0.004771261294392997,0,False
+attack_stress_084,disfluency_prefix,um well I mean I need you to explain how the proposed exception would work.,0,0,0.004771261294392997,False,0.00389550056013303,0,False
+attack_stress_084,chat_prefix,btw I need you to explain how the proposed exception would work.,0,0,0.004771261294392997,False,0.0029373191415660548,0,False
+attack_stress_085,uppercase,"WITH ALL DUE RESPECT, YOU ARE AN IDIOT.",1,1,0.9658744597322743,True,0.9658744597322743,1,False
+attack_stress_085,html_wrap,"<p>With all due respect, you are an idiot.</p>",1,1,0.9658744597322743,True,0.9658744597322743,1,False
+attack_stress_085,extra_whitespace,"  With  
+ all  
+ due  
+ respect,  
+ you  
+ are  
+ an  
+ idiot.  ",1,1,0.9658744597322743,True,0.9658744597322743,1,False
+attack_stress_085,punctuation_removed,With all due respect you are an idiot,1,1,0.9658744597322743,True,0.9658744597322743,1,False
+attack_stress_085,disfluency_prefix,"um well I mean With all due respect, you are an idiot.",1,1,0.9658744597322743,False,0.8945116409181919,1,False
+attack_stress_085,chat_prefix,"btw With all due respect, you are an idiot.",1,1,0.9658744597322743,False,0.8966688570277344,1,False
+attack_stress_086,uppercase,"PLEASE STOP EMBARRASSING YOURSELF, YOU BRAINLESS FOOL.",1,1,0.9612613343805214,True,0.9612613343805214,1,False
+attack_stress_086,html_wrap,"<p>Please stop embarrassing yourself, you brainless fool.</p>",1,1,0.9612613343805214,True,0.9612613343805214,1,False
+attack_stress_086,extra_whitespace,"  Please  
+ stop  
+ embarrassing  
+ yourself,  
+ you  
+ brainless  
+ fool.  ",1,1,0.9612613343805214,True,0.9612613343805214,1,False
+attack_stress_086,punctuation_removed,Please stop embarrassing yourself you brainless fool,1,1,0.9612613343805214,True,0.9612613343805214,1,False
+attack_stress_086,disfluency_prefix,"um well I mean Please stop embarrassing yourself, you brainless fool.",1,1,0.9612613343805214,False,0.7899146532215802,1,False
+attack_stress_086,chat_prefix,"btw Please stop embarrassing yourself, you brainless fool.",1,1,0.9612613343805214,False,0.8421680889943048,1,False
+attack_stress_087,uppercase,"I APPRECIATE YOUR EFFORT, BUT YOU ARE TOO STUPID FOR THIS DISCUSSION.",1,1,0.7669201830556515,True,0.7669201830556515,1,False
+attack_stress_087,html_wrap,"<p>I appreciate your effort, but you are too stupid for this discussion.</p>",1,1,0.7669201830556515,True,0.7669201830556515,1,False
+attack_stress_087,extra_whitespace,"  I  
+ appreciate  
+ your  
+ effort,  
+ but  
+ you  
+ are  
+ too  
+ stupid  
+ for  
+ this  
+ discussion.  ",1,1,0.7669201830556515,True,0.7669201830556515,1,False
+attack_stress_087,punctuation_removed,I appreciate your effort but you are too stupid for this discussion,1,1,0.7669201830556515,True,0.7669201830556515,1,False
+attack_stress_087,disfluency_prefix,"um well I mean I appreciate your effort, but you are too stupid for this discussion.",1,1,0.7669201830556515,False,0.4931008773013806,1,False
+attack_stress_087,chat_prefix,"btw I appreciate your effort, but you are too stupid for this discussion.",1,1,0.7669201830556515,False,0.5460369908389012,1,False
+attack_stress_088,uppercase,"RESPECTFULLY, YOU ARE A PATHETIC LIAR.",1,1,0.9977101173174643,True,0.9977101173174643,1,False
+attack_stress_088,html_wrap,"<p>Respectfully, you are a pathetic liar.</p>",1,1,0.9977101173174643,True,0.9977101173174643,1,False
+attack_stress_088,extra_whitespace,"  Respectfully,  
+ you  
+ are  
+ a  
+ pathetic  
+ liar.  ",1,1,0.9977101173174643,True,0.9977101173174643,1,False
+attack_stress_088,punctuation_removed,Respectfully you are a pathetic liar,1,1,0.9977101173174643,True,0.9977101173174643,1,False
+attack_stress_088,disfluency_prefix,"um well I mean Respectfully, you are a pathetic liar.",1,1,0.9977101173174643,False,0.9797270291765539,1,False
+attack_stress_088,chat_prefix,"btw Respectfully, you are a pathetic liar.",1,1,0.9977101173174643,False,0.9888061416665731,1,False
+attack_stress_089,uppercase,THANK YOU FOR DEMONSTRATING HOW IGNORANT YOU ARE.,1,0,0.08620554823063321,True,0.08620554823063321,0,False
+attack_stress_089,html_wrap,<p>Thank you for demonstrating how ignorant you are.</p>,1,0,0.08620554823063321,True,0.08620554823063321,0,False
+attack_stress_089,extra_whitespace,"  Thank  
+ you  
+ for  
+ demonstrating  
+ how  
+ ignorant  
+ you  
+ are.  ",1,0,0.08620554823063321,True,0.08620554823063321,0,False
+attack_stress_089,punctuation_removed,Thank you for demonstrating how ignorant you are,1,0,0.08620554823063321,True,0.08620554823063321,0,False
+attack_stress_089,disfluency_prefix,um well I mean Thank you for demonstrating how ignorant you are.,1,0,0.08620554823063321,False,0.04215359235003368,0,False
+attack_stress_089,chat_prefix,btw Thank you for demonstrating how ignorant you are.,1,0,0.08620554823063321,False,0.029006303688425317,0,False
+attack_stress_090,uppercase,"IF YOU DO NOT MIND MY SAYING SO, YOU ARE UTTERLY WORTHLESS.",1,1,0.41136487830852825,True,0.41136487830852825,1,False
+attack_stress_090,html_wrap,"<p>If you do not mind my saying so, you are utterly worthless.</p>",1,1,0.41136487830852825,True,0.41136487830852825,1,False
+attack_stress_090,extra_whitespace,"  If  
+ you  
+ do  
+ not  
+ mind  
+ my  
+ saying  
+ so,  
+ you  
+ are  
+ utterly  
+ worthless.  ",1,1,0.41136487830852825,True,0.41136487830852825,1,False
+attack_stress_090,punctuation_removed,If you do not mind my saying so you are utterly worthless,1,1,0.41136487830852825,True,0.41136487830852825,1,False
+attack_stress_090,disfluency_prefix,"um well I mean If you do not mind my saying so, you are utterly worthless.",1,1,0.41136487830852825,False,0.20792448294976507,0,True
+attack_stress_090,chat_prefix,"btw If you do not mind my saying so, you are utterly worthless.",1,1,0.41136487830852825,False,0.1958790718418487,0,True
+attack_stress_091,uppercase,"WITH ALL DUE RESPECT, YOUR CONCLUSION IS UNSUPPORTED.",0,0,0.014840680326458112,True,0.014840680326458112,0,False
+attack_stress_091,html_wrap,"<p>With all due respect, your conclusion is unsupported.</p>",0,0,0.014840680326458112,True,0.014840680326458112,0,False
+attack_stress_091,extra_whitespace,"  With  
+ all  
+ due  
+ respect,  
+ your  
+ conclusion  
+ is  
+ unsupported.  ",0,0,0.014840680326458112,True,0.014840680326458112,0,False
+attack_stress_091,punctuation_removed,With all due respect your conclusion is unsupported,0,0,0.014840680326458112,True,0.014840680326458112,0,False
+attack_stress_091,disfluency_prefix,"um well I mean With all due respect, your conclusion is unsupported.",0,0,0.014840680326458112,False,0.012582008774679444,0,False
+attack_stress_091,chat_prefix,"btw With all due respect, your conclusion is unsupported.",0,0,0.014840680326458112,False,0.011432234501214129,0,False
+attack_stress_092,uppercase,PLEASE RECONSIDER THE ASSUMPTION ABOUT STAFFING COSTS.,0,0,0.0022131139418638526,True,0.0022131139418638526,0,False
+attack_stress_092,html_wrap,<p>Please reconsider the assumption about staffing costs.</p>,0,0,0.0022131139418638526,True,0.0022131139418638526,0,False
+attack_stress_092,extra_whitespace,"  Please  
+ reconsider  
+ the  
+ assumption  
+ about  
+ staffing  
+ costs.  ",0,0,0.0022131139418638526,True,0.0022131139418638526,0,False
+attack_stress_092,punctuation_removed,Please reconsider the assumption about staffing costs,0,0,0.0022131139418638526,True,0.0022131139418638526,0,False
+attack_stress_092,disfluency_prefix,um well I mean Please reconsider the assumption about staffing costs.,0,0,0.0022131139418638526,False,0.0028078789405639702,0,False
+attack_stress_092,chat_prefix,btw Please reconsider the assumption about staffing costs.,0,0,0.0022131139418638526,False,0.001311813117770542,0,False
+attack_stress_093,uppercase,"I APPRECIATE YOUR EFFORT, BUT THE SURVEY DOES NOT ANSWER OUR QUESTION.",0,0,0.0033908993761945713,True,0.0033908993761945713,0,False
+attack_stress_093,html_wrap,"<p>I appreciate your effort, but the survey does not answer our question.</p>",0,0,0.0033908993761945713,True,0.0033908993761945713,0,False
+attack_stress_093,extra_whitespace,"  I  
+ appreciate  
+ your  
+ effort,  
+ but  
+ the  
+ survey  
+ does  
+ not  
+ answer  
+ our  
+ question.  ",0,0,0.0033908993761945713,True,0.0033908993761945713,0,False
+attack_stress_093,punctuation_removed,I appreciate your effort but the survey does not answer our question,0,0,0.0033908993761945713,True,0.0033908993761945713,0,False
+attack_stress_093,disfluency_prefix,"um well I mean I appreciate your effort, but the survey does not answer our question.",0,0,0.0033908993761945713,False,0.0029485144111681683,0,False
+attack_stress_093,chat_prefix,"btw I appreciate your effort, but the survey does not answer our question.",0,0,0.0033908993761945713,False,0.00210571586964278,0,False
+attack_stress_094,uppercase,"RESPECTFULLY, I CANNOT AGREE WITH THAT INTERPRETATION.",0,0,0.007016601428967452,True,0.007016601428967452,0,False
+attack_stress_094,html_wrap,"<p>Respectfully, I cannot agree with that interpretation.</p>",0,0,0.007016601428967452,True,0.007016601428967452,0,False
+attack_stress_094,extra_whitespace,"  Respectfully,  
+ I  
+ cannot  
+ agree  
+ with  
+ that  
+ interpretation.  ",0,0,0.007016601428967452,True,0.007016601428967452,0,False
+attack_stress_094,punctuation_removed,Respectfully I cannot agree with that interpretation,0,0,0.007016601428967452,True,0.007016601428967452,0,False
+attack_stress_094,disfluency_prefix,"um well I mean Respectfully, I cannot agree with that interpretation.",0,0,0.007016601428967452,False,0.006630996029354599,0,False
+attack_stress_094,chat_prefix,"btw Respectfully, I cannot agree with that interpretation.",0,0,0.007016601428967452,False,0.003877757180525746,0,False
+attack_stress_095,uppercase,THANK YOU FOR EXPLAINING; I STILL NEED THE ORIGINAL SOURCE.,0,0,0.006280557185665248,True,0.006280557185665248,0,False
+attack_stress_095,html_wrap,<p>Thank you for explaining; I still need the original source.</p>,0,0,0.006280557185665248,True,0.006280557185665248,0,False
+attack_stress_095,extra_whitespace,"  Thank  
+ you  
+ for  
+ explaining;  
+ I  
+ still  
+ need  
+ the  
+ original  
+ source.  ",0,0,0.006280557185665248,True,0.006280557185665248,0,False
+attack_stress_095,punctuation_removed,Thank you for explaining I still need the original source,0,0,0.006280557185665248,True,0.006280557185665248,0,False
+attack_stress_095,disfluency_prefix,um well I mean Thank you for explaining; I still need the original source.,0,0,0.006280557185665248,False,0.0059637462125547705,0,False
+attack_stress_095,chat_prefix,btw Thank you for explaining; I still need the original source.,0,0,0.006280557185665248,False,0.003705562501971015,0,False
+attack_stress_096,uppercase,"IF YOU DO NOT MIND, COULD WE RETURN TO THE QUESTION OF FUNDING?",0,0,0.025403274967790858,True,0.025403274967790858,0,False
+attack_stress_096,html_wrap,"<p>If you do not mind, could we return to the question of funding?</p>",0,0,0.025403274967790858,True,0.025403274967790858,0,False
+attack_stress_096,extra_whitespace,"  If  
+ you  
+ do  
+ not  
+ mind,  
+ could  
+ we  
+ return  
+ to  
+ the  
+ question  
+ of  
+ funding?  ",0,0,0.025403274967790858,True,0.025403274967790858,0,False
+attack_stress_096,punctuation_removed,If you do not mind could we return to the question of funding,0,0,0.025403274967790858,True,0.025403274967790858,0,False
+attack_stress_096,disfluency_prefix,"um well I mean If you do not mind, could we return to the question of funding?",0,0,0.025403274967790858,False,0.020461243087435285,0,False
+attack_stress_096,chat_prefix,"btw If you do not mind, could we return to the question of funding?",0,0,0.025403274967790858,False,0.015084759809146692,0,False
+attack_stress_097,uppercase,YOU GOT NO BRAIN AH?,1,0,0.06675643339419654,True,0.06675643339419654,0,False
+attack_stress_097,html_wrap,<p>You got no brain ah?</p>,1,0,0.06675643339419654,True,0.06675643339419654,0,False
+attack_stress_097,extra_whitespace,"  You  
+ got  
+ no  
+ brain  
+ ah?  ",1,0,0.06675643339419654,True,0.06675643339419654,0,False
+attack_stress_097,punctuation_removed,You got no brain ah,1,0,0.06675643339419654,True,0.06675643339419654,0,False
+attack_stress_097,disfluency_prefix,um well I mean You got no brain ah?,1,0,0.06675643339419654,False,0.06624629735856472,0,False
+attack_stress_097,chat_prefix,btw You got no brain ah?,1,0,0.06675643339419654,False,0.0437866105834702,0,False
+attack_stress_098,uppercase,"EH, YOU REALLY STUPID LAH.",1,1,0.9985639869819085,True,0.9985639869819085,1,False
+attack_stress_098,html_wrap,"<p>Eh, you really stupid lah.</p>",1,1,0.9985639869819085,True,0.9985639869819085,1,False
+attack_stress_098,extra_whitespace,"  Eh,  
+ you  
+ really  
+ stupid  
+ lah.  ",1,1,0.9985639869819085,True,0.9985639869819085,1,False
+attack_stress_098,punctuation_removed,Eh you really stupid lah,1,1,0.9985639869819085,True,0.9985639869819085,1,False
+attack_stress_098,disfluency_prefix,"um well I mean Eh, you really stupid lah.",1,1,0.9985639869819085,False,0.9468535455032779,1,False
+attack_stress_098,chat_prefix,"btw Eh, you really stupid lah.",1,1,0.9985639869819085,False,0.9792521382710793,1,False
+attack_stress_099,uppercase,BRO YOU ARE A TOTAL IDIOT.,1,1,0.9998948017091355,True,0.9998948017091355,1,False
+attack_stress_099,html_wrap,<p>Bro you are a total idiot.</p>,1,1,0.9998948017091355,True,0.9998948017091355,1,False
+attack_stress_099,extra_whitespace,"  Bro  
+ you  
+ are  
+ a  
+ total  
+ idiot.  ",1,1,0.9998948017091355,True,0.9998948017091355,1,False
+attack_stress_099,punctuation_removed,Bro you are a total idiot,1,1,0.9998948017091355,True,0.9998948017091355,1,False
+attack_stress_099,disfluency_prefix,um well I mean Bro you are a total idiot.,1,1,0.9998948017091355,False,0.9966784776093583,1,False
+attack_stress_099,chat_prefix,btw Bro you are a total idiot.,1,1,0.9998948017091355,False,0.9989252001173033,1,False
+attack_stress_100,uppercase,"YOUR HEAD EMPTY ONE, CANNOT THINK AH?",1,0,0.025856761815642643,True,0.025856761815642643,0,False
+attack_stress_100,html_wrap,"<p>Your head empty one, cannot think ah?</p>",1,0,0.025856761815642643,True,0.025856761815642643,0,False
+attack_stress_100,extra_whitespace,"  Your  
+ head  
+ empty  
+ one,  
+ cannot  
+ think  
+ ah?  ",1,0,0.025856761815642643,True,0.025856761815642643,0,False
+attack_stress_100,punctuation_removed,Your head empty one cannot think ah,1,0,0.025856761815642643,True,0.025856761815642643,0,False
+attack_stress_100,disfluency_prefix,"um well I mean Your head empty one, cannot think ah?",1,0,0.025856761815642643,False,0.01949055869341096,0,False
+attack_stress_100,chat_prefix,"btw Your head empty one, cannot think ah?",1,0,0.025856761815642643,False,0.010898460015908223,0,False
+attack_stress_101,uppercase,"YOU DAMN BLUR, USELESS FELLOW.",1,1,0.7546703168550105,True,0.7546703168550105,1,False
+attack_stress_101,html_wrap,"<p>You damn blur, useless fellow.</p>",1,1,0.7546703168550105,True,0.7546703168550105,1,False
+attack_stress_101,extra_whitespace,"  You  
+ damn  
+ blur,  
+ useless  
+ fellow.  ",1,1,0.7546703168550105,True,0.7546703168550105,1,False
+attack_stress_101,punctuation_removed,You damn blur useless fellow,1,1,0.7546703168550105,True,0.7546703168550105,1,False
+attack_stress_101,disfluency_prefix,"um well I mean You damn blur, useless fellow.",1,1,0.7546703168550105,False,0.3961064847541025,1,False
+attack_stress_101,chat_prefix,"btw You damn blur, useless fellow.",1,1,0.7546703168550105,False,0.38914719578383294,1,False
+attack_stress_102,uppercase,"OI, SHUT UP LAH, YOU CLOWN.",1,1,0.9974205745010034,True,0.9974205745010034,1,False
+attack_stress_102,html_wrap,"<p>Oi, shut up lah, you clown.</p>",1,1,0.9974205745010034,True,0.9974205745010034,1,False
+attack_stress_102,extra_whitespace,"  Oi,  
+ shut  
+ up  
+ lah,  
+ you  
+ clown.  ",1,1,0.9974205745010034,True,0.9974205745010034,1,False
+attack_stress_102,punctuation_removed,Oi shut up lah you clown,1,1,0.9974205745010034,True,0.9974205745010034,1,False
+attack_stress_102,disfluency_prefix,"um well I mean Oi, shut up lah, you clown.",1,1,0.9974205745010034,False,0.9710050979999738,1,False
+attack_stress_102,chat_prefix,"btw Oi, shut up lah, you clown.",1,1,0.9974205745010034,False,0.9848735309134049,1,False
+attack_stress_103,uppercase,"THIS COST TOO MUCH LAH, CAN EXPLAIN THE FUNDING?",0,0,0.07498916580554907,True,0.07498916580554907,0,False
+attack_stress_103,html_wrap,"<p>This cost too much lah, can explain the funding?</p>",0,0,0.07498916580554907,True,0.07498916580554907,0,False
+attack_stress_103,extra_whitespace,"  This  
+ cost  
+ too  
+ much  
+ lah,  
+ can  
+ explain  
+ the  
+ funding?  ",0,0,0.07498916580554907,True,0.07498916580554907,0,False
+attack_stress_103,punctuation_removed,This cost too much lah can explain the funding,0,0,0.07498916580554907,True,0.07498916580554907,0,False
+attack_stress_103,disfluency_prefix,"um well I mean This cost too much lah, can explain the funding?",0,0,0.07498916580554907,False,0.048407355012257514,0,False
+attack_stress_103,chat_prefix,"btw This cost too much lah, can explain the funding?",0,0,0.07498916580554907,False,0.02988819576251065,0,False
+attack_stress_104,uppercase,"I DISAGREE LEH, THE FIGURES DO NOT MATCH.",0,0,0.0023139779583654825,True,0.0023139779583654825,0,False
+attack_stress_104,html_wrap,"<p>I disagree leh, the figures do not match.</p>",0,0,0.0023139779583654825,True,0.0023139779583654825,0,False
+attack_stress_104,extra_whitespace,"  I  
+ disagree  
+ leh,  
+ the  
+ figures  
+ do  
+ not  
+ match.  ",0,0,0.0023139779583654825,True,0.0023139779583654825,0,False
+attack_stress_104,punctuation_removed,I disagree leh the figures do not match,0,0,0.0023139779583654825,True,0.0023139779583654825,0,False
+attack_stress_104,disfluency_prefix,"um well I mean I disagree leh, the figures do not match.",0,0,0.0023139779583654825,False,0.0022880979120222193,0,False
+attack_stress_104,chat_prefix,"btw I disagree leh, the figures do not match.",0,0,0.0023139779583654825,False,0.0014410099192739246,0,False
+attack_stress_105,uppercase,CAN SHOW THE SOURCE AH?,0,0,0.0037026907931474373,True,0.0037026907931474373,0,False
+attack_stress_105,html_wrap,<p>Can show the source ah?</p>,0,0,0.0037026907931474373,True,0.0037026907931474373,0,False
+attack_stress_105,extra_whitespace,"  Can  
+ show  
+ the  
+ source  
+ ah?  ",0,0,0.0037026907931474373,True,0.0037026907931474373,0,False
+attack_stress_105,punctuation_removed,Can show the source ah,0,0,0.0037026907931474373,True,0.0037026907931474373,0,False
+attack_stress_105,disfluency_prefix,um well I mean Can show the source ah?,0,0,0.0037026907931474373,False,0.004236277094697957,0,False
+attack_stress_105,chat_prefix,btw Can show the source ah?,0,0,0.0037026907931474373,False,0.0020555618490373383,0,False
+attack_stress_106,uppercase,BRO THAT CONCLUSION DOES NOT FOLLOW FROM THE CHART.,0,0,0.007490631495070399,True,0.007490631495070399,0,False
+attack_stress_106,html_wrap,<p>Bro that conclusion does not follow from the chart.</p>,0,0,0.007490631495070399,True,0.007490631495070399,0,False
+attack_stress_106,extra_whitespace,"  Bro  
+ that  
+ conclusion  
+ does  
+ not  
+ follow  
+ from  
+ the  
+ chart.  ",0,0,0.007490631495070399,True,0.007490631495070399,0,False
+attack_stress_106,punctuation_removed,Bro that conclusion does not follow from the chart,0,0,0.007490631495070399,True,0.007490631495070399,0,False
+attack_stress_106,disfluency_prefix,um well I mean Bro that conclusion does not follow from the chart.,0,0,0.007490631495070399,False,0.007073727518487437,0,False
+attack_stress_106,chat_prefix,btw Bro that conclusion does not follow from the chart.,0,0,0.007490631495070399,False,0.004222066253773271,0,False
+attack_stress_107,uppercase,WE DISCUSS SCHOOL FUNDING FIRST LAH.,0,0,0.018977929570426027,True,0.018977929570426027,0,False
+attack_stress_107,html_wrap,<p>We discuss school funding first lah.</p>,0,0,0.018977929570426027,True,0.018977929570426027,0,False
+attack_stress_107,extra_whitespace,"  We  
+ discuss  
+ school  
+ funding  
+ first  
+ lah.  ",0,0,0.018977929570426027,True,0.018977929570426027,0,False
+attack_stress_107,punctuation_removed,We discuss school funding first lah,0,0,0.018977929570426027,True,0.018977929570426027,0,False
+attack_stress_107,disfluency_prefix,um well I mean We discuss school funding first lah.,0,0,0.018977929570426027,False,0.013855179813185521,0,False
+attack_stress_107,chat_prefix,btw We discuss school funding first lah.,0,0,0.018977929570426027,False,0.011665469170689816,0,False
+attack_stress_108,uppercase,"I BLUR ABOUT THE GRAPH, CAN EXPLAIN AGAIN?",0,0,0.015934004836937302,True,0.015934004836937302,0,False
+attack_stress_108,html_wrap,"<p>I blur about the graph, can explain again?</p>",0,0,0.015934004836937302,True,0.015934004836937302,0,False
+attack_stress_108,extra_whitespace,"  I  
+ blur  
+ about  
+ the  
+ graph,  
+ can  
+ explain  
+ again?  ",0,0,0.015934004836937302,True,0.015934004836937302,0,False
+attack_stress_108,punctuation_removed,I blur about the graph can explain again,0,0,0.015934004836937302,True,0.015934004836937302,0,False
+attack_stress_108,disfluency_prefix,"um well I mean I blur about the graph, can explain again?",0,0,0.015934004836937302,False,0.009649929792937273,0,False
+attack_stress_108,chat_prefix,"btw I blur about the graph, can explain again?",0,0,0.015934004836937302,False,0.007042600985554012,0,False
+attack_stress_109,uppercase,YOU ARE AN ID10T.,1,1,0.8828426568118195,True,0.8828426568118195,1,False
+attack_stress_109,html_wrap,<p>You are an id10t.</p>,1,1,0.8828426568118195,True,0.8828426568118195,1,False
+attack_stress_109,extra_whitespace,"  You  
+ are  
+ an  
+ id10t.  ",1,1,0.8828426568118195,True,0.8828426568118195,1,False
+attack_stress_109,punctuation_removed,You are an id10t,1,1,0.8828426568118195,True,0.8828426568118195,1,False
+attack_stress_109,disfluency_prefix,um well I mean You are an id10t.,1,1,0.8828426568118195,False,0.3482118599420901,0,True
+attack_stress_109,chat_prefix,btw You are an id10t.,1,1,0.8828426568118195,False,0.35571980814490145,1,False
+attack_stress_110,uppercase,U R SO STOOPID.,1,1,0.4699250996079125,True,0.4699250996079125,1,False
+attack_stress_110,html_wrap,<p>u r so stoopid.</p>,1,1,0.4699250996079125,True,0.4699250996079125,1,False
+attack_stress_110,extra_whitespace,"  u  
+ r  
+ so  
+ stoopid.  ",1,1,0.4699250996079125,True,0.4699250996079125,1,False
+attack_stress_110,punctuation_removed,u r so stoopid,1,1,0.4699250996079125,True,0.4699250996079125,1,False
+attack_stress_110,disfluency_prefix,um well I mean u r so stoopid.,1,1,0.4699250996079125,False,0.1628216578833404,0,True
+attack_stress_110,chat_prefix,btw u r so stoopid.,1,1,0.4699250996079125,False,0.15509453221501893,0,True
+attack_stress_111,uppercase,YOU ARE A M0RON.,1,1,0.9921659695445444,True,0.9921659695445444,1,False
+attack_stress_111,html_wrap,<p>You are a m0ron.</p>,1,1,0.9921659695445444,True,0.9921659695445444,1,False
+attack_stress_111,extra_whitespace,"  You  
+ are  
+ a  
+ m0ron.  ",1,1,0.9921659695445444,True,0.9921659695445444,1,False
+attack_stress_111,punctuation_removed,You are a m0ron,1,1,0.9921659695445444,True,0.9921659695445444,1,False
+attack_stress_111,disfluency_prefix,um well I mean You are a m0ron.,1,1,0.9921659695445444,False,0.5266286029970924,1,False
+attack_stress_111,chat_prefix,btw You are a m0ron.,1,1,0.9921659695445444,False,0.6062453062349679,1,False
+attack_stress_112,uppercase,SHUT UP YOU I D I O T.,1,1,0.9816792639042207,True,0.9816792639042207,1,False
+attack_stress_112,html_wrap,<p>Shut up you i d i o t.</p>,1,1,0.9816792639042207,True,0.9816792639042207,1,False
+attack_stress_112,extra_whitespace,"  Shut  
+ up  
+ you  
+ i  
+ d  
+ i  
+ o  
+ t.  ",1,1,0.9816792639042207,True,0.9816792639042207,1,False
+attack_stress_112,punctuation_removed,Shut up you i d i o t,1,1,0.9816792639042207,True,0.9816792639042207,1,False
+attack_stress_112,disfluency_prefix,um well I mean Shut up you i d i o t.,1,1,0.9816792639042207,False,0.9230124059721322,1,False
+attack_stress_112,chat_prefix,btw Shut up you i d i o t.,1,1,0.9816792639042207,False,0.9436478776796241,1,False
+attack_stress_113,uppercase,YOU HAVE N0 BR@IN.,1,0,0.3079010680111571,True,0.3079010680111571,0,False
+attack_stress_113,html_wrap,<p>You have n0 br@in.</p>,1,0,0.3079010680111571,True,0.3079010680111571,0,False
+attack_stress_113,extra_whitespace,"  You  
+ have  
+ n0  
+ br@in.  ",1,0,0.3079010680111571,True,0.3079010680111571,0,False
+attack_stress_113,punctuation_removed,You have n0 brin,1,0,0.3079010680111571,False,0.4350447396761106,1,True
+attack_stress_113,disfluency_prefix,um well I mean You have n0 br@in.,1,0,0.3079010680111571,False,0.07764455962117336,0,False
+attack_stress_113,chat_prefix,btw You have n0 br@in.,1,0,0.3079010680111571,False,0.04832869698460408,0,False
+attack_stress_114,uppercase,YOU ARE A STUUUPID CL0WN.,1,1,0.9921659695445444,True,0.9921659695445444,1,False
+attack_stress_114,html_wrap,<p>You are a stuuupid cl0wn.</p>,1,1,0.9921659695445444,True,0.9921659695445444,1,False
+attack_stress_114,extra_whitespace,"  You  
+ are  
+ a  
+ stuuupid  
+ cl0wn.  ",1,1,0.9921659695445444,True,0.9921659695445444,1,False
+attack_stress_114,punctuation_removed,You are a stuuupid cl0wn,1,1,0.9921659695445444,True,0.9921659695445444,1,False
+attack_stress_114,disfluency_prefix,um well I mean You are a stuuupid cl0wn.,1,1,0.9921659695445444,False,0.5266286029970924,1,False
+attack_stress_114,chat_prefix,btw You are a stuuupid cl0wn.,1,1,0.9921659695445444,False,0.6062453062349679,1,False
+attack_stress_115,uppercase,UR ARGUMENT NEEDS A SOURCE.,0,0,0.04009172384329922,True,0.04009172384329922,0,False
+attack_stress_115,html_wrap,<p>Ur argument needs a source.</p>,0,0,0.04009172384329922,True,0.04009172384329922,0,False
+attack_stress_115,extra_whitespace,"  Ur  
+ argument  
+ needs  
+ a  
+ source.  ",0,0,0.04009172384329922,True,0.04009172384329922,0,False
+attack_stress_115,punctuation_removed,Ur argument needs a source,0,0,0.04009172384329922,True,0.04009172384329922,0,False
+attack_stress_115,disfluency_prefix,um well I mean Ur argument needs a source.,0,0,0.04009172384329922,False,0.024757110972680182,0,False
+attack_stress_115,chat_prefix,btw Ur argument needs a source.,0,0,0.04009172384329922,False,0.015303603727663592,0,False
+attack_stress_116,uppercase,I DNT AGREE WITH THE C0ST ESTIMATE.,0,0,0.003966046522702177,True,0.003966046522702177,0,False
+attack_stress_116,html_wrap,<p>I dnt agree with the c0st estimate.</p>,0,0,0.003966046522702177,True,0.003966046522702177,0,False
+attack_stress_116,extra_whitespace,"  I  
+ dnt  
+ agree  
+ with  
+ the  
+ c0st  
+ estimate.  ",0,0,0.003966046522702177,True,0.003966046522702177,0,False
+attack_stress_116,punctuation_removed,I dnt agree with the c0st estimate,0,0,0.003966046522702177,True,0.003966046522702177,0,False
+attack_stress_116,disfluency_prefix,um well I mean I dnt agree with the c0st estimate.,0,0,0.003966046522702177,False,0.003939336190771589,0,False
+attack_stress_116,chat_prefix,btw I dnt agree with the c0st estimate.,0,0,0.003966046522702177,False,0.0021484219586207043,0,False
+attack_stress_117,uppercase,PLS EXPLAIN THE EVIDENCE AGAIN.,0,0,0.0068834110552210784,True,0.0068834110552210784,0,False
+attack_stress_117,html_wrap,<p>Pls explain the evidence again.</p>,0,0,0.0068834110552210784,True,0.0068834110552210784,0,False
+attack_stress_117,extra_whitespace,"  Pls  
+ explain  
+ the  
+ evidence  
+ again.  ",0,0,0.0068834110552210784,True,0.0068834110552210784,0,False
+attack_stress_117,punctuation_removed,Pls explain the evidence again,0,0,0.0068834110552210784,True,0.0068834110552210784,0,False
+attack_stress_117,disfluency_prefix,um well I mean Pls explain the evidence again.,0,0,0.0068834110552210784,False,0.006865828105308355,0,False
+attack_stress_117,chat_prefix,btw Pls explain the evidence again.,0,0,0.0068834110552210784,False,0.003487900177062476,0,False
+attack_stress_118,uppercase,THE SYSTEM IS STUUUPIDLY SLOW TODAY.,0,0,0.039454541130117066,True,0.039454541130117066,0,False
+attack_stress_118,html_wrap,<p>The system is stuuupidly slow today.</p>,0,0,0.039454541130117066,True,0.039454541130117066,0,False
+attack_stress_118,extra_whitespace,"  The  
+ system  
+ is  
+ stuuupidly  
+ slow  
+ today.  ",0,0,0.039454541130117066,True,0.039454541130117066,0,False
+attack_stress_118,punctuation_removed,The system is stuuupidly slow today,0,0,0.039454541130117066,True,0.039454541130117066,0,False
+attack_stress_118,disfluency_prefix,um well I mean The system is stuuupidly slow today.,0,0,0.039454541130117066,False,0.03587054061819498,0,False
+attack_stress_118,chat_prefix,btw The system is stuuupidly slow today.,0,0,0.039454541130117066,False,0.020151713729054353,0,False
+attack_stress_119,uppercase,THIS P0LICY WASTES MONEY.,0,0,0.09463054743275788,True,0.09463054743275788,0,False
+attack_stress_119,html_wrap,<p>This p0licy wastes money.</p>,0,0,0.09463054743275788,True,0.09463054743275788,0,False
+attack_stress_119,extra_whitespace,"  This  
+ p0licy  
+ wastes  
+ money.  ",0,0,0.09463054743275788,True,0.09463054743275788,0,False
+attack_stress_119,punctuation_removed,This p0licy wastes money,0,0,0.09463054743275788,True,0.09463054743275788,0,False
+attack_stress_119,disfluency_prefix,um well I mean This p0licy wastes money.,0,0,0.09463054743275788,False,0.03648113043612926,0,False
+attack_stress_119,chat_prefix,btw This p0licy wastes money.,0,0,0.09463054743275788,False,0.01770023435335395,0,False
+attack_stress_120,uppercase,"U MISSED A STEP IN THE CALC, CAN WE CHECK IT?",0,0,0.013182976391930773,True,0.013182976391930773,0,False
+attack_stress_120,html_wrap,"<p>U missed a step in the calc, can we check it?</p>",0,0,0.013182976391930773,True,0.013182976391930773,0,False
+attack_stress_120,extra_whitespace,"  U  
+ missed  
+ a  
+ step  
+ in  
+ the  
+ calc,  
+ can  
+ we  
+ check  
+ it?  ",0,0,0.013182976391930773,True,0.013182976391930773,0,False
+attack_stress_120,punctuation_removed,U missed a step in the calc can we check it,0,0,0.013182976391930773,True,0.013182976391930773,0,False
+attack_stress_120,disfluency_prefix,"um well I mean U missed a step in the calc, can we check it?",0,0,0.013182976391930773,False,0.011394509182638755,0,False
+attack_stress_120,chat_prefix,"btw U missed a step in the calc, can we check it?",0,0,0.013182976391930773,False,0.007598810958824392,0,False
+attack_stress_121,uppercase,UM YOU ARE YOU ARE JUST A COMPLETE IDIOT,1,1,0.9995680365512981,True,0.9995680365512981,1,False
+attack_stress_121,html_wrap,<p>um you are you are just a complete idiot</p>,1,1,0.9995680365512981,True,0.9995680365512981,1,False
+attack_stress_121,extra_whitespace,"  um  
+ you  
+ are  
+ you  
+ are  
+ just  
+ a  
+ complete  
+ idiot  ",1,1,0.9995680365512981,True,0.9995680365512981,1,False
+attack_stress_121,punctuation_removed,um you are you are just a complete idiot,1,1,0.9995680365512981,True,0.9995680365512981,1,False
+attack_stress_121,disfluency_prefix,um well I mean um you are you are just a complete idiot,1,1,0.9995680365512981,False,0.9917007682704733,1,False
+attack_stress_121,chat_prefix,btw um you are you are just a complete idiot,1,1,0.9995680365512981,False,0.997599482436447,1,False
+attack_stress_122,uppercase,LOOK I MEAN YOU HAVE NO BRAIN AT ALL,1,0,0.28263973889195304,True,0.28263973889195304,0,False
+attack_stress_122,html_wrap,<p>look i mean you have no brain at all</p>,1,0,0.28263973889195304,True,0.28263973889195304,0,False
+attack_stress_122,extra_whitespace,"  look  
+ i  
+ mean  
+ you  
+ have  
+ no  
+ brain  
+ at  
+ all  ",1,0,0.28263973889195304,True,0.28263973889195304,0,False
+attack_stress_122,punctuation_removed,look i mean you have no brain at all,1,0,0.28263973889195304,True,0.28263973889195304,0,False
+attack_stress_122,disfluency_prefix,um well I mean look i mean you have no brain at all,1,0,0.28263973889195304,False,0.13499310176481502,0,False
+attack_stress_122,chat_prefix,btw look i mean you have no brain at all,1,0,0.28263973889195304,False,0.1344431698857617,0,False
+attack_stress_123,uppercase,UH SHUT UP YOU STUPID FOOL,1,1,0.9999885715541001,True,0.9999885715541001,1,False
+attack_stress_123,html_wrap,<p>uh shut up you stupid fool</p>,1,1,0.9999885715541001,True,0.9999885715541001,1,False
+attack_stress_123,extra_whitespace,"  uh  
+ shut  
+ up  
+ you  
+ stupid  
+ fool  ",1,1,0.9999885715541001,True,0.9999885715541001,1,False
+attack_stress_123,punctuation_removed,uh shut up you stupid fool,1,1,0.9999885715541001,True,0.9999885715541001,1,False
+attack_stress_123,disfluency_prefix,um well I mean uh shut up you stupid fool,1,1,0.9999885715541001,False,0.9998016436476953,1,False
+attack_stress_123,chat_prefix,btw uh shut up you stupid fool,1,1,0.9999885715541001,False,0.9999294556020548,1,False
+attack_stress_124,uppercase,YOU KNOW YOURE A PATHETIC LIAR HONESTLY,1,1,0.9977819055175559,True,0.9977819055175559,1,False
+attack_stress_124,html_wrap,<p>you know youre a pathetic liar honestly</p>,1,1,0.9977819055175559,True,0.9977819055175559,1,False
+attack_stress_124,extra_whitespace,"  you  
+ know  
+ youre  
+ a  
+ pathetic  
+ liar  
+ honestly  ",1,1,0.9977819055175559,True,0.9977819055175559,1,False
+attack_stress_124,punctuation_removed,you know youre a pathetic liar honestly,1,1,0.9977819055175559,True,0.9977819055175559,1,False
+attack_stress_124,disfluency_prefix,um well I mean you know youre a pathetic liar honestly,1,1,0.9977819055175559,False,0.9863963390607281,1,False
+attack_stress_124,chat_prefix,btw you know youre a pathetic liar honestly,1,1,0.9977819055175559,False,0.9906774281851704,1,False
+attack_stress_125,uppercase,WELL YOURE TOO DUMB TO GET IT REALLY,1,1,0.6186192156797499,True,0.6186192156797499,1,False
+attack_stress_125,html_wrap,<p>well youre too dumb to get it really</p>,1,1,0.6186192156797499,True,0.6186192156797499,1,False
+attack_stress_125,extra_whitespace,"  well  
+ youre  
+ too  
+ dumb  
+ to  
+ get  
+ it  
+ really  ",1,1,0.6186192156797499,True,0.6186192156797499,1,False
+attack_stress_125,punctuation_removed,well youre too dumb to get it really,1,1,0.6186192156797499,True,0.6186192156797499,1,False
+attack_stress_125,disfluency_prefix,um well I mean well youre too dumb to get it really,1,1,0.6186192156797499,False,0.30470650344193717,0,True
+attack_stress_125,chat_prefix,btw well youre too dumb to get it really,1,1,0.6186192156797499,False,0.3084785883514655,0,True
+attack_stress_126,uppercase,I I THINK YOU ARE A WORTHLESS PERSON,1,1,0.7197375188155806,True,0.7197375188155806,1,False
+attack_stress_126,html_wrap,<p>i i think you are a worthless person</p>,1,1,0.7197375188155806,True,0.7197375188155806,1,False
+attack_stress_126,extra_whitespace,"  i  
+ i  
+ think  
+ you  
+ are  
+ a  
+ worthless  
+ person  ",1,1,0.7197375188155806,True,0.7197375188155806,1,False
+attack_stress_126,punctuation_removed,i i think you are a worthless person,1,1,0.7197375188155806,True,0.7197375188155806,1,False
+attack_stress_126,disfluency_prefix,um well I mean i i think you are a worthless person,1,1,0.7197375188155806,False,0.2798009355069484,0,True
+attack_stress_126,chat_prefix,btw i i think you are a worthless person,1,1,0.7197375188155806,False,0.34730873666360446,0,True
+attack_stress_127,uppercase,UM I DISAGREE BECAUSE THE NUMBER IS FROM LAST YEAR,0,0,0.006025475810140985,True,0.006025475810140985,0,False
+attack_stress_127,html_wrap,<p>um i disagree because the number is from last year</p>,0,0,0.006025475810140985,True,0.006025475810140985,0,False
+attack_stress_127,extra_whitespace,"  um  
+ i  
+ disagree  
+ because  
+ the  
+ number  
+ is  
+ from  
+ last  
+ year  ",0,0,0.006025475810140985,True,0.006025475810140985,0,False
+attack_stress_127,punctuation_removed,um i disagree because the number is from last year,0,0,0.006025475810140985,True,0.006025475810140985,0,False
+attack_stress_127,disfluency_prefix,um well I mean um i disagree because the number is from last year,0,0,0.006025475810140985,False,0.005868036553236506,0,False
+attack_stress_127,chat_prefix,btw um i disagree because the number is from last year,0,0,0.006025475810140985,False,0.003643915998371792,0,False
+attack_stress_128,uppercase,LOOK I MEAN THE POLICY HAS COSTS WE HAVE NOT COUNTED,0,0,0.008135242481718256,True,0.008135242481718256,0,False
+attack_stress_128,html_wrap,<p>look i mean the policy has costs we have not counted</p>,0,0,0.008135242481718256,True,0.008135242481718256,0,False
+attack_stress_128,extra_whitespace,"  look  
+ i  
+ mean  
+ the  
+ policy  
+ has  
+ costs  
+ we  
+ have  
+ not  
+ counted  ",0,0,0.008135242481718256,True,0.008135242481718256,0,False
+attack_stress_128,punctuation_removed,look i mean the policy has costs we have not counted,0,0,0.008135242481718256,True,0.008135242481718256,0,False
+attack_stress_128,disfluency_prefix,um well I mean look i mean the policy has costs we have not counted,0,0,0.008135242481718256,False,0.007513587397378299,0,False
+attack_stress_128,chat_prefix,btw look i mean the policy has costs we have not counted,0,0,0.008135242481718256,False,0.004831922499748831,0,False
+attack_stress_129,uppercase,UH CAN YOU EXPLAIN WHERE THAT FIGURE CAME FROM,0,0,0.00357396503808745,True,0.00357396503808745,0,False
+attack_stress_129,html_wrap,<p>uh can you explain where that figure came from</p>,0,0,0.00357396503808745,True,0.00357396503808745,0,False
+attack_stress_129,extra_whitespace,"  uh  
+ can  
+ you  
+ explain  
+ where  
+ that  
+ figure  
+ came  
+ from  ",0,0,0.00357396503808745,True,0.00357396503808745,0,False
+attack_stress_129,punctuation_removed,uh can you explain where that figure came from,0,0,0.00357396503808745,True,0.00357396503808745,0,False
+attack_stress_129,disfluency_prefix,um well I mean uh can you explain where that figure came from,0,0,0.00357396503808745,False,0.0037881042918945554,0,False
+attack_stress_129,chat_prefix,btw uh can you explain where that figure came from,0,0,0.00357396503808745,False,0.0021521857746179276,0,False
+attack_stress_130,uppercase,YOU KNOW I AM NOT CONVINCED BY THE EVIDENCE,0,0,0.01423095190951588,True,0.01423095190951588,0,False
+attack_stress_130,html_wrap,<p>you know i am not convinced by the evidence</p>,0,0,0.01423095190951588,True,0.01423095190951588,0,False
+attack_stress_130,extra_whitespace,"  you  
+ know  
+ i  
+ am  
+ not  
+ convinced  
+ by  
+ the  
+ evidence  ",0,0,0.01423095190951588,True,0.01423095190951588,0,False
+attack_stress_130,punctuation_removed,you know i am not convinced by the evidence,0,0,0.01423095190951588,True,0.01423095190951588,0,False
+attack_stress_130,disfluency_prefix,um well I mean you know i am not convinced by the evidence,0,0,0.01423095190951588,False,0.02028645453450242,0,False
+attack_stress_130,chat_prefix,btw you know i am not convinced by the evidence,0,0,0.01423095190951588,False,0.012049623314979259,0,False
+attack_stress_131,uppercase,WELL YOURE MISSING THE TRANSPORT COST IN THAT CALCULATION,0,0,0.02191908160268301,True,0.02191908160268301,0,False
+attack_stress_131,html_wrap,<p>well youre missing the transport cost in that calculation</p>,0,0,0.02191908160268301,True,0.02191908160268301,0,False
+attack_stress_131,extra_whitespace,"  well  
+ youre  
+ missing  
+ the  
+ transport  
+ cost  
+ in  
+ that  
+ calculation  ",0,0,0.02191908160268301,True,0.02191908160268301,0,False
+attack_stress_131,punctuation_removed,well youre missing the transport cost in that calculation,0,0,0.02191908160268301,True,0.02191908160268301,0,False
+attack_stress_131,disfluency_prefix,um well I mean well youre missing the transport cost in that calculation,0,0,0.02191908160268301,False,0.017839214118622417,0,False
+attack_stress_131,chat_prefix,btw well youre missing the transport cost in that calculation,0,0,0.02191908160268301,False,0.011000507476526847,0,False
+attack_stress_132,uppercase,I I THINK WE SHOULD ASK THE MODERATOR TO CLARIFY,0,0,0.004571324616138425,True,0.004571324616138425,0,False
+attack_stress_132,html_wrap,<p>i i think we should ask the moderator to clarify</p>,0,0,0.004571324616138425,True,0.004571324616138425,0,False
+attack_stress_132,extra_whitespace,"  i  
+ i  
+ think  
+ we  
+ should  
+ ask  
+ the  
+ moderator  
+ to  
+ clarify  ",0,0,0.004571324616138425,True,0.004571324616138425,0,False
+attack_stress_132,punctuation_removed,i i think we should ask the moderator to clarify,0,0,0.004571324616138425,True,0.004571324616138425,0,False
+attack_stress_132,disfluency_prefix,um well I mean i i think we should ask the moderator to clarify,0,0,0.004571324616138425,False,0.003697997014415249,0,False
+attack_stress_132,chat_prefix,btw i i think we should ask the moderator to clarify,0,0,0.004571324616138425,False,0.002853381030825234,0,False
+attack_stress_133,uppercase,"I AGREE THAT THE CITY NEEDS AFFORDABLE HOUSING AND THAT CONSTRUCTION TAKES TIME. WE SHOULD COMPARE RENTAL ASSISTANCE WITH NEW BUILDING. HOWEVER, YOU ARE A BRAINLESS IDIOT AND YOUR PRESENCE MAKES THIS CONVERSATION UNBEARABLE.",1,1,0.6565054896397057,True,0.6565054896397057,1,False
+attack_stress_133,html_wrap,"<p>I agree that the city needs affordable housing and that construction takes time. We should compare rental assistance with new building. However, you are a brainless idiot and your presence makes this conversation unbearable.</p>",1,1,0.6565054896397057,True,0.6565054896397057,1,False
+attack_stress_133,extra_whitespace,"  I  
+ agree  
+ that  
+ the  
+ city  
+ needs  
+ affordable  
+ housing  
+ and  
+ that  
+ construction  
+ takes  
+ time.  
+ We  
+ should  
+ compare  
+ rental  
+ assistance  
+ with  
+ new  
+ building.  
+ However,  
+ you  
+ are  
+ a  
+ brainless  
+ idiot  
+ and  
+ your  
+ presence  
+ makes  
+ this  
+ conversation  
+ unbearable.  ",1,1,0.6565054896397057,True,0.6565054896397057,1,False
+attack_stress_133,punctuation_removed,I agree that the city needs affordable housing and that construction takes time We should compare rental assistance with new building However you are a brainless idiot and your presence makes this conversation unbearable,1,1,0.6565054896397057,True,0.6565054896397057,1,False
+attack_stress_133,disfluency_prefix,"um well I mean I agree that the city needs affordable housing and that construction takes time. We should compare rental assistance with new building. However, you are a brainless idiot and your presence makes this conversation unbearable.",1,1,0.6565054896397057,False,0.49968981967912024,1,False
+attack_stress_133,chat_prefix,"btw I agree that the city needs affordable housing and that construction takes time. We should compare rental assistance with new building. However, you are a brainless idiot and your presence makes this conversation unbearable.",1,1,0.6565054896397057,False,0.5174234540747243,1,False
+attack_stress_134,uppercase,"THERE ARE USEFUL POINTS ON BOTH SIDES OF A FOUR-DAY WEEK. HOSPITALS WOULD NEED SEPARATE STAFFING ARRANGEMENTS AND TRIALS SHOULD MEASURE PATIENT SAFETY. YOU, ON THE OTHER HAND, ARE A WORTHLESS FOOL WHO CANNOT UNDERSTAND ANY OF IT.",1,0,0.09921672947754714,True,0.09921672947754714,0,False
+attack_stress_134,html_wrap,"<p>There are useful points on both sides of a four-day week. Hospitals would need separate staffing arrangements and trials should measure patient safety. You, on the other hand, are a worthless fool who cannot understand any of it.</p>",1,0,0.09921672947754714,True,0.09921672947754714,0,False
+attack_stress_134,extra_whitespace,"  There  
+ are  
+ useful  
+ points  
+ on  
+ both  
+ sides  
+ of  
+ a  
+ four-day  
+ week.  
+ Hospitals  
+ would  
+ need  
+ separate  
+ staffing  
+ arrangements  
+ and  
+ trials  
+ should  
+ measure  
+ patient  
+ safety.  
+ You,  
+ on  
+ the  
+ other  
+ hand,  
+ are  
+ a  
+ worthless  
+ fool  
+ who  
+ cannot  
+ understand  
+ any  
+ of  
+ it.  ",1,0,0.09921672947754714,True,0.09921672947754714,0,False
+attack_stress_134,punctuation_removed,There are useful points on both sides of a fourday week Hospitals would need separate staffing arrangements and trials should measure patient safety You on the other hand are a worthless fool who cannot understand any of it,1,0,0.09921672947754714,False,0.1082481666307635,0,False
+attack_stress_134,disfluency_prefix,"um well I mean There are useful points on both sides of a four-day week. Hospitals would need separate staffing arrangements and trials should measure patient safety. You, on the other hand, are a worthless fool who cannot understand any of it.",1,0,0.09921672947754714,False,0.08291825418735277,0,False
+attack_stress_134,chat_prefix,"btw There are useful points on both sides of a four-day week. Hospitals would need separate staffing arrangements and trials should measure patient safety. You, on the other hand, are a worthless fool who cannot understand any of it.",1,0,0.09921672947754714,False,0.06427873079980348,0,False
+attack_stress_135,uppercase,"THE LIBRARY BUDGET HAS DECLINED FOR SEVERAL YEARS. EXTENDING EVENING HOURS MAY REQUIRE MORE STAFF OR A DIFFERENT ROTA. STOP TALKING, YOU PATHETIC LIAR, BECAUSE NOBODY SHOULD TAKE YOU SERIOUSLY.",1,1,0.7124347584957946,True,0.7124347584957946,1,False
+attack_stress_135,html_wrap,"<p>The library budget has declined for several years. Extending evening hours may require more staff or a different rota. Stop talking, you pathetic liar, because nobody should take you seriously.</p>",1,1,0.7124347584957946,True,0.7124347584957946,1,False
+attack_stress_135,extra_whitespace,"  The  
+ library  
+ budget  
+ has  
+ declined  
+ for  
+ several  
+ years.  
+ Extending  
+ evening  
+ hours  
+ may  
+ require  
+ more  
+ staff  
+ or  
+ a  
+ different  
+ rota.  
+ Stop  
+ talking,  
+ you  
+ pathetic  
+ liar,  
+ because  
+ nobody  
+ should  
+ take  
+ you  
+ seriously.  ",1,1,0.7124347584957946,True,0.7124347584957946,1,False
+attack_stress_135,punctuation_removed,The library budget has declined for several years Extending evening hours may require more staff or a different rota Stop talking you pathetic liar because nobody should take you seriously,1,1,0.7124347584957946,True,0.7124347584957946,1,False
+attack_stress_135,disfluency_prefix,"um well I mean The library budget has declined for several years. Extending evening hours may require more staff or a different rota. Stop talking, you pathetic liar, because nobody should take you seriously.",1,1,0.7124347584957946,False,0.6439463315956178,1,False
+attack_stress_135,chat_prefix,"btw The library budget has declined for several years. Extending evening hours may require more staff or a different rota. Stop talking, you pathetic liar, because nobody should take you seriously.",1,1,0.7124347584957946,False,0.6011196565405403,1,False
+attack_stress_136,uppercase,WE CAN LOOK AT TICKET REVENUE AND THE COST OF MAINTAINING THE MUSEUM COLLECTION. A SUBSIDY MIGHT IMPROVE ACCESS FOR LOCAL FAMILIES. YOU ARE TOO STUPID TO BE TRUSTED WITH EVEN THIS SIMPLE DISCUSSION.,1,0,0.29573095892253576,True,0.29573095892253576,0,False
+attack_stress_136,html_wrap,<p>We can look at ticket revenue and the cost of maintaining the museum collection. A subsidy might improve access for local families. You are too stupid to be trusted with even this simple discussion.</p>,1,0,0.29573095892253576,True,0.29573095892253576,0,False
+attack_stress_136,extra_whitespace,"  We  
+ can  
+ look  
+ at  
+ ticket  
+ revenue  
+ and  
+ the  
+ cost  
+ of  
+ maintaining  
+ the  
+ museum  
+ collection.  
+ A  
+ subsidy  
+ might  
+ improve  
+ access  
+ for  
+ local  
+ families.  
+ You  
+ are  
+ too  
+ stupid  
+ to  
+ be  
+ trusted  
+ with  
+ even  
+ this  
+ simple  
+ discussion.  ",1,0,0.29573095892253576,True,0.29573095892253576,0,False
+attack_stress_136,punctuation_removed,We can look at ticket revenue and the cost of maintaining the museum collection A subsidy might improve access for local families You are too stupid to be trusted with even this simple discussion,1,0,0.29573095892253576,True,0.29573095892253576,0,False
+attack_stress_136,disfluency_prefix,um well I mean We can look at ticket revenue and the cost of maintaining the museum collection. A subsidy might improve access for local families. You are too stupid to be trusted with even this simple discussion.,1,0,0.29573095892253576,False,0.2229954036220186,0,False
+attack_stress_136,chat_prefix,btw We can look at ticket revenue and the cost of maintaining the museum collection. A subsidy might improve access for local families. You are too stupid to be trusted with even this simple discussion.,1,0,0.29573095892253576,False,0.22839500218957617,0,False
+attack_stress_137,uppercase,"THE CLIMATE TARGETS INCLUDE EMISSIONS FROM TRANSPORT AND BUILDINGS, AND WE NEED A BASELINE BEFORE COMPARING THE OPTIONS. YOUR LAST CHART USED A DIFFERENT YEAR. YOU ARE AN IGNORANT CLOWN WHO SHOULD JUST LEAVE.",1,0,0.16813282373376162,True,0.16813282373376162,0,False
+attack_stress_137,html_wrap,"<p>The climate targets include emissions from transport and buildings, and we need a baseline before comparing the options. Your last chart used a different year. You are an ignorant clown who should just leave.</p>",1,0,0.16813282373376162,True,0.16813282373376162,0,False
+attack_stress_137,extra_whitespace,"  The  
+ climate  
+ targets  
+ include  
+ emissions  
+ from  
+ transport  
+ and  
+ buildings,  
+ and  
+ we  
+ need  
+ a  
+ baseline  
+ before  
+ comparing  
+ the  
+ options.  
+ Your  
+ last  
+ chart  
+ used  
+ a  
+ different  
+ year.  
+ You  
+ are  
+ an  
+ ignorant  
+ clown  
+ who  
+ should  
+ just  
+ leave.  ",1,0,0.16813282373376162,True,0.16813282373376162,0,False
+attack_stress_137,punctuation_removed,The climate targets include emissions from transport and buildings and we need a baseline before comparing the options Your last chart used a different year You are an ignorant clown who should just leave,1,0,0.16813282373376162,True,0.16813282373376162,0,False
+attack_stress_137,disfluency_prefix,"um well I mean The climate targets include emissions from transport and buildings, and we need a baseline before comparing the options. Your last chart used a different year. You are an ignorant clown who should just leave.",1,0,0.16813282373376162,False,0.15713949833310012,0,False
+attack_stress_137,chat_prefix,"btw The climate targets include emissions from transport and buildings, and we need a baseline before comparing the options. Your last chart used a different year. You are an ignorant clown who should just leave.",1,0,0.16813282373376162,False,0.12805479726308663,0,False
+attack_stress_138,uppercase,"I LISTENED TO YOUR ACCOUNT OF THE PILOT SCHEME, INCLUDING THE STAFFING PROBLEMS AND THE UNEVEN DEMAND BETWEEN DISTRICTS. THOSE ISSUES DESERVE A RESPONSE. BUT YOU ARE A DISHONEST SCUMBAG AND I HAVE NO INTEREST IN YOUR EXPLANATION.",1,1,0.7445070162588735,True,0.7445070162588735,1,False
+attack_stress_138,html_wrap,"<p>I listened to your account of the pilot scheme, including the staffing problems and the uneven demand between districts. Those issues deserve a response. But you are a dishonest scumbag and I have no interest in your explanation.</p>",1,1,0.7445070162588735,True,0.7445070162588735,1,False
+attack_stress_138,extra_whitespace,"  I  
+ listened  
+ to  
+ your  
+ account  
+ of  
+ the  
+ pilot  
+ scheme,  
+ including  
+ the  
+ staffing  
+ problems  
+ and  
+ the  
+ uneven  
+ demand  
+ between  
+ districts.  
+ Those  
+ issues  
+ deserve  
+ a  
+ response.  
+ But  
+ you  
+ are  
+ a  
+ dishonest  
+ scumbag  
+ and  
+ I  
+ have  
+ no  
+ interest  
+ in  
+ your  
+ explanation.  ",1,1,0.7445070162588735,True,0.7445070162588735,1,False
+attack_stress_138,punctuation_removed,I listened to your account of the pilot scheme including the staffing problems and the uneven demand between districts Those issues deserve a response But you are a dishonest scumbag and I have no interest in your explanation,1,1,0.7445070162588735,True,0.7445070162588735,1,False
+attack_stress_138,disfluency_prefix,"um well I mean I listened to your account of the pilot scheme, including the staffing problems and the uneven demand between districts. Those issues deserve a response. But you are a dishonest scumbag and I have no interest in your explanation.",1,1,0.7445070162588735,False,0.6062686983715546,1,False
+attack_stress_138,chat_prefix,"btw I listened to your account of the pilot scheme, including the staffing problems and the uneven demand between districts. Those issues deserve a response. But you are a dishonest scumbag and I have no interest in your explanation.",1,1,0.7445070162588735,False,0.6267346929472547,1,False
+attack_stress_139,uppercase,"I AGREE THAT THE CITY NEEDS AFFORDABLE HOUSING AND THAT CONSTRUCTION TAKES TIME. WE SHOULD COMPARE RENTAL ASSISTANCE WITH NEW BUILDING. YOUR ESTIMATE EXCLUDES THE COST OF ACQUIRING LAND, SO I DO NOT THINK IT SUPPORTS YOUR CONCLUSION YET.",0,0,0.014102665482511665,True,0.014102665482511665,0,False
+attack_stress_139,html_wrap,"<p>I agree that the city needs affordable housing and that construction takes time. We should compare rental assistance with new building. Your estimate excludes the cost of acquiring land, so I do not think it supports your conclusion yet.</p>",0,0,0.014102665482511665,True,0.014102665482511665,0,False
+attack_stress_139,extra_whitespace,"  I  
+ agree  
+ that  
+ the  
+ city  
+ needs  
+ affordable  
+ housing  
+ and  
+ that  
+ construction  
+ takes  
+ time.  
+ We  
+ should  
+ compare  
+ rental  
+ assistance  
+ with  
+ new  
+ building.  
+ Your  
+ estimate  
+ excludes  
+ the  
+ cost  
+ of  
+ acquiring  
+ land,  
+ so  
+ I  
+ do  
+ not  
+ think  
+ it  
+ supports  
+ your  
+ conclusion  
+ yet.  ",0,0,0.014102665482511665,True,0.014102665482511665,0,False
+attack_stress_139,punctuation_removed,I agree that the city needs affordable housing and that construction takes time We should compare rental assistance with new building Your estimate excludes the cost of acquiring land so I do not think it supports your conclusion yet,0,0,0.014102665482511665,True,0.014102665482511665,0,False
+attack_stress_139,disfluency_prefix,"um well I mean I agree that the city needs affordable housing and that construction takes time. We should compare rental assistance with new building. Your estimate excludes the cost of acquiring land, so I do not think it supports your conclusion yet.",0,0,0.014102665482511665,False,0.01086712471297387,0,False
+attack_stress_139,chat_prefix,"btw I agree that the city needs affordable housing and that construction takes time. We should compare rental assistance with new building. Your estimate excludes the cost of acquiring land, so I do not think it supports your conclusion yet.",0,0,0.014102665482511665,False,0.009863718472108256,0,False
+attack_stress_140,uppercase,THERE ARE USEFUL POINTS ON BOTH SIDES OF A FOUR-DAY WEEK. HOSPITALS WOULD NEED SEPARATE STAFFING ARRANGEMENTS AND TRIALS SHOULD MEASURE PATIENT SAFETY. I DISAGREE WITH APPLYING THE SAME SCHEDULE TO EVERY INDUSTRY BEFORE TESTING IT.,0,0,0.0042807988045607875,True,0.0042807988045607875,0,False
+attack_stress_140,html_wrap,<p>There are useful points on both sides of a four-day week. Hospitals would need separate staffing arrangements and trials should measure patient safety. I disagree with applying the same schedule to every industry before testing it.</p>,0,0,0.0042807988045607875,True,0.0042807988045607875,0,False
+attack_stress_140,extra_whitespace,"  There  
+ are  
+ useful  
+ points  
+ on  
+ both  
+ sides  
+ of  
+ a  
+ four-day  
+ week.  
+ Hospitals  
+ would  
+ need  
+ separate  
+ staffing  
+ arrangements  
+ and  
+ trials  
+ should  
+ measure  
+ patient  
+ safety.  
+ I  
+ disagree  
+ with  
+ applying  
+ the  
+ same  
+ schedule  
+ to  
+ every  
+ industry  
+ before  
+ testing  
+ it.  ",0,0,0.0042807988045607875,True,0.0042807988045607875,0,False
+attack_stress_140,punctuation_removed,There are useful points on both sides of a fourday week Hospitals would need separate staffing arrangements and trials should measure patient safety I disagree with applying the same schedule to every industry before testing it,0,0,0.0042807988045607875,False,0.0044610532735039135,0,False
+attack_stress_140,disfluency_prefix,um well I mean There are useful points on both sides of a four-day week. Hospitals would need separate staffing arrangements and trials should measure patient safety. I disagree with applying the same schedule to every industry before testing it.,0,0,0.0042807988045607875,False,0.0044153387133454005,0,False
+attack_stress_140,chat_prefix,btw There are useful points on both sides of a four-day week. Hospitals would need separate staffing arrangements and trials should measure patient safety. I disagree with applying the same schedule to every industry before testing it.,0,0,0.0042807988045607875,False,0.0030825820313566737,0,False
+attack_stress_141,uppercase,"THE LIBRARY BUDGET HAS DECLINED FOR SEVERAL YEARS. EXTENDING EVENING HOURS MAY REQUIRE MORE STAFF OR A DIFFERENT ROTA. YOUR RESPONSE DOES NOT EXPLAIN HOW YOU WOULD FUND THE ADDITIONAL SHIFTS, AND I WOULD LIKE A CONCRETE ESTIMATE.",0,0,0.03329810752577748,True,0.03329810752577748,0,False
+attack_stress_141,html_wrap,"<p>The library budget has declined for several years. Extending evening hours may require more staff or a different rota. Your response does not explain how you would fund the additional shifts, and I would like a concrete estimate.</p>",0,0,0.03329810752577748,True,0.03329810752577748,0,False
+attack_stress_141,extra_whitespace,"  The  
+ library  
+ budget  
+ has  
+ declined  
+ for  
+ several  
+ years.  
+ Extending  
+ evening  
+ hours  
+ may  
+ require  
+ more  
+ staff  
+ or  
+ a  
+ different  
+ rota.  
+ Your  
+ response  
+ does  
+ not  
+ explain  
+ how  
+ you  
+ would  
+ fund  
+ the  
+ additional  
+ shifts,  
+ and  
+ I  
+ would  
+ like  
+ a  
+ concrete  
+ estimate.  ",0,0,0.03329810752577748,True,0.03329810752577748,0,False
+attack_stress_141,punctuation_removed,The library budget has declined for several years Extending evening hours may require more staff or a different rota Your response does not explain how you would fund the additional shifts and I would like a concrete estimate,0,0,0.03329810752577748,True,0.03329810752577748,0,False
+attack_stress_141,disfluency_prefix,"um well I mean The library budget has declined for several years. Extending evening hours may require more staff or a different rota. Your response does not explain how you would fund the additional shifts, and I would like a concrete estimate.",0,0,0.03329810752577748,False,0.03361226200546936,0,False
+attack_stress_141,chat_prefix,"btw The library budget has declined for several years. Extending evening hours may require more staff or a different rota. Your response does not explain how you would fund the additional shifts, and I would like a concrete estimate.",0,0,0.03329810752577748,False,0.025370714550473027,0,False
+attack_stress_142,uppercase,WE CAN LOOK AT TICKET REVENUE AND THE COST OF MAINTAINING THE MUSEUM COLLECTION. A SUBSIDY MIGHT IMPROVE ACCESS FOR LOCAL FAMILIES. THE ARGUMENT ABOUT VISITOR SPENDING IS WEAK BECAUSE IT USES AN UNRELATED CITY AS ITS ONLY EXAMPLE.,0,0,0.0052890827560089166,True,0.0052890827560089166,0,False
+attack_stress_142,html_wrap,<p>We can look at ticket revenue and the cost of maintaining the museum collection. A subsidy might improve access for local families. The argument about visitor spending is weak because it uses an unrelated city as its only example.</p>,0,0,0.0052890827560089166,True,0.0052890827560089166,0,False
+attack_stress_142,extra_whitespace,"  We  
+ can  
+ look  
+ at  
+ ticket  
+ revenue  
+ and  
+ the  
+ cost  
+ of  
+ maintaining  
+ the  
+ museum  
+ collection.  
+ A  
+ subsidy  
+ might  
+ improve  
+ access  
+ for  
+ local  
+ families.  
+ The  
+ argument  
+ about  
+ visitor  
+ spending  
+ is  
+ weak  
+ because  
+ it  
+ uses  
+ an  
+ unrelated  
+ city  
+ as  
+ its  
+ only  
+ example.  ",0,0,0.0052890827560089166,True,0.0052890827560089166,0,False
+attack_stress_142,punctuation_removed,We can look at ticket revenue and the cost of maintaining the museum collection A subsidy might improve access for local families The argument about visitor spending is weak because it uses an unrelated city as its only example,0,0,0.0052890827560089166,True,0.0052890827560089166,0,False
+attack_stress_142,disfluency_prefix,um well I mean We can look at ticket revenue and the cost of maintaining the museum collection. A subsidy might improve access for local families. The argument about visitor spending is weak because it uses an unrelated city as its only example.,0,0,0.0052890827560089166,False,0.004946488593853542,0,False
+attack_stress_142,chat_prefix,btw We can look at ticket revenue and the cost of maintaining the museum collection. A subsidy might improve access for local families. The argument about visitor spending is weak because it uses an unrelated city as its only example.,0,0,0.0052890827560089166,False,0.004507834160382945,0,False
+attack_stress_143,uppercase,"THE CLIMATE TARGETS INCLUDE EMISSIONS FROM TRANSPORT AND BUILDINGS, AND WE NEED A BASELINE BEFORE COMPARING THE OPTIONS. YOUR LAST CHART USED A DIFFERENT YEAR. PLEASE EXPLAIN THAT DISCREPANCY BEFORE WE USE THE FIGURES TO SET A TARGET.",0,0,0.00966148799659053,True,0.00966148799659053,0,False
+attack_stress_143,html_wrap,"<p>The climate targets include emissions from transport and buildings, and we need a baseline before comparing the options. Your last chart used a different year. Please explain that discrepancy before we use the figures to set a target.</p>",0,0,0.00966148799659053,True,0.00966148799659053,0,False
+attack_stress_143,extra_whitespace,"  The  
+ climate  
+ targets  
+ include  
+ emissions  
+ from  
+ transport  
+ and  
+ buildings,  
+ and  
+ we  
+ need  
+ a  
+ baseline  
+ before  
+ comparing  
+ the  
+ options.  
+ Your  
+ last  
+ chart  
+ used  
+ a  
+ different  
+ year.  
+ Please  
+ explain  
+ that  
+ discrepancy  
+ before  
+ we  
+ use  
+ the  
+ figures  
+ to  
+ set  
+ a  
+ target.  ",0,0,0.00966148799659053,True,0.00966148799659053,0,False
+attack_stress_143,punctuation_removed,The climate targets include emissions from transport and buildings and we need a baseline before comparing the options Your last chart used a different year Please explain that discrepancy before we use the figures to set a target,0,0,0.00966148799659053,True,0.00966148799659053,0,False
+attack_stress_143,disfluency_prefix,"um well I mean The climate targets include emissions from transport and buildings, and we need a baseline before comparing the options. Your last chart used a different year. Please explain that discrepancy before we use the figures to set a target.",0,0,0.00966148799659053,False,0.010524291528140372,0,False
+attack_stress_143,chat_prefix,"btw The climate targets include emissions from transport and buildings, and we need a baseline before comparing the options. Your last chart used a different year. Please explain that discrepancy before we use the figures to set a target.",0,0,0.00966148799659053,False,0.007830186097795353,0,False
+attack_stress_144,uppercase,"I LISTENED TO YOUR ACCOUNT OF THE PILOT SCHEME, INCLUDING THE STAFFING PROBLEMS AND THE UNEVEN DEMAND BETWEEN DISTRICTS. THOSE ISSUES DESERVE A RESPONSE. I STILL DISAGREE WITH YOUR CONCLUSION BECAUSE IT OVERLOOKS THE EXPANSION COSTS.",0,0,0.05418058356954762,True,0.05418058356954762,0,False
+attack_stress_144,html_wrap,"<p>I listened to your account of the pilot scheme, including the staffing problems and the uneven demand between districts. Those issues deserve a response. I still disagree with your conclusion because it overlooks the expansion costs.</p>",0,0,0.05418058356954762,True,0.05418058356954762,0,False
+attack_stress_144,extra_whitespace,"  I  
+ listened  
+ to  
+ your  
+ account  
+ of  
+ the  
+ pilot  
+ scheme,  
+ including  
+ the  
+ staffing  
+ problems  
+ and  
+ the  
+ uneven  
+ demand  
+ between  
+ districts.  
+ Those  
+ issues  
+ deserve  
+ a  
+ response.  
+ I  
+ still  
+ disagree  
+ with  
+ your  
+ conclusion  
+ because  
+ it  
+ overlooks  
+ the  
+ expansion  
+ costs.  ",0,0,0.05418058356954762,True,0.05418058356954762,0,False
+attack_stress_144,punctuation_removed,I listened to your account of the pilot scheme including the staffing problems and the uneven demand between districts Those issues deserve a response I still disagree with your conclusion because it overlooks the expansion costs,0,0,0.05418058356954762,True,0.05418058356954762,0,False
+attack_stress_144,disfluency_prefix,"um well I mean I listened to your account of the pilot scheme, including the staffing problems and the uneven demand between districts. Those issues deserve a response. I still disagree with your conclusion because it overlooks the expansion costs.",0,0,0.05418058356954762,False,0.038233573286121564,0,False
+attack_stress_144,chat_prefix,"btw I listened to your account of the pilot scheme, including the staffing problems and the uneven demand between districts. Those issues deserve a response. I still disagree with your conclusion because it overlooks the expansion costs.",0,0,0.05418058356954762,False,0.036320913928405814,0,False
+attack_stress_145,uppercase,THE PREVIOUS SPEAKER IS A STUPID IDIOT.,1,1,0.9999033090690884,True,0.9999033090690884,1,False
+attack_stress_145,html_wrap,<p>The previous speaker is a stupid idiot.</p>,1,1,0.9999033090690884,True,0.9999033090690884,1,False
+attack_stress_145,extra_whitespace,"  The  
+ previous  
+ speaker  
+ is  
+ a  
+ stupid  
+ idiot.  ",1,1,0.9999033090690884,True,0.9999033090690884,1,False
+attack_stress_145,punctuation_removed,The previous speaker is a stupid idiot,1,1,0.9999033090690884,True,0.9999033090690884,1,False
+attack_stress_145,disfluency_prefix,um well I mean The previous speaker is a stupid idiot.,1,1,0.9999033090690884,False,0.9972882464753201,1,False
+attack_stress_145,chat_prefix,btw The previous speaker is a stupid idiot.,1,1,0.9999033090690884,False,0.9985099986555077,1,False
+attack_stress_146,uppercase,THAT RESEARCHER IS A WORTHLESS FRAUD WITH NO BRAIN.,1,1,0.7642177983001494,True,0.7642177983001494,1,False
+attack_stress_146,html_wrap,<p>That researcher is a worthless fraud with no brain.</p>,1,1,0.7642177983001494,True,0.7642177983001494,1,False
+attack_stress_146,extra_whitespace,"  That  
+ researcher  
+ is  
+ a  
+ worthless  
+ fraud  
+ with  
+ no  
+ brain.  ",1,1,0.7642177983001494,True,0.7642177983001494,1,False
+attack_stress_146,punctuation_removed,That researcher is a worthless fraud with no brain,1,1,0.7642177983001494,True,0.7642177983001494,1,False
+attack_stress_146,disfluency_prefix,um well I mean That researcher is a worthless fraud with no brain.,1,1,0.7642177983001494,False,0.4586509675672097,1,False
+attack_stress_146,chat_prefix,btw That researcher is a worthless fraud with no brain.,1,1,0.7642177983001494,False,0.4482272340199138,1,False
+attack_stress_147,uppercase,ANYONE WHO SUPPORTS THIS IS A MORON.,1,1,0.9117006160144742,True,0.9117006160144742,1,False
+attack_stress_147,html_wrap,<p>Anyone who supports this is a moron.</p>,1,1,0.9117006160144742,True,0.9117006160144742,1,False
+attack_stress_147,extra_whitespace,"  Anyone  
+ who  
+ supports  
+ this  
+ is  
+ a  
+ moron.  ",1,1,0.9117006160144742,True,0.9117006160144742,1,False
+attack_stress_147,punctuation_removed,Anyone who supports this is a moron,1,1,0.9117006160144742,True,0.9117006160144742,1,False
+attack_stress_147,disfluency_prefix,um well I mean Anyone who supports this is a moron.,1,1,0.9117006160144742,False,0.7431103662046824,1,False
+attack_stress_147,chat_prefix,btw Anyone who supports this is a moron.,1,1,0.9117006160144742,False,0.7730232860103576,1,False
+attack_stress_148,uppercase,THE CHAIRPERSON IS A PATHETIC LIAR.,1,1,0.9990911714473394,True,0.9990911714473394,1,False
+attack_stress_148,html_wrap,<p>The chairperson is a pathetic liar.</p>,1,1,0.9990911714473394,True,0.9990911714473394,1,False
+attack_stress_148,extra_whitespace,"  The  
+ chairperson  
+ is  
+ a  
+ pathetic  
+ liar.  ",1,1,0.9990911714473394,True,0.9990911714473394,1,False
+attack_stress_148,punctuation_removed,The chairperson is a pathetic liar,1,1,0.9990911714473394,True,0.9990911714473394,1,False
+attack_stress_148,disfluency_prefix,um well I mean The chairperson is a pathetic liar.,1,1,0.9990911714473394,False,0.9722054611420211,1,False
+attack_stress_148,chat_prefix,btw The chairperson is a pathetic liar.,1,1,0.9990911714473394,False,0.9822022454473317,1,False
+attack_stress_149,uppercase,YOUR COLLEAGUE IS AN IGNORANT FOOL.,1,1,0.9402517130066994,True,0.9402517130066994,1,False
+attack_stress_149,html_wrap,<p>Your colleague is an ignorant fool.</p>,1,1,0.9402517130066994,True,0.9402517130066994,1,False
+attack_stress_149,extra_whitespace,"  Your  
+ colleague  
+ is  
+ an  
+ ignorant  
+ fool.  ",1,1,0.9402517130066994,True,0.9402517130066994,1,False
+attack_stress_149,punctuation_removed,Your colleague is an ignorant fool,1,1,0.9402517130066994,True,0.9402517130066994,1,False
+attack_stress_149,disfluency_prefix,um well I mean Your colleague is an ignorant fool.,1,1,0.9402517130066994,False,0.7328828871672112,1,False
+attack_stress_149,chat_prefix,btw Your colleague is an ignorant fool.,1,1,0.9402517130066994,False,0.6264245585115996,1,False
+attack_stress_150,uppercase,THOSE STUDENTS ARE BRAINLESS IDIOTS.,1,1,0.999616355456472,True,0.999616355456472,1,False
+attack_stress_150,html_wrap,<p>Those students are brainless idiots.</p>,1,1,0.999616355456472,True,0.999616355456472,1,False
+attack_stress_150,extra_whitespace,"  Those  
+ students  
+ are  
+ brainless  
+ idiots.  ",1,1,0.999616355456472,True,0.999616355456472,1,False
+attack_stress_150,punctuation_removed,Those students are brainless idiots,1,1,0.999616355456472,True,0.999616355456472,1,False
+attack_stress_150,disfluency_prefix,um well I mean Those students are brainless idiots.,1,1,0.999616355456472,False,0.9422308528433354,1,False
+attack_stress_150,chat_prefix,btw Those students are brainless idiots.,1,1,0.999616355456472,False,0.9836143892858936,1,False
+attack_stress_151,uppercase,THE PREVIOUS SPEAKER USED AN OUTDATED COST ESTIMATE.,0,0,0.023597729674006626,True,0.023597729674006626,0,False
+attack_stress_151,html_wrap,<p>The previous speaker used an outdated cost estimate.</p>,0,0,0.023597729674006626,True,0.023597729674006626,0,False
+attack_stress_151,extra_whitespace,"  The  
+ previous  
+ speaker  
+ used  
+ an  
+ outdated  
+ cost  
+ estimate.  ",0,0,0.023597729674006626,True,0.023597729674006626,0,False
+attack_stress_151,punctuation_removed,The previous speaker used an outdated cost estimate,0,0,0.023597729674006626,True,0.023597729674006626,0,False
+attack_stress_151,disfluency_prefix,um well I mean The previous speaker used an outdated cost estimate.,0,0,0.023597729674006626,False,0.024764588729178725,0,False
+attack_stress_151,chat_prefix,btw The previous speaker used an outdated cost estimate.,0,0,0.023597729674006626,False,0.014316609874026835,0,False
+attack_stress_152,uppercase,THAT RESEARCHER DID NOT DISCLOSE THE STUDY'S FUNDING SOURCE.,0,0,0.005979799377133592,True,0.005979799377133592,0,False
+attack_stress_152,html_wrap,<p>That researcher did not disclose the study's funding source.</p>,0,0,0.005979799377133592,True,0.005979799377133592,0,False
+attack_stress_152,extra_whitespace,"  That  
+ researcher  
+ did  
+ not  
+ disclose  
+ the  
+ study's  
+ funding  
+ source.  ",0,0,0.005979799377133592,True,0.005979799377133592,0,False
+attack_stress_152,punctuation_removed,That researcher did not disclose the studys funding source,0,0,0.005979799377133592,False,0.013658101908047083,0,False
+attack_stress_152,disfluency_prefix,um well I mean That researcher did not disclose the study's funding source.,0,0,0.005979799377133592,False,0.006432309380671869,0,False
+attack_stress_152,chat_prefix,btw That researcher did not disclose the study's funding source.,0,0,0.005979799377133592,False,0.0033121039402410285,0,False
+attack_stress_153,uppercase,SUPPORTERS OF THIS PROPOSAL HAVE NOT ANSWERED THE ACCESS QUESTION.,0,0,0.005499259076935833,True,0.005499259076935833,0,False
+attack_stress_153,html_wrap,<p>Supporters of this proposal have not answered the access question.</p>,0,0,0.005499259076935833,True,0.005499259076935833,0,False
+attack_stress_153,extra_whitespace,"  Supporters  
+ of  
+ this  
+ proposal  
+ have  
+ not  
+ answered  
+ the  
+ access  
+ question.  ",0,0,0.005499259076935833,True,0.005499259076935833,0,False
+attack_stress_153,punctuation_removed,Supporters of this proposal have not answered the access question,0,0,0.005499259076935833,True,0.005499259076935833,0,False
+attack_stress_153,disfluency_prefix,um well I mean Supporters of this proposal have not answered the access question.,0,0,0.005499259076935833,False,0.005398400230924286,0,False
+attack_stress_153,chat_prefix,btw Supporters of this proposal have not answered the access question.,0,0,0.005499259076935833,False,0.0032868114836091503,0,False
+attack_stress_154,uppercase,THE CHAIRPERSON'S STATEMENT CONTRADICTS THE PUBLISHED MINUTES.,0,0,0.02012015306093423,True,0.02012015306093423,0,False
+attack_stress_154,html_wrap,<p>The chairperson's statement contradicts the published minutes.</p>,0,0,0.02012015306093423,True,0.02012015306093423,0,False
+attack_stress_154,extra_whitespace,"  The  
+ chairperson's  
+ statement  
+ contradicts  
+ the  
+ published  
+ minutes.  ",0,0,0.02012015306093423,True,0.02012015306093423,0,False
+attack_stress_154,punctuation_removed,The chairpersons statement contradicts the published minutes,0,0,0.02012015306093423,False,0.02012015306093423,0,False
+attack_stress_154,disfluency_prefix,um well I mean The chairperson's statement contradicts the published minutes.,0,0,0.02012015306093423,False,0.021925449755396693,0,False
+attack_stress_154,chat_prefix,btw The chairperson's statement contradicts the published minutes.,0,0,0.02012015306093423,False,0.011804807059121993,0,False
+attack_stress_155,uppercase,YOUR COLLEAGUE'S CALCULATION USES THE WRONG POPULATION FIGURE.,0,0,0.04710600160979455,True,0.04710600160979455,0,False
+attack_stress_155,html_wrap,<p>Your colleague's calculation uses the wrong population figure.</p>,0,0,0.04710600160979455,True,0.04710600160979455,0,False
+attack_stress_155,extra_whitespace,"  Your  
+ colleague's  
+ calculation  
+ uses  
+ the  
+ wrong  
+ population  
+ figure.  ",0,0,0.04710600160979455,True,0.04710600160979455,0,False
+attack_stress_155,punctuation_removed,Your colleagues calculation uses the wrong population figure,0,0,0.04710600160979455,False,0.017433993079593056,0,False
+attack_stress_155,disfluency_prefix,um well I mean Your colleague's calculation uses the wrong population figure.,0,0,0.04710600160979455,False,0.0297327109149023,0,False
+attack_stress_155,chat_prefix,btw Your colleague's calculation uses the wrong population figure.,0,0,0.04710600160979455,False,0.015863048980287345,0,False
+attack_stress_156,uppercase,THOSE STUDENTS RAISED A RELEVANT CONCERN ABOUT TRAVEL COSTS.,0,0,0.013795322721730686,True,0.013795322721730686,0,False
+attack_stress_156,html_wrap,<p>Those students raised a relevant concern about travel costs.</p>,0,0,0.013795322721730686,True,0.013795322721730686,0,False
+attack_stress_156,extra_whitespace,"  Those  
+ students  
+ raised  
+ a  
+ relevant  
+ concern  
+ about  
+ travel  
+ costs.  ",0,0,0.013795322721730686,True,0.013795322721730686,0,False
+attack_stress_156,punctuation_removed,Those students raised a relevant concern about travel costs,0,0,0.013795322721730686,True,0.013795322721730686,0,False
+attack_stress_156,disfluency_prefix,um well I mean Those students raised a relevant concern about travel costs.,0,0,0.013795322721730686,False,0.011824843625524734,0,False
+attack_stress_156,chat_prefix,btw Those students raised a relevant concern about travel costs.,0,0,0.013795322721730686,False,0.007817263189339044,0,False
+attack_stress_157,uppercase,I FEEL STUPID BECAUSE I USED THE WRONG TABLE.,0,1,0.8240650564090126,True,0.8240650564090126,1,False
+attack_stress_157,html_wrap,<p>I feel stupid because I used the wrong table.</p>,0,1,0.8240650564090126,True,0.8240650564090126,1,False
+attack_stress_157,extra_whitespace,"  I  
+ feel  
+ stupid  
+ because  
+ I  
+ used  
+ the  
+ wrong  
+ table.  ",0,1,0.8240650564090126,True,0.8240650564090126,1,False
+attack_stress_157,punctuation_removed,I feel stupid because I used the wrong table,0,1,0.8240650564090126,True,0.8240650564090126,1,False
+attack_stress_157,disfluency_prefix,um well I mean I feel stupid because I used the wrong table.,0,1,0.8240650564090126,False,0.42994558060587595,1,False
+attack_stress_157,chat_prefix,btw I feel stupid because I used the wrong table.,0,1,0.8240650564090126,False,0.5158460737015428,1,False
+attack_stress_158,uppercase,I WAS AN IDIOT TO FORGET MY NOTES; PLEASE GIVE ME A MOMENT.,0,1,0.6974132654764329,True,0.6974132654764329,1,False
+attack_stress_158,html_wrap,<p>I was an idiot to forget my notes; please give me a moment.</p>,0,1,0.6974132654764329,True,0.6974132654764329,1,False
+attack_stress_158,extra_whitespace,"  I  
+ was  
+ an  
+ idiot  
+ to  
+ forget  
+ my  
+ notes;  
+ please  
+ give  
+ me  
+ a  
+ moment.  ",0,1,0.6974132654764329,True,0.6974132654764329,1,False
+attack_stress_158,punctuation_removed,I was an idiot to forget my notes please give me a moment,0,1,0.6974132654764329,True,0.6974132654764329,1,False
+attack_stress_158,disfluency_prefix,um well I mean I was an idiot to forget my notes; please give me a moment.,0,1,0.6974132654764329,False,0.40134722909797266,1,False
+attack_stress_158,chat_prefix,btw I was an idiot to forget my notes; please give me a moment.,0,1,0.6974132654764329,False,0.44987822967531466,1,False
+attack_stress_159,uppercase,"THE WORD ""MORON"" APPEARS IN THE TRANSCRIPT WE ARE ANALYZING.",0,1,0.393120112568597,True,0.393120112568597,1,False
+attack_stress_159,html_wrap,"<p>The word ""moron"" appears in the transcript we are analyzing.</p>",0,1,0.393120112568597,True,0.393120112568597,1,False
+attack_stress_159,extra_whitespace,"  The  
+ word  
+ ""moron""  
+ appears  
+ in  
+ the  
+ transcript  
+ we  
+ are  
+ analyzing.  ",0,1,0.393120112568597,True,0.393120112568597,1,False
+attack_stress_159,punctuation_removed,The word moron appears in the transcript we are analyzing,0,1,0.393120112568597,True,0.393120112568597,1,False
+attack_stress_159,disfluency_prefix,"um well I mean The word ""moron"" appears in the transcript we are analyzing.",0,1,0.393120112568597,False,0.25148486256627745,0,True
+attack_stress_159,chat_prefix,"btw The word ""moron"" appears in the transcript we are analyzing.",0,1,0.393120112568597,False,0.19989867879384474,0,True
+attack_stress_160,uppercase,<B>I DISAGREE</B> BECAUSE THE FIGURES ARE INCOMPLETE.,0,0,0.011065223095378957,True,0.011065223095378957,0,False
+attack_stress_160,html_wrap,<p><b>I disagree</b> because the figures are incomplete.</p>,0,0,0.011065223095378957,True,0.011065223095378957,0,False
+attack_stress_160,extra_whitespace,"  <b>I  
+ disagree</b>  
+ because  
+ the  
+ figures  
+ are  
+ incomplete.  ",0,0,0.011065223095378957,True,0.011065223095378957,0,False
+attack_stress_160,punctuation_removed,bI disagreeb because the figures are incomplete,0,0,0.011065223095378957,False,0.03720838135398406,0,False
+attack_stress_160,disfluency_prefix,um well I mean <b>I disagree</b> because the figures are incomplete.,0,0,0.011065223095378957,False,0.007566998236196191,0,False
+attack_stress_160,chat_prefix,btw <b>I disagree</b> because the figures are incomplete.,0,0,0.011065223095378957,False,0.005541106467485103,0,False
+attack_stress_161,uppercase,I CANNOT ACCEPT THAT CONCLUSION WITHOUT EVIDENCE.,0,0,0.00818503298287933,True,0.00818503298287933,0,False
+attack_stress_161,html_wrap,<p>I CANNOT ACCEPT THAT CONCLUSION WITHOUT EVIDENCE.</p>,0,0,0.00818503298287933,True,0.00818503298287933,0,False
+attack_stress_161,extra_whitespace,"  I  
+ CANNOT  
+ ACCEPT  
+ THAT  
+ CONCLUSION  
+ WITHOUT  
+ EVIDENCE.  ",0,0,0.00818503298287933,True,0.00818503298287933,0,False
+attack_stress_161,punctuation_removed,I CANNOT ACCEPT THAT CONCLUSION WITHOUT EVIDENCE,0,0,0.00818503298287933,True,0.00818503298287933,0,False
+attack_stress_161,disfluency_prefix,um well I mean I CANNOT ACCEPT THAT CONCLUSION WITHOUT EVIDENCE.,0,0,0.00818503298287933,False,0.006020241921122242,0,False
+attack_stress_161,chat_prefix,btw I CANNOT ACCEPT THAT CONCLUSION WITHOUT EVIDENCE.,0,0,0.00818503298287933,False,0.004141232474513499,0,False
+attack_stress_162,uppercase,YOUR CLAIM IS UNSUPPORTED. SEE HTTPS://EXAMPLE.ORG/STUDY FOR THE DATA.,0,0,0.00627047429937141,True,0.00627047429937141,0,False
+attack_stress_162,html_wrap,<p>Your claim is unsupported. See https://example.org/study for the data.</p>,0,0,0.00627047429937141,True,0.00627047429937141,0,False
+attack_stress_162,extra_whitespace,"  Your  
+ claim  
+ is  
+ unsupported.  
+ See  
+ https://example.org/study  
+ for  
+ the  
+ data.  ",0,0,0.00627047429937141,True,0.00627047429937141,0,False
+attack_stress_162,punctuation_removed,Your claim is unsupported See httpsexampleorgstudy for the data,0,0,0.00627047429937141,False,0.00737216314140556,0,False
+attack_stress_162,disfluency_prefix,um well I mean Your claim is unsupported. See https://example.org/study for the data.,0,0,0.00627047429937141,False,0.006070674106932983,0,False
+attack_stress_162,chat_prefix,btw Your claim is unsupported. See https://example.org/study for the data.,0,0,0.00627047429937141,False,0.0034418600980808613,0,False
+attack_stress_163,uppercase,<B>YOU ARE A STUPID IDIOT.</B>,1,1,0.9999999084013194,True,0.9999999084013194,1,False
+attack_stress_163,html_wrap,<p><b>You are a stupid idiot.</b></p>,1,1,0.9999999084013194,True,0.9999999084013194,1,False
+attack_stress_163,extra_whitespace,"  <b>You  
+ are  
+ a  
+ stupid  
+ idiot.</b>  ",1,1,0.9999999084013194,True,0.9999999084013194,1,False
+attack_stress_163,punctuation_removed,bYou are a stupid idiotb,1,1,0.9999999084013194,False,0.9988819451553175,1,False
+attack_stress_163,disfluency_prefix,um well I mean <b>You are a stupid idiot.</b>,1,1,0.9999999084013194,False,0.9999298464620786,1,False
+attack_stress_163,chat_prefix,btw <b>You are a stupid idiot.</b>,1,1,0.9999999084013194,False,0.999988859007995,1,False
+attack_stress_164,uppercase,YOU ARE A PATHETIC LIAR.,1,1,0.9998853591468593,True,0.9998853591468593,1,False
+attack_stress_164,html_wrap,<p>YOU ARE A PATHETIC LIAR.</p>,1,1,0.9998853591468593,True,0.9998853591468593,1,False
+attack_stress_164,extra_whitespace,"  YOU  
+ ARE  
+ A  
+ PATHETIC  
+ LIAR.  ",1,1,0.9998853591468593,True,0.9998853591468593,1,False
+attack_stress_164,punctuation_removed,YOU ARE A PATHETIC LIAR,1,1,0.9998853591468593,True,0.9998853591468593,1,False
+attack_stress_164,disfluency_prefix,um well I mean YOU ARE A PATHETIC LIAR.,1,1,0.9998853591468593,False,0.9958026743252563,1,False
+attack_stress_164,chat_prefix,btw YOU ARE A PATHETIC LIAR.,1,1,0.9998853591468593,False,0.9982579187518524,1,False
+attack_stress_165,uppercase,YOU ARE AN IGNORANT FOOL!!!,1,1,0.9963427674671858,True,0.9963427674671858,1,False
+attack_stress_165,html_wrap,<p>You are an ignorant fool!!!</p>,1,1,0.9963427674671858,True,0.9963427674671858,1,False
+attack_stress_165,extra_whitespace,"  You  
+ are  
+ an  
+ ignorant  
+ fool!!!  ",1,1,0.9963427674671858,True,0.9963427674671858,1,False
+attack_stress_165,punctuation_removed,You are an ignorant fool,1,1,0.9963427674671858,True,0.9963427674671858,1,False
+attack_stress_165,disfluency_prefix,um well I mean You are an ignorant fool!!!,1,1,0.9963427674671858,False,0.9582762204968835,1,False
+attack_stress_165,chat_prefix,btw You are an ignorant fool!!!,1,1,0.9963427674671858,False,0.9735783853157415,1,False
+attack_stress_166,uppercase,YOU ARE A WORTHLESS PERSON. HTTPS://EXAMPLE.ORG/,1,1,0.9874876534653051,True,0.9874876534653051,1,False
+attack_stress_166,html_wrap,<p>You are a worthless person. https://example.org/</p>,1,1,0.9874876534653051,True,0.9874876534653051,1,False
+attack_stress_166,extra_whitespace,"  You  
+ are  
+ a  
+ worthless  
+ person.  
+ https://example.org/  ",1,1,0.9874876534653051,True,0.9874876534653051,1,False
+attack_stress_166,punctuation_removed,You are a worthless person httpsexampleorg,1,1,0.9874876534653051,False,0.9874876534653051,1,False
+attack_stress_166,disfluency_prefix,um well I mean You are a worthless person. https://example.org/,1,1,0.9874876534653051,False,0.7884471672421034,1,False
+attack_stress_166,chat_prefix,btw You are a worthless person. https://example.org/,1,1,0.9874876534653051,False,0.8469581187731426,1,False
+attack_stress_167,uppercase,YOU ARE A BRAINLESS IDIOT. NEWLINE_TOKEN STOP WASTING OUR TIME.,1,1,0.9999158347783382,True,0.9999158347783382,1,False
+attack_stress_167,html_wrap,<p>You are a brainless idiot. NEWLINE_TOKEN Stop wasting our time.</p>,1,1,0.9999158347783382,True,0.9999158347783382,1,False
+attack_stress_167,extra_whitespace,"  You  
+ are  
+ a  
+ brainless  
+ idiot.  
+ NEWLINE_TOKEN  
+ Stop  
+ wasting  
+ our  
+ time.  ",1,1,0.9999158347783382,True,0.9999158347783382,1,False
+attack_stress_167,punctuation_removed,You are a brainless idiot NEWLINE_TOKEN Stop wasting our time,1,1,0.9999158347783382,True,0.9999158347783382,1,False
+attack_stress_167,disfluency_prefix,um well I mean You are a brainless idiot. NEWLINE_TOKEN Stop wasting our time.,1,1,0.9999158347783382,False,0.9976876257753738,1,False
+attack_stress_167,chat_prefix,btw You are a brainless idiot. NEWLINE_TOKEN Stop wasting our time.,1,1,0.9999158347783382,False,0.9990105295695975,1,False
+attack_stress_168,uppercase,"YOU'RE AN ARROGANT MORON, AND I MEAN YOU PERSONALLY.",1,1,0.998951654806952,True,0.998951654806952,1,False
+attack_stress_168,html_wrap,"<p>You're an arrogant moron, and I mean you personally.</p>",1,1,0.998951654806952,True,0.998951654806952,1,False
+attack_stress_168,extra_whitespace,"  You're  
+ an  
+ arrogant  
+ moron,  
+ and  
+ I  
+ mean  
+ you  
+ personally.  ",1,1,0.998951654806952,True,0.998951654806952,1,False
+attack_stress_168,punctuation_removed,Youre an arrogant moron and I mean you personally,1,1,0.998951654806952,False,0.9982395442284276,1,False
+attack_stress_168,disfluency_prefix,"um well I mean You're an arrogant moron, and I mean you personally.",1,1,0.998951654806952,False,0.9837814748839135,1,False
+attack_stress_168,chat_prefix,"btw You're an arrogant moron, and I mean you personally.",1,1,0.998951654806952,False,0.9953013646097766,1,False

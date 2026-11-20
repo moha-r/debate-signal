@@ -1,0 +1,490 @@
+{
+  "provenance": {
+    "author": "Primary project assistant",
+    "purpose": "Training-only targeted supplement for negation, reported abuse, implicit degradation, long turns and informal English",
+    "annotation": "Authored and self-reviewed by the same AI assistant; no independent human annotation. Cases are not evidence of final-test accuracy.",
+    "sampling": "May be repeated during training with repeat factor explicitly recorded; repetitions are not additional independent labels."
+  },
+  "cases": [
+    {
+      "id": "supp_001",
+      "text": "You lack the mental capacity to participate in this discussion.",
+      "label": 1
+    },
+    {
+      "id": "supp_002",
+      "text": "The simplest explanation is already beyond your intellectual reach.",
+      "label": 1
+    },
+    {
+      "id": "supp_003",
+      "text": "I doubt you could follow a straight line of reasoning.",
+      "label": 1
+    },
+    {
+      "id": "supp_004",
+      "text": "Your brain appears to be permanently out of service.",
+      "label": 1
+    },
+    {
+      "id": "supp_005",
+      "text": "Thinking is obviously not something you know how to do.",
+      "label": 1
+    },
+    {
+      "id": "supp_006",
+      "text": "You have the reasoning ability of a broken calculator.",
+      "label": 1
+    },
+    {
+      "id": "supp_007",
+      "text": "It is impressive how little intelligence you bring to the table.",
+      "label": 1
+    },
+    {
+      "id": "supp_008",
+      "text": "An empty chair would contribute more than you do.",
+      "label": 1
+    },
+    {
+      "id": "supp_009",
+      "text": "You contribute nothing except your own ignorance.",
+      "label": 1
+    },
+    {
+      "id": "supp_010",
+      "text": "You are incapable of understanding even a basic distinction.",
+      "label": 1
+    },
+    {
+      "id": "supp_011",
+      "text": "I cannot teach common sense to someone as dim as you.",
+      "label": 1
+    },
+    {
+      "id": "supp_012",
+      "text": "Your level of comprehension is embarrassingly low.",
+      "label": 1
+    },
+    {
+      "id": "supp_013",
+      "text": "You have no functioning sense of logic whatsoever.",
+      "label": 1
+    },
+    {
+      "id": "supp_014",
+      "text": "The whole room would be better off if you stopped speaking.",
+      "label": 1
+    },
+    {
+      "id": "supp_015",
+      "text": "Nobody could mistake you for an intelligent person.",
+      "label": 1
+    },
+    {
+      "id": "supp_016",
+      "text": "It must be exhausting to be this intellectually helpless.",
+      "label": 1
+    },
+    {
+      "id": "supp_017",
+      "text": "Pardon my bluntness, but you are an insufferable buffoon.",
+      "label": 1
+    },
+    {
+      "id": "supp_018",
+      "text": "If I may be honest, you are a contemptible little liar.",
+      "label": 1
+    },
+    {
+      "id": "supp_019",
+      "text": "I politely suggest you stop being such a brainless nuisance.",
+      "label": 1
+    },
+    {
+      "id": "supp_020",
+      "text": "I appreciate the demonstration of your complete lack of intelligence.",
+      "label": 1
+    },
+    {
+      "id": "supp_021",
+      "text": "Thank you for proving that you are a dishonest creep.",
+      "label": 1
+    },
+    {
+      "id": "supp_022",
+      "text": "With respect, I have never met someone so hopelessly dim.",
+      "label": 1
+    },
+    {
+      "id": "supp_023",
+      "text": "Kindly leave, you obnoxious imbecile.",
+      "label": 1
+    },
+    {
+      "id": "supp_024",
+      "text": "I regret to say that you are a nasty and cowardly person.",
+      "label": 1
+    },
+    {
+      "id": "supp_025",
+      "text": "Eh you cannot use your brain at all lah.",
+      "label": 1
+    },
+    {
+      "id": "supp_026",
+      "text": "Your brain spoil already, useless fella.",
+      "label": 1
+    },
+    {
+      "id": "supp_027",
+      "text": "You so bodoh at thinking, better keep quiet lah.",
+      "label": 1
+    },
+    {
+      "id": "supp_028",
+      "text": "Aiyo you are one hopeless clown only.",
+      "label": 1
+    },
+    {
+      "id": "supp_029",
+      "text": "You got rubbish in your head lah.",
+      "label": 1
+    },
+    {
+      "id": "supp_030",
+      "text": "Bro your brain is completely missing today.",
+      "label": 1
+    },
+    {
+      "id": "supp_031",
+      "text": "You are such a dummie that this is pointless.",
+      "label": 1
+    },
+    {
+      "id": "supp_032",
+      "text": "What a br@inless buffoon you are.",
+      "label": 1
+    },
+    {
+      "id": "supp_033",
+      "text": "You are a l0ser with zero sense.",
+      "label": 1
+    },
+    {
+      "id": "supp_034",
+      "text": "Get out of here, you dum8 fool.",
+      "label": 1
+    },
+    {
+      "id": "supp_035",
+      "text": "You are a complete imbecille.",
+      "label": 1
+    },
+    {
+      "id": "supp_036",
+      "text": "You are a dishonest j3rk.",
+      "label": 1
+    },
+    {
+      "id": "supp_037",
+      "text": "I have no respect for a sneaky liar like you.",
+      "label": 1
+    },
+    {
+      "id": "supp_038",
+      "text": "The other participant is a contemptible coward.",
+      "label": 1
+    },
+    {
+      "id": "supp_039",
+      "text": "Anyone who agrees with you is a brainless buffoon.",
+      "label": 1
+    },
+    {
+      "id": "supp_040",
+      "text": "Your friend is a nasty little creep.",
+      "label": 1
+    },
+    {
+      "id": "supp_041",
+      "text": "I was talking about the housing budget, but you are a witless liar and ought to stop wasting everyone's time.",
+      "label": 1
+    },
+    {
+      "id": "supp_042",
+      "text": "We need to consider the maintenance bill and the staff rota. You are a dim-witted nuisance who should leave this conversation.",
+      "label": 1
+    },
+    {
+      "id": "supp_043",
+      "text": "The trial should run for six months before expansion. That does not change the fact that you are a disgusting bully.",
+      "label": 1
+    },
+    {
+      "id": "supp_044",
+      "text": "Several routes need better access for disabled passengers. You are far too thick to understand why that matters.",
+      "label": 1
+    },
+    {
+      "id": "supp_045",
+      "text": "We could audit the contracts once a year. Frankly you are an intellectually useless person and your comments are worthless.",
+      "label": 1
+    },
+    {
+      "id": "supp_046",
+      "text": "The figures should include the next financial year. You have the intelligence of a damp cardboard box.",
+      "label": 1
+    },
+    {
+      "id": "supp_047",
+      "text": "Do not imagine you are anything other than an arrogant buffoon.",
+      "label": 1
+    },
+    {
+      "id": "supp_048",
+      "text": "I am not interested in listening to a dishonest creep like you.",
+      "label": 1
+    },
+    {
+      "id": "supp_049",
+      "text": "I would never say that you lack intelligence.",
+      "label": 0
+    },
+    {
+      "id": "supp_050",
+      "text": "You are not an imbecile for asking for clarification.",
+      "label": 0
+    },
+    {
+      "id": "supp_051",
+      "text": "Nobody is claiming that you are a brainless person.",
+      "label": 0
+    },
+    {
+      "id": "supp_052",
+      "text": "I reject the suggestion that you are mentally incapable.",
+      "label": 0
+    },
+    {
+      "id": "supp_053",
+      "text": "It is false to say that you are an ignorant fool.",
+      "label": 0
+    },
+    {
+      "id": "supp_054",
+      "text": "Do not assume that a mistaken answer makes you a stupid person.",
+      "label": 0
+    },
+    {
+      "id": "supp_055",
+      "text": "I am not calling you a dishonest creep.",
+      "label": 0
+    },
+    {
+      "id": "supp_056",
+      "text": "Being confused by a chart does not make you an idiot.",
+      "label": 0
+    },
+    {
+      "id": "supp_057",
+      "text": "I do not consider you a coward or a liar.",
+      "label": 0
+    },
+    {
+      "id": "supp_058",
+      "text": "You should not be described as worthless because we disagree.",
+      "label": 0
+    },
+    {
+      "id": "supp_059",
+      "text": "I never meant that you were a fool.",
+      "label": 0
+    },
+    {
+      "id": "supp_060",
+      "text": "There is no reason to think you have no intelligence.",
+      "label": 0
+    },
+    {
+      "id": "supp_061",
+      "text": "I disagree with the claim that you are a hopeless nuisance.",
+      "label": 0
+    },
+    {
+      "id": "supp_062",
+      "text": "You are not dim; I explained the procedure badly.",
+      "label": 0
+    },
+    {
+      "id": "supp_063",
+      "text": "It would be unfair for me to call you a brainless buffoon.",
+      "label": 0
+    },
+    {
+      "id": "supp_064",
+      "text": "I cannot agree with anyone who calls you a loser.",
+      "label": 0
+    },
+    {
+      "id": "supp_065",
+      "text": "The chair warned a participant against saying that someone was brainless.",
+      "label": 0
+    },
+    {
+      "id": "supp_066",
+      "text": "A witness reported hearing the words \"you dim fool\" during the exchange.",
+      "label": 0
+    },
+    {
+      "id": "supp_067",
+      "text": "We are reviewing an example of the insult \"you are a creep\".",
+      "label": 0
+    },
+    {
+      "id": "supp_068",
+      "text": "Please avoid the phrase \"you have no intelligence\" when addressing a participant.",
+      "label": 0
+    },
+    {
+      "id": "supp_069",
+      "text": "I want to apologize for having called you an imbecile earlier.",
+      "label": 0
+    },
+    {
+      "id": "supp_070",
+      "text": "The moderator removed a message containing the words \"worthless liar\".",
+      "label": 0
+    },
+    {
+      "id": "supp_071",
+      "text": "Her complaint says that someone told her she was a coward.",
+      "label": 0
+    },
+    {
+      "id": "supp_072",
+      "text": "Calling an opponent a brainless nuisance is not an argument.",
+      "label": 0
+    },
+    {
+      "id": "supp_073",
+      "text": "The transcript includes a speaker saying \"you are a loser\", which is the conduct we are examining.",
+      "label": 0
+    },
+    {
+      "id": "supp_074",
+      "text": "He withdrew the description \"dishonest creep\" and agreed to discuss the evidence.",
+      "label": 0
+    },
+    {
+      "id": "supp_075",
+      "text": "We should replace \"you are thick\" with an explanation of the actual disagreement.",
+      "label": 0
+    },
+    {
+      "id": "supp_076",
+      "text": "The policy says insults such as \"brainless buffoon\" are unacceptable.",
+      "label": 0
+    },
+    {
+      "id": "supp_077",
+      "text": "A student asked how the moderator should respond to a personal insult like \"you are witless\".",
+      "label": 0
+    },
+    {
+      "id": "supp_078",
+      "text": "She quoted the phrase \"you have no brain\" as an example of inappropriate language.",
+      "label": 0
+    },
+    {
+      "id": "supp_079",
+      "text": "The allegation that a member used the word \"imbecile\" still needs to be checked.",
+      "label": 0
+    },
+    {
+      "id": "supp_080",
+      "text": "The report condemns a remark describing someone as an intellectually useless person.",
+      "label": 0
+    },
+    {
+      "id": "supp_081",
+      "text": "That is an idiotic rule because it prevents patients from booking an appointment.",
+      "label": 0
+    },
+    {
+      "id": "supp_082",
+      "text": "The accounting method is absurd, and the totals are internally inconsistent.",
+      "label": 0
+    },
+    {
+      "id": "supp_083",
+      "text": "This argument is dishonest in its presentation of the missing data.",
+      "label": 0
+    },
+    {
+      "id": "supp_084",
+      "text": "That estimate is nonsense because it mixes monthly and annual costs.",
+      "label": 0
+    },
+    {
+      "id": "supp_085",
+      "text": "The proposed exception is unfair to staff on evening shifts.",
+      "label": 0
+    },
+    {
+      "id": "supp_086",
+      "text": "This analysis is confused about which households qualify for the subsidy.",
+      "label": 0
+    },
+    {
+      "id": "supp_087",
+      "text": "The government's decision was a stupid waste of public money.",
+      "label": 0
+    },
+    {
+      "id": "supp_088",
+      "text": "This is a cruel policy because it removes support without notice.",
+      "label": 0
+    },
+    {
+      "id": "supp_089",
+      "text": "The damn booking system failed again this morning.",
+      "label": 0
+    },
+    {
+      "id": "supp_090",
+      "text": "The presentation software is fucking useless on this laptop.",
+      "label": 0
+    },
+    {
+      "id": "supp_091",
+      "text": "I feel like a complete fool for reading the wrong column.",
+      "label": 0
+    },
+    {
+      "id": "supp_092",
+      "text": "I was stupid to forget the meeting notes at home.",
+      "label": 0
+    },
+    {
+      "id": "supp_093",
+      "text": "Can show how the maintenance cost is calculated ah?",
+      "label": 0
+    },
+    {
+      "id": "supp_094",
+      "text": "I disagree lah, the chart uses an older population figure.",
+      "label": 0
+    },
+    {
+      "id": "supp_095",
+      "text": "Please give the other speaker time to complete the explanation.",
+      "label": 0
+    },
+    {
+      "id": "supp_096",
+      "text": "I strongly reject your interpretation, but I want to hear your evidence.",
+      "label": 0
+    }
+  ]
+}

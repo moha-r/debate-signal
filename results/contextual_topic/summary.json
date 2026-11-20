@@ -1,0 +1,136 @@
+{
+  "policy": {
+    "settings": {
+      "threshold": 0.15000000000000002,
+      "context_window": 2,
+      "link_threshold": 0.15
+    },
+    "selection": "Development only. Choose event F1, then turn macro F1, then shorter context and higher link cutoff."
+  },
+  "development": {
+    "current": {
+      "event_precision": 1.0,
+      "event_recall": 1.0,
+      "event_f1": 1.0,
+      "false_alerts": 0,
+      "events": 2,
+      "detected": 2,
+      "median_delay_turns": 1.0,
+      "false_alerts_per_session": 0.0,
+      "turn_macro_f1": 1.0,
+      "related_turns_flagged_off_topic": 0,
+      "off_topic_turns_labeled_related": 0,
+      "turns": 41
+    },
+    "candidate": {
+      "event_precision": 1.0,
+      "event_recall": 1.0,
+      "event_f1": 1.0,
+      "false_alerts": 0,
+      "events": 2,
+      "detected": 2,
+      "median_delay_turns": 1.0,
+      "false_alerts_per_session": 0.0,
+      "turn_macro_f1": 0.9721280602636536,
+      "related_turns_flagged_off_topic": 1,
+      "off_topic_turns_labeled_related": 0,
+      "turns": 41
+    }
+  },
+  "original_reserved": {
+    "current": {
+      "event_precision": 1.0,
+      "event_recall": 0.6666666666666666,
+      "event_f1": 0.8,
+      "false_alerts": 0,
+      "events": 3,
+      "detected": 2,
+      "median_delay_turns": 1.0,
+      "false_alerts_per_session": 0.0,
+      "turn_macro_f1": 0.9479166666666666,
+      "related_turns_flagged_off_topic": 0,
+      "off_topic_turns_labeled_related": 2,
+      "turns": 44
+    },
+    "candidate": {
+      "event_precision": 1.0,
+      "event_recall": 0.6666666666666666,
+      "event_f1": 0.8,
+      "false_alerts": 0,
+      "events": 3,
+      "detected": 2,
+      "median_delay_turns": 1.0,
+      "false_alerts_per_session": 0.0,
+      "turn_macro_f1": 0.9044205495818399,
+      "related_turns_flagged_off_topic": 2,
+      "off_topic_turns_labeled_related": 2,
+      "turns": 44
+    }
+  },
+  "challenge": {
+    "current": {
+      "event_precision": 1.0,
+      "event_recall": 0.75,
+      "event_f1": 0.8571428571428571,
+      "false_alerts": 0,
+      "events": 4,
+      "detected": 3,
+      "median_delay_turns": 1.0,
+      "false_alerts_per_session": 0.0,
+      "turn_macro_f1": 0.9023199023199023,
+      "related_turns_flagged_off_topic": 2,
+      "off_topic_turns_labeled_related": 3,
+      "turns": 60
+    },
+    "candidate": {
+      "event_precision": 1.0,
+      "event_recall": 0.5,
+      "event_f1": 0.6666666666666666,
+      "false_alerts": 0,
+      "events": 4,
+      "detected": 2,
+      "median_delay_turns": 1.5,
+      "false_alerts_per_session": 0.0,
+      "turn_macro_f1": 0.8521033767213733,
+      "related_turns_flagged_off_topic": 2,
+      "off_topic_turns_labeled_related": 5,
+      "turns": 60
+    }
+  },
+  "expanded_regression": {
+    "current": {
+      "event_precision": 0.8947368421052632,
+      "event_recall": 0.9444444444444444,
+      "event_f1": 0.918918918918919,
+      "false_alerts": 2,
+      "events": 18,
+      "detected": 17,
+      "median_delay_turns": 1.0,
+      "false_alerts_per_session": 0.08333333333333333,
+      "turn_macro_f1": 0.91643371878666,
+      "related_turns_flagged_off_topic": 19,
+      "off_topic_turns_labeled_related": 4,
+      "turns": 288
+    },
+    "candidate": {
+      "event_precision": 0.9411764705882353,
+      "event_recall": 0.8888888888888888,
+      "event_f1": 0.9142857142857143,
+      "false_alerts": 1,
+      "events": 18,
+      "detected": 16,
+      "median_delay_turns": 1.0,
+      "false_alerts_per_session": 0.041666666666666664,
+      "turn_macro_f1": 0.9355912061794415,
+      "related_turns_flagged_off_topic": 8,
+      "off_topic_turns_labeled_related": 8,
+      "turns": 288
+    }
+  },
+  "warm_cpu_latency": {
+    "scope": "One authored development session, encoder cache disabled.",
+    "median_ms": 11.161415954120457,
+    "p95_ms": 16.40452106948942
+  },
+  "scope": "Previously inspected authored diagnostics and tiny development partition. A new human-annotated conversation set is needed for independent evaluation."
+}

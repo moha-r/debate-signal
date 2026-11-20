@@ -1,0 +1,115 @@
+{
+  "attack_stress": {
+    "n": 168,
+    "positive_references": 84,
+    "accuracy": 0.8035714285714286,
+    "attack_precision": 0.8227848101265823,
+    "attack_recall": 0.7738095238095238,
+    "attack_f1": 0.7975460122699386,
+    "macro_f1": 0.8033972835916168,
+    "tn": 70,
+    "fp": 14,
+    "fn": 19,
+    "tp": 65,
+    "accuracy_wilson95": [
+      0.7369971311777509,
+      0.8565732487526864
+    ],
+    "precision_wilson95": [
+      0.7242380412359362,
+      0.8913957335191265
+    ],
+    "recall_wilson95": [
+      0.6735309285283279,
+      0.850139791625549
+    ]
+  },
+  "existing_holdout": {
+    "n": 22921,
+    "positive_references": 2679,
+    "accuracy": 0.9486060817590856,
+    "attack_precision": 0.8037231889923108,
+    "attack_recall": 0.7413213885778276,
+    "attack_f1": 0.7712621359223301,
+    "macro_f1": 0.8711564783612437,
+    "tn": 19757,
+    "fp": 485,
+    "fn": 693,
+    "tp": 1986,
+    "accuracy_wilson95": [
+      0.9456717142111202,
+      0.9513901056902467
+    ],
+    "precision_wilson95": [
+      0.7875965293720236,
+      0.8189069679127087
+    ],
+    "recall_wilson95": [
+      0.7244018045829838,
+      0.757549894705415
+    ]
+  },
+  "topic_stress": {
+    "event_precision": 0.8947368421052632,
+    "event_recall": 0.9444444444444444,
+    "event_f1": 0.918918918918919,
+    "false_alerts": 2,
+    "events": 18,
+    "detected": 17,
+    "median_delay_turns": 1.0,
+    "false_alerts_per_session": 0.08333333333333333,
+    "sessions": 24,
+    "turns": 288,
+    "event_precision_wilson95": [
+      0.6860591728889099,
+      0.9706414397011299
+    ],
+    "event_recall_wilson95": [
+      0.7424269921812741,
+      0.990124809021697
+    ],
+    "policy_threshold": 0.15000000000000002,
+    "clear_turn_classification": {
+      "n": 271,
+      "positive_references": 51,
+      "accuracy": 0.915129151291513,
+      "macro_f1": 0.87465057817999,
+      "tn": 201,
+      "fp": 19,
+      "fn": 4,
+      "tp": 47,
+      "accuracy_wilson95": [
+        0.8758720141872932,
+        0.9427817688534578
+      ],
+      "precision_wilson95": [
+        0.5936275059135345,
+        0.8072805002019328
+      ],
+      "recall_wilson95": [
+        0.8150005368740411,
+        0.9690778032115107
+      ],
+      "off_topic_precision": 0.7121212121212122,
+      "off_topic_recall": 0.9215686274509803,
+      "off_topic_f1": 0.8034188034188035,
+      "positive_class": "off_topic"
+    },
+    "negative_control_sessions": 8,
+    "negative_controls_without_alerts": 7
+  },
+  "workload": {
+    "long_session_turns": 250,
+    "long_session_alerts": 83,
+    "warm_end_to_end_median_ms": 13.672041473910213,
+    "warm_end_to_end_p95_ms": 15.815885236952454,
+    "first_50_median_ms": 13.563353975769132,
+    "last_50_median_ms": 14.684916532132775,
+    "concurrent_independent_sessions": 4,
+    "parallel_workers": 2,
+    "concurrent_session_turns": 20,
+    "cross_session_contamination": false,
+    "scope": "Synthetic repetition is a state/performance workload, not a quality benchmark. Does not establish production scalability or browser/network timing."
+  },
+  "frozen_files_unchanged": true
+}

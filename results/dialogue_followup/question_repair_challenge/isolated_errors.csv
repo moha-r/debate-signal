@@ -1,0 +1,23 @@
+session,turn,speaker,text,reference_role,predicted_role,reference_links,predicted_link,reference_evidence_request,predicted_evidence_request,topic_state,personal_attack,cue
+rainwater,2,B,That proposal would require storage tanks that small offices cannot afford.,rebuttal,claim,[1],,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+rainwater,4,B,I have not supplied a price source for the storage tanks.,claim,reason,[3],3,False,False,on_topic,False,Locally trained contextual role classifier
+rainwater,5,A,We could start with a shared tank for several office gardens.,rebuttal,reason,[2],,False,False,on_topic,False,Locally trained contextual role classifier
+repair-cafe,1,A,Monthly repair cafes could help residents repair broken household items.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+repair-cafe,2,B,"For instance, repairing a toaster could prevent it from becoming waste.",reason,reason,[1],,False,False,on_topic,False,Explicit reason or evidence reference (unverified)
+repair-cafe,4,B,Qualified volunteer electricians would supervise the electrical repairs.,claim,reason,[3],3,False,False,on_topic,False,Locally trained contextual role classifier
+repair-cafe,5,A,I agree that electrical safety needs qualified supervision.,agreement,agreement,[4],,False,False,on_topic,False,Explicit agreement language
+theatre,2,B,I am not convinced that discounted tickets would attract new theatre audiences.,rebuttal,rebuttal,[1],,False,False,on_topic,False,Explicit challenge or negated agreement
+theatre,5,A,"Because ticket prices can limit attendance, a discount could lower one barrier.",reason,reason,"[1, 2]",,False,False,on_topic,False,Explicit reason or evidence reference (unverified)
+crossing,3,A,The crossing would connect the market entrance to the bus stop.,claim,reason,[2],2,False,False,on_topic,False,Locally trained contextual role classifier
+crossing,4,B,"However, a crossing at the bus stop could delay emergency vehicles.",rebuttal,rebuttal,[3],,False,False,on_topic,False,Explicit challenge or negated agreement
+backpacks,2,A,"On the other hand, classroom storage could reduce the space available for desks.",rebuttal,rebuttal,[1],,False,False,on_topic,False,Explicit challenge or negated agreement
+backpacks,3,B,"For example, corridor lockers would keep backpacks out of the classroom.",reason,reason,[2],,False,False,on_topic,False,Explicit reason or evidence reference (unverified)
+backpacks,5,B,I do not agree that corridor lockers would leave enough room for evacuation.,rebuttal,rebuttal,[3],,False,False,on_topic,False,Explicit challenge or negated agreement
+conference,3,A,Digital schedules could be updated when conference rooms change.,claim,rebuttal,[],,False,False,on_topic,False,Locally trained contextual role classifier
+conference,5,A,I agree that hallway displays would help those attendees.,agreement,agreement,[4],,False,False,on_topic,False,Explicit agreement language
+studio,3,A,Studio bookings would need to avoid student rehearsal times.,claim,reason,[],2,False,False,on_topic,False,Locally trained contextual role classifier
+studio,6,B,The music studios would need to be cleaned after each booking.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+studio,7,A,A staff member could check the studio equipment each evening.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+refill,2,B,Refill stations could require maintenance that small shops cannot fund.,rebuttal,claim,[1],,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+refill,3,A,"For example, several nearby shops could share the maintenance cost of one station.",reason,reason,[2],,False,False,on_topic,False,Explicit reason or evidence reference (unverified)
+refill,4,B,There is no evidence here that shared maintenance would cover the cost.,rebuttal,rebuttal,[3],,False,False,on_topic,False,Explicit challenge or negated agreement

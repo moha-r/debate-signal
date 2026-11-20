@@ -1,0 +1,14 @@
+{
+  "event_precision": 1.0,
+  "event_recall": 0.75,
+  "event_f1": 0.8571428571428571,
+  "false_alerts": 0,
+  "events": 4,
+  "detected": 3,
+  "median_delay_turns": 1.0,
+  "false_alerts_per_session": 0.0,
+  "sessions": 6,
+  "turns": 60,
+  "provenance": "Six conversations authored by the project assistant on 2026-11-18 after the first diagnostic. The original topic policy is frozen. These challenge examples have no independent annotation or natural audio.",
+  "policy_threshold": 0.15000000000000002
+}

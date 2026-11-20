@@ -1,0 +1,11 @@
+{
+  "turns": 178,
+  "error_turns": 32,
+  "errors": {
+    "role": 19,
+    "ambiguous_target": 3,
+    "false_argument_link": 13,
+    "wrong_ranked_target": 3,
+    "model_or_threshold_rejection": 1
+  }
+}

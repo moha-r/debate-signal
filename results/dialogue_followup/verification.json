@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-20",
+  "timezone": "Asia/Kuala_Lumpur",
+  "tests": {
+    "count": 113,
+    "status": "passed",
+    "command": "HF_HUB_OFFLINE=1 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 uv run --python 3.13 --with-requirements requirements-voice.txt python -m unittest discover -s tests -q"
+  },
+  "semantic_checks": [
+    "final_regression/summary.json",
+    "final_challenge/summary.json",
+    "transformer/summary.json",
+    "local/summary.json"
+  ],
+  "actual_http_workflow": "final_workflow.json",
+  "live_smoke": "live_smoke.json",
+  "service": "http://127.0.0.1:7863",
+  "prepared_backend": {
+    "backend": "dialogue-roberta",
+    "model": "raruidol/ArgumentMining-EN-ARI-AIF-RoBERTa_L",
+    "revision": "7e7747dcc124d85e704edb11355fae452edada9c",
+    "device": "cpu",
+    "max_candidates": 6,
+    "max_tokens": 256,
+    "threshold": 0.5,
+    "margin": 0.015,
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "checkpoint_weight_sha256": "144db6725e51503d48468295b0ce1fd80c2a10901be4d8cefd74dc9de9dd7ebb",
+  "sha256": {
+    "dialogue_relations.py": "65e47edd5ded5add78e931501a3a7a2290ab284a9709172ae33c8f0111968ad7",
+    "argument_models.py": "af3325edbc5c7b2e3eac14f0873f5a5373d23263817c777f4f47372aecc931dc",
+    "conversation_insights.py": "7bf830df141bc171aba94552f566c1cf47da50eb2eba5a0e7a6fcb64629055ad",
+    "question_tracker.py": "3efc6a7f25cb3fd28d9f6414b241ae11f47ce974d7ae6ad96ea57259870c8890",
+    "moderation_session.py": "b117d6575e3a2e5bf93759eb434d1f67a117f330bc1d94a40f9206ab037d673a",
+    "prepare_dialogue_relation_model.py": "279be653a6bcf38870d40cd2506ecefe1c04e54062451aafffd79c4bfd4af7d5",
+    "evaluate_argument_quality.py": "cfd4b4a5ea3ef940f23d4cc1ddbaef72215444757e988d11691e4bc2baaee620",
+    "verify_argument_workflow.py": "ec1995cf07bdca33b97a877facb3bf39247f6b077ea117d0b8a2125be5d48e02",
+    "artifacts/dialogue_relation_policy.json": "bd5d943ff15d1e6c1cee3094cfa3a02c4985466011fde99f5df6c7cd9b671d19",
+    "artifacts/argument_models_v2.joblib": "9a9cf318c27074076a942d7b6f4bf774b2b9202722630d96614a1ca8659a48e5",
+    "data/argument_quality_audit.json": "e28b29a11f9d3877c26da4da37c32fa10196f280eb2bdb6332e924ad888be3a3",
+    "data/argument_repair_holdout.json": "c87d252b3accc176d15f13f903e4c8020f0a924cc7137a01fc74b5eda8d4ab28",
+    "data/marg_relation_diagnostic.json": "5c66884827049c96f4c75e5d2d6319da4c96ef8c497d503908615e8325bdb942"
+  },
+  "limitations": [
+    "7 incorrect links out of 21 displayed in the 44-turn regression",
+    "3 of 5 reference answers associated in the 44-turn regression",
+    "M-Arg prevalence-sample accuracy decreased while macro F1 slightly increased",
+    "No microphone or visual QA performed in this repair",
+    "No public deployment performed"
+  ]
+}

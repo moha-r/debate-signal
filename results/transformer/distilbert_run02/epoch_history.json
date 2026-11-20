@@ -1,0 +1,42 @@
+[
+  {
+    "epoch": 1,
+    "update": 2675,
+    "n": 9169,
+    "threshold": 0.5,
+    "accuracy": 0.9524484676627768,
+    "attack_precision": 0.771135781383433,
+    "attack_recall": 0.8431372549019608,
+    "tn": 7830,
+    "fp": 268,
+    "fn": 168,
+    "tp": 903,
+    "brier": 0.03608392673531607,
+    "macro_precision": 0.8750652650353024,
+    "macro_recall": 0.90502133182243,
+    "macro_f1": 0.8892216504718344,
+    "weighted_precision": 0.9547154429850992,
+    "weighted_recall": 0.9524484676627768,
+    "weighted_f1": 0.9533612266809801
+  },
+  {
+    "epoch": 2,
+    "update": 5350,
+    "n": 9169,
+    "threshold": 0.5,
+    "accuracy": 0.9575744355982113,
+    "attack_precision": 0.8444444444444444,
+    "attack_recall": 0.780578898225957,
+    "tn": 7944,
+    "fp": 154,
+    "fn": 235,
+    "tp": 836,
+    "brier": 0.03366081236844929,
+    "macro_precision": 0.9078561628017552,
+    "macro_recall": 0.8807809284906026,
+    "macro_f1": 0.8936789593386238,
+    "weighted_precision": 0.956454062779596,
+    "weighted_recall": 0.9575744355982113,
+    "weighted_f1": 0.9568463076329572
+  }
+]

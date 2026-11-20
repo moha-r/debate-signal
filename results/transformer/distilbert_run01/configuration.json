@@ -1,0 +1,52 @@
+{
+  "model": "distilbert/distilbert-base-uncased",
+  "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "seed": 1842,
+  "device": "mps",
+  "epochs": 2,
+  "batch_size": 4,
+  "gradient_accumulation": 8,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "natural_fitting_comments": 82513,
+  "validation_comments": 9169,
+  "supplement_unique_cases": 96,
+  "supplement_repeat": 32,
+  "training_presentations_per_epoch": 85585,
+  "precision": "float32",
+  "supplement_provenance": {
+    "author": "Primary project assistant",
+    "purpose": "Training-only targeted supplement for negation, reported abuse, implicit degradation, long turns and informal English",
+    "annotation": "Authored and self-reviewed by the same AI assistant; no independent human annotation. Cases are not evidence of final-test accuracy.",
+    "sampling": "May be repeated during training with repeat factor explicitly recorded; repetitions are not additional independent labels."
+  },
+  "supplement_sha256": "696113de1caab5a91f0da373f5b4eb57e13cf512577b110503f8d772973cd360",
+  "partitions": {
+    "fit": {
+      "rows": 82513,
+      "attacks": 9642,
+      "sha256": "d619f66f87e04c25ad208861198a4ec935ee17bab20117864887edbd26f19912",
+      "revision_ids_sha256": "487a256be0bba2fac050d35938776036bb53f0b5b4b3caf901290af193a7473a"
+    },
+    "validation": {
+      "rows": 9169,
+      "attacks": 1071,
+      "sha256": "d56047c57ba70b5f4e119519bd6c466b1280e14421aeab7cfc5121d9659b4a74",
+      "revision_ids_sha256": "cb8576f9b536d3d6452882fd6a1dd91ef86a30237d8e9ce3ef6b9e4c8eb31609"
+    },
+    "test": {
+      "rows": 22921,
+      "attacks": 2679,
+      "sha256": "f1a1b3f77b75d9d6189e197d78def698b3f708e5f31dfc87c062f707e0684f7d",
+      "revision_ids_sha256": "fa34e1411f7980bd314dec307bae90d669db791932263be0fb229645d5cf6334"
+    }
+  },
+  "packages": {
+    "torch": "2.15.0",
+    "transformers": "5.23.0",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.6.1"
+  },
+  "evaluation_scope": "Checkpoint and threshold use original-training validation only. Existing authored audits are regression data. No natural audio accuracy established."
+}

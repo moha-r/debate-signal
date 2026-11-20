@@ -1,0 +1,21 @@
+{
+  "turns": 178,
+  "error_turns": 29,
+  "errors": {
+    "role": 19,
+    "parallel_proposal": 3,
+    "false_argument_link": 8,
+    "ambiguous_target": 2,
+    "model_or_threshold_rejection": 1,
+    "wrong_ranked_target": 1
+  },
+  "source_hashes": {
+    "argument_models.py": "af3325edbc5c7b2e3eac14f0873f5a5373d23263817c777f4f47372aecc931dc",
+    "answer_extraction.py": "e828c5311717b7672146af95a9164b800b586833856aa1e86a45cb1bebe409b0",
+    "conversation_insights.py": "4dfbdae366563af39d2e38ee5f216609d0acb176c3c7d09260a4ea889fd83cbc",
+    "dialogue_relations.py": "4101290287e942e7d41ae84828a6acd83afab43cbc0790de7c162e75f29b1337",
+    "moderation_session.py": "4a2374b8982572137672beab99d3ada3311a0ecd3ecec08f681e1d00d92b9c91",
+    "question_tracker.py": "327b2c052c5e11bfafeb5d9f4e1db05872329e8a1d4db9609ce10e5f22e7beaa",
+    "relation_context.py": "4097de1e1b3c385bb88402055640c9c666cd7159d81425725af58a5250b1c196"
+  }
+}

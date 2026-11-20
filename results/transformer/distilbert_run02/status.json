@@ -1,0 +1,22 @@
+{
+  "state": "complete",
+  "time": "2026-11-17T19:49:50.230457+00:00",
+  "updates": 5350,
+  "elapsed_seconds_this_process": 6989.714558208012,
+  "best_validation_macro_f1_at_half": 0.8936789593386238,
+  "policy": {
+    "threshold": 0.3,
+    "precision": 0.8016378525932666,
+    "recall": 0.8225957049486461,
+    "alerts": 1099,
+    "macro_f1": 0.8933732673289903,
+    "precision_target_met": true,
+    "target_precision": 0.8,
+    "minimum_alerts": 100,
+    "selection_data": "training-only validation",
+    "model_directory": "artifacts/DistilBERT_candidate_v2/best",
+    "max_length": 128,
+    "probability_type": "Uncalibrated softmax; validation-selected decision threshold",
+    "training_configuration": "results/transformer/distilbert_run02/configuration.json"
+  }
+}

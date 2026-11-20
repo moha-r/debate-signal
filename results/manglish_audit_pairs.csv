@@ -1,0 +1,21 @@
+Pair,Reference,Standard English,Manglish style,Standard English probability,Standard English alert,Manglish style probability,Manglish style alert,Decision changed,Score difference
+1,0,I disagree because that estimate is too high.,"I disagree lah, that estimate too high.",0.004024560673754248,0,0.009278470390416889,0,False,0.005253909716662641
+2,0,Could you repeat the last point?,Can repeat the last point ah?,0.005702825381466928,0,0.0032939845162861065,0,False,-0.0024088408651808217
+3,0,The spreadsheet does not support that claim.,The spreadsheet does not support that claim lah.,0.00177232295277256,0,0.00177232295277256,0,False,0.0
+4,0,I don't think the proposal is ready yet.,I don't think the proposal ready yet lah.,0.020710645280928253,0,0.02090003839259196,0,False,0.00018939311166370904
+5,0,Please wait until she finishes speaking.,Wait until she finishes speaking first lah.,0.03396861259790391,0,0.054649946177177625,0,False,0.020681333579273715
+6,0,The argument is weak because the source is too old.,"The argument weak lah, the source is too old.",0.0018629178412902393,0,0.0018724978079828678,0,False,9.579966692628518e-06
+7,0,Can you give me one more example?,Can give me one more example ah?,0.03962750971116539,0,0.008022031273347663,0,False,-0.031605478437817726
+8,0,You can post the numbers later.,You can post the numbers later lah.,0.013735462802955999,0,0.013735462802955999,0,False,0.0
+9,0,I never said you were wrong.,I never said you were wrong ya.,0.010467976062838686,0,0.020798042611321805,0,False,0.010330066548483119
+10,0,"I understand your point, but I see it differently.","I get your point lah, but I see it differently.",0.011416920989205317,0,0.009158668534198647,0,False,-0.00225825245500667
+11,1,You are a stupid idiot.,You are a stupid idiot lah.,0.9999999084013194,1,0.9999999084013194,1,False,0.0
+12,1,Nobody wants to hear you talk because you are useless.,"Nobody wants to hear you talk, you useless lah.",0.2834933035506481,0,0.16299929449798317,0,False,-0.12049400905266494
+13,1,You are too dumb to understand this.,You too dumb to understand this lah.,0.7464946006608327,1,0.4847628185703566,1,False,-0.26173178209047615
+14,1,You are such a pathetic loser.,You are really a pathetic loser lah.,0.9994257901631687,1,0.9933957024084001,1,False,-0.006030087754768543
+15,1,You are a liar and a coward.,You are a liar and a coward lah.,0.9997960571889691,1,0.9997960571889691,1,False,0.0
+16,1,Only an idiot like you would believe that.,Only an idiot like you would believe that lah.,0.9559708152999045,1,0.9559708152999045,1,False,0.0
+17,1,You have no brain.,You got no brain ah?,0.7365853257207184,1,0.06675643339419654,0,True,-0.6698288923265219
+18,1,"You are worthless, so shut up.","You are worthless lah, just shut up.",0.9994866702363151,1,0.9992366527025495,1,False,-0.00025001753376563407
+19,1,You are the most incompetent person here.,You are the most incompetent person here lah.,0.689518711670361,1,0.689518711670361,1,False,0.0
+20,1,You are a piece of garbage.,You are a piece of garbage lah.,0.9888206811990744,1,0.9888206811990744,1,False,0.0

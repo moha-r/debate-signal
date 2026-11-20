@@ -1,0 +1,9 @@
+{
+  "matched_topic_predictions": 288,
+  "speaker_attribution_verified": true,
+  "prior_states_unchanged": true,
+  "sessions": 24,
+  "warm_median_ms": 13.884979009162635,
+  "warm_p95_ms": 19.787841860670593,
+  "timing_scope": "Warm text wrapper on this local CPU, excludes queue, UI rendering, audio and ASR. Includes repeated topic encoding and state copying."
+}

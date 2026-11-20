@@ -1,0 +1,1083 @@
+{
+  "version": 1,
+  "provenance": {
+    "author": "Project assistant",
+    "created": "2026-11-18",
+    "scope": "Targeted authored challenge, references frozen before scoring this run. Author has inspected the implementation; not blind or independent human annotation.",
+    "link_definition": "A single predicted link is accepted if it addresses one of the explicitly allowed previous turns. Empty links mean abstention is expected.",
+    "role_definition": "Primary communicative function in the current dialogue. Off-topic and metalinguistic non-arguments are unclassified. Rhetorical/underspecified cases should be reviewed, not treated as universal gold.",
+    "evidence_note": "Any numeric or study-like examples in these fixtures are hypothetical test content, not factual claims."
+  },
+  "cases": [
+    {
+      "id": "uniform-cost",
+      "topic": "Should schools subsidize required student uniforms?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Schools should subsidize uniforms for low income families.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I disagree because a uniform subsidy would divert money from teaching.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "What evidence supports the claim about the teaching budget?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "For example, a fixed school budget would have to cover both uniforms and classroom supplies.",
+          "role": "reason",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            3
+          ]
+        },
+        {
+          "speaker": "A",
+          "text": "I agree that the school budget needs protection.",
+          "role": "agreement",
+          "links": [
+            2,
+            4
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "transport-implicit",
+      "topic": "Should public transport be free for city residents?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "City buses should be free for residents.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Removing fares would leave a funding gap for bus maintenance.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Because congestion charges could replace fare revenue, bus maintenance could still be funded.",
+          "role": "reason",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "How would that revenue be collected?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "The city would collect the charge when drivers enter the central traffic zone.",
+          "role": "claim",
+          "links": [
+            4
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-denial",
+      "topic": "Should university assignments allow generative AI assistance?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Students should be allowed to use AI for brainstorming.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I do not agree that AI brainstorming helps students learn.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "For instance, comparing AI suggestions can help students critique weak ideas.",
+          "role": "reason",
+          "links": [
+            1,
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "That example does not establish that students develop their own ideas.",
+          "role": "rebuttal",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "What evidence would convince you that AI can support independent thinking?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "remote-evidence-negation",
+      "topic": "Should universities replace lectures with online recordings?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Recorded lectures improve university attendance.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "There is no evidence that recorded lectures improve attendance.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Where is the evidence for that conclusion?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I do not have attendance data to support that conclusion.",
+          "role": "claim",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            3
+          ]
+        },
+        {
+          "speaker": "A",
+          "text": "Then we should compare attendance before replacing classroom lectures.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "library-questions",
+      "topic": "Should the university library stay open overnight?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "The university library should stay open overnight during exams.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "How much would overnight staffing cost?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "How many students would use the library after midnight?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "The overnight staffing cost would depend on the number of paid security shifts.",
+          "role": "claim",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        },
+        {
+          "speaker": "A",
+          "text": "We do not yet know how many students would visit after midnight.",
+          "role": "claim",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recycling-quotation",
+      "topic": "Should apartment buildings require recycling?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Apartment residents should separate recyclable materials.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "The question \"Should apartment residents separate recyclable materials?\" is the title of our presentation.",
+          "role": "unclassified",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Because mixed waste contaminates paper, separate bins can protect recyclable materials.",
+          "role": "reason",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I agree that contamination makes recycling harder.",
+          "role": "agreement",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Could the building provide separate recycling bins?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "energy-same-speaker",
+      "topic": "Should the country build new nuclear power plants?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "New nuclear plants could provide steady electricity.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "However, construction delays could make new nuclear capacity arrive too late.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "For example, electricity shortages may occur while a nuclear plant is still being built.",
+          "role": "reason",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "That is why we should compare construction schedules with expected electricity demand.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Can you provide a source for the expected construction time?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "plastic-irrelevant-reason",
+      "topic": "Should supermarkets stop providing single use plastic bags?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Supermarkets should stop giving out single use plastic bags.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Because plastic bags can enter waterways, replacing them may reduce litter.",
+          "role": "reason",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Because my guitar strings snapped, I bought a new instrument.",
+          "role": "unclassified",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I disagree with the recipe because it contains too much sugar.",
+          "role": "unclassified",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Reusable shopping bags would still need to be affordable.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "lunch-no-link",
+      "topic": "Should schools provide free lunches to all students?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Schools should provide free lunches for every student.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I disagree because universal free lunches would increase the school food budget.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "What is your source for the expected budget increase?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I would rather discuss the lunch menu than answer that question.",
+          "role": "unclassified",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "For example, a vegetarian lunch menu could reduce ingredient costs.",
+          "role": "reason",
+          "links": [
+            1,
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "cycling-target",
+      "topic": "Should the city build more protected bicycle lanes?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Protected bicycle lanes would make cycling safer.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Removing car parking to build bicycle lanes would harm nearby shops.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "For example, a physical barrier prevents cars from entering the bicycle lane.",
+          "role": "reason",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "What evidence shows that bicycle barriers reduce collisions?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "According to the hypothetical road audit in this exercise, barriers reduce car entry into the cycling lane.",
+          "role": "reason",
+          "links": [
+            4
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phones-negated-agreement",
+      "topic": "Should students be allowed to use phones in class?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Students should be allowed to use phones to look up unfamiliar terms.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I agree that looking up terms is useful.",
+          "role": "agreement",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "I do not agree that phones should be allowed for every classroom activity.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "For example, phone notifications could distract students during an exam.",
+          "role": "reason",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Please show a source about classroom phone distractions.",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "parking-unrelated-evidence",
+      "topic": "Should the university charge for campus parking?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Charging for campus parking could fund bus passes.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "What evidence supports the parking revenue estimate?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "According to our hypothetical campus budget, parking income would pay for a limited number of bus passes.",
+          "role": "reason",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        },
+        {
+          "speaker": "B",
+          "text": "According to a cooking guide, rice absorbs water when heated.",
+          "role": "unclassified",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Research is an interesting word to pronounce.",
+          "role": "unclassified",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "museum-request",
+      "topic": "Should public museums offer free admission?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Public museums should offer free admission.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Admission fees help pay for maintaining museum collections.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Please explain how the museum could replace admission revenue.",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "A municipal culture grant could replace some admission revenue.",
+          "role": "claim",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            3
+          ]
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks for explaining.",
+          "role": "unclassified",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "workweek-ack",
+      "topic": "Should organizations adopt a four day working week?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "A four day workweek could improve employee recovery time.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I agree.",
+          "role": "agreement",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Because fewer commuting days reduce travel time, employees could have more time to rest.",
+          "role": "reason",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "But a shorter workweek may leave customers without support on Fridays.",
+          "role": "rebuttal",
+          "links": [
+            1,
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Customer support could use staggered four day schedules.",
+          "role": "rebuttal",
+          "links": [
+            4
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "foodwaste-question-quote",
+      "topic": "Should cafeterias charge diners for wasted food?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Charging diners for wasted food could reduce cafeteria waste.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "The cafeteria poster says \"How can we reduce food waste?\" and recommends smaller portions.",
+          "role": "reason",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "There is no proof that a food waste charge changes diner behavior.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I wonder how the cafeteria would measure wasted food.",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Staff would weigh the food left on each returned plate.",
+          "role": "claim",
+          "links": [
+            4
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pets-agreement-correction",
+      "topic": "Should the city allow dogs in public parks?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Dogs should be allowed in public parks when kept on leads.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I disagree because some visitors are afraid of dogs even on leads.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "You are right that some visitors may be uncomfortable around dogs.",
+          "role": "agreement",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I am not saying that dogs should be banned from every public place.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "A separate fenced area could give park visitors a choice.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "exam-implicit",
+      "topic": "Should university exams include an oral component?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "An oral exam could reveal whether students understand their written answers.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "That would penalize students who understand the material but struggle to speak under pressure.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "For instance, allowing preparation time could reduce pressure during the oral exam.",
+          "role": "reason",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "What data supports the claim about preparation time?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "I have not provided data about preparation time.",
+          "role": "claim",
+          "links": [
+            4
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parks-competing-claims",
+      "topic": "Should the city expand public green spaces?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "More trees in public parks could provide shade in hot weather.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Public parks should also include sports facilities.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Because trees block direct sunlight, park visitors could rest outside more comfortably.",
+          "role": "reason",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "However, building sports courts would remove some of the grassy areas.",
+          "role": "rebuttal",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Could the city keep both shaded lawns and sports facilities?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "volunteer-delayed-answer",
+      "topic": "Should graduation require student volunteer hours?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Students should complete volunteer hours before graduation.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "How many volunteer hours would be required?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Volunteering could connect students with local community groups.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "We should also discuss transport to volunteer locations.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "The graduation requirement would be twenty volunteer hours.",
+          "role": "claim",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "distance-window",
+      "topic": "Should the university offer remote office hours?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Remote office hours could help students who commute long distances.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "What platform would the remote office hours use?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Students would still need to book a time with the lecturer.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Lecturers should publish their remote office hours each week.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Remote appointments should allow screen sharing.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Technical support should be available for remote appointments.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Office hour appointments should have a clear time limit.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Students could send documents before their remote appointment.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "The remote office hours would use the university video platform.",
+          "role": "claim",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "reason": "Initial random-order attempt stopped before completing an epoch to use length-grouped batches and reduce padding; no test data or validation scores used for this decision.",
+  "quality_claim": false,
+  "source_sha256": "89b35855b1c9ffe74937b0f35ad82a48ba94460efa4688e1e703df70103e97d2"
+}

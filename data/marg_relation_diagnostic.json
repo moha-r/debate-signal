@@ -1,0 +1,4600 @@
+{
+  "scope": "Diagnostic only, never fit or tune thresholds. Independent crowd labels; relationship not a directional target-selection gold. Orig golden questions excluded. Balanced set is a high-agreement stress sample, not prevalence accuracy. Proportional sample is hash-selected from all non-gold pairs. No model predictions used to select either sample.",
+  "source": "data/raw/marg/manifest.json",
+  "sets": {
+    "balanced_high_agreement": [
+      {
+        "id": "n000414b07p1417",
+        "earlier": "H1-N1, you were a disaster.",
+        "later": "A far less lethal disease, by the way.",
+        "label": "attack",
+        "agreement": 0.7601,
+        "earlier_id": "n000414",
+        "later_id": "n000417"
+      },
+      {
+        "id": "n000286b07p8588",
+        "earlier": "He\u2019s been promising a healthcare plan since he got elected.",
+        "later": "He doesn\u2019t have a plan.",
+        "label": "attack",
+        "agreement": 0.756,
+        "earlier_id": "n000285",
+        "later_id": "n000288"
+      },
+      {
+        "id": "n120569b07p7172",
+        "earlier": "But then, you have a report coming out two days ago, that 85% of the people wearing masks catch it.",
+        "later": "I looked at that report, it\u2019s not about mask wearing.",
+        "label": "attack",
+        "agreement": 0.7473,
+        "earlier_id": "n120571",
+        "later_id": "n120572"
+      },
+      {
+        "id": "n000437b07p3435",
+        "earlier": "What we trust is a scientist.",
+        "later": "You don\u2019t trust Johnson & Johnson, Pfizer?",
+        "label": "attack",
+        "agreement": 0.7146,
+        "earlier_id": "n000434",
+        "later_id": "n000435"
+      },
+      {
+        "id": "n020108b07p0408",
+        "earlier": "This is the same fellow who told you that, \u201cDon\u2019t worry, we\u2019re going to end this by the summer.\u201d We\u2019re about to go into a dark winter, a dark winter and he has no clear plan.",
+        "later": "I don\u2019t think we\u2019re going to have a dark winter at all.",
+        "label": "attack",
+        "agreement": 0.7528,
+        "earlier_id": "n020104",
+        "later_id": "n020108"
+      },
+      {
+        "id": "n000514b07p1620",
+        "earlier": "Don\u2019t ever use the word smart with me.",
+        "later": "There\u2019s nothing smart about you, Joe.",
+        "label": "attack",
+        "agreement": 0.7563,
+        "earlier_id": "n000516",
+        "later_id": "n000520"
+      },
+      {
+        "id": "n020352b07p5156",
+        "earlier": "\u201cThis is no problem.",
+        "later": "He was told this was a serious virus that spread in the air, and it was much worse, much worse, than the flu.",
+        "label": "attack",
+        "agreement": 0.7359,
+        "earlier_id": "n020351",
+        "later_id": "n020356"
+      },
+      {
+        "id": "n030499b07p0003",
+        "earlier": "I am against fracking.",
+        "later": "Fracking on federal land.",
+        "label": "attack",
+        "agreement": 0.7396,
+        "earlier_id": "n030500",
+        "later_id": "n030503"
+      },
+      {
+        "id": "n030361b07p5963",
+        "earlier": "That\u2019s what we\u2019ve been trying to do, that\u2019s what I\u2019m going to get done because I think the American people have now seen that in fact it was a mistake to pass those laws relating to drugs, but they were not in the Crime Bill.",
+        "later": "\u201cThat\u2019s what I\u2019m going to do when I become president.\u201d You were vice president along with Obama as your president, your leader, for eight years, why didn\u2019t you get it done?",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n030359",
+        "later_id": "n030363"
+      },
+      {
+        "id": "n010354b07p5560",
+        "earlier": "Hunter got thrown out of the military.",
+        "later": "None of that is true.",
+        "label": "attack",
+        "agreement": 0.7468,
+        "earlier_id": "n010355",
+        "later_id": "n010360"
+      },
+      {
+        "id": "n020218b07p1317",
+        "earlier": "Joe, it doesn\u2019t.",
+        "later": "I talked about his xenophobia in a different context.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n020213",
+        "later_id": "n020217"
+      },
+      {
+        "id": "n000955b07p5760",
+        "earlier": "It\u2019s a fact.",
+        "later": "It\u2019s been totally discredited.",
+        "label": "attack",
+        "agreement": 0.7208,
+        "earlier_id": "n000957",
+        "later_id": "n000960"
+      },
+      {
+        "id": "n030028b07p2931",
+        "earlier": "What\u2019s going to happen, and what\u2019s been proven to happen, is when you do that, these small businesses fire many of their employees.",
+        "later": "Not true, by the way.",
+        "label": "attack",
+        "agreement": 0.7075,
+        "earlier_id": "n030029",
+        "later_id": "n030031"
+      },
+      {
+        "id": "n010509b07p1011",
+        "earlier": "He said, maybe we should drop a nuclear weapon on them, and they may-",
+        "later": "I never said that at all-",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n010510",
+        "later_id": "n010511"
+      },
+      {
+        "id": "n120057b07p5664",
+        "earlier": "People were not wearing masks.",
+        "later": "But just the other day, they came out with a statement that 85% of the people that wear masks catch it.",
+        "label": "attack",
+        "agreement": 0.752,
+        "earlier_id": "n120056",
+        "later_id": "n120064"
+      },
+      {
+        "id": "n010129b07p2830",
+        "earlier": "They look down on people who are of a different faith.",
+        "later": "In fact, we\u2019re all Americans.",
+        "label": "attack",
+        "agreement": 0.7995,
+        "earlier_id": "n010128",
+        "later_id": "n010130"
+      },
+      {
+        "id": "n010712b07p1416",
+        "earlier": "He\u2019s just afraid of counting the votes-",
+        "later": "You\u2019re wrong [crosstalk 01:06:04].",
+        "label": "attack",
+        "agreement": 0.7532,
+        "earlier_id": "n010714",
+        "later_id": "n010716"
+      },
+      {
+        "id": "n000816b07p1316",
+        "earlier": "But why didn\u2019t you do it over the last 25 years?",
+        "later": "Because you weren\u2019t president and screwing things up.",
+        "label": "attack",
+        "agreement": 0.7142,
+        "earlier_id": "n000813",
+        "later_id": "n000816"
+      },
+      {
+        "id": "n010549b07p4849",
+        "earlier": "I did not say that-",
+        "later": "He said it on tape.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n010548",
+        "later_id": "n010549"
+      },
+      {
+        "id": "n010579b07p7576",
+        "earlier": "You just lost the radical left.",
+        "later": "I support [crosstalk 00:59:17] the Biden plan that I put forward.",
+        "label": "attack",
+        "agreement": 0.7623,
+        "earlier_id": "n010575",
+        "later_id": "n010576"
+      },
+      {
+        "id": "n000951b07p5253",
+        "earlier": "\u2026 dollars.",
+        "later": "That is not true.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n000952",
+        "later_id": "n000953"
+      },
+      {
+        "id": "n030382b07p8587",
+        "earlier": "We had a Republican Congress, that\u2019s the answer.",
+        "later": "Well, you got to talk them into it, Joe, sometimes you got to talk them into it.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n030385",
+        "later_id": "n030387"
+      },
+      {
+        "id": "n000413b07p1114",
+        "earlier": "I know how to do the job.",
+        "later": "H1-N1, you were a disaster.",
+        "label": "attack",
+        "agreement": 0.7509,
+        "earlier_id": "n000411",
+        "later_id": "n000414"
+      },
+      {
+        "id": "n010197b07p9900",
+        "earlier": "That is not true.",
+        "later": "He doesn\u2019t have any law support.",
+        "label": "attack",
+        "agreement": 0.7652,
+        "earlier_id": "n010199",
+        "later_id": "n010200"
+      },
+      {
+        "id": "n010175b07p7479",
+        "earlier": "Oh, I know suburbs so much that you.",
+        "later": "Suburbs are by and large integrated.",
+        "label": "attack",
+        "agreement": 0.7554,
+        "earlier_id": "n010174",
+        "later_id": "n010179"
+      },
+      {
+        "id": "n020515b07p1516",
+        "earlier": "Everybody knows.",
+        "later": "Nobody knows, Mr. President.",
+        "label": "attack",
+        "agreement": 0.747,
+        "earlier_id": "n020515",
+        "later_id": "n020516"
+      },
+      {
+        "id": "n030362b07p6466",
+        "earlier": "You had eight years to get it done, now you\u2019re saying you\u2019re going to get it done because you\u2019re all talking and no action, Joe.",
+        "later": "We got a lot of it done.",
+        "label": "attack",
+        "agreement": 0.742,
+        "earlier_id": "n030364",
+        "later_id": "n030366"
+      },
+      {
+        "id": "n010236b07p3738",
+        "earlier": "I don\u2019t think she said that.",
+        "later": "She said that.",
+        "label": "attack",
+        "agreement": 0.72,
+        "earlier_id": "n010237",
+        "later_id": "n010238"
+      },
+      {
+        "id": "n000991b07p9093",
+        "earlier": "I\u2019ll fire them.",
+        "later": "I\u2019m sure that you\u2019ve already fired most of them, because they did a good job.",
+        "label": "attack",
+        "agreement": 0.7526,
+        "earlier_id": "n000990",
+        "later_id": "n000993"
+      },
+      {
+        "id": "n030419b07p1925",
+        "earlier": "By the way, the whole idea of what this is all going to do, it\u2019s going to create millions of jobs and it\u2019s going to clean the environment.",
+        "later": "They came out and said very strongly $6,500 will be taken away from families under his plan, that his plan is an economic disaster.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n030419",
+        "later_id": "n030425"
+      },
+      {
+        "id": "n010093b07p8990",
+        "earlier": "That is not peaceful protest.",
+        "later": "No it\u2019s not, but you say it is.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n010089",
+        "later_id": "n010090"
+      },
+      {
+        "id": "n010357b07p5657",
+        "earlier": "He was thrown out dishonorably discharged.",
+        "later": "That\u2019s not true he was not dishonorably discharged.",
+        "label": "attack",
+        "agreement": 0.7546,
+        "earlier_id": "n010356",
+        "later_id": "n010357"
+      },
+      {
+        "id": "n010494b07p9596",
+        "earlier": "That\u2019s more money than our country could make in 100 years [crosstalk 00:02:10]-",
+        "later": "That is simply not the case-",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n010495",
+        "later_id": "n010496"
+      },
+      {
+        "id": "n000605b07p0607",
+        "earlier": "Dr. Fauci said the opposite.",
+        "later": "He did not say the opposite.",
+        "label": "attack",
+        "agreement": 0.762,
+        "earlier_id": "n000606",
+        "later_id": "n000607"
+      },
+      {
+        "id": "n001041b07p3738",
+        "earlier": "\u2026 with a billion dollars-",
+        "later": "That is absolutely not true.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n001037",
+        "later_id": "n001038"
+      },
+      {
+        "id": "n000318b07p1722",
+        "earlier": "He\u2019s going to pack the court.",
+        "later": "Keep yapping, man.",
+        "label": "attack",
+        "agreement": 0.7287,
+        "earlier_id": "n000317",
+        "later_id": "n000322"
+      },
+      {
+        "id": "n010373b07p7576",
+        "earlier": "I know but when somebody gets three and a half million dollars from the Mayor of Moscow.",
+        "later": "That is not true.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n010375",
+        "later_id": "n010376"
+      },
+      {
+        "id": "n000921b07p2326",
+        "earlier": "China\u2019s perfected the art of the steel.",
+        "later": "China ate your lunch- [crosstalk 00:00:22:07].",
+        "label": "attack",
+        "agreement": 0.7196,
+        "earlier_id": "n000923",
+        "later_id": "n000926"
+      },
+      {
+        "id": "n000217b07p1924",
+        "earlier": "Because here\u2019s the deal, here\u2019s the deal.",
+        "later": "Joe, you\u2019re the liar.",
+        "label": "attack",
+        "agreement": 0.7498,
+        "earlier_id": "n000219",
+        "later_id": "n000224"
+      },
+      {
+        "id": "n020273b07p7380",
+        "earlier": "There\u2019s depression, alcohol, drugs at a level that nobody\u2019s ever seen before.",
+        "later": "Simply not true.",
+        "label": "attack",
+        "agreement": 0.7701,
+        "earlier_id": "n020273",
+        "later_id": "n020280"
+      },
+      {
+        "id": "n000608b07p0709",
+        "earlier": "He did not say the opposite.",
+        "later": "He said very strongly, \u201cMasks are not good.\u201d Then he changed his mind.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n000607",
+        "later_id": "n000609"
+      },
+      {
+        "id": "n010273b07p7273",
+        "earlier": "He\u2019s own FBI Director said unlike white supremacist, Antifa is an idea not an organization-",
+        "later": "Oh you got to be kidding me.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n010272",
+        "later_id": "n010273"
+      },
+      {
+        "id": "n010421b07p2324",
+        "earlier": "Why have you relaxed fuel economy standards that are going to create more pollution from cars and trucks?",
+        "later": "Well, not really because what\u2019s happening is the car is much less expensive and it\u2019s a much safer car and you talk it about a tiny difference.",
+        "label": "attack",
+        "agreement": 0.7473,
+        "earlier_id": "n010423",
+        "later_id": "n010424"
+      },
+      {
+        "id": "n030331b07p3035",
+        "earlier": "\u2026 got criminal justice reform done, and prison reform, and Opportunity Zones, I took care of Black colleges and universities, I don\u2019t know what to say, they can say anything, I mean, they can say anything.",
+        "later": "Started off his campaign coming down the escalator saying he\u2019s getting rid of those Mexican rapists, he\u2019s ban Muslims because they\u2019re Muslims, he has moved around and made everything worse across the board.",
+        "label": "attack",
+        "agreement": 0.7448,
+        "earlier_id": "n030330",
+        "later_id": "n030335"
+      },
+      {
+        "id": "n020124b07p2227",
+        "earlier": "Also, everything that he said about the way every single move that he said we should make, that\u2019s what we\u2019ve done.",
+        "later": "And he did it late after 40 countries had already done that.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n020122",
+        "later_id": "n020127"
+      },
+      {
+        "id": "n030338b07p3840",
+        "earlier": "No, he made a reference to Abraham Lincoln, where did that come in?",
+        "later": "You said you\u2019re Abraham Lincoln.",
+        "label": "attack",
+        "agreement": 0.7697,
+        "earlier_id": "n030338",
+        "later_id": "n030340"
+      },
+      {
+        "id": "n030363b07p6166",
+        "earlier": "But, why didn\u2019t he get it done?",
+        "later": "We got a lot of it done.",
+        "label": "attack",
+        "agreement": 0.7115,
+        "earlier_id": "n030361",
+        "later_id": "n030366"
+      },
+      {
+        "id": "n000254b07p5354",
+        "earlier": "He has never offered a plan.",
+        "later": "We\u2019ve already fixed it to an extent.",
+        "label": "attack",
+        "agreement": 0.7138,
+        "earlier_id": "n000253",
+        "later_id": "n000254"
+      },
+      {
+        "id": "n120098b07p9900",
+        "earlier": "I don\u2019t think that\u2019s probably where it was caught, but maybe it was.",
+        "later": "I going to say, you bring it up, you brought it up yourself.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n120099",
+        "later_id": "n120100"
+      },
+      {
+        "id": "n000810b07p1016",
+        "earlier": "That\u2019s okay.",
+        "later": "Because you weren\u2019t president and screwing things up.",
+        "label": "attack",
+        "agreement": 0.7441,
+        "earlier_id": "n000810",
+        "later_id": "n000816"
+      },
+      {
+        "id": "n010547b07p4748",
+        "earlier": "He called the military stupid bastards.",
+        "later": "I did not say that-",
+        "label": "attack",
+        "agreement": 0.7447,
+        "earlier_id": "n010547",
+        "later_id": "n010548"
+      },
+      {
+        "id": "n000235b07p3233",
+        "earlier": "The wrong guy, the wrong night, at the wrong time.",
+        "later": "Listen, you agreed with Bernie Sanders and the manifesto.",
+        "label": "attack",
+        "agreement": 0.7965,
+        "earlier_id": "n000232",
+        "later_id": "n000233"
+      },
+      {
+        "id": "n000890b07p9091",
+        "earlier": "Number three.",
+        "later": "They said it would take\u2026 No, you\u2019re on number two.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n000890",
+        "later_id": "n000891"
+      },
+      {
+        "id": "n000711b07p1012",
+        "earlier": "But you folks at home, you folks living in Scranton and Claymont and all the small towns and working class towns in America, how well are you doing?",
+        "later": "That\u2019s wrong.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n000710",
+        "later_id": "n000712"
+      },
+      {
+        "id": "n160344b07p4446",
+        "earlier": "And the reality of this is that we are talking about an election in 27 days where last week the President of the United States took a debate stage in front of 70 million Americans and refused to condemn white supremacists.",
+        "later": "Not true.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n160344",
+        "later_id": "n160346"
+      },
+      {
+        "id": "n020217b07p1617",
+        "earlier": "You certainly did.",
+        "later": "I talked about his xenophobia in a different context.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n020216",
+        "later_id": "n020217"
+      },
+      {
+        "id": "n020250b07p4754",
+        "earlier": "Look, all he does is talk about shut downs.",
+        "later": "And we have to open our schools.",
+        "label": "attack",
+        "agreement": 0.7575,
+        "earlier_id": "n020247",
+        "later_id": "n020254"
+      },
+      {
+        "id": "n000228b07p2532",
+        "earlier": "You graduated last in your class not first in your class.",
+        "later": "The wrong guy, the wrong night, at the wrong time.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n000225",
+        "later_id": "n000232"
+      },
+      {
+        "id": "n000941b07p3739",
+        "earlier": "\u2026 to deserve $183,000?",
+        "later": "None of that is true.",
+        "label": "attack",
+        "agreement": 0.7478,
+        "earlier_id": "n000937",
+        "later_id": "n000939"
+      },
+      {
+        "id": "n000094b07p9394",
+        "earlier": "I am the Democratic Party right now.",
+        "later": "Not according to Harris.",
+        "label": "attack",
+        "agreement": 0.7005,
+        "earlier_id": "n000093",
+        "later_id": "n000094"
+      },
+      {
+        "id": "n010361b07p6162",
+        "earlier": "Once you became vice president he made a fortune in Ukraine, in China, in Moscow and various other places.",
+        "later": "That is not true.",
+        "label": "attack",
+        "agreement": 0.7697,
+        "earlier_id": "n010361",
+        "later_id": "n010362"
+      },
+      {
+        "id": "n020213b07p1517",
+        "earlier": "You certainly did.",
+        "later": "I talked about his xenophobia in a different context.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n020215",
+        "later_id": "n020217"
+      },
+      {
+        "id": "n000965b07p6468",
+        "earlier": "I think he did.",
+        "later": "His position has been totally thoroughly discredited-",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n000964",
+        "later_id": "n000968"
+      },
+      {
+        "id": "n000951b07p5053",
+        "earlier": "He got three and a half million-",
+        "later": "That is not true.",
+        "label": "attack",
+        "agreement": 1.0,
+        "earlier_id": "n000950",
+        "later_id": "n000953"
+      },
+      {
+        "id": "n000963b07p6167",
+        "earlier": "Did Burisma pay him 183,000 a month, with no experience in energy?",
+        "later": "He doesn\u2019t want to let me answer, because he knows I have the truth.",
+        "label": "attack",
+        "agreement": 0.7383,
+        "earlier_id": "n000961",
+        "later_id": "n000967"
+      },
+      {
+        "id": "n010207b07p0607",
+        "earlier": "Think we have time.",
+        "later": "We don\u2019t have time to do anything.",
+        "label": "attack",
+        "agreement": 0.7418,
+        "earlier_id": "n010206",
+        "later_id": "n010207"
+      },
+      {
+        "id": "n000348b07p5254",
+        "earlier": "He went in and we were insisting that the people we had in the ground in China should be able to go to Wuhan and determine for themselves how dangerous this was.",
+        "later": "Wrong.",
+        "label": "attack",
+        "agreement": 0.7531,
+        "earlier_id": "n000352",
+        "later_id": "n000354"
+      },
+      {
+        "id": "n000262b07p6569",
+        "earlier": "If I run it badly, they\u2019ll probably blame him, but they\u2019ll blame me.",
+        "later": "They said the problem is, no matter how well you run Obamacare, it\u2019s a disaster.",
+        "label": "attack",
+        "agreement": 0.7499,
+        "earlier_id": "n000265",
+        "later_id": "n000269"
+      },
+      {
+        "id": "n001006b07p0506",
+        "earlier": "That is simply not true.",
+        "later": "Why did he deserve three and a half million from Moscow?",
+        "label": "attack",
+        "agreement": 0.7124,
+        "earlier_id": "n001005",
+        "later_id": "n001006"
+      },
+      {
+        "id": "n000959b07p5758",
+        "earlier": "It\u2019s a fact.",
+        "later": "It is not a fact.",
+        "label": "attack",
+        "agreement": 0.7607,
+        "earlier_id": "n000957",
+        "later_id": "n000958"
+      },
+      {
+        "id": "n120502b07p0408",
+        "earlier": "We\u2019re going to have a phenomenal\u2026",
+        "later": "We had the greatest economy we ever had.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n120504",
+        "later_id": "n120508"
+      },
+      {
+        "id": "n020063b07p6062",
+        "earlier": "Anyone who is responsible for not taking control.",
+        "later": "Anyone is responsible for that many deaths should not remain as president of the United States of America.",
+        "label": "support",
+        "agreement": 0.7542,
+        "earlier_id": "n020060",
+        "later_id": "n020062"
+      },
+      {
+        "id": "n160325b07p2728",
+        "earlier": "And it is remarkable that when Senator Tim Scott tried to pass a police reform bill, brought together a group of Republicans and Democrats, Senator Harris, you got up and walked out of the room and then you filibustered Senator Tim Scott\u2019s bill on the Senate floor that would have provided new accountability, new repeat resources.",
+        "later": "We don\u2019t have to choose between supporting law enforcement, proving public safety and supporting our African-American neighbors and all of our minorities.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n160327",
+        "later_id": "n160328"
+      },
+      {
+        "id": "n020288b07p8990",
+        "earlier": "And by the way, all you teachers out there, not that many of you are going to die, so don\u2019t worry about it.",
+        "later": "So don\u2019t worry about it.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n020289",
+        "later_id": "n020290"
+      },
+      {
+        "id": "n030435b07p3335",
+        "earlier": "When he says buildings, they want to take buildings down because they want to make bigger windows into smaller windows.",
+        "later": "This is the craziest plan that anybody has ever seen and this wasn\u2019t done by smart people.",
+        "label": "support",
+        "agreement": 0.7611,
+        "earlier_id": "n030433",
+        "later_id": "n030435"
+      },
+      {
+        "id": "n080014b07p1112",
+        "earlier": "Does President Trump\u2019s foreign policy deserves some credit?",
+        "later": "A little more, but not a whole lot.",
+        "label": "support",
+        "agreement": 0.7091,
+        "earlier_id": "n080011",
+        "later_id": "n080012"
+      },
+      {
+        "id": "n000286b07p8588",
+        "earlier": "He\u2019s been promising a healthcare plan since he got elected.",
+        "later": "He doesn\u2019t have a plan.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n000285",
+        "later_id": "n000288"
+      },
+      {
+        "id": "n050037b07p3842",
+        "earlier": "And so that school now will be able to produce young Black women and men who are going to go into a field of the future that\u2019s burgeoning, cybersecurity.",
+        "later": "In addition to that, all the studies now show, and I\u2019ve been arguing this for a long time, is young Black entrepreneurs are just as successful as White entrepreneurs or anyone else given a shot.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n050038",
+        "later_id": "n050042"
+      },
+      {
+        "id": "n150104b07p0511",
+        "earlier": "There\u2019s not a day gone by that I haven\u2019t thought of every American family that\u2019s lost a loved one.",
+        "later": "Now President Trump, I will tell you, has boundless confidence in the American people, and he always spoke with confidence that we\u2019d get through this together.",
+        "label": "support",
+        "agreement": 0.7468,
+        "earlier_id": "n150105",
+        "later_id": "n150111"
+      },
+      {
+        "id": "n010736b07p3839",
+        "earlier": "You know it can\u2019t be done.",
+        "later": "You know it can\u2019t, and already, there\u2019s been fraud [crosstalk 01:07:19]-",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n010738",
+        "later_id": "n010739"
+      },
+      {
+        "id": "n020197b07p9899",
+        "earlier": "It\u2019s going to go away.",
+        "later": "It\u2019ll be gone by Easter.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n020198",
+        "later_id": "n020199"
+      },
+      {
+        "id": "n020442b07p3839",
+        "earlier": "I sold, while he was selling pillows and sheets, I sold tank busters to Ukraine.",
+        "later": "There has been nobody tougher on Russia than Donald Trump.",
+        "label": "support",
+        "agreement": 0.7275,
+        "earlier_id": "n020438",
+        "later_id": "n020439"
+      },
+      {
+        "id": "n150111b07p1011",
+        "earlier": "The reality is Dr. Fauci said everything that he told the president in the Oval Office, the president told the American.",
+        "later": "Now President Trump, I will tell you, has boundless confidence in the American people, and he always spoke with confidence that we\u2019d get through this together.",
+        "label": "support",
+        "agreement": 0.7667,
+        "earlier_id": "n150110",
+        "later_id": "n150111"
+      },
+      {
+        "id": "n150064b07p6569",
+        "earlier": "Because with that time, we were able to reinvent testing.",
+        "later": "And under President Trump\u2019s leadership, Operation Warp Speed, we believe we\u2019ll have literally tens of millions of doses of a vaccine before the end of this year.",
+        "label": "support",
+        "agreement": 0.7196,
+        "earlier_id": "n150065",
+        "later_id": "n150069"
+      },
+      {
+        "id": "n160379b07p7983",
+        "earlier": "President Trump and I have fought for criminal justice before-",
+        "later": "And we\u2019ll do it for four more years.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n160379",
+        "later_id": "n160383"
+      },
+      {
+        "id": "n160108b07p0911",
+        "earlier": "\u2026 To do harm to Americans, President Donald Trump took him out-",
+        "later": "\u2026 And America is safer, our allies are safer and the American people know president Donald Trump will never take action [crosstalk 00:00:16:40].",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n160109",
+        "later_id": "n160111"
+      },
+      {
+        "id": "n150192b07p9095",
+        "earlier": "But before the end of the year, when Joe Biden was Vice President of the United States, not seven and a half million people contracted the Swine flu, 60 million Americans contracted the Swine flu.",
+        "later": "And Senator, please stop undermining confidence in a vaccine.",
+        "label": "support",
+        "agreement": 0.8226,
+        "earlier_id": "n150190",
+        "later_id": "n150195"
+      },
+      {
+        "id": "n010056b07p5761",
+        "earlier": "And why aren\u2019t you saying those words, Joe?",
+        "later": "But they won\u2019t do it, because they\u2019re run by radical left Democrats.",
+        "label": "support",
+        "agreement": 0.7196,
+        "earlier_id": "n010057",
+        "later_id": "n010061"
+      },
+      {
+        "id": "n160037b07p3436",
+        "earlier": "We want to improve the relationship, but we\u2019re going to level the playing field and we\u2019re going to hold China accountable-",
+        "later": "for what they did to America with the coronavirus.",
+        "label": "support",
+        "agreement": 0.7468,
+        "earlier_id": "n160034",
+        "later_id": "n160036"
+      },
+      {
+        "id": "n150398b07p9798",
+        "earlier": "And even Governor Gavin Newsom from your state has agreed, we\u2019ve got to work on forest management.",
+        "later": "And with regard to hurricanes, the National Oceanic Administration tells us that actually as difficult as they are, there are no more hurricanes today than there were 100 years ago-",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n150397",
+        "later_id": "n150398"
+      },
+      {
+        "id": "n000454b07p5458",
+        "earlier": "And he didn\u2019t say that.",
+        "later": "Because he said it\u2019s a possibility that we\u2019ll have the answer before November 1st.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n000454",
+        "later_id": "n000458"
+      },
+      {
+        "id": "n050076b07p7173",
+        "earlier": "You built up wealth.",
+        "later": "They build up wealth.",
+        "label": "support",
+        "agreement": 0.7519,
+        "earlier_id": "n050071",
+        "later_id": "n050073"
+      },
+      {
+        "id": "n070029b07p3134",
+        "earlier": "I met a lot of people in Silicon Valley.",
+        "later": "So, we\u2019re making significant progress.",
+        "label": "support",
+        "agreement": 0.7565,
+        "earlier_id": "n070031",
+        "later_id": "n070034"
+      },
+      {
+        "id": "n120551b07p5556",
+        "earlier": "Look, he\u2019s an expert.",
+        "later": "He\u2019s one of the great experts of the world.",
+        "label": "support",
+        "agreement": 0.7027,
+        "earlier_id": "n120555",
+        "later_id": "n120556"
+      },
+      {
+        "id": "n020017b07p2122",
+        "earlier": "It\u2019s a worldwide pandemic.",
+        "later": "It\u2019s all over the world.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n020021",
+        "later_id": "n020022"
+      },
+      {
+        "id": "n020237b07p3941",
+        "earlier": "Schools, they need a lot of money to be open.",
+        "later": "They need to deal with smaller classes, more teachers, more pods, and he\u2019s refused to support that money, or at least up to now.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n020239",
+        "later_id": "n020241"
+      },
+      {
+        "id": "n130136b07p3440",
+        "earlier": "We were just hitting 160 million jobs, companies are pouring into our nation because of the tax rate, and if Biden comes in and raises taxes on everybody, including middle income taxes, which he wants to do, you will blow this thing, and you\u2019ll end up with a depression, the likes of which you\u2019ve never had.",
+        "later": "Our taxes, our corporate taxes were the highest in the world, and now they\u2019re among the lower taxes.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n130134",
+        "later_id": "n130140"
+      },
+      {
+        "id": "n020495b07p8990",
+        "earlier": "You\u2019re the big man, I think.",
+        "later": "I don\u2019t know, maybe you\u2019re not, but you\u2019re the big man, I think.",
+        "label": "support",
+        "agreement": 0.7313,
+        "earlier_id": "n020489",
+        "later_id": "n020490"
+      },
+      {
+        "id": "n160236b07p3132",
+        "earlier": "Now you\u2019ve refused to answer the question.",
+        "later": "Joe Biden has refused to answer the question-",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n160231",
+        "later_id": "n160232"
+      },
+      {
+        "id": "n010126b07p2528",
+        "earlier": "It\u2019s a little bit like how this guy and his friends look down on so many people.",
+        "later": "They look down on people who are of a different faith.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n010125",
+        "later_id": "n010128"
+      },
+      {
+        "id": "n140157b07p5657",
+        "earlier": "And I have a great relationship because of what I\u2019ve done with the African-American community.",
+        "later": "I\u2019m very proud of it.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n140156",
+        "later_id": "n140157"
+      },
+      {
+        "id": "n130076b07p7576",
+        "earlier": "And we should have a stimulus, and I want a stimulus.",
+        "later": "The Republicans will approve a stimulus.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n130075",
+        "later_id": "n130076"
+      },
+      {
+        "id": "n020737b07p3840",
+        "earlier": "They tried.",
+        "later": "And that\u2019s okay.",
+        "label": "support",
+        "agreement": 0.7475,
+        "earlier_id": "n020738",
+        "later_id": "n020740"
+      },
+      {
+        "id": "n080066b07p7071",
+        "earlier": "And what\u2019s happening is too many transgender women of color are being murdered.",
+        "later": "They\u2019re being murdered.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n080070",
+        "later_id": "n080071"
+      },
+      {
+        "id": "n140012b07p1317",
+        "earlier": "And Justice Ginsburg said it best.",
+        "later": "She has been an absolute star, and I\u2019m extremely proud of it.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n140013",
+        "later_id": "n140017"
+      },
+      {
+        "id": "n020302b07p0304",
+        "earlier": "For so many years, I loved it.",
+        "later": "It was vibrant.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n020303",
+        "later_id": "n020304"
+      },
+      {
+        "id": "n010379b07p7677",
+        "earlier": "That is not true.",
+        "later": "That report is totally discredited.",
+        "label": "support",
+        "agreement": 0.7246,
+        "earlier_id": "n010376",
+        "later_id": "n010377"
+      },
+      {
+        "id": "n030504b07p0002",
+        "earlier": "I am against fracking.",
+        "later": "Then he said, \u201cBut you know what Pennsylvania?\u201d He\u2019ll be against it very soon because his party is totally against it.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n030500",
+        "later_id": "n030502"
+      },
+      {
+        "id": "n150122b07p2126",
+        "earlier": "And I\u2019m going to speak up on behalf of what the American people have done.",
+        "later": "Well, the American people have demonstrated over the last eight months, that when given the facts, they\u2019re willing to put the health of their families and their neighbors and people they don\u2019t even know first.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n150121",
+        "later_id": "n150126"
+      },
+      {
+        "id": "n000589b07p8895",
+        "earlier": "Every time you see him, he\u2019s got a mask.",
+        "later": "Well, masks make a big difference.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n000588",
+        "later_id": "n000595"
+      },
+      {
+        "id": "n070025b07p2526",
+        "earlier": "So, ultimately, it\u2019s a transition we moved from, to a net zero emission of carbon that we\u2019re still going to be able to use if we find the right technology, some gases, some gas to be able to, if we can carbon capture.",
+        "later": "And I think we\u2019re going to be able to move in a direction where by the year 2035, we\u2019ll be able to have net zero emissions of carbon from the creation of energy, energy creation so we can move it by dealing with those.",
+        "label": "support",
+        "agreement": 0.7521,
+        "earlier_id": "n070025",
+        "later_id": "n070026"
+      },
+      {
+        "id": "n140060b07p6162",
+        "earlier": "But in speaking to a lot of very brilliant people and people that do this for a living, they say it\u2019s better not to talk.",
+        "later": "So I talked to her about life.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n140061",
+        "later_id": "n140062"
+      },
+      {
+        "id": "n140248b07p4749",
+        "earlier": "Greatest regulation cut, equally as important.",
+        "later": "And next year is going to be better than ever before.",
+        "label": "support",
+        "agreement": 0.7376,
+        "earlier_id": "n140247",
+        "later_id": "n140249"
+      },
+      {
+        "id": "n010440b07p4546",
+        "earlier": "Nobody\u2019s going to build another coal fired plant in America.",
+        "later": "No one\u2019s going to build another oil fire plant in America.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n010445",
+        "later_id": "n010446"
+      },
+      {
+        "id": "n160023b07p2122",
+        "earlier": "He\u2019s made that very clear, made it clear again today that China and the world health organization did not play straight with the American people.",
+        "later": "They did not let our personnel into China to get information on the Coronavirus until the middle of February.",
+        "label": "support",
+        "agreement": 0.7216,
+        "earlier_id": "n160021",
+        "later_id": "n160022"
+      },
+      {
+        "id": "n130183b07p8287",
+        "earlier": "I am extremely underlevered.",
+        "later": "As you know, I\u2019m under audit.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n130182",
+        "later_id": "n130187"
+      },
+      {
+        "id": "n060125b07p2428",
+        "earlier": "What the Biden Justice Department will do is let the Department of Justice be the Department of Justice.",
+        "later": "So, you\u2019re not going to rule it in or rule it out?",
+        "label": "support",
+        "agreement": 0.7429,
+        "earlier_id": "n060124",
+        "later_id": "n060128"
+      },
+      {
+        "id": "n000463b07p6264",
+        "earlier": "We have the military all set up.",
+        "later": "We have our military that delivers soldiers and they can do 200,000 a day.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n000462",
+        "later_id": "n000464"
+      },
+      {
+        "id": "n030212b07p1012",
+        "earlier": "And one of the reasons why I ended up working on the East Side of Wilmington, Delaware, which is 90% African-American, was to learn more about what was going on.",
+        "later": "\u201cPut both hands on top of the wheel and don\u2019t reach for the glove box because someone may shoot you.\u201d But a Black parent, no matter how wealthy or how poor they are, has to teach their child, \u201cWhen you\u2019re walking down the street, don\u2019t have a hoodie on when you go across the street.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n030210",
+        "later_id": "n030212"
+      },
+      {
+        "id": "n000355b07p5556",
+        "earlier": "He told us what a great job Xi was doing.",
+        "later": "He said we owe him debt of gratitude for being so transparent with us.",
+        "label": "support",
+        "agreement": 0.7341,
+        "earlier_id": "n000355",
+        "later_id": "n000356"
+      },
+      {
+        "id": "n150247b07p4546",
+        "earlier": "The one thing we all know about Joe, he puts it all out there.",
+        "later": "He is honest, he is forthright, but Donald Trump on the other hand has been about covering up everything.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n150245",
+        "later_id": "n150246"
+      },
+      {
+        "id": "n050150b07p5152",
+        "earlier": "It turned out that by the time we got to the late \u201990s and crime had come down so much, the mayors and everybody asked the question, \u201cWhere do you want me to spend the money?\u201d They say, \u201cWell, only 1% thought violent crime was a problem.\u201d It was as high as 22%.",
+        "later": "Right now we have a systemic problem.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n050151",
+        "later_id": "n050152"
+      },
+      {
+        "id": "n010197b07p9700",
+        "earlier": "That\u2019s not what it is about.",
+        "later": "He doesn\u2019t have any law support.",
+        "label": "support",
+        "agreement": 0.7889,
+        "earlier_id": "n010197",
+        "later_id": "n010200"
+      },
+      {
+        "id": "n030454b07p5660",
+        "earlier": "This plan has been endorsed by every major, every major environmental group and every labor group, labor, because they know the future lies.",
+        "later": "It\u2019s the fastest growing jobs and they pay good prevailing wages, 45, 50 bucks an hour.",
+        "label": "support",
+        "agreement": 0.7699,
+        "earlier_id": "n030456",
+        "later_id": "n030460"
+      },
+      {
+        "id": "n090027b07p2831",
+        "earlier": "I think they\u2019re ready to see it happen.",
+        "later": "You\u2019ll hear me trying to unify, and bring people together.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n090028",
+        "later_id": "n090031"
+      },
+      {
+        "id": "n010128b07p2728",
+        "earlier": "They look down on people who don\u2019t have money.",
+        "later": "They look down on people who are of a different faith.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n010127",
+        "later_id": "n010128"
+      },
+      {
+        "id": "n150493b07p9294",
+        "earlier": "This administration saw 500,000 manufacturing-",
+        "later": "Jobs created, and that\u2019s exactly the kind of growth we\u2019re going to continue to see as we bring our nation through-",
+        "label": "support",
+        "agreement": 0.7393,
+        "earlier_id": "n150492",
+        "later_id": "n150494"
+      },
+      {
+        "id": "n120497b07p9597",
+        "earlier": "So, people were saying, we\u2019re going to have a 42% unemployment.",
+        "later": "They were talking about a 42% unemployment rate.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n120495",
+        "later_id": "n120497"
+      },
+      {
+        "id": "n010367b07p6567",
+        "earlier": "He\u2019s overtaking it.",
+        "later": "He\u2019s worked on it.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n010365",
+        "later_id": "n010367"
+      },
+      {
+        "id": "n120114b07p1516",
+        "earlier": "And I also say to people all the time, it\u2019s risky doing it.",
+        "later": "It is risky doing it.",
+        "label": "support",
+        "agreement": 0.713,
+        "earlier_id": "n120115",
+        "later_id": "n120116"
+      },
+      {
+        "id": "n160447b07p4546",
+        "earlier": "And of course, we\u2019ve all seen the avalanche, what you put the country through for the better part of three years, until it was found that there was no obstruction, no collusion, case closed.",
+        "later": "And then Senator Harris, you and your colleagues in the Congress tried to impeach the president of the United States over a phone call.",
+        "label": "support",
+        "agreement": 0.8314,
+        "earlier_id": "n160445",
+        "later_id": "n160446"
+      },
+      {
+        "id": "n150393b07p9495",
+        "earlier": "I know Joe Biden says otherwise now, as you do, but the both of you repeatedly committed to abolishing fossil fuel and banning of fracking.",
+        "later": "And so by creating the kind of American innovation, we\u2019re actually steering toward a stronger and better environment.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n150394",
+        "later_id": "n150395"
+      },
+      {
+        "id": "n020724b07p2021",
+        "earlier": "And he talks about how we\u2019re better off.",
+        "later": "And they have much more capable missiles, able to reach us territory much more easily than they ever did before.",
+        "label": "support",
+        "agreement": 0.7485,
+        "earlier_id": "n020720",
+        "later_id": "n020721"
+      },
+      {
+        "id": "n030011b07p1013",
+        "earlier": "They need the help.",
+        "later": "It\u2019s not giving them any of the money.",
+        "label": "support",
+        "agreement": 0.749,
+        "earlier_id": "n030010",
+        "later_id": "n030013"
+      },
+      {
+        "id": "n020023b07p2426",
+        "earlier": "If you notice, the mortality rate is down 85%.",
+        "later": "And we\u2019re fighting it and we\u2019re fighting it hard.",
+        "label": "support",
+        "agreement": 0.7402,
+        "earlier_id": "n020024",
+        "later_id": "n020026"
+      },
+      {
+        "id": "n000868b07p6768",
+        "earlier": "I\u2019ll tell you what, you\u2019ll lose.",
+        "later": "Half of the companies that have poured in here will leave.",
+        "label": "support",
+        "agreement": 0.717,
+        "earlier_id": "n000867",
+        "later_id": "n000868"
+      },
+      {
+        "id": "n030339b07p4043",
+        "earlier": "You said you\u2019re Abraham Lincoln.",
+        "later": "I said, \u201cNot since Abraham Lincoln has anybody done what I\u2019ve done for the Black community.\u201d",
+        "label": "support",
+        "agreement": 0.7487,
+        "earlier_id": "n030340",
+        "later_id": "n030343"
+      },
+      {
+        "id": "n130062b07p6162",
+        "earlier": "If we don\u2019t succeed, we are running the remnants of whatever\u2019s left because we took it apart.",
+        "later": "We are running the remnants of whatever\u2019s left much better than the previous administration, which ran it very badly, but we\u2019d like to have new healthcare much better and much less expensive.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n130061",
+        "later_id": "n130062"
+      },
+      {
+        "id": "n020797b07p9698",
+        "earlier": "The Democrats will do it, because there\u2019ll be tremendous pressure on them.",
+        "later": "And I think we\u2019re going to win the House.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n020796",
+        "later_id": "n020798"
+      },
+      {
+        "id": "n030247b07p4448",
+        "earlier": "Tremendous investment is being made, biggest beneficiary, the black and Hispanic communities.",
+        "later": "10 year long-term funding and I gave them more money than they asked for because I said, \u201cI think you need more.\u201d And I said, \u201cThe only bad part about this is I may never see you again.\u201d Because I got very friendly with them and they like me and I like them.",
+        "label": "support",
+        "agreement": 0.7635,
+        "earlier_id": "n030244",
+        "later_id": "n030248"
+      },
+      {
+        "id": "n000291b07p9092",
+        "earlier": "[crosstalk 00:17:14].",
+        "later": "Sure.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000290",
+        "later_id": "n000292"
+      },
+      {
+        "id": "n000426b07p2729",
+        "earlier": "You\u2019re months behind me, Joe.",
+        "later": "And he said, if we just wear a mask, we can save half those numbers.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000427",
+        "later_id": "n000429"
+      },
+      {
+        "id": "n030533b07p3437",
+        "earlier": "Would you close dow the oil industry?",
+        "later": "I will transition.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030534",
+        "later_id": "n030537"
+      },
+      {
+        "id": "n000984b07p8687",
+        "earlier": "Oh, really?",
+        "later": "I did it honorably.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000986",
+        "later_id": "n000987"
+      },
+      {
+        "id": "n020220b07p1720",
+        "earlier": "I talked about his xenophobia in a different context.",
+        "later": "He thought I shouldn\u2019t have closed the border, that\u2019s obvious.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020217",
+        "later_id": "n020220"
+      },
+      {
+        "id": "n000988b07p8788",
+        "earlier": "I did it honorably.",
+        "later": "I\u2019d like to know who they are.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000987",
+        "later_id": "n000988"
+      },
+      {
+        "id": "n160379b07p7986",
+        "earlier": "President Trump and I have fought for criminal justice before-",
+        "later": "But he attacked my record.",
+        "label": "none",
+        "agreement": 0.7488,
+        "earlier_id": "n160379",
+        "later_id": "n160386"
+      },
+      {
+        "id": "n020712b07p1217",
+        "earlier": "Because I\u2019d make it clear, which we were making clear to China, they had to be part of the deal, because I made it clear as a spokesperson for the illustration when I went to China that I said, \u201cWhy are you moving your missile defense up so close?",
+        "later": "If not, it\u2019s going to continue.\u201d What has he done?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020712",
+        "later_id": "n020717"
+      },
+      {
+        "id": "n010277b07p8081",
+        "earlier": "Every body in your administration tells you the true, it\u2019s a bad idea.",
+        "later": "You have no idea about anything.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010280",
+        "later_id": "n010281"
+      },
+      {
+        "id": "n070039b07p3844",
+        "earlier": "Let me stick on fracking for a second day.",
+        "later": "Okay?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n070038",
+        "later_id": "n070044"
+      },
+      {
+        "id": "n160226b07p2833",
+        "earlier": "I mean, there\u2019ve been 29 vacancies on the Supreme Court during presidential election years from George Washington to Barack Obama.",
+        "later": "No, you\u2019ve refused to answer the question.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160228",
+        "later_id": "n160233"
+      },
+      {
+        "id": "n150245b07p4551",
+        "earlier": "The one thing we all know about Joe, he puts it all out there.",
+        "later": "I respect your public service as well.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150245",
+        "later_id": "n150251"
+      },
+      {
+        "id": "n010507b07p0612",
+        "earlier": "100 million dollars.",
+        "later": "Yeah, he did say that-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010506",
+        "later_id": "n010512"
+      },
+      {
+        "id": "n000971b07p7174",
+        "earlier": "The media.",
+        "later": "By the media, because they refuse to talk about it-",
+        "label": "none",
+        "agreement": 0.7622,
+        "earlier_id": "n000971",
+        "later_id": "n000974"
+      },
+      {
+        "id": "n160380b07p8186",
+        "earlier": "We fought for educational choice and opportunities for African-Americans and all of our members.",
+        "later": "But he attacked my record.",
+        "label": "none",
+        "agreement": 0.7549,
+        "earlier_id": "n160381",
+        "later_id": "n160386"
+      },
+      {
+        "id": "n010254b07p5559",
+        "earlier": "That\u2019d be no problem.",
+        "later": "Sure, I\u2019m will to do that.",
+        "label": "none",
+        "agreement": 0.716,
+        "earlier_id": "n010255",
+        "later_id": "n010259"
+      },
+      {
+        "id": "n000804b07p0307",
+        "earlier": "Now the man got fired right after that happened, but that\u2019s-",
+        "later": "And he does take advantage of the tax code.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000803",
+        "later_id": "n000807"
+      },
+      {
+        "id": "n030287b07p8689",
+        "earlier": "Excuse me-",
+        "later": "If this is true, then he\u2019s a corrupt politician.",
+        "label": "none",
+        "agreement": 0.7481,
+        "earlier_id": "n030286",
+        "later_id": "n030289"
+      },
+      {
+        "id": "n000828b07p2835",
+        "earlier": "He has none.",
+        "later": "And number two, it would create an additional $1 trillion in economic growth, because it would be about buying American.",
+        "label": "none",
+        "agreement": 0.7131,
+        "earlier_id": "n000828",
+        "later_id": "n000835"
+      },
+      {
+        "id": "n050156b07p5560",
+        "earlier": "One of the things I\u2019m going to do, George, is what is set up a national study group made up of cops, social workers, as well as made up of the Black community and the Brown community to sit down in the White House and over the next year come up with significant reforms that need to take place within communities.",
+        "later": "Correct.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n050155",
+        "later_id": "n050160"
+      },
+      {
+        "id": "n100020b07p2125",
+        "earlier": "I think they\u2019re going to not let happen what happened last time.",
+        "later": "Mr. Vice President, thank you for your time tonight.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n100021",
+        "later_id": "n100025"
+      },
+      {
+        "id": "n000546b07p4751",
+        "earlier": "Well, I mean, literally, think about it.",
+        "later": "Well, he wants to shut down this country and I want to keep it open, and we did a great thing by shutting it down-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000547",
+        "later_id": "n000551"
+      },
+      {
+        "id": "n150294b07p9091",
+        "earlier": "Joe was going to invest that money in what we need to do around innovation.",
+        "later": "There was a time when our country believed in science and invested in research and development, so that we were an innovation leader on the globe.",
+        "label": "none",
+        "agreement": 0.7517,
+        "earlier_id": "n150290",
+        "later_id": "n150291"
+      },
+      {
+        "id": "n140196b07p9701",
+        "earlier": "Because I feel the same way as you do about it.",
+        "later": "Mr. President, in point of fact, the DACA program\u2026 Under your administration, no new applicants are allowed.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140197",
+        "later_id": "n140201"
+      },
+      {
+        "id": "n150236b07p3738",
+        "earlier": "We now know because of great investigative journalism that Donald Trump paid $750 in taxes.",
+        "later": "When I first heard about it, I literally said, \u201cYou mean $750,000?\u201d And it was like no, $750.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150237",
+        "later_id": "n150238"
+      },
+      {
+        "id": "n080076b07p7580",
+        "earlier": "And that\u2019s just this year.",
+        "later": "None.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n080075",
+        "later_id": "n080080"
+      },
+      {
+        "id": "n000639b07p3943",
+        "earlier": "And Joe does the circles and has three people someplace.",
+        "later": "Have you been tested?",
+        "label": "none",
+        "agreement": 0.7483,
+        "earlier_id": "n000639",
+        "later_id": "n000643"
+      },
+      {
+        "id": "n040154b07p5460",
+        "earlier": "You know, you can\u2019t.",
+        "later": "And if they don\u2019t, no.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040154",
+        "later_id": "n040160"
+      },
+      {
+        "id": "n080072b07p7179",
+        "earlier": "They\u2019re being murdered.",
+        "later": "Your daughter, that your other daughter has a right to be and do.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n080071",
+        "later_id": "n080079"
+      },
+      {
+        "id": "n120255b07p5354",
+        "earlier": "They believe that it is a Satanic cult run by the deep state.",
+        "later": "\u2026 study the subject.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120253",
+        "later_id": "n120254"
+      },
+      {
+        "id": "n000839b07p3942",
+        "earlier": "By the way, I\u2019m going to eliminate a significant number of the taxes.",
+        "later": "You have 91 companies federal, I mean, the fortune 500, who don\u2019t pay a single penny in tax making billions of dollars.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000839",
+        "later_id": "n000842"
+      },
+      {
+        "id": "n050112b07p1314",
+        "earlier": "Along with a guy named Marlon Specter, who you may remember, I wrote the Second Chance Act.",
+        "later": "In the meantime, an awful lot of people were jailed for minor drug crimes after the Crime Bill.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n050113",
+        "later_id": "n050114"
+      },
+      {
+        "id": "n000495b07p9396",
+        "earlier": "She didn\u2019t say that.",
+        "later": "Yes.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000493",
+        "later_id": "n000496"
+      },
+      {
+        "id": "n150236b07p3538",
+        "earlier": "And that\u2019s why Joe Biden has been so incredibly transparent.",
+        "later": "When I first heard about it, I literally said, \u201cYou mean $750,000?\u201d And it was like no, $750.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150235",
+        "later_id": "n150238"
+      },
+      {
+        "id": "n060052b07p4950",
+        "earlier": "I mean, it depends on \u2026",
+        "later": "\u2026 and the makeup of the court has gone through in a day kind of thing.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n060049",
+        "later_id": "n060050"
+      },
+      {
+        "id": "n050062b07p5965",
+        "earlier": "I think so.",
+        "later": "Look, this is the way every other \u2026 Like my dad, he lost his job up in Scranton and it took him three years to be able to move down to Delaware, to Claymont, Delaware, a little steel town, and send us home to our grandpop to live with him.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n050059",
+        "later_id": "n050065"
+      },
+      {
+        "id": "n010315b07p1622",
+        "earlier": "I was asked to fix it.",
+        "later": "You son got three and a half million dollars.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010316",
+        "later_id": "n010322"
+      },
+      {
+        "id": "n010273b07p7476",
+        "earlier": "\u2026 not a militia.",
+        "later": "Well, then you know what, he\u2019s wrong.",
+        "label": "none",
+        "agreement": 0.7608,
+        "earlier_id": "n010274",
+        "later_id": "n010276"
+      },
+      {
+        "id": "n000472b07p7276",
+        "earlier": "This is the same man.",
+        "later": "This man is talking about a vaccine.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000472",
+        "later_id": "n000476"
+      },
+      {
+        "id": "n020092b07p9395",
+        "earlier": "No, I think my timeline is going to be more accurate.",
+        "later": "He\u2019s ready to go.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020093",
+        "later_id": "n020095"
+      },
+      {
+        "id": "n020667b07p7071",
+        "earlier": "We should be talking about your families, but that\u2019s the last thing he wants to talk about.",
+        "later": "That is a typical statement.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020670",
+        "later_id": "n020671"
+      },
+      {
+        "id": "n160233b07p3639",
+        "earlier": "Are you and Joe Biden, if somehow you win this election, going to pack the Supreme Court to get your way?",
+        "later": "In 1864-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160236",
+        "later_id": "n160239"
+      },
+      {
+        "id": "n050114b07p1216",
+        "earlier": "I joined with a group of people in the House to provide for changing the system from punishment to rehabilitation.",
+        "later": "Was it a mistake to support it?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n050112",
+        "later_id": "n050116"
+      },
+      {
+        "id": "n020422b07p2527",
+        "earlier": "Well, let me respond to the first part, as Joe answered.",
+        "later": "And you got $3.5 million.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020425",
+        "later_id": "n020427"
+      },
+      {
+        "id": "n040041b07p4245",
+        "earlier": "Not in January, February.",
+        "later": "And then I laid out a detailed plan relative to school openings in June and July.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040042",
+        "later_id": "n040045"
+      },
+      {
+        "id": "n140174b07p7778",
+        "earlier": "Why or why not?",
+        "later": "DACA is somewhat different than Dreamers.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140177",
+        "later_id": "n140178"
+      },
+      {
+        "id": "n070047b07p4853",
+        "earlier": "We should stop that and save billions of dollars over time.",
+        "later": "My deal is a crucial framework, but not the new green deal.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n070048",
+        "later_id": "n070053"
+      },
+      {
+        "id": "n020262b07p6365",
+        "earlier": "I want to open the schools.",
+        "later": "But I want to open the schools.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020263",
+        "later_id": "n020265"
+      },
+      {
+        "id": "n130165b07p6571",
+        "earlier": "That sounds like yes.",
+        "later": "I owe a very, very small\u2026 It\u2019s called mortgages.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n130165",
+        "later_id": "n130171"
+      },
+      {
+        "id": "n030538b07p3739",
+        "earlier": "I will transition.",
+        "later": "That\u2019s a big statement.",
+        "label": "none",
+        "agreement": 0.7403,
+        "earlier_id": "n030537",
+        "later_id": "n030539"
+      },
+      {
+        "id": "n160405b07p0212",
+        "earlier": "And again, I will not be lectured by the Vice President on our record of what we have done in terms of law enforcement and keeping our community safe and a commitment to reforming the criminal justice system of America.",
+        "later": "Joe and I are particularly proud of the coalition that we\u2019ve built around our campaign.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160402",
+        "later_id": "n160412"
+      },
+      {
+        "id": "n040140b07p4146",
+        "earlier": "We have 500,000 vials of it.",
+        "later": "And once we get it, if it\u2019s safe, if it\u2019s effective, will you mandate its use?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040141",
+        "later_id": "n040146"
+      },
+      {
+        "id": "n060043b07p4849",
+        "earlier": "I don\u2019t know anybody who\u2019s gone on the floor that\u2019s been a controversial justice in terms of making fundamentally or altering the makeup of the court that\u2019s gone through in a day kind of thing.",
+        "later": "I mean, it depends on \u2026",
+        "label": "none",
+        "agreement": 0.7225,
+        "earlier_id": "n060048",
+        "later_id": "n060049"
+      },
+      {
+        "id": "n040227b07p2834",
+        "earlier": "You may get a raise.",
+        "later": "We\u2019re going to put 500,000 charging stations on new highways we\u2019re building, and all highways we\u2019re building.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040228",
+        "later_id": "n040234"
+      },
+      {
+        "id": "n000383b07p8486",
+        "earlier": "Wait a minute.",
+        "later": "You didn\u2019t think we should have closed our country because you thought it was terrible.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000384",
+        "later_id": "n000386"
+      },
+      {
+        "id": "n010280b07p8184",
+        "earlier": "You have no idea about anything.",
+        "later": "And you ought to be careful of them, they\u2019ll over throw you.",
+        "label": "none",
+        "agreement": 0.7583,
+        "earlier_id": "n010281",
+        "later_id": "n010284"
+      },
+      {
+        "id": "n030092b07p9296",
+        "earlier": "They got separated from their parents.",
+        "later": "We changed the policy.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030092",
+        "later_id": "n030096"
+      },
+      {
+        "id": "n160337b07p3743",
+        "earlier": "We\u2019ll fight for school choice for all of [crosstalk 00:36:46].",
+        "later": "I am the only one on this stage who prosecuted for-profit colleges for taking advantage of our veterans.",
+        "label": "none",
+        "agreement": 0.7169,
+        "earlier_id": "n160337",
+        "later_id": "n160343"
+      },
+      {
+        "id": "n150096b07p9095",
+        "earlier": "Susan, I have to weigh in here-",
+        "later": "Thank you.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150090",
+        "later_id": "n150095"
+      },
+      {
+        "id": "n020725b07p1920",
+        "earlier": "He\u2019s talked about his good buddy, who\u2019s a thug, a thug.",
+        "later": "And he talks about how we\u2019re better off.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020719",
+        "later_id": "n020720"
+      },
+      {
+        "id": "n000924b07p2629",
+        "earlier": "China ate your lunch- [crosstalk 00:00:22:07].",
+        "later": "And no wonder your son goes in and he takes out billions of dollars.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000926",
+        "later_id": "n000929"
+      },
+      {
+        "id": "n060109b07p0911",
+        "earlier": "After Trump had been elected, named the next president, wasn\u2019t sworn in yet, I\u2019ve been working on a thing called a bill relating to cancer cures.",
+        "later": "And it was called the Cancer Moonshot.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n060109",
+        "later_id": "n060111"
+      },
+      {
+        "id": "n030365b07p6471",
+        "earlier": "You had eight years to get it done, now you\u2019re saying you\u2019re going to get it done because you\u2019re all talking and no action, Joe.",
+        "later": "38,000 prisoners were released from federal prison, we have\u2026 There were over a thousand people who were given clemency.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030364",
+        "later_id": "n030371"
+      },
+      {
+        "id": "n160250b07p5356",
+        "earlier": "People, Susan, are voting right now.",
+        "later": "You, once again, gave a non-answer.",
+        "label": "none",
+        "agreement": 0.7542,
+        "earlier_id": "n160253",
+        "later_id": "n160256"
+      },
+      {
+        "id": "n120487b07p8590",
+        "earlier": "Right.",
+        "later": "But we\u2019re going to have a tremendous announcement.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120485",
+        "later_id": "n120490"
+      },
+      {
+        "id": "n000803b07p0510",
+        "earlier": "Yeah, I do want to respond.",
+        "later": "That\u2019s okay.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000805",
+        "later_id": "n000810"
+      },
+      {
+        "id": "n030495b07p9502",
+        "earlier": "Excuse me.",
+        "later": "Then he said, \u201cBut you know what Pennsylvania?\u201d He\u2019ll be against it very soon because his party is totally against it.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030495",
+        "later_id": "n030502"
+      },
+      {
+        "id": "n130035b07p3741",
+        "earlier": "And always, under all circumstances, we are going to protect the Republicans.",
+        "later": "That was the worst part.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n130037",
+        "later_id": "n130041"
+      },
+      {
+        "id": "n000773b07p7274",
+        "earlier": "Show us your tax returns.",
+        "later": "Show us your tax returns.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000772",
+        "later_id": "n000774"
+      },
+      {
+        "id": "n030421b07p2025",
+        "earlier": "Our health and our jobs are at stake.",
+        "later": "They came out and said very strongly $6,500 will be taken away from families under his plan, that his plan is an economic disaster.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030420",
+        "later_id": "n030425"
+      }
+    ],
+    "proportional": [
+      {
+        "id": "n000291b07p9092",
+        "earlier": "[crosstalk 00:17:14].",
+        "later": "Sure.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000290",
+        "later_id": "n000292"
+      },
+      {
+        "id": "n000836b07p3742",
+        "earlier": "And under my proposal, we\u2019re going to make sure that every penny of that has to be made by a company-",
+        "later": "You have 91 companies federal, I mean, the fortune 500, who don\u2019t pay a single penny in tax making billions of dollars.",
+        "label": "none",
+        "agreement": 0.58,
+        "earlier_id": "n000837",
+        "later_id": "n000842"
+      },
+      {
+        "id": "n000426b07p2729",
+        "earlier": "You\u2019re months behind me, Joe.",
+        "later": "And he said, if we just wear a mask, we can save half those numbers.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000427",
+        "later_id": "n000429"
+      },
+      {
+        "id": "n030533b07p3437",
+        "earlier": "Would you close dow the oil industry?",
+        "later": "I will transition.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030534",
+        "later_id": "n030537"
+      },
+      {
+        "id": "n000984b07p8687",
+        "earlier": "Oh, really?",
+        "later": "I did it honorably.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000986",
+        "later_id": "n000987"
+      },
+      {
+        "id": "n020220b07p1720",
+        "earlier": "I talked about his xenophobia in a different context.",
+        "later": "He thought I shouldn\u2019t have closed the border, that\u2019s obvious.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020217",
+        "later_id": "n020220"
+      },
+      {
+        "id": "n000988b07p8788",
+        "earlier": "I did it honorably.",
+        "later": "I\u2019d like to know who they are.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000987",
+        "later_id": "n000988"
+      },
+      {
+        "id": "n160379b07p7986",
+        "earlier": "President Trump and I have fought for criminal justice before-",
+        "later": "But he attacked my record.",
+        "label": "none",
+        "agreement": 0.7488,
+        "earlier_id": "n160379",
+        "later_id": "n160386"
+      },
+      {
+        "id": "n020712b07p1217",
+        "earlier": "Because I\u2019d make it clear, which we were making clear to China, they had to be part of the deal, because I made it clear as a spokesperson for the illustration when I went to China that I said, \u201cWhy are you moving your missile defense up so close?",
+        "later": "If not, it\u2019s going to continue.\u201d What has he done?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020712",
+        "later_id": "n020717"
+      },
+      {
+        "id": "n010277b07p8081",
+        "earlier": "Every body in your administration tells you the true, it\u2019s a bad idea.",
+        "later": "You have no idea about anything.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010280",
+        "later_id": "n010281"
+      },
+      {
+        "id": "n070039b07p3844",
+        "earlier": "Let me stick on fracking for a second day.",
+        "later": "Okay?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n070038",
+        "later_id": "n070044"
+      },
+      {
+        "id": "n160226b07p2833",
+        "earlier": "I mean, there\u2019ve been 29 vacancies on the Supreme Court during presidential election years from George Washington to Barack Obama.",
+        "later": "No, you\u2019ve refused to answer the question.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160228",
+        "later_id": "n160233"
+      },
+      {
+        "id": "n150245b07p4551",
+        "earlier": "The one thing we all know about Joe, he puts it all out there.",
+        "later": "I respect your public service as well.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150245",
+        "later_id": "n150251"
+      },
+      {
+        "id": "n010507b07p0612",
+        "earlier": "100 million dollars.",
+        "later": "Yeah, he did say that-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010506",
+        "later_id": "n010512"
+      },
+      {
+        "id": "n000971b07p7174",
+        "earlier": "The media.",
+        "later": "By the media, because they refuse to talk about it-",
+        "label": "none",
+        "agreement": 0.7622,
+        "earlier_id": "n000971",
+        "later_id": "n000974"
+      },
+      {
+        "id": "n160380b07p8186",
+        "earlier": "We fought for educational choice and opportunities for African-Americans and all of our members.",
+        "later": "But he attacked my record.",
+        "label": "none",
+        "agreement": 0.7549,
+        "earlier_id": "n160381",
+        "later_id": "n160386"
+      },
+      {
+        "id": "n010254b07p5559",
+        "earlier": "That\u2019d be no problem.",
+        "later": "Sure, I\u2019m will to do that.",
+        "label": "none",
+        "agreement": 0.716,
+        "earlier_id": "n010255",
+        "later_id": "n010259"
+      },
+      {
+        "id": "n030239b07p3940",
+        "earlier": "They cried in the Oval Office.",
+        "later": "Two weeks later, they\u2019re out saying, \u201cGee, we have to defeat him.\u201d Criminal justice reform, prison reform, Opportunity Zones with Tim Scott, a great Senator from South Carolina.",
+        "label": "none",
+        "agreement": 0.5549,
+        "earlier_id": "n030239",
+        "later_id": "n030240"
+      },
+      {
+        "id": "n000804b07p0307",
+        "earlier": "Now the man got fired right after that happened, but that\u2019s-",
+        "later": "And he does take advantage of the tax code.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000803",
+        "later_id": "n000807"
+      },
+      {
+        "id": "n030287b07p8689",
+        "earlier": "Excuse me-",
+        "later": "If this is true, then he\u2019s a corrupt politician.",
+        "label": "none",
+        "agreement": 0.7481,
+        "earlier_id": "n030286",
+        "later_id": "n030289"
+      },
+      {
+        "id": "n000828b07p2835",
+        "earlier": "He has none.",
+        "later": "And number two, it would create an additional $1 trillion in economic growth, because it would be about buying American.",
+        "label": "none",
+        "agreement": 0.7131,
+        "earlier_id": "n000828",
+        "later_id": "n000835"
+      },
+      {
+        "id": "n050156b07p5560",
+        "earlier": "One of the things I\u2019m going to do, George, is what is set up a national study group made up of cops, social workers, as well as made up of the Black community and the Brown community to sit down in the White House and over the next year come up with significant reforms that need to take place within communities.",
+        "later": "Correct.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n050155",
+        "later_id": "n050160"
+      },
+      {
+        "id": "n100020b07p2125",
+        "earlier": "I think they\u2019re going to not let happen what happened last time.",
+        "later": "Mr. Vice President, thank you for your time tonight.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n100021",
+        "later_id": "n100025"
+      },
+      {
+        "id": "n000546b07p4751",
+        "earlier": "Well, I mean, literally, think about it.",
+        "later": "Well, he wants to shut down this country and I want to keep it open, and we did a great thing by shutting it down-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000547",
+        "later_id": "n000551"
+      },
+      {
+        "id": "n150294b07p9091",
+        "earlier": "Joe was going to invest that money in what we need to do around innovation.",
+        "later": "There was a time when our country believed in science and invested in research and development, so that we were an innovation leader on the globe.",
+        "label": "none",
+        "agreement": 0.7517,
+        "earlier_id": "n150290",
+        "later_id": "n150291"
+      },
+      {
+        "id": "n140196b07p9701",
+        "earlier": "Because I feel the same way as you do about it.",
+        "later": "Mr. President, in point of fact, the DACA program\u2026 Under your administration, no new applicants are allowed.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140197",
+        "later_id": "n140201"
+      },
+      {
+        "id": "n150236b07p3738",
+        "earlier": "We now know because of great investigative journalism that Donald Trump paid $750 in taxes.",
+        "later": "When I first heard about it, I literally said, \u201cYou mean $750,000?\u201d And it was like no, $750.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150237",
+        "later_id": "n150238"
+      },
+      {
+        "id": "n080076b07p7580",
+        "earlier": "And that\u2019s just this year.",
+        "later": "None.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n080075",
+        "later_id": "n080080"
+      },
+      {
+        "id": "n040031b07p3235",
+        "earlier": "He didn\u2019t say a word to anybody.",
+        "later": "It\u2019s going to go away by Easter, don\u2019t worry about it.",
+        "label": "none",
+        "agreement": 0.4416,
+        "earlier_id": "n040032",
+        "later_id": "n040035"
+      },
+      {
+        "id": "n000639b07p3943",
+        "earlier": "And Joe does the circles and has three people someplace.",
+        "later": "Have you been tested?",
+        "label": "none",
+        "agreement": 0.7483,
+        "earlier_id": "n000639",
+        "later_id": "n000643"
+      },
+      {
+        "id": "n040154b07p5460",
+        "earlier": "You know, you can\u2019t.",
+        "later": "And if they don\u2019t, no.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040154",
+        "later_id": "n040160"
+      },
+      {
+        "id": "n010205b07p0709",
+        "earlier": "We don\u2019t have time to do anything.",
+        "later": "Name one law enforcement group that came out in support of you.",
+        "label": "attack",
+        "agreement": 0.5846,
+        "earlier_id": "n010207",
+        "later_id": "n010209"
+      },
+      {
+        "id": "n080072b07p7179",
+        "earlier": "They\u2019re being murdered.",
+        "later": "Your daughter, that your other daughter has a right to be and do.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n080071",
+        "later_id": "n080079"
+      },
+      {
+        "id": "n070013b07p1315",
+        "earlier": "Well, first of all, I make it clear.",
+        "later": "I think you have to make sure that fracking is in fact not emitting methane or polluting the well or dealing with what can be small earthquakes in how they\u2019re drilling.",
+        "label": "none",
+        "agreement": 0.5673,
+        "earlier_id": "n070013",
+        "later_id": "n070015"
+      },
+      {
+        "id": "n160324b07p2224",
+        "earlier": "Flora Westbrook is with us here tonight in Salt Lake city.",
+        "later": "And Flora is still trying to put her life back together.",
+        "label": "support",
+        "agreement": 0.6972,
+        "earlier_id": "n160322",
+        "later_id": "n160324"
+      },
+      {
+        "id": "n120255b07p5354",
+        "earlier": "They believe that it is a Satanic cult run by the deep state.",
+        "later": "\u2026 study the subject.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120253",
+        "later_id": "n120254"
+      },
+      {
+        "id": "n030483b07p8285",
+        "earlier": "Now we have to ask him about fracking.",
+        "later": "You said it on tape.",
+        "label": "none",
+        "agreement": 0.5775,
+        "earlier_id": "n030482",
+        "later_id": "n030485"
+      },
+      {
+        "id": "n000839b07p3942",
+        "earlier": "By the way, I\u2019m going to eliminate a significant number of the taxes.",
+        "later": "You have 91 companies federal, I mean, the fortune 500, who don\u2019t pay a single penny in tax making billions of dollars.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000839",
+        "later_id": "n000842"
+      },
+      {
+        "id": "n050112b07p1314",
+        "earlier": "Along with a guy named Marlon Specter, who you may remember, I wrote the Second Chance Act.",
+        "later": "In the meantime, an awful lot of people were jailed for minor drug crimes after the Crime Bill.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n050113",
+        "later_id": "n050114"
+      },
+      {
+        "id": "n000495b07p9396",
+        "earlier": "She didn\u2019t say that.",
+        "later": "Yes.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000493",
+        "later_id": "n000496"
+      },
+      {
+        "id": "n150236b07p3538",
+        "earlier": "And that\u2019s why Joe Biden has been so incredibly transparent.",
+        "later": "When I first heard about it, I literally said, \u201cYou mean $750,000?\u201d And it was like no, $750.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150235",
+        "later_id": "n150238"
+      },
+      {
+        "id": "n020447b07p4852",
+        "earlier": "And Joe, you were vice-president when some of this was happening, and it should have never happened.",
+        "later": "Maybe you can do it right now.",
+        "label": "none",
+        "agreement": 0.5908,
+        "earlier_id": "n020448",
+        "later_id": "n020452"
+      },
+      {
+        "id": "n060052b07p4950",
+        "earlier": "I mean, it depends on \u2026",
+        "later": "\u2026 and the makeup of the court has gone through in a day kind of thing.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n060049",
+        "later_id": "n060050"
+      },
+      {
+        "id": "n050062b07p5965",
+        "earlier": "I think so.",
+        "later": "Look, this is the way every other \u2026 Like my dad, he lost his job up in Scranton and it took him three years to be able to move down to Delaware, to Claymont, Delaware, a little steel town, and send us home to our grandpop to live with him.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n050059",
+        "later_id": "n050065"
+      },
+      {
+        "id": "n010315b07p1622",
+        "earlier": "I was asked to fix it.",
+        "later": "You son got three and a half million dollars.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010316",
+        "later_id": "n010322"
+      },
+      {
+        "id": "n010273b07p7476",
+        "earlier": "\u2026 not a militia.",
+        "later": "Well, then you know what, he\u2019s wrong.",
+        "label": "none",
+        "agreement": 0.7608,
+        "earlier_id": "n010274",
+        "later_id": "n010276"
+      },
+      {
+        "id": "n000472b07p7276",
+        "earlier": "This is the same man.",
+        "later": "This man is talking about a vaccine.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000472",
+        "later_id": "n000476"
+      },
+      {
+        "id": "n020092b07p9395",
+        "earlier": "No, I think my timeline is going to be more accurate.",
+        "later": "He\u2019s ready to go.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020093",
+        "later_id": "n020095"
+      },
+      {
+        "id": "n120408b07p0910",
+        "earlier": "Peaceful transfer, I absolutely want that.",
+        "later": "But ideally, I don\u2019t want to transfer, because I want to win.",
+        "label": "none",
+        "agreement": 0.5755,
+        "earlier_id": "n120409",
+        "later_id": "n120410"
+      },
+      {
+        "id": "n020667b07p7071",
+        "earlier": "We should be talking about your families, but that\u2019s the last thing he wants to talk about.",
+        "later": "That is a typical statement.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020670",
+        "later_id": "n020671"
+      },
+      {
+        "id": "n160233b07p3639",
+        "earlier": "Are you and Joe Biden, if somehow you win this election, going to pack the Supreme Court to get your way?",
+        "later": "In 1864-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160236",
+        "later_id": "n160239"
+      },
+      {
+        "id": "n050114b07p1216",
+        "earlier": "I joined with a group of people in the House to provide for changing the system from punishment to rehabilitation.",
+        "later": "Was it a mistake to support it?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n050112",
+        "later_id": "n050116"
+      },
+      {
+        "id": "n020422b07p2527",
+        "earlier": "Well, let me respond to the first part, as Joe answered.",
+        "later": "And you got $3.5 million.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020425",
+        "later_id": "n020427"
+      },
+      {
+        "id": "n060133b07p3436",
+        "earlier": "Or by the way, I\u2019m being sued because a woman has accused me of rape.",
+        "later": "Represent me.",
+        "label": "none",
+        "agreement": 0.5817,
+        "earlier_id": "n060134",
+        "later_id": "n060136"
+      },
+      {
+        "id": "n040041b07p4245",
+        "earlier": "Not in January, February.",
+        "later": "And then I laid out a detailed plan relative to school openings in June and July.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040042",
+        "later_id": "n040045"
+      },
+      {
+        "id": "n140174b07p7778",
+        "earlier": "Why or why not?",
+        "later": "DACA is somewhat different than Dreamers.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140177",
+        "later_id": "n140178"
+      },
+      {
+        "id": "n070047b07p4853",
+        "earlier": "We should stop that and save billions of dollars over time.",
+        "later": "My deal is a crucial framework, but not the new green deal.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n070048",
+        "later_id": "n070053"
+      },
+      {
+        "id": "n020262b07p6365",
+        "earlier": "I want to open the schools.",
+        "later": "But I want to open the schools.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020263",
+        "later_id": "n020265"
+      },
+      {
+        "id": "n130165b07p6571",
+        "earlier": "That sounds like yes.",
+        "later": "I owe a very, very small\u2026 It\u2019s called mortgages.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n130165",
+        "later_id": "n130171"
+      },
+      {
+        "id": "n120502b07p0408",
+        "earlier": "We\u2019re going to have a phenomenal\u2026",
+        "later": "We had the greatest economy we ever had.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n120504",
+        "later_id": "n120508"
+      },
+      {
+        "id": "n030538b07p3739",
+        "earlier": "I will transition.",
+        "later": "That\u2019s a big statement.",
+        "label": "none",
+        "agreement": 0.7403,
+        "earlier_id": "n030537",
+        "later_id": "n030539"
+      },
+      {
+        "id": "n160405b07p0212",
+        "earlier": "And again, I will not be lectured by the Vice President on our record of what we have done in terms of law enforcement and keeping our community safe and a commitment to reforming the criminal justice system of America.",
+        "later": "Joe and I are particularly proud of the coalition that we\u2019ve built around our campaign.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160402",
+        "later_id": "n160412"
+      },
+      {
+        "id": "n040140b07p4146",
+        "earlier": "We have 500,000 vials of it.",
+        "later": "And once we get it, if it\u2019s safe, if it\u2019s effective, will you mandate its use?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040141",
+        "later_id": "n040146"
+      },
+      {
+        "id": "n060043b07p4849",
+        "earlier": "I don\u2019t know anybody who\u2019s gone on the floor that\u2019s been a controversial justice in terms of making fundamentally or altering the makeup of the court that\u2019s gone through in a day kind of thing.",
+        "later": "I mean, it depends on \u2026",
+        "label": "none",
+        "agreement": 0.7225,
+        "earlier_id": "n060048",
+        "later_id": "n060049"
+      },
+      {
+        "id": "n040227b07p2834",
+        "earlier": "You may get a raise.",
+        "later": "We\u2019re going to put 500,000 charging stations on new highways we\u2019re building, and all highways we\u2019re building.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040228",
+        "later_id": "n040234"
+      },
+      {
+        "id": "n000383b07p8486",
+        "earlier": "Wait a minute.",
+        "later": "You didn\u2019t think we should have closed our country because you thought it was terrible.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000384",
+        "later_id": "n000386"
+      },
+      {
+        "id": "n010280b07p8184",
+        "earlier": "You have no idea about anything.",
+        "later": "And you ought to be careful of them, they\u2019ll over throw you.",
+        "label": "none",
+        "agreement": 0.7583,
+        "earlier_id": "n010281",
+        "later_id": "n010284"
+      },
+      {
+        "id": "n000414b07p1417",
+        "earlier": "H1-N1, you were a disaster.",
+        "later": "A far less lethal disease, by the way.",
+        "label": "attack",
+        "agreement": 0.7601,
+        "earlier_id": "n000414",
+        "later_id": "n000417"
+      },
+      {
+        "id": "n020063b07p6062",
+        "earlier": "Anyone who is responsible for not taking control.",
+        "later": "Anyone is responsible for that many deaths should not remain as president of the United States of America.",
+        "label": "support",
+        "agreement": 0.7542,
+        "earlier_id": "n020060",
+        "later_id": "n020062"
+      },
+      {
+        "id": "n030092b07p9296",
+        "earlier": "They got separated from their parents.",
+        "later": "We changed the policy.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030092",
+        "later_id": "n030096"
+      },
+      {
+        "id": "n160337b07p3743",
+        "earlier": "We\u2019ll fight for school choice for all of [crosstalk 00:36:46].",
+        "later": "I am the only one on this stage who prosecuted for-profit colleges for taking advantage of our veterans.",
+        "label": "none",
+        "agreement": 0.7169,
+        "earlier_id": "n160337",
+        "later_id": "n160343"
+      },
+      {
+        "id": "n150096b07p9095",
+        "earlier": "Susan, I have to weigh in here-",
+        "later": "Thank you.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150090",
+        "later_id": "n150095"
+      },
+      {
+        "id": "n020725b07p1920",
+        "earlier": "He\u2019s talked about his good buddy, who\u2019s a thug, a thug.",
+        "later": "And he talks about how we\u2019re better off.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020719",
+        "later_id": "n020720"
+      },
+      {
+        "id": "n000924b07p2629",
+        "earlier": "China ate your lunch- [crosstalk 00:00:22:07].",
+        "later": "And no wonder your son goes in and he takes out billions of dollars.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000926",
+        "later_id": "n000929"
+      },
+      {
+        "id": "n040207b07p0508",
+        "earlier": "Making sure that your home, you can pay your mortgage.",
+        "later": "Sure.",
+        "label": "none",
+        "agreement": 0.5665,
+        "earlier_id": "n040205",
+        "later_id": "n040208"
+      },
+      {
+        "id": "n120379b07p7578",
+        "earlier": "When I see thousands of ballots dumped in a garbage can, and they happen to have my name on it?",
+        "later": "And you are sowing doubt about our democracy.",
+        "label": "none",
+        "agreement": 0.5788,
+        "earlier_id": "n120375",
+        "later_id": "n120378"
+      },
+      {
+        "id": "n060109b07p0911",
+        "earlier": "After Trump had been elected, named the next president, wasn\u2019t sworn in yet, I\u2019ve been working on a thing called a bill relating to cancer cures.",
+        "later": "And it was called the Cancer Moonshot.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n060109",
+        "later_id": "n060111"
+      },
+      {
+        "id": "n030365b07p6471",
+        "earlier": "You had eight years to get it done, now you\u2019re saying you\u2019re going to get it done because you\u2019re all talking and no action, Joe.",
+        "later": "38,000 prisoners were released from federal prison, we have\u2026 There were over a thousand people who were given clemency.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030364",
+        "later_id": "n030371"
+      },
+      {
+        "id": "n160250b07p5356",
+        "earlier": "People, Susan, are voting right now.",
+        "later": "You, once again, gave a non-answer.",
+        "label": "none",
+        "agreement": 0.7542,
+        "earlier_id": "n160253",
+        "later_id": "n160256"
+      },
+      {
+        "id": "n120487b07p8590",
+        "earlier": "Right.",
+        "later": "But we\u2019re going to have a tremendous announcement.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120485",
+        "later_id": "n120490"
+      },
+      {
+        "id": "n000803b07p0510",
+        "earlier": "Yeah, I do want to respond.",
+        "later": "That\u2019s okay.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000805",
+        "later_id": "n000810"
+      },
+      {
+        "id": "n030495b07p9502",
+        "earlier": "Excuse me.",
+        "later": "Then he said, \u201cBut you know what Pennsylvania?\u201d He\u2019ll be against it very soon because his party is totally against it.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030495",
+        "later_id": "n030502"
+      },
+      {
+        "id": "n130035b07p3741",
+        "earlier": "And always, under all circumstances, we are going to protect the Republicans.",
+        "later": "That was the worst part.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n130037",
+        "later_id": "n130041"
+      },
+      {
+        "id": "n000773b07p7274",
+        "earlier": "Show us your tax returns.",
+        "later": "Show us your tax returns.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000772",
+        "later_id": "n000774"
+      },
+      {
+        "id": "n030421b07p2025",
+        "earlier": "Our health and our jobs are at stake.",
+        "later": "They came out and said very strongly $6,500 will be taken away from families under his plan, that his plan is an economic disaster.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030420",
+        "later_id": "n030425"
+      },
+      {
+        "id": "n160433b07p3538",
+        "earlier": "And I have every confidence that the same Americans that delivered that historic victory in 2016, they see this president\u2019s record where we rebuild our military.",
+        "later": "And we stood with the men and women of law enforcement every single day.",
+        "label": "support",
+        "agreement": 0.5747,
+        "earlier_id": "n160435",
+        "later_id": "n160438"
+      },
+      {
+        "id": "n130096b07p9600",
+        "earlier": "This was China\u2019s fault.",
+        "later": "That\u2019s what I was talking about.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n130096",
+        "later_id": "n130100"
+      },
+      {
+        "id": "n130053b07p5258",
+        "earlier": "Look, look.",
+        "later": "But if you\u2019re successful in court-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n130052",
+        "later_id": "n130058"
+      },
+      {
+        "id": "n000782b07p7981",
+        "earlier": "But let me tell you-",
+        "later": "Release your tax return.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000779",
+        "later_id": "n000781"
+      },
+      {
+        "id": "n000663b07p6264",
+        "earlier": "Yes.",
+        "later": "Much faster.",
+        "label": "support",
+        "agreement": 0.5959,
+        "earlier_id": "n000662",
+        "later_id": "n000664"
+      },
+      {
+        "id": "n160113b07p0914",
+        "earlier": "\u2026 To do harm to Americans, President Donald Trump took him out-",
+        "later": "But I would like equal time.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160109",
+        "later_id": "n160114"
+      },
+      {
+        "id": "n140142b07p4246",
+        "earlier": "With the exception of Abraham Lincoln.",
+        "later": "They could have been put out of business.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140142",
+        "later_id": "n140146"
+      },
+      {
+        "id": "n020845b07p4851",
+        "earlier": "How many of you at home are worried and rolling around in bed tonight, wondering what in God\u2019s name you\u2019re going to do if you get sick, because you\u2019ve lost your health insurance and your company\u2019s gone under?",
+        "later": "Excuse me.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020848",
+        "later_id": "n020851"
+      },
+      {
+        "id": "n160427b07p2734",
+        "earlier": "Please vote.",
+        "later": "Because while Joe Biden and Kamala Harris rattle off a long litany of the establishment in Washington, DC and establishment that Joe Biden\u2019s been a part of for 47 years, president Donald Trump has as launched a movement of everyday Americans from every walk of life.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160427",
+        "later_id": "n160434"
+      },
+      {
+        "id": "n160253b07p5455",
+        "earlier": "They\u2019d like to know if you and Joe Biden are going to pack the Supreme Court if you don\u2019t get your way in this nomination.",
+        "later": "Let\u2019s talk about packing-",
+        "label": "none",
+        "agreement": 0.7552,
+        "earlier_id": "n160254",
+        "later_id": "n160255"
+      },
+      {
+        "id": "n030075b07p7476",
+        "earlier": "They built cages.",
+        "later": "President Trump built them.\u201d And then it was determined they were built in 2014.",
+        "label": "none",
+        "agreement": 0.7281,
+        "earlier_id": "n030074",
+        "later_id": "n030076"
+      },
+      {
+        "id": "n010148b07p4748",
+        "earlier": "Violent crime-",
+        "later": "And you still haven\u2019t mentioned.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010147",
+        "later_id": "n010148"
+      },
+      {
+        "id": "n010385b07p8283",
+        "earlier": "So would I.",
+        "later": "Okay.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010382",
+        "later_id": "n010383"
+      },
+      {
+        "id": "n010265b07p6671",
+        "earlier": "Say it, do it say it.",
+        "later": "But I\u2019ll tell you what somebody\u2019s got to do something about Antifa and the left because this is not a right wing problem this is a left wing.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010266",
+        "later_id": "n010271"
+      },
+      {
+        "id": "n120263b07p6266",
+        "earlier": "He may be right.",
+        "later": "No, I don\u2019t know.",
+        "label": "none",
+        "agreement": 0.7602,
+        "earlier_id": "n120262",
+        "later_id": "n120266"
+      },
+      {
+        "id": "n040128b07p2628",
+        "earlier": "I\u2019m not being facetious, he\u2019s actually said these things.",
+        "later": "That\u2019s going to cure everything.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040126",
+        "later_id": "n040128"
+      },
+      {
+        "id": "n120532b07p2730",
+        "earlier": "As well as the exacerbation of coronavirus, due to Americans who are not wearing masks or participating in social distancing.",
+        "later": "I was good with it, but I\u2019ve heard many different stories on masks.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120527",
+        "later_id": "n120530"
+      },
+      {
+        "id": "n120389b07p8990",
+        "earlier": "And millions that are-",
+        "later": "Sure.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120389",
+        "later_id": "n120390"
+      },
+      {
+        "id": "n140189b07p8788",
+        "earlier": "It\u2019s working right now.",
+        "later": "We\u2019re negotiating different aspects of immigration and immigration law.",
+        "label": "none",
+        "agreement": 0.7485,
+        "earlier_id": "n140187",
+        "later_id": "n140188"
+      },
+      {
+        "id": "n020792b07p9295",
+        "earlier": "Pre-existing conditions will always stay.",
+        "later": "So I\u2019d like to terminate Obamacare, come up with a brand new, beautiful healthcare.",
+        "label": "support",
+        "agreement": 0.5774,
+        "earlier_id": "n020792",
+        "later_id": "n020795"
+      },
+      {
+        "id": "n010265b07p6668",
+        "earlier": "Say it, do it say it.",
+        "later": "Give me a name, give me a name, go ahead who do you want me to condemn.",
+        "label": "none",
+        "agreement": 0.7142,
+        "earlier_id": "n010266",
+        "later_id": "n010268"
+      },
+      {
+        "id": "n010208b07p0912",
+        "earlier": "Name one law enforcement group that came out in support of you.",
+        "later": "There aren\u2019t any.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010209",
+        "later_id": "n010212"
+      },
+      {
+        "id": "n150140b07p4344",
+        "earlier": "You respect the American people when you have the courage to be a leader.",
+        "later": "Which we\u2019ve always done.",
+        "label": "none",
+        "agreement": 0.4363,
+        "earlier_id": "n150143",
+        "later_id": "n150144"
+      },
+      {
+        "id": "n020041b07p4344",
+        "earlier": "And I got better very fast or I wouldn\u2019t be here tonight.",
+        "later": "And now they say I\u2019m immune.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020043",
+        "later_id": "n020044"
+      },
+      {
+        "id": "n160325b07p2728",
+        "earlier": "And it is remarkable that when Senator Tim Scott tried to pass a police reform bill, brought together a group of Republicans and Democrats, Senator Harris, you got up and walked out of the room and then you filibustered Senator Tim Scott\u2019s bill on the Senate floor that would have provided new accountability, new repeat resources.",
+        "later": "We don\u2019t have to choose between supporting law enforcement, proving public safety and supporting our African-American neighbors and all of our minorities.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n160327",
+        "later_id": "n160328"
+      },
+      {
+        "id": "n020692b07p9196",
+        "earlier": "No.",
+        "later": "Guess what?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020691",
+        "later_id": "n020696"
+      },
+      {
+        "id": "n020842b07p4447",
+        "earlier": "Everyone should have the right to have affordable healthcare, and I am very proud of my plan.",
+        "later": "And this is going to give some people an opportunity to have healthcare for their children.",
+        "label": "none",
+        "agreement": 0.748,
+        "earlier_id": "n020844",
+        "later_id": "n020847"
+      },
+      {
+        "id": "n000129b07p2627",
+        "earlier": "Donald would you just be quiet for a minute.",
+        "later": "You don\u2019t know her view on Roe V. Wade?",
+        "label": "none",
+        "agreement": 0.7403,
+        "earlier_id": "n000126",
+        "later_id": "n000127"
+      },
+      {
+        "id": "n010040b07p4146",
+        "earlier": "I\u2019ve never said-",
+        "later": "You call them super predators, and you\u2019ve called them worse than that.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010041",
+        "later_id": "n010046"
+      },
+      {
+        "id": "n020914b07p1213",
+        "earlier": "It doesn\u2019t work.",
+        "later": "He\u2019s a very confused guy.",
+        "label": "none",
+        "agreement": 0.7423,
+        "earlier_id": "n020912",
+        "later_id": "n020913"
+      },
+      {
+        "id": "n000349b07p4849",
+        "earlier": "He said he didn\u2019t tell us or give people a warning of it because he didn\u2019t want to panic the American people.",
+        "later": "You don\u2019t panic.",
+        "label": "support",
+        "agreement": 0.5766,
+        "earlier_id": "n000348",
+        "later_id": "n000349"
+      },
+      {
+        "id": "n000170b07p7477",
+        "earlier": "So we\u2019re cutting healthcare.",
+        "later": "He has not done healthcare.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000174",
+        "later_id": "n000177"
+      },
+      {
+        "id": "n160257b07p5760",
+        "earlier": "Joe Biden gave a non-answer.",
+        "later": "Men and women, I got to tell you people across this country, if you cherish our Supreme Court, if you cherish the separation of powers, you need to reject the Biden Harris ticket come November the third, reelect President Donald Trump, and we\u2019ll stand by that separation powers in a nine seats Supreme Court.",
+        "label": "none",
+        "agreement": 0.7532,
+        "earlier_id": "n160257",
+        "later_id": "n160260"
+      },
+      {
+        "id": "n000174b07p7374",
+        "earlier": "Nobody\u2019s done it.",
+        "later": "So we\u2019re cutting healthcare.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000173",
+        "later_id": "n000174"
+      },
+      {
+        "id": "n100004b07p0811",
+        "earlier": "And by the way, before I came up here, I took another test.",
+        "later": "And I just think it\u2019s just decency, to be able to determine whether or not you\u2019re clear.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n100008",
+        "later_id": "n100011"
+      },
+      {
+        "id": "n020259b07p5456",
+        "earlier": "And we have to open our schools.",
+        "later": "By the time I spoke to the doctor the second time, he was fine.",
+        "label": "none",
+        "agreement": 0.7552,
+        "earlier_id": "n020254",
+        "later_id": "n020256"
+      },
+      {
+        "id": "n020508b07p0306",
+        "earlier": "\u2026 deep down in the IRS, they treat me horribly.",
+        "later": "As soon as we\u2019re completed with the deal, I want to release it, but I have paid millions and millions of dollars and it\u2019s worse than paying.",
+        "label": "none",
+        "agreement": 0.5695,
+        "earlier_id": "n020503",
+        "later_id": "n020506"
+      },
+      {
+        "id": "n040016b07p1823",
+        "earlier": "Well, first of all, going back, the fact is that the president was informed how dangerous this virus was.",
+        "later": "And the best of our knowledge, Trump never pushed that.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040018",
+        "later_id": "n040023"
+      },
+      {
+        "id": "n020288b07p8990",
+        "earlier": "And by the way, all you teachers out there, not that many of you are going to die, so don\u2019t worry about it.",
+        "later": "So don\u2019t worry about it.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n020289",
+        "later_id": "n020290"
+      },
+      {
+        "id": "n120219b07p1921",
+        "earlier": "You always start off with the question.",
+        "later": "I watched him on the same basic show with Lester Holt, and he was asking questions like Biden was a child.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120219",
+        "later_id": "n120221"
+      },
+      {
+        "id": "n150422b07p2127",
+        "earlier": "Do you know, this administration took the word science off the website, and then took the phrase climate change off the website?",
+        "later": "Joe is about saying we\u2019re going to invest that in renewable energy, which is going to be about the creation of millions of jobs.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150421",
+        "later_id": "n150427"
+      },
+      {
+        "id": "n040036b07p3537",
+        "earlier": "It\u2019s going to go away by Easter, don\u2019t worry about it.",
+        "later": "He\u2019s still saying those things.",
+        "label": "none",
+        "agreement": 0.5704,
+        "earlier_id": "n040035",
+        "later_id": "n040037"
+      },
+      {
+        "id": "n030435b07p3335",
+        "earlier": "When he says buildings, they want to take buildings down because they want to make bigger windows into smaller windows.",
+        "later": "This is the craziest plan that anybody has ever seen and this wasn\u2019t done by smart people.",
+        "label": "support",
+        "agreement": 0.7611,
+        "earlier_id": "n030433",
+        "later_id": "n030435"
+      },
+      {
+        "id": "n160200b07p0004",
+        "earlier": "It\u2019s the Affordable Care Act like literally in the midst of a public health pandemic when over 210,000 people have died and 7 million people probably have what will be in the future considered a preexisting condition because you contracted the virus.",
+        "later": "It means that if you\u2019re under the age of 26, you can\u2019t stay on your parents\u2019 coverage anymore, and here\u2019s the thing.",
+        "label": "none",
+        "agreement": 0.7564,
+        "earlier_id": "n160200",
+        "later_id": "n160204"
+      },
+      {
+        "id": "n010321b07p2021",
+        "earlier": "He\u2019s Putin\u2019s puppy.",
+        "later": "He still refuses to even say anything to Putin about the bounty on the heads of American soldiers.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010320",
+        "later_id": "n010321"
+      },
+      {
+        "id": "n000093b07p9095",
+        "earlier": "Right now, I am the Democratic Party.",
+        "later": "The platform of the Democratic Party is what I, in fact, approved of, what I approved of.",
+        "label": "none",
+        "agreement": 0.5585,
+        "earlier_id": "n000090",
+        "later_id": "n000095"
+      },
+      {
+        "id": "n130070b07p7172",
+        "earlier": "He should vote for me.",
+        "later": "The problem you have is Nancy Pelosi.",
+        "label": "none",
+        "agreement": 0.7459,
+        "earlier_id": "n130071",
+        "later_id": "n130072"
+      },
+      {
+        "id": "n080014b07p1112",
+        "earlier": "Does President Trump\u2019s foreign policy deserves some credit?",
+        "later": "A little more, but not a whole lot.",
+        "label": "support",
+        "agreement": 0.7091,
+        "earlier_id": "n080011",
+        "later_id": "n080012"
+      },
+      {
+        "id": "n030457b07p5863",
+        "earlier": "By the way, the fastest growing industry in America is the electric, excuse me, solar energy and wind.",
+        "later": "Excuse me.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030458",
+        "later_id": "n030463"
+      },
+      {
+        "id": "n050109b07p0911",
+        "earlier": "We should decriminalize marijuana, wipe out the record so you can actually say honesty, \u201cYou ever been arrested for murder for anything?\u201d You can say no, because we\u2019re going to pass a law saying there is no background that you have to reveal relative to the use of marijuana.",
+        "later": "But in addition to that, we\u2019ve got to change the system.",
+        "label": "none",
+        "agreement": 0.7523,
+        "earlier_id": "n050109",
+        "later_id": "n050111"
+      },
+      {
+        "id": "n080014b07p1213",
+        "earlier": "A little more, but not a whole lot.",
+        "later": "We find ourselves in a position where we\u2019re more isolated in the world than we\u2019ve ever been.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n080012",
+        "later_id": "n080013"
+      },
+      {
+        "id": "n030248b07p4852",
+        "earlier": "10 year long-term funding and I gave them more money than they asked for because I said, \u201cI think you need more.\u201d And I said, \u201cThe only bad part about this is I may never see you again.\u201d Because I got very friendly with them and they like me and I like them.",
+        "later": "The fact of the matter is in 2000 though, after the crime bill had been in the law for awhile, this is a guy who said, \u201cThe problem with the crime bill, there\u2019s not enough people in jail.",
+        "label": "none",
+        "agreement": 0.4399,
+        "earlier_id": "n030248",
+        "later_id": "n030252"
+      },
+      {
+        "id": "n000286b07p8588",
+        "earlier": "He\u2019s been promising a healthcare plan since he got elected.",
+        "later": "He doesn\u2019t have a plan.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n000285",
+        "later_id": "n000288"
+      },
+      {
+        "id": "n000286b07p8588",
+        "earlier": "He\u2019s been promising a healthcare plan since he got elected.",
+        "later": "He doesn\u2019t have a plan.",
+        "label": "attack",
+        "agreement": 0.756,
+        "earlier_id": "n000285",
+        "later_id": "n000288"
+      },
+      {
+        "id": "n150101b07p0205",
+        "earlier": "\u2026 couldn\u2019t see your parents because you were afraid they could kill them.",
+        "later": "There\u2019s not a day gone by that I haven\u2019t thought of every American family that\u2019s lost a loved one.",
+        "label": "none",
+        "agreement": 0.753,
+        "earlier_id": "n150102",
+        "later_id": "n150105"
+      },
+      {
+        "id": "n120290b07p8994",
+        "earlier": "No, I don\u2019t know that.",
+        "later": "Why aren\u2019t you asking me about Antifa?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120289",
+        "later_id": "n120294"
+      },
+      {
+        "id": "n130186b07p8687",
+        "earlier": "I think people are just wondering, you\u2019re the only-",
+        "later": "As you know, I\u2019m under audit.",
+        "label": "none",
+        "agreement": 0.7169,
+        "earlier_id": "n130186",
+        "later_id": "n130187"
+      },
+      {
+        "id": "n050037b07p3842",
+        "earlier": "And so that school now will be able to produce young Black women and men who are going to go into a field of the future that\u2019s burgeoning, cybersecurity.",
+        "later": "In addition to that, all the studies now show, and I\u2019ve been arguing this for a long time, is young Black entrepreneurs are just as successful as White entrepreneurs or anyone else given a shot.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n050038",
+        "later_id": "n050042"
+      },
+      {
+        "id": "n010466b07p6368",
+        "earlier": "Instead of doing something about that, I would be gathering up and making sure we had the countries of the world coming up with $20 billion, and say, \u201cHere\u2019s $20 billion.",
+        "later": "Well, he hasn\u2019t drawn a line.",
+        "label": "none",
+        "agreement": 0.7539,
+        "earlier_id": "n010463",
+        "later_id": "n010468"
+      },
+      {
+        "id": "n150104b07p0511",
+        "earlier": "There\u2019s not a day gone by that I haven\u2019t thought of every American family that\u2019s lost a loved one.",
+        "later": "Now President Trump, I will tell you, has boundless confidence in the American people, and he always spoke with confidence that we\u2019d get through this together.",
+        "label": "support",
+        "agreement": 0.7468,
+        "earlier_id": "n150105",
+        "later_id": "n150111"
+      },
+      {
+        "id": "n050016b07p1619",
+        "earlier": "Not a joke.",
+        "later": "Can I earn your vote?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n050016",
+        "later_id": "n050019"
+      },
+      {
+        "id": "n120492b07p9398",
+        "earlier": "Jobs, real estate, houses.",
+        "later": "Who was talking about that?",
+        "label": "none",
+        "agreement": 0.7523,
+        "earlier_id": "n120493",
+        "later_id": "n120498"
+      },
+      {
+        "id": "n080027b07p2527",
+        "earlier": "But if you take a look, we\u2019re not very well trusted around the world.",
+        "later": "And look what Putin is doing.",
+        "label": "none",
+        "agreement": 0.7455,
+        "earlier_id": "n080025",
+        "later_id": "n080027"
+      },
+      {
+        "id": "n020654b07p5557",
+        "earlier": "You never charged them anything.",
+        "later": "We were not going to have a steel industry.",
+        "label": "none",
+        "agreement": 0.768,
+        "earlier_id": "n020655",
+        "later_id": "n020657"
+      },
+      {
+        "id": "n010609b07p1012",
+        "earlier": "Is it going to change, or are you going to get four more years of these lies?",
+        "later": "So when I listen to Joe talking about a transition, there has been no transition from when I won.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010610",
+        "later_id": "n010612"
+      },
+      {
+        "id": "n150400b07p9598",
+        "earlier": "And so by creating the kind of American innovation, we\u2019re actually steering toward a stronger and better environment.",
+        "later": "And with regard to hurricanes, the National Oceanic Administration tells us that actually as difficult as they are, there are no more hurricanes today than there were 100 years ago-",
+        "label": "none",
+        "agreement": 0.8098,
+        "earlier_id": "n150395",
+        "later_id": "n150398"
+      },
+      {
+        "id": "n140039b07p4043",
+        "earlier": "You\u2019ve mentioned that you would like to see Amy Coney Barrett confirmed to the Supreme Court in case any challenges come up in connection with the election.",
+        "later": "I don\u2019t think she has any conflict at all.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140040",
+        "later_id": "n140043"
+      },
+      {
+        "id": "n010670b07p7176",
+        "earlier": "Yeah.",
+        "later": "They take them.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010671",
+        "later_id": "n010676"
+      },
+      {
+        "id": "n140095b07p9395",
+        "earlier": "But would you like to see Roe versus Wade overturned?",
+        "later": "And that\u2019s why I chose her.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140093",
+        "later_id": "n140095"
+      },
+      {
+        "id": "n020654b07p5155",
+        "earlier": "Not true.",
+        "later": "You never charged them anything.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020651",
+        "later_id": "n020655"
+      },
+      {
+        "id": "n010521b07p2326",
+        "earlier": "But the rest of the world, we\u2019ve got to get them to come along.",
+        "later": "Wait a minute, Chris.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010523",
+        "later_id": "n010526"
+      },
+      {
+        "id": "n140144b07p4548",
+        "earlier": "They were on a year to year basis.",
+        "later": "And more than they even asked for.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140145",
+        "later_id": "n140148"
+      },
+      {
+        "id": "n090040b07p3840",
+        "earlier": "Usually, the president\u2019s in my view, with all due respect, has been divide and conquer.",
+        "later": "There\u2019s division.",
+        "label": "none",
+        "agreement": 0.6875,
+        "earlier_id": "n090038",
+        "later_id": "n090040"
+      },
+      {
+        "id": "n020667b07p7074",
+        "earlier": "We should be talking about your families, but that\u2019s the last thing he wants to talk about.",
+        "later": "Just for one second, please.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020670",
+        "later_id": "n020674"
+      },
+      {
+        "id": "n030104b07p0203",
+        "earlier": "Who built the cages, Joe?",
+        "later": "Let\u2019s talk about what we\u2019re talking about.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030102",
+        "later_id": "n030103"
+      },
+      {
+        "id": "n040192b07p8992",
+        "earlier": "The Trump tax cuts reduces taxes for the majority of workers.",
+        "later": "I carry this card with me.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040189",
+        "later_id": "n040192"
+      },
+      {
+        "id": "n030596b07p9495",
+        "earlier": "We are on the road to success.",
+        "later": "But I\u2019m cutting taxes, and he wants to raise everybody\u2019s taxes and he wants to put new regulations on everything.",
+        "label": "support",
+        "agreement": 0.5639,
+        "earlier_id": "n030594",
+        "later_id": "n030595"
+      },
+      {
+        "id": "n020405b07p0609",
+        "earlier": "But the point is this, folks.",
+        "later": "His buddy Rudy Giuliani.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020406",
+        "later_id": "n020409"
+      },
+      {
+        "id": "n000450b07p5356",
+        "earlier": "No, I disagree with both of them.",
+        "later": "I had him in my office two days ago.",
+        "label": "none",
+        "agreement": 0.8326,
+        "earlier_id": "n000453",
+        "later_id": "n000456"
+      },
+      {
+        "id": "n030259b07p6166",
+        "earlier": "That\u2019s why I\u2019m offering $20 billion to states to change their state laws to eliminate minimum mandatories and set up drug courts.",
+        "later": "Why didn\u2019t you do that four years ago?",
+        "label": "none",
+        "agreement": 0.5641,
+        "earlier_id": "n030261",
+        "later_id": "n030266"
+      },
+      {
+        "id": "n020517b07p1921",
+        "earlier": "Come on.",
+        "later": "So\u2026",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020519",
+        "later_id": "n020521"
+      },
+      {
+        "id": "n020902b07p0001",
+        "earlier": "Wrong.",
+        "later": "\u2026 and destroying your Social Security.",
+        "label": "none",
+        "agreement": 0.7602,
+        "earlier_id": "n020900",
+        "later_id": "n020901"
+      },
+      {
+        "id": "n130199b07p0004",
+        "earlier": "I am under audit.",
+        "later": "They treat me very, very badly.",
+        "label": "none",
+        "agreement": 0.5686,
+        "earlier_id": "n130200",
+        "later_id": "n130204"
+      },
+      {
+        "id": "n000604b07p0306",
+        "earlier": "Okay.",
+        "later": "Dr. Fauci said the opposite.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000603",
+        "later_id": "n000606"
+      },
+      {
+        "id": "n120271b07p7074",
+        "earlier": "Let\u2019s waste the whole show.",
+        "later": "Let\u2019s go.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120270",
+        "later_id": "n120274"
+      },
+      {
+        "id": "n030145b07p4247",
+        "earlier": "Over 20,000 of them are first responders out there taking care of people during this crisis.",
+        "later": "And I\u2019ve changed.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030142",
+        "later_id": "n030147"
+      },
+      {
+        "id": "n060013b07p1418",
+        "earlier": "So, number one.",
+        "later": "I don\u2019t think it\u2019s appropriate.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n060014",
+        "later_id": "n060018"
+      },
+      {
+        "id": "n120569b07p7172",
+        "earlier": "But then, you have a report coming out two days ago, that 85% of the people wearing masks catch it.",
+        "later": "I looked at that report, it\u2019s not about mask wearing.",
+        "label": "attack",
+        "agreement": 0.7473,
+        "earlier_id": "n120571",
+        "later_id": "n120572"
+      },
+      {
+        "id": "n020279b07p8385",
+        "earlier": "You need to be able to, for example, if you\u2019re going to open a business, have social distancing within the business.",
+        "later": "You need to be in a position where you can take testing rapidly and know whether the person is in fact infected.",
+        "label": "none",
+        "agreement": 0.5795,
+        "earlier_id": "n020283",
+        "later_id": "n020285"
+      },
+      {
+        "id": "n010218b07p1924",
+        "earlier": "Now I am a former vice president.",
+        "later": "He\u2019s never done that.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010219",
+        "later_id": "n010224"
+      },
+      {
+        "id": "n010736b07p3839",
+        "earlier": "You know it can\u2019t be done.",
+        "later": "You know it can\u2019t, and already, there\u2019s been fraud [crosstalk 01:07:19]-",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n010738",
+        "later_id": "n010739"
+      },
+      {
+        "id": "n040059b07p6265",
+        "earlier": "He didn\u2019t do anything.",
+        "later": "You said that you would lock down the economy, only if the scientists said it was necessary.",
+        "label": "none",
+        "agreement": 0.5651,
+        "earlier_id": "n040062",
+        "later_id": "n040065"
+      },
+      {
+        "id": "n130089b07p9092",
+        "earlier": "But people\u2019s lives are hanging in the balance.",
+        "later": "And you know who I\u2019m negotiating against?",
+        "label": "none",
+        "agreement": 0.7526,
+        "earlier_id": "n130090",
+        "later_id": "n130092"
+      },
+      {
+        "id": "n040168b07p7374",
+        "earlier": "\u201cYou wear this mask, you\u2019ll save more lives between now and the end of the year than if we had a vaccine.\u201d It\u2019s estimated by every major study done from the University of Washington to Columbia, that if in fact we wore masks, we could save, between now and the end of the year, a hundred thousand lives.",
+        "later": "And avoid lock downs?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040173",
+        "later_id": "n040174"
+      },
+      {
+        "id": "n000280b07p8287",
+        "earlier": "He sends out wishful thinking.",
+        "later": "He does not have a plan.",
+        "label": "none",
+        "agreement": 0.7522,
+        "earlier_id": "n000282",
+        "later_id": "n000287"
+      },
+      {
+        "id": "n000998b07p9901",
+        "earlier": "Well, it\u2019s hard to get any word in with this clown.",
+        "later": "Hey, let me just tell you, Joe-",
+        "label": "none",
+        "agreement": 0.7552,
+        "earlier_id": "n000999",
+        "later_id": "n001001"
+      },
+      {
+        "id": "n140037b07p3642",
+        "earlier": "I have never seen anything like it.",
+        "later": "Well, I think she\u2019ll have to make that decision.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140036",
+        "later_id": "n140042"
+      },
+      {
+        "id": "n120485b07p8587",
+        "earlier": "Right.",
+        "later": "So, it\u2019s happening.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120485",
+        "later_id": "n120487"
+      },
+      {
+        "id": "n010691b07p9497",
+        "earlier": "You either do, Chris, a solicited ballot, where you\u2019re sending it in, they\u2019re sending it back and you\u2019re sending.",
+        "later": "Take a look at West Virginia, mailman selling the ballots.",
+        "label": "none",
+        "agreement": 0.7643,
+        "earlier_id": "n010694",
+        "later_id": "n010697"
+      },
+      {
+        "id": "n160339b07p3741",
+        "earlier": "We\u2019ll fight for school choice for all of [crosstalk 00:36:46].",
+        "later": "The only one on this stage, who has personally prosecuted everything from child sexual assault to homicide.",
+        "label": "none",
+        "agreement": 0.7135,
+        "earlier_id": "n160337",
+        "later_id": "n160341"
+      },
+      {
+        "id": "n000530b07p2729",
+        "earlier": "Okay.",
+        "later": "I look forward to talking about it.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000527",
+        "later_id": "n000529"
+      },
+      {
+        "id": "n140184b07p8485",
+        "earlier": "Okay.",
+        "later": "So we are going to take care of DACA.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140184",
+        "later_id": "n140185"
+      },
+      {
+        "id": "n000703b07p0002",
+        "earlier": "This guy will close down the whole country and destroy our country.",
+        "later": "We don\u2019t need somebody to come in and say, \u201cLet\u2019s shut it down.\u201d",
+        "label": "support",
+        "agreement": 0.4277,
+        "earlier_id": "n000700",
+        "later_id": "n000702"
+      },
+      {
+        "id": "n000311b07p1217",
+        "earlier": "Will you shut up, man?",
+        "later": "He\u2019s going to pack the court.",
+        "label": "none",
+        "agreement": 0.7522,
+        "earlier_id": "n000312",
+        "later_id": "n000317"
+      },
+      {
+        "id": "n040097b07p9800",
+        "earlier": "And what\u2019s he doing?",
+        "later": "He\u2019s still not wearing masks, and so on.",
+        "label": "none",
+        "agreement": 0.7383,
+        "earlier_id": "n040098",
+        "later_id": "n040100"
+      },
+      {
+        "id": "n000963b07p6467",
+        "earlier": "I think he did.",
+        "later": "He doesn\u2019t want to let me answer, because he knows I have the truth.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000964",
+        "later_id": "n000967"
+      },
+      {
+        "id": "n160215b07p1421",
+        "earlier": "That\u2019s true leadership.",
+        "later": "I don\u2019t apologize for it, and this is another one of those cases where there\u2019s such a dramatic contrast.",
+        "label": "none",
+        "agreement": 0.7254,
+        "earlier_id": "n160214",
+        "later_id": "n160221"
+      },
+      {
+        "id": "n010300b07p0003",
+        "earlier": "A fixing of the VA which was a mess under him, 308,000 people died because they didn\u2019t have proper health care.",
+        "later": "We take care of our vets.",
+        "label": "none",
+        "agreement": 0.753,
+        "earlier_id": "n010300",
+        "later_id": "n010303"
+      },
+      {
+        "id": "n020411b07p1116",
+        "earlier": "He\u2019s being fed information that is Russian that is not true.",
+        "later": "I don\u2019t know why he doesn\u2019t do it, but it\u2019s worth asking the question.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020411",
+        "later_id": "n020416"
+      },
+      {
+        "id": "n020197b07p9899",
+        "earlier": "It\u2019s going to go away.",
+        "later": "It\u2019ll be gone by Easter.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n020198",
+        "later_id": "n020199"
+      },
+      {
+        "id": "n160237b07p3439",
+        "earlier": "Joe Biden has refused to answer the question.",
+        "later": "In 1864-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160234",
+        "later_id": "n160239"
+      },
+      {
+        "id": "n120515b07p1620",
+        "earlier": "And we went into the ventilator business, because this country was not equipped with ventilators.",
+        "later": "So, they\u2019ve worked very hard and really very, very effectively.",
+        "label": "none",
+        "agreement": 0.7507,
+        "earlier_id": "n120516",
+        "later_id": "n120520"
+      },
+      {
+        "id": "n050152b07p5357",
+        "earlier": "How do you get the kind of policing, prevent the kind of policing [crosstalk 00:35:55].",
+        "later": "One of the things I\u2019ve observed is, the neighborhood I grew up, I grew up in Claymont, you either became a cop, a firefighter, or a priest.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n050153",
+        "later_id": "n050157"
+      },
+      {
+        "id": "n160214b07p1221",
+        "earlier": "\u2026 Let\u2019s lower Medicare eligibility to 60.",
+        "later": "I don\u2019t apologize for it, and this is another one of those cases where there\u2019s such a dramatic contrast.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160212",
+        "later_id": "n160221"
+      },
+      {
+        "id": "n030228b07p3033",
+        "earlier": "And they never lived that down.",
+        "later": "And if you look, with the exception of Abraham Lincoln, possible exception, but the exception of Abraham Lincoln, nobody has done what I\u2019ve done.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030230",
+        "later_id": "n030233"
+      },
+      {
+        "id": "n020639b07p3946",
+        "earlier": "First of all, China is paying.",
+        "later": "Taxpayer\u2019s money.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020639",
+        "later_id": "n020646"
+      },
+      {
+        "id": "n000206b07p0809",
+        "earlier": "Not by much.",
+        "later": "I\u2019m here standing facing you, old buddy.",
+        "label": "none",
+        "agreement": 0.746,
+        "earlier_id": "n000208",
+        "later_id": "n000209"
+      },
+      {
+        "id": "n160366b07p6468",
+        "earlier": "You\u2019re concerned that he doesn\u2019t condemn neo-Nazis.",
+        "later": "But you talk about having personally prosecuted.",
+        "label": "none",
+        "agreement": 0.4389,
+        "earlier_id": "n160364",
+        "later_id": "n160368"
+      },
+      {
+        "id": "n150085b07p8990",
+        "earlier": "And I want to add-",
+        "later": "Susan, I have to weigh in here-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150089",
+        "later_id": "n150090"
+      },
+      {
+        "id": "n160238b07p4042",
+        "earlier": "No, I\u2019d like you to answer the question.",
+        "later": "Mr. Vice President, I\u2019m speaking, I\u2019m speaking.",
+        "label": "none",
+        "agreement": 0.7743,
+        "earlier_id": "n160240",
+        "later_id": "n160242"
+      },
+      {
+        "id": "n030278b07p7681",
+        "earlier": "I\u2019m looking at you now, you\u2019re a politician, I ran because of you.",
+        "later": "I am anxious to have this race.",
+        "label": "none",
+        "agreement": 0.7195,
+        "earlier_id": "n030276",
+        "later_id": "n030281"
+      },
+      {
+        "id": "n000679b07p8086",
+        "earlier": "We had 10.4 million people in a four month period that we\u2019ve put back into the workforce.",
+        "later": "One of them came out last week, you saw that, \u201cOh, we\u2019re going to open up on November 9th.\u201d Why November 9th?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000680",
+        "later_id": "n000686"
+      },
+      {
+        "id": "n140222b07p2025",
+        "earlier": "We ended that program.",
+        "later": "Sure.",
+        "label": "none",
+        "agreement": 0.573,
+        "earlier_id": "n140220",
+        "later_id": "n140225"
+      },
+      {
+        "id": "n030094b07p9395",
+        "earlier": "And it makes us a laughingstock and violates every notion of who we are as a nation.",
+        "later": "Kristen, they did it.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030093",
+        "later_id": "n030095"
+      },
+      {
+        "id": "n010546b07p4549",
+        "earlier": "Okay.",
+        "later": "He said it on tape.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010545",
+        "later_id": "n010549"
+      },
+      {
+        "id": "n020029b07p2636",
+        "earlier": "And we\u2019re fighting it and we\u2019re fighting it hard.",
+        "later": "It\u2019s going to be announced within weeks.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020026",
+        "later_id": "n020036"
+      },
+      {
+        "id": "n010240b07p4147",
+        "earlier": "He doesn\u2019t want to calm things down instead of going in and talking to people and saying, \u201cLet\u2019s get everybody together.",
+        "later": "Does it mean I have to answer his stuff.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010241",
+        "later_id": "n010247"
+      },
+      {
+        "id": "n150085b07p8590",
+        "earlier": "And then when that was exposed, the vice president said, when asked, \u201cWell, why didn\u2019t you all tell anybody?\u201d He said, \u201cBecause the president wanted people to remain calm.\u201d",
+        "later": "Susan, I have to weigh in here-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150085",
+        "later_id": "n150090"
+      },
+      {
+        "id": "n120153b07p5559",
+        "earlier": "Right, right.",
+        "later": "You try to protect the old people and those who are sick.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120155",
+        "later_id": "n120159"
+      },
+      {
+        "id": "n000446b07p4549",
+        "earlier": "It\u2019s a very political thing because people like this would rather make it political than save lives.",
+        "later": "They can go faster than that by a lot.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000445",
+        "later_id": "n000449"
+      },
+      {
+        "id": "n000204b07p0510",
+        "earlier": "The fact of the matter is I beat Bernie Sanders.",
+        "later": "If Pocahontas would have left two days early you would have lost every primary.",
+        "label": "none",
+        "agreement": 0.7139,
+        "earlier_id": "n000205",
+        "later_id": "n000210"
+      },
+      {
+        "id": "n040150b07p5153",
+        "earlier": "How would you enforce that?",
+        "later": "Just like you can\u2019t enforce measles, you can\u2019t come to school unless you have a measles shot.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040151",
+        "later_id": "n040153"
+      },
+      {
+        "id": "n040128b07p2428",
+        "earlier": "I\u2019d encourage people to take it.",
+        "later": "That\u2019s going to cure everything.",
+        "label": "none",
+        "agreement": 0.7455,
+        "earlier_id": "n040124",
+        "later_id": "n040128"
+      },
+      {
+        "id": "n150065b07p6263",
+        "earlier": "He said it was xenophobic and hysterical.",
+        "later": "But I can tell you having led the white house coronavirus task force that that decision alone by President Trump bought us invaluable time to stand up the greatest national mobilization since World War Two.",
+        "label": "none",
+        "agreement": 0.7502,
+        "earlier_id": "n150062",
+        "later_id": "n150063"
+      },
+      {
+        "id": "n060019b07p1926",
+        "earlier": "I think the Constitution implies, there\u2019s no provision in the Constitution, my problem is I made a mistake of teaching constitutional law for 21 years, and the separation of powers, the Constitution implies that their way the people have a right to determine who\u2019s going to be on the court is how they vote for their Senators and their President.",
+        "later": "I think it should have been held until this election is over, see what the makeup of the Senate is going to be.",
+        "label": "none",
+        "agreement": 0.7095,
+        "earlier_id": "n060019",
+        "later_id": "n060026"
+      },
+      {
+        "id": "n150359b07p5556",
+        "earlier": "[crosstalk 00:31:03]",
+        "later": "Yes, but we need to give Vice President Pence his time.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150355",
+        "later_id": "n150356"
+      },
+      {
+        "id": "n140210b07p1011",
+        "earlier": "You haven\u2019t heard any complaints about that.",
+        "later": "But what happened is because of the pandemic, we have to be extra cautious.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140210",
+        "later_id": "n140211"
+      },
+      {
+        "id": "n070012b07p1415",
+        "earlier": "I do not propose banning fracking.",
+        "later": "I think you have to make sure that fracking is in fact not emitting methane or polluting the well or dealing with what can be small earthquakes in how they\u2019re drilling.",
+        "label": "support",
+        "agreement": 0.4372,
+        "earlier_id": "n070014",
+        "later_id": "n070015"
+      },
+      {
+        "id": "n150487b07p8691",
+        "earlier": "When Joe Biden was vice-president, we lost 200,000 manufacturing jobs.",
+        "later": "Roll back regulation, unleashed American energy.",
+        "label": "none",
+        "agreement": 0.4485,
+        "earlier_id": "n150486",
+        "later_id": "n150491"
+      },
+      {
+        "id": "n150487b07p8691",
+        "earlier": "When Joe Biden was vice-president, we lost 200,000 manufacturing jobs.",
+        "later": "Roll back regulation, unleashed American energy.",
+        "label": "none",
+        "agreement": 0.8439,
+        "earlier_id": "n150486",
+        "later_id": "n150491"
+      },
+      {
+        "id": "n000233b07p3136",
+        "earlier": "Go ahead, Joe.",
+        "later": "Number two.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000231",
+        "later_id": "n000236"
+      },
+      {
+        "id": "n010351b07p5258",
+        "earlier": "I\u2019m talking about my son, Beau Biden, you\u2019re talking about Hunter?",
+        "later": "For cocaine use.",
+        "label": "attack",
+        "agreement": 0.5737,
+        "earlier_id": "n010352",
+        "later_id": "n010358"
+      },
+      {
+        "id": "n140255b07p5357",
+        "earlier": "Thank you very much.",
+        "later": "And a reminder, Donald Trump and Joe Biden are scheduled to meet in person a week from tonight in Nashville, a second and final presidential debate, moderated by our own Kristen Welker.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n140253",
+        "later_id": "n140257"
+      },
+      {
+        "id": "n160473b07p7380",
+        "earlier": "But what\u2019s been learned since her passing was the two of them and their families were the very closest of friends.",
+        "later": "Love a good debate.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160473",
+        "later_id": "n160480"
+      },
+      {
+        "id": "n050156b07p5458",
+        "earlier": "You have to change the way in which they [inaudible 00:35:55].",
+        "later": "I wasn\u2019t qualified much to do any one of them, but here\u2019s the deal, all kidding aside.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n050154",
+        "later_id": "n050158"
+      },
+      {
+        "id": "n000327b07p2326",
+        "earlier": "The people understand, Joe.",
+        "later": "They\u2019re understand.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000323",
+        "later_id": "n000326"
+      },
+      {
+        "id": "n001008b07p0708",
+        "earlier": "Look, here\u2019s the deal.",
+        "later": "We want to talk about families and ethics.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n001007",
+        "later_id": "n001008"
+      },
+      {
+        "id": "n001008b07p0708",
+        "earlier": "Look, here\u2019s the deal.",
+        "later": "We want to talk about families and ethics.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n001007",
+        "later_id": "n001008"
+      },
+      {
+        "id": "n030214b07p1619",
+        "earlier": "The fact of the matter is, there is institutional racism in America.",
+        "later": "But we\u2019ve always constantly been moving the needle further and further to inclusion, not exclusion.",
+        "label": "none",
+        "agreement": 0.7454,
+        "earlier_id": "n030216",
+        "later_id": "n030219"
+      },
+      {
+        "id": "n000448b07p4650",
+        "earlier": "God.",
+        "later": "It\u2019s become very political because the left\u2026 Or I don\u2019t know if I call them left, I don\u2019t know what I call them.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000446",
+        "later_id": "n000450"
+      },
+      {
+        "id": "n150354b07p5155",
+        "earlier": "Susan, please [crosstalk 00:30:54]",
+        "later": "[crosstalk 00:31:03]",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150351",
+        "later_id": "n150355"
+      },
+      {
+        "id": "n040077b07p7278",
+        "earlier": "What is most likely to happen is, the scientists will disagree.",
+        "later": "For example, I laid out a plan, how you can open businesses.",
+        "label": "none",
+        "agreement": 0.758,
+        "earlier_id": "n040072",
+        "later_id": "n040078"
+      },
+      {
+        "id": "n020866b07p6670",
+        "earlier": "The Democrats want it.",
+        "later": "We\u2019re going to stop fracking.\u201d Then he goes to Pennsylvania after he gets a nomination, where he got very lucky to get it.",
+        "label": "none",
+        "agreement": 0.7407,
+        "earlier_id": "n020866",
+        "later_id": "n020870"
+      },
+      {
+        "id": "n020950b07p4752",
+        "earlier": "What happens to the ordinary people out there?",
+        "later": "People\u2019s stock are through the roof.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020947",
+        "later_id": "n020952"
+      },
+      {
+        "id": "n010610b07p0914",
+        "earlier": "Just make sure you understand, you have it in your control to determine what this country is going to look like the next four years.",
+        "later": "And if you look at crooked Hillary Clinton, if you look at all of the different people, there was no transition, because they came after me trying to do a coup.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010609",
+        "later_id": "n010614"
+      },
+      {
+        "id": "n060017b07p1719",
+        "earlier": "So there\u2019s a lot at stake.",
+        "later": "I think the Constitution implies, there\u2019s no provision in the Constitution, my problem is I made a mistake of teaching constitutional law for 21 years, and the separation of powers, the Constitution implies that their way the people have a right to determine who\u2019s going to be on the court is how they vote for their Senators and their President.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n060017",
+        "later_id": "n060019"
+      },
+      {
+        "id": "n010567b07p6467",
+        "earlier": "The economy-",
+        "later": "We\u2019re not going to build plants that, in fact, are great polluting plants-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010564",
+        "later_id": "n010567"
+      },
+      {
+        "id": "n130155b07p5460",
+        "earlier": "Right down the road, Doral, big stuff, great stuff.",
+        "later": "1290 Avenue of the Americas, one of the biggest office buildings.",
+        "label": "none",
+        "agreement": 0.7627,
+        "earlier_id": "n130154",
+        "later_id": "n130160"
+      },
+      {
+        "id": "n020223b07p1820",
+        "earlier": "It wasn\u2019t about closing the border to Chinese coming to the United States.",
+        "later": "He thought I shouldn\u2019t have closed the border, that\u2019s obvious.",
+        "label": "none",
+        "agreement": 0.7065,
+        "earlier_id": "n020218",
+        "later_id": "n020220"
+      },
+      {
+        "id": "n030560b07p6267",
+        "earlier": "Remember that Pennsylvania, Oklahoma, is-",
+        "later": "He takes everything out of context, but the point is, look, we have to move toward net zero emissions.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030562",
+        "later_id": "n030567"
+      },
+      {
+        "id": "n000885b07p8691",
+        "earlier": "Excuse me, Chris, wait.",
+        "later": "They said it would take\u2026 No, you\u2019re on number two.",
+        "label": "none",
+        "agreement": 0.7524,
+        "earlier_id": "n000886",
+        "later_id": "n000891"
+      },
+      {
+        "id": "n000814b07p1317",
+        "earlier": "But why didn\u2019t you do it over the last 25 years?",
+        "later": "You were a Senator and [crosstalk 00:17:21]-",
+        "label": "none",
+        "agreement": 0.7562,
+        "earlier_id": "n000813",
+        "later_id": "n000817"
+      },
+      {
+        "id": "n030091b07p9091",
+        "earlier": "They cannot\u2026 Coyotes didn\u2019t bring them over.",
+        "later": "Their parents were with them.",
+        "label": "none",
+        "agreement": 0.7424,
+        "earlier_id": "n030090",
+        "later_id": "n030091"
+      },
+      {
+        "id": "n020442b07p3839",
+        "earlier": "I sold, while he was selling pillows and sheets, I sold tank busters to Ukraine.",
+        "later": "There has been nobody tougher on Russia than Donald Trump.",
+        "label": "support",
+        "agreement": 0.7275,
+        "earlier_id": "n020438",
+        "later_id": "n020439"
+      },
+      {
+        "id": "n000716b07p1923",
+        "earlier": "Do I get my time back?",
+        "later": "Secondly, the people who have lost their jobs are those people who have been on the front lines.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000719",
+        "later_id": "n000723"
+      },
+      {
+        "id": "n010284b07p8084",
+        "earlier": "Every body in your administration tells you the true, it\u2019s a bad idea.",
+        "later": "And you ought to be careful of them, they\u2019ll over throw you.",
+        "label": "none",
+        "agreement": 0.71,
+        "earlier_id": "n010280",
+        "later_id": "n010284"
+      },
+      {
+        "id": "n010170b07p6970",
+        "earlier": "I think as a party issue, you can bring in a couple of examples but if you look at Chicago, what\u2019s going on in Chicago where a 53 people were shot and eight died shot, if you look at New York where it\u2019s going up, like nobody\u2019s ever seen anything.",
+        "later": "The numbers are going up a 100%, 150%, 200% crime, it is crazy what\u2019s going on and he doesn\u2019t want to say law and order because he can\u2019t because he\u2019ll lose his radical left supporters and once he does that, it\u2019s over with.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010169",
+        "later_id": "n010170"
+      },
+      {
+        "id": "n120145b07p4852",
+        "earlier": "And I think that maybe I wouldn\u2019t be doing this discussion with you right now.",
+        "later": "I believe we\u2019re rounding the corner, yes.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120148",
+        "later_id": "n120152"
+      },
+      {
+        "id": "n020262b07p6468",
+        "earlier": "The transmittal rate to the teachers is very small.",
+        "later": "You can\u2019t do this.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020264",
+        "later_id": "n020268"
+      },
+      {
+        "id": "n000544b07p4345",
+        "earlier": "Nancy Pelosi and Schumer, they have a plan.",
+        "later": "The Republicans won\u2019t meet in the Senate.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000543",
+        "later_id": "n000545"
+      },
+      {
+        "id": "n040193b07p9094",
+        "earlier": "I would argue, not enough.",
+        "later": "That\u2019s what I\u2019m talking about eliminating, not all the tax cuts that are out there.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n040190",
+        "later_id": "n040194"
+      },
+      {
+        "id": "n010718b07p1617",
+        "earlier": "You\u2019re wrong [crosstalk 01:06:04].",
+        "later": "I love counting the votes [crosstalk 01:06:05]-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010716",
+        "later_id": "n010717"
+      },
+      {
+        "id": "n150111b07p1011",
+        "earlier": "The reality is Dr. Fauci said everything that he told the president in the Oval Office, the president told the American.",
+        "later": "Now President Trump, I will tell you, has boundless confidence in the American people, and he always spoke with confidence that we\u2019d get through this together.",
+        "label": "support",
+        "agreement": 0.7667,
+        "earlier_id": "n150110",
+        "later_id": "n150111"
+      },
+      {
+        "id": "n120381b07p8184",
+        "earlier": "How can you say that?",
+        "later": "You do watch the news?",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120381",
+        "later_id": "n120384"
+      },
+      {
+        "id": "n020944b07p4347",
+        "earlier": "Where I come from in Scranton and Claymont, the people don\u2019t live off of the stock market.",
+        "later": "What happens to the ordinary people out there?",
+        "label": "none",
+        "agreement": 0.7703,
+        "earlier_id": "n020943",
+        "later_id": "n020947"
+      },
+      {
+        "id": "n000498b07p9800",
+        "earlier": "Their job doesn\u2019t depend on him.",
+        "later": "We spoke to the scientists that are in charge-",
+        "label": "none",
+        "agreement": 0.7495,
+        "earlier_id": "n000498",
+        "later_id": "n000500"
+      },
+      {
+        "id": "n150064b07p6569",
+        "earlier": "Because with that time, we were able to reinvent testing.",
+        "later": "And under President Trump\u2019s leadership, Operation Warp Speed, we believe we\u2019ll have literally tens of millions of doses of a vaccine before the end of this year.",
+        "label": "support",
+        "agreement": 0.7196,
+        "earlier_id": "n150065",
+        "later_id": "n150069"
+      },
+      {
+        "id": "n040034b07p3538",
+        "earlier": "It\u2019s going to go away by Easter, don\u2019t worry about it.",
+        "later": "Before you go to the future, can I follow up on the, \u201cI\u2019m looking backwards.\u201d just a little bit?",
+        "label": "none",
+        "agreement": 0.7549,
+        "earlier_id": "n040035",
+        "later_id": "n040038"
+      },
+      {
+        "id": "n020987b07p8594",
+        "earlier": "He does not have Republican votes.",
+        "later": "It\u2019s not new.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020985",
+        "later_id": "n020994"
+      },
+      {
+        "id": "n060117b07p1516",
+        "earlier": "I don\u2019t hold any exact number.",
+        "later": "And we had fewer than 40 in the Senate, but after he was elected, I got those people together as vice president and we sat down and we worked it out and we ended up getting a pass 396 votes in the house and 94 votes in the Senate.",
+        "label": "none",
+        "agreement": 0.7086,
+        "earlier_id": "n060115",
+        "later_id": "n060116"
+      },
+      {
+        "id": "n030263b07p6365",
+        "earlier": "They should be going to rehabilitation, not to jail.",
+        "later": "But why didn\u2019t he do it four years ago?",
+        "label": "none",
+        "agreement": 0.5704,
+        "earlier_id": "n030263",
+        "later_id": "n030265"
+      },
+      {
+        "id": "n010361b07p6368",
+        "earlier": "He made a fortune and he didn\u2019t have a job.",
+        "later": "And I\u2019m proud of him, I\u2019m proud of my son.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n010363",
+        "later_id": "n010368"
+      },
+      {
+        "id": "n030250b07p4951",
+        "earlier": "But I saved Historically Black Colleges and Universities.",
+        "later": "My response to that is I never ever said what he accused me of saying.",
+        "label": "none",
+        "agreement": 0.7093,
+        "earlier_id": "n030249",
+        "later_id": "n030251"
+      },
+      {
+        "id": "n000876b07p7880",
+        "earlier": "He blew it.",
+        "later": "It was the weakest recovery since 1929.",
+        "label": "none",
+        "agreement": 0.7407,
+        "earlier_id": "n000878",
+        "later_id": "n000880"
+      },
+      {
+        "id": "n150111b07p0810",
+        "earlier": "I\u2019m referring to the president-",
+        "later": "The reality is Dr. Fauci said everything that he told the president in the Oval Office, the president told the American.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150108",
+        "later_id": "n150110"
+      },
+      {
+        "id": "n000424b07p2531",
+        "earlier": "We would have lost far more people, far more people.",
+        "later": "And by the way, in terms of the whole notion of a vaccine, we\u2019re for a vaccine, but I don\u2019t trust him at all.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000425",
+        "later_id": "n000431"
+      },
+      {
+        "id": "n030044b07p4550",
+        "earlier": "They\u2019re all different.",
+        "later": "No one should work one job, be below poverty.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030045",
+        "later_id": "n030050"
+      },
+      {
+        "id": "n010041b07p4148",
+        "earlier": "I\u2019ve never said-",
+        "later": "As far as the church is concerned and as far as the generals are concerned, we just got the support of 250 military leaders and generals, total support.",
+        "label": "none",
+        "agreement": 0.5758,
+        "earlier_id": "n010041",
+        "later_id": "n010048"
+      },
+      {
+        "id": "n030464b07p6365",
+        "earlier": "Excuse me.",
+        "later": "We are energy independent for first time.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n030463",
+        "later_id": "n030465"
+      },
+      {
+        "id": "n000651b07p4955",
+        "earlier": "We\u2019ve had no negative effect, and we\u2019ve had 35, 40,000 people at these rallies.",
+        "later": "He\u2019s a fool on this.",
+        "label": "none",
+        "agreement": 0.7473,
+        "earlier_id": "n000649",
+        "later_id": "n000655"
+      },
+      {
+        "id": "n020304b07p0405",
+        "earlier": "It was vibrant.",
+        "later": "It\u2019s dying.",
+        "label": "none",
+        "agreement": 0.7745,
+        "earlier_id": "n020304",
+        "later_id": "n020305"
+      },
+      {
+        "id": "n120551b07p5153",
+        "earlier": "He\u2019s from, great guy, Stanford.",
+        "later": "He\u2019s not an infectious disease expert.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120551",
+        "later_id": "n120553"
+      },
+      {
+        "id": "n020872b07p7475",
+        "earlier": "But somebody should ask the question.",
+        "later": "You can ask it.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020874",
+        "later_id": "n020875"
+      },
+      {
+        "id": "n160379b07p7983",
+        "earlier": "President Trump and I have fought for criminal justice before-",
+        "later": "And we\u2019ll do it for four more years.",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n160379",
+        "later_id": "n160383"
+      },
+      {
+        "id": "n120539b07p3942",
+        "earlier": "I am all for it.",
+        "later": "No.",
+        "label": "none",
+        "agreement": 0.7552,
+        "earlier_id": "n120539",
+        "later_id": "n120542"
+      },
+      {
+        "id": "n140022b07p1922",
+        "earlier": "There\u2019s plenty of time.",
+        "later": "And frankly, most of the Democrats within closed rooms, I guarantee you that.",
+        "label": "support",
+        "agreement": 0.5756,
+        "earlier_id": "n140019",
+        "later_id": "n140022"
+      },
+      {
+        "id": "n120497b07p9900",
+        "earlier": "It came out, it just came out-",
+        "later": "I heard, 20%.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120499",
+        "later_id": "n120500"
+      },
+      {
+        "id": "n150075b07p7581",
+        "earlier": "And the American people, I believe with my heart, can be proud-",
+        "later": "Absolutely.",
+        "label": "none",
+        "agreement": 0.7112,
+        "earlier_id": "n150075",
+        "later_id": "n150081"
+      },
+      {
+        "id": "n000437b07p3435",
+        "earlier": "What we trust is a scientist.",
+        "later": "You don\u2019t trust Johnson & Johnson, Pfizer?",
+        "label": "attack",
+        "agreement": 0.7146,
+        "earlier_id": "n000434",
+        "later_id": "n000435"
+      },
+      {
+        "id": "n160356b07p5863",
+        "earlier": "And recognizes the beauty in our diversity and the fact that we all have so much more in common than what separates us.",
+        "later": "I mean, Senator Harris conveniently admitted after the President made comments about people on either side of the debate over monuments, he condemned the KKK, neo-Nazis and white supremacists and has done so repeatedly.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160358",
+        "later_id": "n160363"
+      },
+      {
+        "id": "n020600b07p9900",
+        "earlier": "He has caused the deficit of the China to go up, not down, with China, up, not down.",
+        "later": "We are making sure that in order to do business in China, you have to give all your intellectual property.",
+        "label": "support",
+        "agreement": 0.5723,
+        "earlier_id": "n020599",
+        "later_id": "n020600"
+      },
+      {
+        "id": "n120258b07p6062",
+        "earlier": "Why not just say, it\u2019s crazy and not true?",
+        "later": "He may be right.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120260",
+        "later_id": "n120262"
+      },
+      {
+        "id": "n160108b07p0911",
+        "earlier": "\u2026 To do harm to Americans, President Donald Trump took him out-",
+        "later": "\u2026 And America is safer, our allies are safer and the American people know president Donald Trump will never take action [crosstalk 00:00:16:40].",
+        "label": "support",
+        "agreement": 1.0,
+        "earlier_id": "n160109",
+        "later_id": "n160111"
+      },
+      {
+        "id": "n010572b07p7475",
+        "earlier": "I support [crosstalk 00:05:13]-",
+        "later": "You just lost the radical left.",
+        "label": "none",
+        "agreement": 0.7563,
+        "earlier_id": "n010574",
+        "later_id": "n010575"
+      },
+      {
+        "id": "n020061b07p6068",
+        "earlier": "Anyone who is responsible for not taking control.",
+        "later": "The expectation is we\u2019ll have another 200,000 Americans dead between now and the end of the year.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020060",
+        "later_id": "n020068"
+      },
+      {
+        "id": "n020108b07p0408",
+        "earlier": "This is the same fellow who told you that, \u201cDon\u2019t worry, we\u2019re going to end this by the summer.\u201d We\u2019re about to go into a dark winter, a dark winter and he has no clear plan.",
+        "later": "I don\u2019t think we\u2019re going to have a dark winter at all.",
+        "label": "attack",
+        "agreement": 0.7528,
+        "earlier_id": "n020104",
+        "later_id": "n020108"
+      },
+      {
+        "id": "n120190b07p9197",
+        "earlier": "They have a lockdown like you\u2019ve never seen.",
+        "later": "We\u2019ve got more questions.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n120191",
+        "later_id": "n120197"
+      },
+      {
+        "id": "n000844b07p4347",
+        "earlier": "Why didn\u2019t you do it before, when you were vice president with Obama?",
+        "later": "Yeah, you got it done-",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n000843",
+        "later_id": "n000847"
+      },
+      {
+        "id": "n020898b07p9600",
+        "earlier": "Kristen, when he says-",
+        "later": "Wrong.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020896",
+        "later_id": "n020900"
+      },
+      {
+        "id": "n150351b07p5153",
+        "earlier": "Susan, please [crosstalk 00:30:54]",
+        "later": "\u2026 trying to get rid of the Affordable Care Act, which means that you will lose protections if you have preexisting conditions.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n150351",
+        "later_id": "n150353"
+      },
+      {
+        "id": "n030106b07p0809",
+        "earlier": "Nowhere to go.",
+        "later": "Nowhere to go.",
+        "label": "none",
+        "agreement": 0.7671,
+        "earlier_id": "n030108",
+        "later_id": "n030109"
+      },
+      {
+        "id": "n020897b07p0002",
+        "earlier": "Wrong.",
+        "later": "And this whole country will come down.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n020900",
+        "later_id": "n020902"
+      },
+      {
+        "id": "n160371b07p7071",
+        "earlier": "Thank you.",
+        "later": "I really need to make this point.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n160370",
+        "later_id": "n160371"
+      },
+      {
+        "id": "n020588b07p8892",
+        "earlier": "They\u2019re sucking up money [crosstalk 00:09:20].",
+        "later": "Not true.",
+        "label": "none",
+        "agreement": 0.5584,
+        "earlier_id": "n020588",
+        "later_id": "n020592"
+      },
+      {
+        "id": "n060065b07p6570",
+        "earlier": "Yes.",
+        "later": "I would guess a disaffected Republican.",
+        "label": "none",
+        "agreement": 1.0,
+        "earlier_id": "n060065",
+        "later_id": "n060070"
+      }
+    ]
+  }
+}

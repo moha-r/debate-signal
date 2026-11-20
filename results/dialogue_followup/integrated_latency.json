@@ -1,0 +1,26 @@
+{
+  "scope": "One 250-turn scripted discussion with unique incoming texts on the actual CPU encoder. Serving caches may reuse historical embeddings; includes analysis, copying state and insight generation, excludes ASR, HTTP and browser rendering.",
+  "cold_first_ms": 18.438166938722134,
+  "warm_median_ms": 266.59054192714393,
+  "warm_p95_ms": 351.0803088080138,
+  "last_50_median_ms": 265.2380205108784,
+  "reported_median_ms": 266.4003750542179,
+  "median_unreported_ms": 0.5833330797031522,
+  "checkpoints": [
+    {
+      "turns": 1,
+      "snapshot_bytes": 1383,
+      "wall_ms": 18.438166938722134
+    },
+    {
+      "turns": 50,
+      "snapshot_bytes": 40212,
+      "wall_ms": 259.8704589763656
+    },
+    {
+      "turns": 250,
+      "snapshot_bytes": 196635,
+      "wall_ms": 265.62883297447115
+    }
+  ]
+}

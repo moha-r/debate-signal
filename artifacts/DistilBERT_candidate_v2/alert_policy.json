@@ -1,0 +1,15 @@
+{
+  "threshold": 0.3,
+  "precision": 0.8016378525932666,
+  "recall": 0.8225957049486461,
+  "alerts": 1099,
+  "macro_f1": 0.8933732673289903,
+  "precision_target_met": true,
+  "target_precision": 0.8,
+  "minimum_alerts": 100,
+  "selection_data": "training-only validation",
+  "model_directory": "artifacts/DistilBERT_candidate_v2/best",
+  "max_length": 128,
+  "probability_type": "Uncalibrated softmax; validation-selected decision threshold",
+  "training_configuration": "results/transformer/distilbert_run02/configuration.json"
+}

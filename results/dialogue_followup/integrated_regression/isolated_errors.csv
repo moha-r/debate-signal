@@ -1,0 +1,27 @@
+session,turn,speaker,text,reference_role,predicted_role,reference_links,predicted_link,reference_evidence_request,predicted_evidence_request,topic_state,personal_attack,cue
+transport-implicit,3,A,"Because congestion charges could replace fare revenue, bus maintenance could still be funded.",reason,reason,[2],1,False,False,on_topic,False,Explicit reason or evidence reference (unverified)
+remote-evidence-negation,1,A,Recorded lectures improve university attendance.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+remote-evidence-negation,4,B,I do not have attendance data to support that conclusion.,claim,rebuttal,[3],3,False,False,on_topic,False,Locally trained contextual role classifier
+remote-evidence-negation,5,A,Then we should compare attendance before replacing classroom lectures.,claim,claim,[],4,False,False,on_topic,False,Explicit policy position
+library-questions,4,B,The overnight staffing cost would depend on the number of paid security shifts.,claim,rebuttal,[2],1,False,False,on_topic,False,Locally trained contextual role classifier
+recycling-quotation,4,B,I agree that contamination makes recycling harder.,agreement,agreement,[3],1,False,False,on_topic,False,Explicit agreement language
+energy-same-speaker,3,B,"For example, electricity shortages may occur while a nuclear plant is still being built.",reason,reason,[2],,False,False,on_topic,False,Explicit reason or evidence reference (unverified)
+plastic-irrelevant-reason,5,A,Reusable shopping bags would still need to be affordable.,claim,claim,[],2,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+cycling-target,2,B,Removing car parking to build bicycle lanes would harm nearby shops.,rebuttal,reason,[1],1,False,False,on_topic,False,Locally trained contextual role classifier
+museum-request,2,B,Admission fees help pay for maintaining museum collections.,rebuttal,reason,[1],1,False,False,on_topic,False,Locally trained contextual role classifier
+workweek-ack,5,A,Customer support could use staggered four day schedules.,rebuttal,claim,[4],1,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+foodwaste-question-quote,1,A,Charging diners for wasted food could reduce cafeteria waste.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+pets-agreement-correction,3,A,You are right that some visitors may be uncomfortable around dogs.,agreement,agreement,[2],1,False,False,on_topic,False,Explicit agreement language
+pets-agreement-correction,4,B,I am not saying that dogs should be banned from every public place.,claim,claim,[],2,False,False,on_topic,False,Explicit policy position
+pets-agreement-correction,5,A,A separate fenced area could give park visitors a choice.,claim,rebuttal,[],1,False,False,on_topic,False,Locally trained contextual role classifier
+exam-implicit,1,A,An oral exam could reveal whether students understand their written answers.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+exam-implicit,3,A,"For instance, allowing preparation time could reduce pressure during the oral exam.",reason,reason,[2],1,False,False,on_topic,False,Explicit reason or evidence reference (unverified)
+parks-competing-claims,2,B,Public parks should also include sports facilities.,claim,claim,[],1,False,False,on_topic,False,Explicit policy position
+volunteer-delayed-answer,3,A,Volunteering could connect students with local community groups.,claim,reason,[],1,False,False,on_topic,False,Locally trained contextual role classifier
+volunteer-delayed-answer,4,B,We should also discuss transport to volunteer locations.,claim,claim,[],3,False,False,on_topic,False,Explicit policy position
+distance-window,3,A,Students would still need to book a time with the lecturer.,claim,claim,[],1,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+distance-window,4,B,Lecturers should publish their remote office hours each week.,claim,claim,[],2,False,False,on_topic,False,Statement responding to an earlier question
+distance-window,6,B,Technical support should be available for remote appointments.,claim,claim,[],5,False,False,on_topic,False,Explicit policy position
+distance-window,7,A,Office hour appointments should have a clear time limit.,claim,claim,[],1,False,False,on_topic,False,Explicit policy position
+distance-window,8,B,Students could send documents before their remote appointment.,claim,reason,[],1,False,False,on_topic,False,Locally trained contextual role classifier
+distance-window,9,A,The remote office hours would use the university video platform.,claim,reason,[2],1,False,False,on_topic,False,Locally trained contextual role classifier

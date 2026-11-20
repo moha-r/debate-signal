@@ -1,0 +1,56 @@
+{
+  "event_precision": 0.8947368421052632,
+  "event_recall": 0.9444444444444444,
+  "event_f1": 0.918918918918919,
+  "false_alerts": 2,
+  "events": 18,
+  "detected": 17,
+  "median_delay_turns": 1.0,
+  "false_alerts_per_session": 0.08333333333333333,
+  "sessions": 24,
+  "turns": 288,
+  "event_precision_wilson95": [
+    0.6860591728889099,
+    0.9706414397011299
+  ],
+  "event_recall_wilson95": [
+    0.7424269921812741,
+    0.990124809021697
+  ],
+  "policy_threshold": 0.15000000000000002,
+  "provenance": {
+    "author": "Primary project assistant; labels authored before these cases were scored",
+    "created": "2026-11-18",
+    "purpose": "Expanded authored dialogue stress diagnostic; not independent human annotation or natural speech",
+    "label_definition": "On-topic includes relevant objections, explanations, examples and contextual follow-ups, regardless of stance or personal-attack status. Off-topic develops a separate subject without a relevance link. Unclear is an acknowledgement or insufficient content.",
+    "limitations": "The author knows prior project results. Motion subjects and scenarios are deliberately selected for coverage. Transcript-like turns are manually written, not actual ASR outputs."
+  },
+  "clear_turn_classification": {
+    "n": 271,
+    "positive_references": 51,
+    "accuracy": 0.915129151291513,
+    "macro_f1": 0.87465057817999,
+    "tn": 201,
+    "fp": 19,
+    "fn": 4,
+    "tp": 47,
+    "accuracy_wilson95": [
+      0.8758720141872932,
+      0.9427817688534578
+    ],
+    "precision_wilson95": [
+      0.5936275059135345,
+      0.8072805002019328
+    ],
+    "recall_wilson95": [
+      0.8150005368740411,
+      0.9690778032115107
+    ],
+    "off_topic_precision": 0.7121212121212122,
+    "off_topic_recall": 0.9215686274509803,
+    "off_topic_f1": 0.8034188034188035,
+    "positive_class": "off_topic"
+  },
+  "negative_control_sessions": 8,
+  "negative_controls_without_alerts": 7
+}

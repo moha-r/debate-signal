@@ -1,0 +1,16 @@
+{
+  "turns": 178,
+  "error_turns": 41,
+  "errors": {
+    "model_or_threshold_rejection": 7,
+    "role": 23,
+    "evidence_request": 1,
+    "target_ineligible": 4,
+    "question_match": 5,
+    "false_argument_link": 15,
+    "source_or_target_role_gate": 1,
+    "wrong_ranked_target": 3,
+    "false_answer": 1,
+    "ambiguous_target": 1
+  }
+}

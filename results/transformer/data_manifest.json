@@ -1,0 +1,36 @@
+{
+  "source_md5": {
+    "attack_annotated_comments.tsv": "7e39135b410eaed85c7ffec85cf829fd",
+    "attack_annotations.tsv": "c1621e0451236eb3eea9c8f7df77f4b7"
+  },
+  "outer_seed": 42,
+  "validation_seed": 1842,
+  "validation_fraction": 0.1,
+  "original_outer_train_rows": 91683,
+  "excluded_audit_matching_training_rows": 1,
+  "excluded_training_revision_ids": [
+    572945261
+  ],
+  "parts": {
+    "fit": {
+      "rows": 82513,
+      "attacks": 9642,
+      "sha256": "d619f66f87e04c25ad208861198a4ec935ee17bab20117864887edbd26f19912",
+      "revision_ids_sha256": "487a256be0bba2fac050d35938776036bb53f0b5b4b3caf901290af193a7473a"
+    },
+    "validation": {
+      "rows": 9169,
+      "attacks": 1071,
+      "sha256": "d56047c57ba70b5f4e119519bd6c466b1280e14421aeab7cfc5121d9659b4a74",
+      "revision_ids_sha256": "cb8576f9b536d3d6452882fd6a1dd91ef86a30237d8e9ce3ef6b9e4c8eb31609"
+    },
+    "test": {
+      "rows": 22921,
+      "attacks": 2679,
+      "sha256": "f1a1b3f77b75d9d6189e197d78def698b3f708e5f31dfc87c062f707e0684f7d",
+      "revision_ids_sha256": "fa34e1411f7980bd314dec307bae90d669db791932263be0fb229645d5cf6334"
+    }
+  },
+  "input": "Readable original text, punctuation/negation/quotes retained; no stemming. Classical normalization used only to preserve original split and exclude exact audit matches.",
+  "evaluation_scope": "Original WikiDetox outer test is preserved. Existing authored stress cases informed the design and are regressions, not an independent final test. Natural dialogue and independent human labels remain pending."
+}

@@ -1,0 +1,141 @@
+{
+  "scope": "Authored regression fixtures (not independent evaluation); measurements are for the local graph output and reference target IDs. Argument links and question responses can share a target.",
+  "before": {
+    "combined": {
+      "turns": 178,
+      "roles_correct": 155,
+      "links_correct": 60,
+      "links_predicted": 86,
+      "links_gold": 76,
+      "links_wrong": 26,
+      "links_missed": 16,
+      "link_precision": 0.6976744186046512,
+      "link_recall": 0.7894736842105263,
+      "link_f1": 0.7407407407407407,
+      "questions_correct": 19,
+      "questions_predicted": 20,
+      "questions_gold": 23,
+      "turn_ms_median": 39.60175043903291
+    },
+    "fixtures": {
+      "argument_quality_audit": {
+        "turns": 104,
+        "roles_correct": 91,
+        "links_correct": 34,
+        "links_predicted": 53,
+        "links_gold": 45,
+        "links_wrong": 19,
+        "links_missed": 11,
+        "link_precision": 0.6415094339622641,
+        "link_recall": 0.7555555555555555,
+        "link_f1": 0.6938775510204082,
+        "questions_correct": 8,
+        "questions_predicted": 9,
+        "questions_gold": 12,
+        "turn_ms_median": 40.074124990496784
+      },
+      "argument_repair_holdout": {
+        "turns": 44,
+        "roles_correct": 37,
+        "links_correct": 17,
+        "links_predicted": 20,
+        "links_gold": 19,
+        "links_wrong": 3,
+        "links_missed": 2,
+        "link_precision": 0.85,
+        "link_recall": 0.8947368421052632,
+        "link_f1": 0.8717948717948718,
+        "questions_correct": 5,
+        "questions_predicted": 5,
+        "questions_gold": 5,
+        "turn_ms_median": 47.06127097597346
+      },
+      "dialogue_quality_challenge_v3": {
+        "turns": 30,
+        "roles_correct": 27,
+        "links_correct": 9,
+        "links_predicted": 13,
+        "links_gold": 12,
+        "links_wrong": 4,
+        "links_missed": 3,
+        "link_precision": 0.6923076923076923,
+        "link_recall": 0.75,
+        "link_f1": 0.72,
+        "questions_correct": 6,
+        "questions_predicted": 6,
+        "questions_gold": 6,
+        "turn_ms_median": 29.006625001784414
+      }
+    }
+  },
+  "after": {
+    "combined": {
+      "turns": 178,
+      "roles_correct": 159,
+      "links_correct": 69,
+      "links_predicted": 78,
+      "links_gold": 76,
+      "links_wrong": 9,
+      "links_missed": 7,
+      "link_precision": 0.8846153846153846,
+      "link_recall": 0.9078947368421053,
+      "link_f1": 0.8961038961038961,
+      "questions_correct": 23,
+      "questions_predicted": 23,
+      "questions_gold": 23,
+      "turn_ms_median": 37.466541514731944
+    },
+    "fixtures": {
+      "argument_quality_audit": {
+        "turns": 104,
+        "roles_correct": 95,
+        "links_correct": 42,
+        "links_predicted": 50,
+        "links_gold": 45,
+        "links_wrong": 8,
+        "links_missed": 3,
+        "link_precision": 0.84,
+        "link_recall": 0.9333333333333333,
+        "link_f1": 0.8842105263157894,
+        "questions_correct": 12,
+        "questions_predicted": 12,
+        "questions_gold": 12,
+        "turn_ms_median": 38.91289548482746
+      },
+      "argument_repair_holdout": {
+        "turns": 44,
+        "roles_correct": 37,
+        "links_correct": 18,
+        "links_predicted": 18,
+        "links_gold": 19,
+        "links_wrong": 0,
+        "links_missed": 1,
+        "link_precision": 1.0,
+        "link_recall": 0.9473684210526315,
+        "link_f1": 0.972972972972973,
+        "questions_correct": 5,
+        "questions_predicted": 5,
+        "questions_gold": 5,
+        "turn_ms_median": 48.012771003413945
+      },
+      "dialogue_quality_challenge_v3": {
+        "turns": 30,
+        "roles_correct": 27,
+        "links_correct": 9,
+        "links_predicted": 10,
+        "links_gold": 12,
+        "links_wrong": 1,
+        "links_missed": 3,
+        "link_precision": 0.9,
+        "link_recall": 0.75,
+        "link_f1": 0.8181818181818182,
+        "questions_correct": 6,
+        "questions_predicted": 6,
+        "questions_gold": 6,
+        "turn_ms_median": 24.849312496371567
+      }
+    }
+  },
+  "before_error_turns": 41,
+  "after_error_turns": 29
+}

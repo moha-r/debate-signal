@@ -1,0 +1,32 @@
+{
+  "tests_run": 90,
+  "tests_passed": true,
+  "tests_scope": "Workflow and deployment contracts on temporary databases; fake voice relay verifies protocol/origin/auth behavior, not ASR accuracy.",
+  "builds": [
+    {
+      "project": "frontend",
+      "passed": true,
+      "exit_code": 0,
+      "log": "frontend_build.log"
+    },
+    {
+      "project": "landing",
+      "passed": true,
+      "exit_code": 0,
+      "log": "landing_build.log"
+    }
+  ],
+  "source_sha256": {
+    "local_dashboard.py": "a5bcbf12a5828abdf55e10da6e1409122da728305958705753464a54593c0c77",
+    "session_store.py": "7de7423545d43c410afc2a46db2eb8ecb23cef05395b648115d839cb090b2daf",
+    "moderation_session.py": "ffed9fc6e2b9c74f320726ff2cc91471ac9a397d6ad3a7581baf884e4f1f25b4",
+    "conversation_insights.py": "0ac2b1d343c6818ca8db5076e8121d26649cb8fd57ede346fa557af8cf9cce47",
+    "auth_store.py": "d33af459dfde9257e28c870d3d364bcc1bdf8d149030b97f8a5a773b0d260846",
+    "voice_gateway.py": "bb7037223df2f165381716f0888d3e01bb13f7c521f46a7fba797e915685a6f2",
+    "evaluate_argument_quality.py": "11a30d1500a8041d901e286721556ce88e66dec78442e557d91fdcb5d8de9901",
+    "data/argument_quality_audit.json": "e28b29a11f9d3877c26da4da37c32fa10196f280eb2bdb6332e924ad888be3a3"
+  },
+  "deployment_not_performed": true,
+  "visual_qa_not_performed": true,
+  "live_service_not_restarted": true
+}

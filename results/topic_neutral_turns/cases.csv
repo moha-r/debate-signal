@@ -1,0 +1,14 @@
+case,text,expected_state,state,off_topic_count,alert,reason,score
+1,What do you think?,unclear,unclear,0,False,conversation_management,
+1,Your turn.,unclear,unclear,0,False,conversation_management,
+1,Schools should use affordable uniforms.,on_topic,on_topic,0,False,,0.8027390241622925
+1,"Um, can you tell me more?",unclear,unclear,0,False,conversation_management,
+1,What do you think about football?,off_topic,off_topic,1,False,,0.08383210003376007
+1,Football scores.,off_topic,off_topic,2,True,,0.01742398738861084
+2,what do you,unclear,unclear,0,False,conversation_management,
+2,think,unclear,unclear,0,False,conversation_management,
+2,"Well, go ahead",unclear,unclear,0,False,conversation_management,
+2,What do you think about uniforms?,on_topic,on_topic,0,False,,0.5748587250709534
+2,What do you think about my cat?,off_topic,off_topic,1,False,,-0.0798807144165039
+2,"Yeah, okay. Tell me more.",unclear,unclear,1,False,conversation_management,
+2,My cat likes catnip and sleeps on the sofa.,off_topic,off_topic,2,True,,-0.07071247696876526

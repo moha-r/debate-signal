@@ -1,0 +1,45 @@
+session,split,turn,speaker,text,reference,episode,state,score,direct_score,used_context,alert,off_topic_count
+test_tuition,test,1,A,Removing university tuition could let more low-income students earn a degree.,on_topic,,on_topic,0.5660136342048645,0.5660136342048645,False,False,0
+test_tuition,test,2,B,How would we fund it?,on_topic,,on_topic,0.2463611662387848,0.2463611662387848,False,False,0
+test_tuition,test,3,A,Taxpayers would have to replace the income universities receive from tuition.,on_topic,,on_topic,0.6306530833244324,0.6306530833244324,False,False,0
+test_tuition,test,4,B,My new headphones have much better noise cancellation.,off_topic,1.0,off_topic,0.11129017919301987,0.11129017919301987,False,False,1
+test_tuition,test,5,A,Which brand did you buy?,off_topic,1.0,off_topic,-0.012391354888677597,-0.012391354888677597,False,True,2
+test_tuition,test,6,B,"They were expensive, but the sound quality is excellent.",off_topic,1.0,on_topic,0.17391055822372437,0.17391055822372437,False,False,0
+test_tuition,test,7,A,Let's return to whether free university education is fair to taxpayers.,on_topic,,on_topic,0.6106920838356018,0.6106920838356018,False,False,0
+test_tuition,test,8,B,"Graduates often earn more, so targeted grants may be fairer than universal free tuition.",on_topic,,on_topic,0.5087890625,0.5087890625,False,False,0
+test_tuition,test,9,A,What about living expenses?,on_topic,,on_topic,0.5240645408630371,0.28818726539611816,True,False,0
+test_tuition,test,10,B,Students still need support for rent and food even when tuition is covered.,on_topic,,on_topic,0.5156880617141724,0.5156880617141724,False,False,0
+test_tuition,test,11,A,Understood.,unclear,,unclear,,,False,False,0
+test_nuclear,test,1,A,Nuclear power can supply electricity when wind and solar generation fall.,on_topic,,on_topic,0.5370590090751648,0.5370590090751648,False,False,0
+test_nuclear,test,2,B,New reactors take years to construct and can exceed their budgets.,on_topic,,on_topic,0.47030729055404663,0.47030729055404663,False,False,0
+test_nuclear,test,3,A,How long are we talking?,on_topic,,on_topic,0.44940030574798584,-0.0029561296105384827,True,False,0
+test_nuclear,test,4,B,Construction delays can postpone the expected electricity supply for several years.,on_topic,,on_topic,0.2865717113018036,0.2865717113018036,False,False,0
+test_nuclear,test,5,A,I tried making sourdough bread yesterday.,off_topic,1.0,off_topic,0.03146655112504959,0.03146655112504959,False,False,1
+test_nuclear,test,6,B,We also have to account for radioactive waste storage when comparing power sources.,on_topic,,on_topic,0.5125743746757507,0.5125743746757507,False,False,0
+test_nuclear,test,7,A,Can it be stored safely?,on_topic,,on_topic,0.43776923418045044,0.11174317449331284,True,False,0
+test_nuclear,test,8,B,A nuclear expansion plan needs long-term waste management and independent inspection.,on_topic,,on_topic,0.4726599454879761,0.4726599454879761,False,False,0
+test_nuclear,test,9,A,Go on.,unclear,,unclear,,,False,False,0
+test_nuclear,test,10,B,"The decision should compare nuclear reliability, cost and safety with other low-carbon electricity.",on_topic,,on_topic,0.5705168843269348,0.5705168843269348,False,False,0
+test_bikes,test,1,A,Protected bicycle lanes could make cycling safer for people travelling across the city.,on_topic,,on_topic,0.8165237307548523,0.8165237307548523,False,False,0
+test_bikes,test,2,B,Removing a car lane may increase congestion before drivers change their habits.,on_topic,,on_topic,0.5335493087768555,0.5335493087768555,False,False,0
+test_bikes,test,3,A,We could measure traffic around a temporary cycle lane before building a permanent one.,on_topic,,on_topic,0.5621805191040039,0.5621805191040039,False,False,0
+test_bikes,test,4,B,My cat refuses to eat the new food I bought.,off_topic,1.0,off_topic,0.005254843272268772,0.005254843272268772,False,False,1
+test_bikes,test,5,A,Have you tried mixing it with the old food?,off_topic,1.0,off_topic,-0.02073974721133709,-0.02073974721133709,False,True,2
+test_bikes,test,6,B,"No, I will try that tonight and ask the vet tomorrow.",off_topic,1.0,off_topic,-0.00554194301366806,-0.00554194301366806,False,False,3
+test_bikes,test,7,A,"For the bicycle lane proposal, delivery drivers still need places to unload.",on_topic,,on_topic,0.5333966612815857,0.5333966612815857,False,False,0
+test_bikes,test,8,B,Where could they stop?,on_topic,,on_topic,0.571234941482544,0.2423742711544037,True,False,0
+test_bikes,test,9,A,Loading bays could be placed beside the protected cycle route.,on_topic,,on_topic,0.25781118869781494,0.25781118869781494,False,False,0
+test_bikes,test,10,B,Yes.,unclear,,unclear,,,False,False,0
+test_bikes,test,11,A,Did the bakery finally reopen on your street?,off_topic,2.0,on_topic,0.1775670051574707,0.1775670051574707,False,False,0
+test_bikes,test,12,B,"It did, and the pastries sold out before noon.",off_topic,2.0,off_topic,-0.0005756914615631104,-0.0005756914615631104,False,False,1
+test_bikes,test,13,A,We should finish by deciding which streets are suitable for the bicycle lanes.,on_topic,,on_topic,0.6826083660125732,0.6826083660125732,False,False,0
+test_homework,test,1,A,Shorter homework assignments would leave children time to sleep and play.,on_topic,,on_topic,0.6422609090805054,0.6422609090805054,False,False,0
+test_homework,test,2,B,Children still need some practice reading and doing arithmetic outside class.,on_topic,,on_topic,0.49247920513153076,0.49247920513153076,False,False,0
+test_homework,test,3,A,How much would be enough?,on_topic,,on_topic,0.5666433572769165,0.1440393030643463,True,False,0
+test_homework,test,4,B,Teachers could set a short daily reading task instead of several worksheets.,on_topic,,on_topic,0.5203846096992493,0.5203846096992493,False,False,0
+test_homework,test,5,A,That sounds reasonable.,unclear,,unclear,,,False,False,0
+test_homework,test,6,B,Some parents cannot help with schoolwork after a long work shift.,on_topic,,on_topic,0.40886008739471436,0.40886008739471436,False,False,0
+test_homework,test,7,A,A school library session could offer support before children go home.,on_topic,,on_topic,0.37022459506988525,0.37022459506988525,False,False,0
+test_homework,test,8,B,Would everyone have access?,on_topic,,on_topic,0.4081164002418518,0.1388237476348877,True,False,0
+test_homework,test,9,A,The school would need transport arrangements if the homework club runs late.,on_topic,,on_topic,0.5297753810882568,0.5297753810882568,False,False,0
+test_homework,test,10,B,A limit should vary with the child's age and learning needs.,on_topic,,on_topic,0.47979113459587097,0.47979113459587097,False,False,0

@@ -1,0 +1,3 @@
+Variant,Attack precision,Attack recall,Macro F1,Alerts,False alarms,Missed attacks
+Standard English,1.0,0.9,0.949874686716792,9,0,1
+Manglish style,1.0,0.8,0.898989898989899,8,0,2

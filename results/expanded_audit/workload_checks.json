@@ -1,0 +1,13 @@
+{
+  "long_session_turns": 250,
+  "long_session_alerts": 83,
+  "warm_end_to_end_median_ms": 13.672041473910213,
+  "warm_end_to_end_p95_ms": 15.815885236952454,
+  "first_50_median_ms": 13.563353975769132,
+  "last_50_median_ms": 14.684916532132775,
+  "concurrent_independent_sessions": 4,
+  "parallel_workers": 2,
+  "concurrent_session_turns": 20,
+  "cross_session_contamination": false,
+  "scope": "Synthetic repetition is a state/performance workload, not a quality benchmark. Does not establish production scalability or browser/network timing."
+}

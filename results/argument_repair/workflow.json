@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "scope": "Real local models, temporary SQLite, authenticated HTTP; no microphone/browser or paid API calls.",
+  "turns": 4,
+  "http_turn_ms": [
+    20.68,
+    15.82,
+    44.05,
+    28.29
+  ],
+  "detectors": {
+    "attack": "LinearSVC_alert",
+    "topic": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "context_policy": "short-direct-anchor-v1",
+    "attack_threshold": 0.35,
+    "attack_sha256": "43c59be21aef9b334e47d9d7156fde334a21e8bdc4b86d808b2c6611ac2f0cd1",
+    "topic_threshold": 0.15000000000000002,
+    "arguments": "argument-models-v2",
+    "argument_sha256": "9a9cf318c27074076a942d7b6f4bf774b2b9202722630d96614a1ca8659a48e5"
+  },
+  "roles_before_correction": [
+    "claim",
+    "question",
+    "reason",
+    "rebuttal"
+  ],
+  "checks": [
+    "real inference",
+    "account ownership",
+    "revision conflict",
+    "future-target rejection",
+    "original preserved",
+    "question moderator-confirmed",
+    "SQLite reload",
+    "JSON serialization",
+    "source integrity"
+  ]
+}

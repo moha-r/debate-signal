@@ -1,0 +1,61 @@
+session,split,turn,speaker,text,reference,episode,state,score,direct_score,used_context,alert,off_topic_count
+challenge_meals,challenge,1,A,Universal school lunches would help children concentrate without being hungry.,on_topic,,on_topic,0.6716549396514893,0.6716549396514893,False,False,0
+challenge_meals,challenge,2,B,Would families with high incomes benefit too?,on_topic,,on_topic,0.7063114643096924,0.3214241862297058,True,False,0
+challenge_meals,challenge,3,A,"Yes, but universal meals could avoid singling out children who need help.",on_topic,,on_topic,0.5705953240394592,0.5705953240394592,False,False,0
+challenge_meals,challenge,4,B,Is that worth the cost?,on_topic,,on_topic,0.5764663219451904,0.13699382543563843,True,False,0
+challenge_meals,challenge,5,A,The school budget would need to cover ingredients and kitchen staff.,on_topic,,on_topic,0.4918053448200226,0.4918053448200226,False,False,0
+challenge_meals,challenge,6,B,I had lunch at a new restaurant yesterday and the chef was on television.,off_topic,1.0,on_topic,0.17194803059101105,0.17194803059101105,False,False,0
+challenge_meals,challenge,7,A,"I watched his cooking show last week, the final round was dramatic.",off_topic,1.0,off_topic,-0.03858845680952072,-0.03858845680952072,False,False,1
+challenge_meals,challenge,8,B,One contestant forgot the sauce and nearly cried.,off_topic,1.0,off_topic,-0.00011821463704109192,-0.00011821463704109192,False,True,2
+challenge_meals,challenge,9,A,"Returning to school meals, allergy requirements would need careful planning.",on_topic,,on_topic,0.4753168225288391,0.4753168225288391,False,False,0
+challenge_meals,challenge,10,B,I agree.,unclear,,unclear,,,False,False,0
+challenge_congestion,challenge,1,A,Charging drivers could reduce traffic on busy central streets.,on_topic,,on_topic,0.6376279592514038,0.6376279592514038,False,False,0
+challenge_congestion,challenge,2,B,It could hurt workers who cannot reach the centre by public transport.,on_topic,,on_topic,0.45211678743362427,0.45211678743362427,False,False,0
+challenge_congestion,challenge,3,A,What about exemptions?,on_topic,,on_topic,0.5151162147521973,0.1618051677942276,True,False,0
+challenge_congestion,challenge,4,B,An exemption for disabled drivers and a discount for low-income workers could help.,on_topic,,on_topic,0.29110780358314514,0.29110780358314514,False,False,0
+challenge_congestion,challenge,5,A,My uncle paid a fortune for a used sports car.,off_topic,1.0,off_topic,0.07937512546777725,0.07937512546777725,False,False,1
+challenge_congestion,challenge,6,B,The engine has a ridiculous amount of horsepower.,off_topic,1.0,off_topic,0.06309085339307785,0.06309085339307785,False,True,2
+challenge_congestion,challenge,7,A,He wants to take it to a racetrack next month.,off_topic,1.0,on_topic,0.2586061656475067,0.2586061656475067,False,False,0
+challenge_congestion,challenge,8,B,The city charge should be assessed by congestion reduction and economic impact.,on_topic,,on_topic,0.7064923048019409,0.7064923048019409,False,False,0
+challenge_congestion,challenge,9,A,When should we measure that?,on_topic,,off_topic,0.14080274105072021,0.14080274105072021,False,False,1
+challenge_congestion,challenge,10,B,We could compare traffic and shop visits before and after a trial period.,on_topic,,on_topic,0.31376147270202637,0.31376147270202637,False,False,0
+challenge_ai_essays,challenge,1,A,Students should disclose AI assistance when submitting a university essay.,on_topic,,on_topic,0.6519807577133179,0.6519807577133179,False,False,0
+challenge_ai_essays,challenge,2,B,A ban could prevent useful help with grammar and accessibility.,on_topic,,on_topic,0.23726603388786316,0.23726603388786316,False,False,0
+challenge_ai_essays,challenge,3,A,Would a declaration be enough?,on_topic,,on_topic,0.26433563232421875,0.16352254152297974,True,False,0
+challenge_ai_essays,challenge,4,B,Oral questions could test whether students understand the arguments in their essays.,on_topic,,on_topic,0.4483899474143982,0.4483899474143982,False,False,0
+challenge_ai_essays,challenge,5,A,You are a stupid idiot if you think AI-written essays prove understanding.,on_topic,,on_topic,0.5737621784210205,0.5737621784210205,False,False,0
+challenge_ai_essays,challenge,6,B,Let's focus on assessing learning rather than insulting each other.,on_topic,,on_topic,0.25965631008148193,0.25965631008148193,False,False,0
+challenge_ai_essays,challenge,7,A,There is a film about a robot that I want to see on Friday.,off_topic,1.0,off_topic,0.06209886819124222,0.06209886819124222,False,False,1
+challenge_ai_essays,challenge,8,B,The actor in that film won an award at the festival.,off_topic,1.0,off_topic,0.07028042525053024,0.07028042525053024,False,True,2
+challenge_ai_essays,challenge,9,A,Could assessment include drafts to show how an essay developed?,on_topic,,on_topic,0.4950009882450104,0.4950009882450104,False,False,0
+challenge_ai_essays,challenge,10,B,"Yes, draft reviews would give teachers more evidence of the student's work.",on_topic,,on_topic,0.32556232810020447,0.32556232810020447,False,False,0
+challenge_cameras,challenge,1,A,Cameras in public parks might deter vandalism and help investigate attacks.,on_topic,,on_topic,0.7382142543792725,0.7382142543792725,False,False,0
+challenge_cameras,challenge,2,B,Recording everyone also creates a privacy risk for ordinary park visitors.,on_topic,,on_topic,0.568453311920166,0.568453311920166,False,False,0
+challenge_cameras,challenge,3,A,Who should have access?,on_topic,,on_topic,0.21611331403255463,0.21611331403255463,False,False,0
+challenge_cameras,challenge,4,B,"Only authorized investigators should access footage, with audit logs and short retention.",on_topic,,on_topic,0.3707956373691559,0.3707956373691559,False,False,0
+challenge_cameras,challenge,5,A,A wildlife documentary showed cameras tracking rare animals.,on_topic,,on_topic,0.3761598765850067,0.3761598765850067,False,False,0
+challenge_cameras,challenge,6,B,That example raises the question of whether surveillance equipment can be aimed only at entrances.,on_topic,,on_topic,0.46625763177871704,0.46625763177871704,False,False,0
+challenge_cameras,challenge,7,A,Okay.,unclear,,unclear,,,False,False,0
+challenge_cameras,challenge,8,B,Have you seen the new smartphone camera? Its zoom is amazing.,off_topic,1.0,on_topic,0.308538556098938,0.308538556098938,False,False,0
+challenge_cameras,challenge,9,A,It costs too much for me.,off_topic,1.0,off_topic,0.14395771920681,0.14395771920681,False,False,1
+challenge_cameras,challenge,10,B,"Back to public parks, an independent review could check whether crime actually falls.",on_topic,,on_topic,0.4509703814983368,0.4509703814983368,False,False,0
+challenge_museums,challenge,1,A,Free museum admission would let more families explore local history.,on_topic,,on_topic,0.7283189296722412,0.7283189296722412,False,False,0
+challenge_museums,challenge,2,B,Ticket income also pays for conservation and staff.,on_topic,,on_topic,0.31120049953460693,0.31120049953460693,False,False,0
+challenge_museums,challenge,3,A,Could donations replace it?,on_topic,,on_topic,0.403235524892807,0.27337783575057983,True,False,0
+challenge_museums,challenge,4,B,"Voluntary donations are uncertain, so museums would need stable public funding.",on_topic,,on_topic,0.7497113943099976,0.7497113943099976,False,False,0
+challenge_museums,challenge,5,A,I missed the train this morning.,off_topic,1.0,off_topic,0.044895656406879425,0.044895656406879425,False,False,1
+challenge_museums,challenge,6,B,Families outside the city also need affordable transport if free museums are to be accessible.,on_topic,,on_topic,0.695952296257019,0.695952296257019,False,False,0
+challenge_museums,challenge,7,A,That is a fair concern.,unclear,,unclear,,,False,False,0
+challenge_museums,challenge,8,B,School visits could be scheduled to avoid overcrowding the galleries.,on_topic,,on_topic,0.39185309410095215,0.39185309410095215,False,False,0
+challenge_museums,challenge,9,A,Would timed tickets help?,on_topic,,on_topic,0.4618811309337616,0.25170060992240906,True,False,0
+challenge_museums,challenge,10,B,They could control capacity while keeping museum entry free.,on_topic,,on_topic,0.6516878008842468,0.6516878008842468,False,False,0
+challenge_workweek,challenge,1,A,A shorter working week might improve employee wellbeing and retention.,on_topic,,on_topic,0.6197840571403503,0.6197840571403503,False,False,0
+challenge_workweek,challenge,2,B,Some businesses would need more staff to maintain service over five weekdays.,on_topic,,on_topic,0.5458239316940308,0.5458239316940308,False,False,0
+challenge_workweek,challenge,3,A,Could shifts solve that?,on_topic,,on_topic,0.5889668464660645,0.20216652750968933,True,False,0
+challenge_workweek,challenge,4,B,"Staggered shifts could preserve opening hours, but payroll costs may increase.",on_topic,,on_topic,0.5141345262527466,0.5141345262527466,False,False,0
+challenge_workweek,challenge,5,A,Working longer hours on four days could make the policy exhausting.,on_topic,,on_topic,0.5863866806030273,0.5863866806030273,False,False,0
+challenge_workweek,challenge,6,B,"Yes, the trial should distinguish shorter hours from compressed hours.",on_topic,,on_topic,0.29699161648750305,0.29699161648750305,False,False,0
+challenge_workweek,challenge,7,A,Please continue.,unclear,,unclear,,,False,False,0
+challenge_workweek,challenge,8,B,Customer complaints and productivity should be tracked throughout the trial.,on_topic,,on_topic,0.15832364559173584,0.15832364559173584,False,False,0
+challenge_workweek,challenge,9,A,How would we compare the results?,on_topic,,off_topic,-0.01121557503938675,-0.01121557503938675,False,False,1
+challenge_workweek,challenge,10,B,Use similar teams with the usual schedule as a comparison group.,on_topic,,on_topic,0.16004499793052673,0.16004499793052673,False,False,0

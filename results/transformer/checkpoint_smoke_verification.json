@@ -1,0 +1,7 @@
+{
+  "initial_updates": 2,
+  "resumed_from_batch": 16,
+  "completed_updates": 5,
+  "model_tokenizer_and_policy_saved": true,
+  "scope": "Technical smoke test only; no quality or adoption claim"
+}

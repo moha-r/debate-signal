@@ -1,0 +1,478 @@
+{
+  "scope": {
+    "author": "Project assistant",
+    "created": "2026-11-18",
+    "scope": "Targeted authored challenge, references frozen before scoring this run. Author has inspected the implementation; not blind or independent human annotation.",
+    "link_definition": "A single predicted link is accepted if it addresses one of the explicitly allowed previous turns. Empty links mean abstention is expected.",
+    "role_definition": "Primary communicative function in the current dialogue. Off-topic and metalinguistic non-arguments are unclassified. Rhetorical/underspecified cases should be reviewed, not treated as universal gold.",
+    "evidence_note": "Any numeric or study-like examples in these fixtures are hypothetical test content, not factual claims."
+  },
+  "fixture_sha256": "e28b29a11f9d3877c26da4da37c32fa10196f280eb2bdb6332e924ad888be3a3",
+  "source_sha256": {
+    "conversation_insights.py": "5cf7a6bf8d655c73027808e5af4c48bf8dd19e60bd61b20ddb74df0ab192e52c",
+    "moderation_session.py": "7f848abab7baa058a9298716789a7d487949bbea5e83b264f01cfc6e5b28b762",
+    "local_dashboard.py": "194d6f5ea329bf7bd5b009b73bf7344eb91d1cd5ad9c7b1cd90502dcefa46032",
+    "auth_store.py": "d33af459dfde9257e28c870d3d364bcc1bdf8d149030b97f8a5a773b0d260846",
+    "session_store.py": "7de7423545d43c410afc2a46db2eb8ecb23cef05395b648115d839cb090b2daf",
+    "voice_gateway.py": "b82aab0c8273fc3d3b193c7dcf99e5ca5f3f40d18d9e62fd900fa442bb09b7dd"
+  },
+  "runtime": {
+    "python": "3.13.13",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "packages": {
+      "numpy": "2.4.6",
+      "scikit-learn": "1.6.1",
+      "sentence-transformers": "6.3.0",
+      "torch": "2.15.0",
+      "fastapi": "0.163.2",
+      "starlette": "1.10.0",
+      "websockets": "16.1.1"
+    }
+  },
+  "isolated": {
+    "roles": {
+      "n": 104,
+      "accuracy": 0.8269230769230769,
+      "macro_f1": 0.8695058542442263,
+      "classes": {
+        "claim": {
+          "precision": 0.9354838709677419,
+          "recall": 0.6744186046511628,
+          "f1-score": 0.7837837837837838,
+          "support": 43.0
+        },
+        "reason": {
+          "precision": 0.5357142857142857,
+          "recall": 1.0,
+          "f1-score": 0.6976744186046512,
+          "support": 15.0
+        },
+        "rebuttal": {
+          "precision": 0.8125,
+          "recall": 0.8125,
+          "f1-score": 0.8125,
+          "support": 16.0
+        },
+        "question": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 18.0
+        },
+        "agreement": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 5.0
+        },
+        "unclassified": {
+          "precision": 1.0,
+          "recall": 0.8571428571428571,
+          "f1-score": 0.9230769230769231,
+          "support": 7.0
+        },
+        "accuracy": 0.8269230769230769,
+        "macro avg": {
+          "precision": 0.8806163594470046,
+          "recall": 0.8906769102990032,
+          "f1-score": 0.8695058542442263,
+          "support": 104.0
+        },
+        "weighted avg": {
+          "precision": 0.8775146224742999,
+          "recall": 0.8269230769230769,
+          "f1-score": 0.8329745908010667,
+          "support": 104.0
+        }
+      },
+      "confusion_labels": [
+        "claim",
+        "reason",
+        "rebuttal",
+        "question",
+        "agreement",
+        "unclassified"
+      ],
+      "confusion": [
+        [
+          29,
+          11,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          18,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ]
+    },
+    "links": {
+      "turns": 104,
+      "gold_linked_turns": 45,
+      "predicted_links": 16,
+      "correct_links": 14,
+      "precision": 0.875,
+      "recall": 0.3111111111111111,
+      "f1": 0.459016393442623,
+      "no_link_turns": 59,
+      "false_links_on_no_link_turns": 1,
+      "false_link_rate": 0.01694915254237288
+    },
+    "question_answers": {
+      "reference_pairs": 12,
+      "predicted_pairs": 12,
+      "correct_pairs": 11,
+      "precision": 0.9166666666666666,
+      "recall": 0.9166666666666666,
+      "f1": 0.9166666666666666
+    },
+    "evidence_requests": {
+      "reference_pairs": 9,
+      "predicted_pairs": 9,
+      "correct_pairs": 9,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "source_integrity_errors": [],
+    "beyond_link_window": 1
+  },
+  "end_to_end": {
+    "roles": {
+      "n": 104,
+      "accuracy": 0.8076923076923077,
+      "macro_f1": 0.8257126104509825,
+      "classes": {
+        "claim": {
+          "precision": 0.9354838709677419,
+          "recall": 0.6744186046511628,
+          "f1-score": 0.7837837837837838,
+          "support": 43.0
+        },
+        "reason": {
+          "precision": 0.5357142857142857,
+          "recall": 1.0,
+          "f1-score": 0.6976744186046512,
+          "support": 15.0
+        },
+        "rebuttal": {
+          "precision": 0.8125,
+          "recall": 0.8125,
+          "f1-score": 0.8125,
+          "support": 16.0
+        },
+        "question": {
+          "precision": 1.0,
+          "recall": 0.9444444444444444,
+          "f1-score": 0.9714285714285714,
+          "support": 18.0
+        },
+        "agreement": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "unclassified": {
+          "precision": 0.75,
+          "recall": 0.8571428571428571,
+          "f1-score": 0.8,
+          "support": 7.0
+        },
+        "accuracy": 0.8076923076923077,
+        "macro avg": {
+          "precision": 0.8389496927803379,
+          "recall": 0.8480843177064106,
+          "f1-score": 0.8257126104509825,
+          "support": 104.0
+        },
+        "weighted avg": {
+          "precision": 0.8606876993973768,
+          "recall": 0.8076923076923077,
+          "f1-score": 0.8144036318454921,
+          "support": 104.0
+        }
+      },
+      "confusion_labels": [
+        "claim",
+        "reason",
+        "rebuttal",
+        "question",
+        "agreement",
+        "unclassified"
+      ],
+      "confusion": [
+        [
+          29,
+          11,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          17,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ]
+    },
+    "links": {
+      "turns": 104,
+      "gold_linked_turns": 45,
+      "predicted_links": 12,
+      "correct_links": 11,
+      "precision": 0.9166666666666666,
+      "recall": 0.24444444444444444,
+      "f1": 0.3859649122807018,
+      "no_link_turns": 59,
+      "false_links_on_no_link_turns": 0,
+      "false_link_rate": 0.0
+    },
+    "question_answers": {
+      "reference_pairs": 12,
+      "predicted_pairs": 8,
+      "correct_pairs": 8,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    "evidence_requests": {
+      "reference_pairs": 9,
+      "predicted_pairs": 8,
+      "correct_pairs": 8,
+      "precision": 1.0,
+      "recall": 0.8888888888888888,
+      "f1": 0.9411764705882353
+    },
+    "source_integrity_errors": [],
+    "beyond_link_window": 1
+  },
+  "external": {
+    "corpus_manifest": {
+      "repository": "https://github.com/peldszus/arg-microtexts",
+      "commit": "6707c133de713130cabe647f2f218681d65fdc15",
+      "archive_sha256": "19544acd64183537314a2c836ebda0e3c40807a0cdecae538519ca951418f1d9",
+      "license": "CC BY-NC-SA 4.0",
+      "usage": "External diagnostic only; not training or serving data.",
+      "xml_files": 112
+    },
+    "documents": 112,
+    "mapping": "No outgoing argumentative edge -> claim; sup/exa -> reason; reb/und -> rebuttal. Additional-premise and multi-edge nodes excluded. Topic/attack states are oracle inputs. Pro/opp roles are mapped to synthetic A/B labels solely for this diagnostic, not actual speaker identification.",
+    "scope": "Externally annotated translated written microtexts, not natural spoken dialogues. This coarse role mapping is not the original corpus task.",
+    "roles": {
+      "n": 555,
+      "accuracy": 0.5945945945945946,
+      "macro_f1": 0.5801337031277555,
+      "classes": {
+        "claim": {
+          "precision": 0.4945054945054945,
+          "recall": 0.8035714285714286,
+          "f1-score": 0.6122448979591837,
+          "support": 112.0
+        },
+        "reason": {
+          "precision": 0.6884615384615385,
+          "recall": 0.6580882352941176,
+          "f1-score": 0.6729323308270677,
+          "support": 272.0
+        },
+        "rebuttal": {
+          "precision": 0.6288659793814433,
+          "recall": 0.3567251461988304,
+          "f1-score": 0.4552238805970149,
+          "support": 171.0
+        },
+        "micro avg": {
+          "precision": 0.6122448979591837,
+          "recall": 0.5945945945945946,
+          "f1-score": 0.603290676416819,
+          "support": 555.0
+        },
+        "macro avg": {
+          "precision": 0.603944337449492,
+          "recall": 0.6061282700214589,
+          "f1-score": 0.5801337031277555,
+          "support": 555.0
+        },
+        "weighted avg": {
+          "precision": 0.6309589843610462,
+          "recall": 0.5945945945945946,
+          "f1-score": 0.593607758808073,
+          "support": 555.0
+        }
+      },
+      "confusion_labels": [
+        "claim",
+        "reason",
+        "rebuttal",
+        "question",
+        "agreement",
+        "unclassified"
+      ],
+      "confusion": [
+        [
+          90,
+          16,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          53,
+          179,
+          30,
+          9,
+          0,
+          1
+        ],
+        [
+          39,
+          65,
+          61,
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "sequential_direct_links": {
+      "turns": 257,
+      "gold_linked_turns": 257,
+      "predicted_links": 28,
+      "correct_links": 21,
+      "precision": 0.75,
+      "recall": 0.08171206225680934,
+      "f1": 0.1473684210526316,
+      "no_link_turns": 0,
+      "false_links_on_no_link_turns": 0,
+      "false_link_rate": 0
+    },
+    "excluded_count": 21,
+    "link_scope": "Only direct sup/exa/reb targets already present within six units. Future targets and relation-targeting undercuts excluded; this selected subset cannot establish whole-corpus link accuracy."
+  },
+  "latency": {
+    "scope": "One 250-turn scripted discussion with unique incoming texts on the actual CPU encoder. Serving caches may reuse historical embeddings; includes analysis, copying state and insight generation, excludes ASR, HTTP and browser rendering.",
+    "cold_first_ms": 22.349540959112346,
+    "warm_median_ms": 23.24533404316753,
+    "warm_p95_ms": 31.03993316181004,
+    "last_50_median_ms": 25.966645509470254,
+    "reported_median_ms": 22.786417044699192,
+    "median_unreported_ms": 0.5172509700059891,
+    "checkpoints": [
+      {
+        "turns": 1,
+        "snapshot_bytes": 1097,
+        "wall_ms": 22.349540959112346
+      },
+      {
+        "turns": 50,
+        "snapshot_bytes": 24544,
+        "wall_ms": 19.234125036746264
+      },
+      {
+        "turns": 250,
+        "snapshot_bytes": 120685,
+        "wall_ms": 26.252999901771545
+      }
+    ]
+  }
+}

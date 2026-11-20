@@ -1,0 +1,45 @@
+session,turn,speaker,text,reference_role,predicted_role,reference_links,predicted_link,reference_evidence_request,predicted_evidence_request,topic_state,personal_attack,cue
+rainwater,1,A,Office buildings should collect rainwater to irrigate their gardens.,claim,claim,[],,False,False,on_topic,False,Explicit policy position
+rainwater,2,B,That proposal would require storage tanks that small offices cannot afford.,rebuttal,claim,[1],1,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+rainwater,3,A,Which source supports the estimated price of a storage tank?,question,question,[],,True,True,on_topic,False,Direct question or request for information
+rainwater,4,B,I have not supplied a price source for the storage tanks.,claim,claim,[3],3,False,False,on_topic,False,Statement responding to an earlier question
+rainwater,5,A,We could start with a shared tank for several office gardens.,rebuttal,reason,[2],4,False,False,on_topic,False,Locally trained contextual role classifier
+repair-cafe,1,A,Monthly repair cafes could help residents repair broken household items.,claim,claim,[],,False,False,on_topic,False,Opening substantive position
+repair-cafe,2,B,"For instance, repairing a toaster could prevent it from becoming waste.",reason,reason,[1],1,False,False,on_topic,False,Explicit reason or evidence reference (unverified)
+repair-cafe,3,A,I wonder who would supervise the electrical repairs.,question,question,[],,False,False,on_topic,False,Direct question or request for information
+repair-cafe,4,B,Qualified volunteer electricians would supervise the electrical repairs.,claim,claim,[3],3,False,False,on_topic,False,Statement responding to an earlier question
+repair-cafe,5,A,I agree that electrical safety needs qualified supervision.,agreement,agreement,[4],4,False,False,on_topic,False,Explicit agreement language
+theatre,1,A,Community theatres should offer discounted tickets to young adults.,claim,claim,[],,False,False,on_topic,False,Explicit policy position
+theatre,2,B,I am not convinced that discounted tickets would attract new theatre audiences.,rebuttal,rebuttal,[1],1,False,False,on_topic,False,Explicit challenge or negated agreement
+theatre,3,A,What evidence would support offering the theatre discount?,question,question,[],,True,True,on_topic,False,Direct question or request for information
+theatre,4,B,I will not answer that question about the theatre discount.,unclassified,unclassified,[],,False,False,off_topic,False,"Explicit refusal to answer; retained as a response, not an argument"
+theatre,5,A,"Because ticket prices can limit attendance, a discount could lower one barrier.",reason,reason,"[1, 2]",1,False,False,on_topic,False,Explicit reason or evidence reference (unverified)
+crossing,1,A,The council should install a pedestrian crossing near the market.,claim,claim,[],,False,False,on_topic,False,Explicit policy position
+crossing,2,B,Where would the new pedestrian crossing be located?,question,question,[],,False,False,on_topic,False,Direct question or request for information
+crossing,3,A,The crossing would connect the market entrance to the bus stop.,claim,claim,[2],2,False,False,on_topic,False,Statement responding to an earlier question
+crossing,4,B,"However, a crossing at the bus stop could delay emergency vehicles.",rebuttal,rebuttal,[3],3,False,False,on_topic,False,Explicit challenge or negated agreement
+crossing,5,A,Please provide a source for that emergency vehicle concern.,question,question,[],,True,True,on_topic,False,Direct question or request for information
+backpacks,1,A,Primary schools should provide storage for heavy student backpacks.,claim,claim,[],,False,False,on_topic,False,Explicit policy position
+backpacks,2,A,"On the other hand, classroom storage could reduce the space available for desks.",rebuttal,rebuttal,[1],,False,False,on_topic,False,Explicit challenge or negated agreement
+backpacks,3,B,"For example, corridor lockers would keep backpacks out of the classroom.",reason,reason,[2],2,False,False,on_topic,False,Explicit reason or evidence reference (unverified)
+backpacks,4,A,"The phrase ""Where should backpacks go?"" is printed on the noticeboard.",unclassified,unclassified,[],,False,False,off_topic,False,Metalinguistic mention rather than a current argument
+backpacks,5,B,I do not agree that corridor lockers would leave enough room for evacuation.,rebuttal,rebuttal,[3],3,False,False,on_topic,False,Explicit challenge or negated agreement
+conference,1,A,Conference programmes should be provided as digital schedules.,claim,claim,[],,False,False,on_topic,False,Explicit policy position
+conference,2,B,How would attendees without a smartphone access the conference programme?,question,question,[],,False,False,on_topic,False,Direct question or request for information
+conference,3,A,Digital schedules could be updated when conference rooms change.,claim,rebuttal,[],,False,False,on_topic,False,Locally trained contextual role classifier
+conference,4,B,Large display screens could show the conference programme in each hallway.,claim,claim,[2],2,False,False,on_topic,False,Statement responding to an earlier question
+conference,5,A,I agree that hallway displays would help those attendees.,agreement,agreement,[4],4,False,False,on_topic,False,Explicit agreement language
+studio,1,A,The college should share unused music studios with local performers.,claim,claim,[],,False,False,on_topic,False,Explicit policy position
+studio,2,B,How many hours could performers book in a music studio?,question,question,[],,False,False,on_topic,False,Direct question or request for information
+studio,3,A,Studio bookings would need to avoid student rehearsal times.,claim,reason,[],1,False,False,on_topic,False,Locally trained contextual role classifier
+studio,4,B,Local performers should follow the studio equipment rules.,claim,claim,[],3,False,False,on_topic,False,Explicit policy position
+studio,5,A,We should publish a calendar for shared music studio bookings.,claim,claim,[],3,False,False,on_topic,False,Explicit policy position
+studio,6,B,The music studios would need to be cleaned after each booking.,claim,reason,[],5,False,False,on_topic,False,Locally trained contextual role classifier
+studio,7,A,A staff member could check the studio equipment each evening.,claim,reason,[],,False,False,on_topic,False,Locally trained contextual role classifier
+studio,8,B,The college should collect feedback from studio users.,claim,claim,[],1,False,False,on_topic,False,Explicit policy position
+studio,9,A,Local performers could book four hours in a music studio each week.,claim,claim,[2],2,False,False,on_topic,False,Statement responding to an earlier question
+refill,1,A,Shops should install drinking water refill stations.,claim,claim,[],,False,False,on_topic,False,Explicit policy position
+refill,2,B,Refill stations could require maintenance that small shops cannot fund.,rebuttal,claim,[1],1,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+refill,3,A,"For example, several nearby shops could share the maintenance cost of one station.",reason,reason,[2],,False,False,on_topic,False,Explicit reason or evidence reference (unverified)
+refill,4,B,There is no evidence here that shared maintenance would cover the cost.,rebuttal,rebuttal,[3],3,False,False,on_topic,False,Explicit challenge or negated agreement
+refill,5,A,Could you show data about the maintenance expense?,question,question,[],,True,True,on_topic,False,Direct question or request for information

@@ -1,0 +1,42 @@
+session,turn,speaker,text,reference_role,predicted_role,reference_links,predicted_link,reference_evidence_request,predicted_evidence_request,topic_state,personal_attack,cue
+uniform-cost,4,B,"For example, a fixed school budget would have to cover both uniforms and classroom supplies.",reason,reason,[3],1,False,False,on_topic,False,Reason or evidence reference (unverified)
+transport-implicit,2,B,Removing fares would leave a funding gap for bus maintenance.,rebuttal,claim,[1],,False,False,on_topic,False,Substantive topical statement
+transport-implicit,5,A,The city would collect the charge when drivers enter the central traffic zone.,claim,claim,[4],,False,False,on_topic,False,Substantive topical statement
+ai-denial,2,B,I do not agree that AI brainstorming helps students learn.,rebuttal,claim,[1],,False,False,on_topic,False,Substantive topical statement
+ai-denial,4,B,That example does not establish that students develop their own ideas.,rebuttal,claim,[3],,False,False,on_topic,False,Substantive topical statement
+remote-evidence-negation,2,B,There is no evidence that recorded lectures improve attendance.,rebuttal,reason,[1],1,False,False,on_topic,False,Reason or evidence reference (unverified)
+remote-evidence-negation,4,B,I do not have attendance data to support that conclusion.,claim,reason,[3],2,False,False,on_topic,False,Reason or evidence reference (unverified)
+library-questions,4,B,The overnight staffing cost would depend on the number of paid security shifts.,claim,claim,[2],,False,False,on_topic,False,Substantive topical statement
+library-questions,5,A,We do not yet know how many students would visit after midnight.,claim,claim,[3],,False,False,on_topic,False,Substantive topical statement
+recycling-quotation,2,B,"The question ""Should apartment residents separate recyclable materials?"" is the title of our presentation.",unclassified,question,[],,False,False,on_topic,False,Question form
+energy-same-speaker,2,A,"However, construction delays could make new nuclear capacity arrive too late.",rebuttal,rebuttal,[1],,False,False,on_topic,False,Explicit challenge language
+energy-same-speaker,3,B,"For example, electricity shortages may occur while a nuclear plant is still being built.",reason,reason,[2],1,False,False,on_topic,False,Reason or evidence reference (unverified)
+plastic-irrelevant-reason,3,A,"Because my guitar strings snapped, I bought a new instrument.",unclassified,reason,[],,False,False,off_topic,False,Reason or evidence reference (unverified)
+plastic-irrelevant-reason,4,B,I disagree with the recipe because it contains too much sugar.,unclassified,rebuttal,[],,False,False,off_topic,False,Explicit challenge language
+lunch-no-link,4,B,I would rather discuss the lunch menu than answer that question.,unclassified,claim,[],,False,False,on_topic,False,Substantive topical statement
+cycling-target,2,B,Removing car parking to build bicycle lanes would harm nearby shops.,rebuttal,claim,[1],,False,False,on_topic,False,Substantive topical statement
+cycling-target,5,A,"According to the hypothetical road audit in this exercise, barriers reduce car entry into the cycling lane.",reason,reason,[4],3,False,False,on_topic,False,Reason or evidence reference (unverified)
+phones-negated-agreement,3,A,I do not agree that phones should be allowed for every classroom activity.,rebuttal,claim,[1],,False,False,on_topic,False,Substantive topical statement
+phones-negated-agreement,4,B,"For example, phone notifications could distract students during an exam.",reason,reason,[3],1,False,False,on_topic,False,Reason or evidence reference (unverified)
+phones-negated-agreement,5,A,Please show a source about classroom phone distractions.,question,claim,[],,True,False,on_topic,False,Substantive topical statement
+parking-unrelated-evidence,3,A,"According to our hypothetical campus budget, parking income would pay for a limited number of bus passes.",reason,reason,[2],1,False,False,on_topic,False,Reason or evidence reference (unverified)
+parking-unrelated-evidence,4,B,"According to a cooking guide, rice absorbs water when heated.",unclassified,reason,[],,False,False,off_topic,False,Reason or evidence reference (unverified)
+parking-unrelated-evidence,5,A,Research is an interesting word to pronounce.,unclassified,reason,[],,False,False,off_topic,False,Reason or evidence reference (unverified)
+museum-request,2,B,Admission fees help pay for maintaining museum collections.,rebuttal,claim,[1],,False,False,on_topic,False,Substantive topical statement
+museum-request,3,A,Please explain how the museum could replace admission revenue.,question,claim,[],,False,False,on_topic,False,Substantive topical statement
+museum-request,4,B,A municipal culture grant could replace some admission revenue.,claim,claim,[3],,False,False,on_topic,False,Substantive topical statement
+workweek-ack,2,B,I agree.,agreement,agreement,[1],,False,False,unclear,False,Explicit agreement language
+workweek-ack,4,B,But a shorter workweek may leave customers without support on Fridays.,rebuttal,claim,"[1, 3]",,False,False,on_topic,False,Substantive topical statement
+workweek-ack,5,A,Customer support could use staggered four day schedules.,rebuttal,claim,[4],,False,False,on_topic,False,Substantive topical statement
+foodwaste-question-quote,2,B,"The cafeteria poster says ""How can we reduce food waste?"" and recommends smaller portions.",reason,question,[1],,False,False,on_topic,False,Question form
+foodwaste-question-quote,3,A,There is no proof that a food waste charge changes diner behavior.,rebuttal,claim,[1],,False,False,on_topic,False,Substantive topical statement
+foodwaste-question-quote,4,B,I wonder how the cafeteria would measure wasted food.,question,claim,[],,False,False,on_topic,False,Substantive topical statement
+foodwaste-question-quote,5,A,Staff would weigh the food left on each returned plate.,claim,claim,[4],2,False,False,on_topic,False,Substantive topical statement
+exam-implicit,2,B,That would penalize students who understand the material but struggle to speak under pressure.,rebuttal,claim,[1],,False,False,on_topic,False,Substantive topical statement
+exam-implicit,3,A,"For instance, allowing preparation time could reduce pressure during the oral exam.",reason,reason,[2],1,False,False,on_topic,False,Reason or evidence reference (unverified)
+exam-implicit,5,A,I have not provided data about preparation time.,claim,reason,[4],4,False,False,on_topic,False,Reason or evidence reference (unverified)
+parks-competing-claims,4,B,"However, building sports courts would remove some of the grassy areas.",rebuttal,rebuttal,[2],3,False,False,on_topic,False,Explicit challenge language
+volunteer-delayed-answer,3,A,Volunteering could connect students with local community groups.,claim,claim,[],2,False,False,on_topic,False,Substantive topical statement
+distance-window,5,A,Remote appointments should allow screen sharing.,claim,claim,[],2,False,False,on_topic,False,Substantive topical statement
+distance-window,7,A,Office hour appointments should have a clear time limit.,claim,claim,[],2,False,False,on_topic,False,Substantive topical statement
+distance-window,9,A,The remote office hours would use the university video platform.,claim,claim,[2],,False,False,on_topic,False,Substantive topical statement

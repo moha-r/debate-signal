@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "threshold": 0.15000000000000002,
+    "context_window": 2,
+    "link_threshold": 0.15
+  },
+  "selection": "Development only. Choose event F1, then turn macro F1, then shorter context and higher link cutoff."
+}

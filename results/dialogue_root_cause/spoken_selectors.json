@@ -1,0 +1,103 @@
+{
+  "exclusions": {
+    "chronological_maps": 0,
+    "approximate_order_maps": 57,
+    "ungrounded": 524,
+    "future_target": 94
+  },
+  "scope": "Oracle earlier locutions in annotated radio debates. Separately held-out episodes. Relations directed later source to earlier target. Use only for local academic evaluation.",
+  "development": {
+    "episodes": [
+      "MM2019DDay",
+      "Money",
+      "bankingsystem",
+      "britishempire"
+    ],
+    "baseline": {
+      "turns": 256,
+      "targets": 86,
+      "reachable": 50,
+      "predicted": 157,
+      "target_correct": 26,
+      "correct": 24,
+      "spurious": 105,
+      "precision": 0.15286624203821655,
+      "recall": 0.27906976744186046,
+      "f1": 0.19753086419753085,
+      "target_f1": 0.2139917695473251
+    },
+    "independent_proposal": {
+      "turns": 256,
+      "targets": 86,
+      "reachable": 50,
+      "predicted": 157,
+      "target_correct": 26,
+      "correct": 24,
+      "spurious": 105,
+      "precision": 0.15286624203821655,
+      "recall": 0.27906976744186046,
+      "f1": 0.19753086419753085,
+      "target_f1": 0.2139917695473251
+    },
+    "context_rank": {
+      "turns": 256,
+      "targets": 86,
+      "reachable": 50,
+      "predicted": 155,
+      "target_correct": 27,
+      "correct": 25,
+      "spurious": 99,
+      "precision": 0.16129032258064516,
+      "recall": 0.29069767441860467,
+      "f1": 0.2074688796680498,
+      "target_f1": 0.22406639004149378
+    }
+  },
+  "test": {
+    "episodes": [
+      "MM2019Hypocrisy",
+      "MoralMazeGreenBelt",
+      "problem",
+      "welfare"
+    ],
+    "baseline": {
+      "turns": 547,
+      "targets": 161,
+      "reachable": 104,
+      "predicted": 354,
+      "target_correct": 36,
+      "correct": 30,
+      "spurious": 231,
+      "precision": 0.0847457627118644,
+      "recall": 0.18633540372670807,
+      "f1": 0.11650485436893204,
+      "target_f1": 0.13980582524271845
+    },
+    "independent_proposal": {
+      "turns": 547,
+      "targets": 161,
+      "reachable": 104,
+      "predicted": 353,
+      "target_correct": 36,
+      "correct": 30,
+      "spurious": 230,
+      "precision": 0.08498583569405099,
+      "recall": 0.18633540372670807,
+      "f1": 0.11673151750972763,
+      "target_f1": 0.14007782101167315
+    },
+    "context_rank": {
+      "turns": 547,
+      "targets": 161,
+      "reachable": 104,
+      "predicted": 358,
+      "target_correct": 51,
+      "correct": 42,
+      "spurious": 232,
+      "precision": 0.11731843575418995,
+      "recall": 0.2608695652173913,
+      "f1": 0.16184971098265896,
+      "target_f1": 0.19653179190751446
+    }
+  }
+}

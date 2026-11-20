@@ -1,0 +1,6 @@
+{
+  "name": "Where’s your argument?",
+  "description": "A calm debate moderation workspace helping a human moderator follow a two-person English debate with live transcription, suggested alerts, argument trails, and source-linked session reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

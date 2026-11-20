@@ -1,0 +1,56 @@
+{
+  "development": {
+    "baseline": {
+      "turns": 86,
+      "reachable": 50,
+      "recall_at_6": 0.5813953488372093
+    },
+    "recent": {
+      "turns": 86,
+      "reachable": 51,
+      "recall_at_6": 0.5930232558139535
+    },
+    "detail": {
+      "turns": 86,
+      "reachable": 50,
+      "recall_at_6": 0.5813953488372093
+    },
+    "both": {
+      "turns": 86,
+      "reachable": 50,
+      "recall_at_6": 0.5813953488372093
+    },
+    "strong_recent": {
+      "turns": 86,
+      "reachable": 52,
+      "recall_at_6": 0.6046511627906976
+    }
+  },
+  "test": {
+    "baseline": {
+      "turns": 161,
+      "reachable": 104,
+      "recall_at_6": 0.6459627329192547
+    },
+    "recent": {
+      "turns": 161,
+      "reachable": 108,
+      "recall_at_6": 0.6708074534161491
+    },
+    "detail": {
+      "turns": 161,
+      "reachable": 105,
+      "recall_at_6": 0.6521739130434783
+    },
+    "both": {
+      "turns": 161,
+      "reachable": 108,
+      "recall_at_6": 0.6708074534161491
+    },
+    "strong_recent": {
+      "turns": 161,
+      "reachable": 113,
+      "recall_at_6": 0.7018633540372671
+    }
+  }
+}

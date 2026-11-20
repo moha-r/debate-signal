@@ -1,0 +1,15 @@
+{
+  "functional_tests": 116,
+  "frontend_build": "passed",
+  "http_workflow": "release_workflow.json",
+  "evaluations": [
+    "release_challenge",
+    "release_regression44",
+    "release_regression104"
+  ],
+  "live_service": "http://127.0.0.1:7863",
+  "live_health": "ok",
+  "live_answer_excerpt_bundle": "verified",
+  "paid_asr_calls": 0,
+  "visual_qa": "handled by user"
+}

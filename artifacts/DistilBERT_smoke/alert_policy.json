@@ -1,0 +1,15 @@
+{
+  "threshold": 0.48,
+  "precision": 0.23076923076923078,
+  "recall": 0.42857142857142855,
+  "alerts": 13,
+  "macro_f1": 0.5851851851851851,
+  "precision_target_met": false,
+  "target_precision": 0.8,
+  "minimum_alerts": 1,
+  "selection_data": "training-only validation",
+  "model_directory": "artifacts/DistilBERT_smoke/best",
+  "max_length": 128,
+  "probability_type": "Uncalibrated softmax; validation-selected decision threshold",
+  "training_configuration": "results/transformer/distilbert_smoke/configuration.json"
+}

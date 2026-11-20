@@ -1,0 +1,30 @@
+# Local argument classifier provenance
+
+Question matching also uses the published [deepset/minilm-uncased-squad2 checkpoint](https://huggingface.co/deepset/minilm-uncased-squad2) by Vaishali Pal, Branden Chan, Timo Möller, Malte Pietsch and Tanay Soni, revision `934656cdda79824eabf503ed56e15c01ddbdbe3f`, licensed CC BY 4.0. Its SQuAD 2.0 answer and no-answer scores help match a question with a span from a later contribution. The project constrains matches with question type, conversation context and existing response statuses. Weights stay in the local Hugging Face cache. Observed safetensors SHA-256 is `240478c7251d5e55be35feb47177054b960259b9328af662ea3cee87ce9755a6`.
+
+The current dialogue relation backend also uses the published [raruidol/ArgumentMining-EN-ARI-AIF-RoBERTa_L checkpoint](https://huggingface.co/raruidol/ArgumentMining-EN-ARI-AIF-RoBERTa_L) by Ramon Ruiz-Dolz, revision `7e7747dcc124d85e704edb11355fae452edada9c`, licensed **CC BY-NC-SA 4.0**. The model card reports training on US2016 and QT30. Cite Ruiz-Dolz, Alemany, Heras and García-Fornes, *Transformer-Based Models for Automatic Identification of Argument Relations: A Cross-Domain Evaluation*, IEEE Intelligent Systems 36(6), 2021, DOI `10.1109/MIS.2021.3073993`. The project integrates this published checkpoint for pair inference and retains the trained local role classifier described below.
+
+Checkpoint labels map Inference to support, Conflict to attack, and No-Relation/Rephrase to no argumentative connection. Source input is the current statement, followed by the earlier target. This ordering and coarse label mapping need task-specific evaluation. Runtime bounds are six retrieved candidates and 256 tokens per pair. CPU inference is serialized. The artifact remains in the local Hugging Face cache and is prepared with `prepare_dialogue_relation_model.py`; the weights' SHA-256 is `144db6725e51503d48468295b0ce1fd80c2a10901be4d8cefd74dc9de9dd7ebb`.
+
+The operating point in `dialogue_relation_policy.json` selects the highest target-and-relation F1 from the recorded Part 2 development grid. Development precision was 45.8% at this operating point. The earlier assistant-selected requirement of 60% precision yielded no candidate and is retained in the experimental calibration record. The final selection favors recall/F1 for tentative, human-reviewed suggestions. Retain the development and independent diagnostic results when describing quality.
+
+M-Arg is used for evaluation only. Credit the University of Southampton and Mestre et al. (2021), [*M-Arg: Multimodal Argument Mining Dataset for Political Debates with Audio and Transcripts*](https://aclanthology.org/2021.argmining-1.8/). Its repository license permits research, education and evaluation, and asks for attribution. The exact source license and pinned download manifest are retained in `data/raw/marg/`. The 210-pair balanced high-agreement and 300-pair prevalence samples overlap and contain 416 unique pairs. Both are independent of local fitting. Public model cards do not expose every training sample, so exact checkpoint-level overlap has not been audited.
+
+`argument_models_v2.joblib` is a research artifact for this noncommercial course project. It combines frozen `sentence-transformers/all-MiniLM-L6-v2` representations, training-only TF–IDF features, and logistic regression classifiers for coarse roles and directed support/attack/none relations. Speech-act safeguards and question tracking remain inspectable heuristics. Model scores are not calibrated correctness probabilities.
+
+Training corpus: **An annotated corpus of argumentative microtexts, Part 2**, Maria Skeppstedt, Andreas Peldszus and Manfred Stede (2018), [source repository](https://github.com/discourse-lab/arg-microtexts-part2), commit `99b652352212d69b76200f7ad85660b5b597c42a`. Citation: *More or less controlled elicitation of argumentative text: Enlarging a microtext corpus via crowdsourcing*, Proceedings of the 5th Workshop on Argument Mining, EMNLP 2018. [Paper](https://aclanthology.org/W18-5218/).
+
+The corpus is **CC BY-NC-SA 4.0** ([license](https://creativecommons.org/licenses/by-nc-sa/4.0/)). Retain this attribution and the noncommercial/share-alike restrictions with the research artifact. This project does not grant an unrestricted commercial-use license for the derived classifier. The original corpus is not included in frontend assets. The frozen encoder has its own upstream license and model card.
+
+Whole documents are partitioned deterministically: 119 train, 26 development, 26 test. Implicit inserted claims are excluded. Prefix augmentation affects training only. Hyperparameters and per-class confidence gates use development data only. The 104-turn prior audit, 44-turn new challenge, and Part 1 corpus are excluded from fitting. Authored challenges are not independently human annotated. See `results/argument_repair/training/manifest.json` for exact document partitions, selection trials, counts, hashes, and augmentation policy.
+
+The role mapping and written microtext genre differ from conversational speech. The held-out classifier score cannot be substituted for full live-dialogue accuracy. The serving graph deliberately abstains frequently; human corrections preserve original predictions and do not automatically retrain models.
+
+Reproduce:
+
+```sh
+python prepare_argument_training_corpus.py
+HF_HUB_OFFLINE=1 uv run --python 3.13 --with-requirements requirements-voice.txt python train_argument_models.py
+```
+
+The encoder must already be downloaded for offline training. Training replaces this artifact and its training manifest; preserve a copy before comparing experiments.

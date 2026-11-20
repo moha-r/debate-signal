@@ -1,0 +1,458 @@
+{
+  "provenance": {
+    "author": "Project assistant",
+    "scope": "New authored targeted challenge frozen before candidate fitting/scoring. Not independent human annotation. Do not use for training or threshold selection.",
+    "created": "2026-11-18"
+  },
+  "cases": [
+    {
+      "id": "rainwater",
+      "topic": "Should office buildings collect rainwater for garden irrigation?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Office buildings should collect rainwater to irrigate their gardens.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "That proposal would require storage tanks that small offices cannot afford.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Which source supports the estimated price of a storage tank?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I have not supplied a price source for the storage tanks.",
+          "role": "claim",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            3
+          ]
+        },
+        {
+          "speaker": "A",
+          "text": "We could start with a shared tank for several office gardens.",
+          "role": "rebuttal",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "repair-cafe",
+      "topic": "Should neighbourhoods organize monthly repair cafes?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Monthly repair cafes could help residents repair broken household items.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "For instance, repairing a toaster could prevent it from becoming waste.",
+          "role": "reason",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "I wonder who would supervise the electrical repairs.",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Qualified volunteer electricians would supervise the electrical repairs.",
+          "role": "claim",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            3
+          ]
+        },
+        {
+          "speaker": "A",
+          "text": "I agree that electrical safety needs qualified supervision.",
+          "role": "agreement",
+          "links": [
+            4
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "theatre",
+      "topic": "Should community theatres discount tickets for young adults?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Community theatres should offer discounted tickets to young adults.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I am not convinced that discounted tickets would attract new theatre audiences.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "What evidence would support offering the theatre discount?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I will not answer that question about the theatre discount.",
+          "role": "unclassified",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Because ticket prices can limit attendance, a discount could lower one barrier.",
+          "role": "reason",
+          "links": [
+            1,
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "crossing",
+      "topic": "Should the council install a pedestrian crossing near the market?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "The council should install a pedestrian crossing near the market.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Where would the new pedestrian crossing be located?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "The crossing would connect the market entrance to the bus stop.",
+          "role": "claim",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        },
+        {
+          "speaker": "B",
+          "text": "However, a crossing at the bus stop could delay emergency vehicles.",
+          "role": "rebuttal",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Please provide a source for that emergency vehicle concern.",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "backpacks",
+      "topic": "Should primary schools provide storage for student backpacks?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Primary schools should provide storage for heavy student backpacks.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "On the other hand, classroom storage could reduce the space available for desks.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "For example, corridor lockers would keep backpacks out of the classroom.",
+          "role": "reason",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "The phrase \"Where should backpacks go?\" is printed on the noticeboard.",
+          "role": "unclassified",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I do not agree that corridor lockers would leave enough room for evacuation.",
+          "role": "rebuttal",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "conference",
+      "topic": "Should conferences replace printed programmes with digital schedules?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Conference programmes should be provided as digital schedules.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "How would attendees without a smartphone access the conference programme?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Digital schedules could be updated when conference rooms change.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Large display screens could show the conference programme in each hallway.",
+          "role": "claim",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        },
+        {
+          "speaker": "A",
+          "text": "I agree that hallway displays would help those attendees.",
+          "role": "agreement",
+          "links": [
+            4
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "studio",
+      "topic": "Should the college share music studios with local performers?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "The college should share unused music studios with local performers.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "How many hours could performers book in a music studio?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Studio bookings would need to avoid student rehearsal times.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Local performers should follow the studio equipment rules.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "We should publish a calendar for shared music studio bookings.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "The music studios would need to be cleaned after each booking.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "A staff member could check the studio equipment each evening.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "The college should collect feedback from studio users.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Local performers could book four hours in a music studio each week.",
+          "role": "claim",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refill",
+      "topic": "Should shops install free drinking water refill stations?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Shops should install drinking water refill stations.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Refill stations could require maintenance that small shops cannot fund.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "For example, several nearby shops could share the maintenance cost of one station.",
+          "role": "reason",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "There is no evidence here that shared maintenance would cover the cost.",
+          "role": "rebuttal",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Could you show data about the maintenance expense?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        }
+      ]
+    }
+  ]
+}

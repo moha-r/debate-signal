@@ -1,0 +1,315 @@
+{
+  "provenance": {
+    "author": "Project assistant",
+    "scope": "Targeted authored challenge frozen before scoring this iteration. The author knew the preceding implementation and error categories. No training or ranker selection uses these cases.",
+    "created": "2026-11-20"
+  },
+  "cases": [
+    {
+      "id": "night-buses",
+      "topic": "Should the municipality operate late-night buses?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Late-night buses would give shift workers a reliable way home.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Who would drive the overnight routes?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "The buses could also stop near the main hospital.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "The municipal transit department would assign its existing night-shift drivers.",
+          "role": "claim",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        },
+        {
+          "speaker": "A",
+          "text": "I agree that the existing night-shift drivers can handle the routes.",
+          "role": "agreement",
+          "links": [
+            4
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "A late-night network would require a subsidy the council cannot afford.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "market-canopies",
+      "topic": "Should the town cover its weekend market stalls?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Covered market stalls would protect vendors from heavy rain.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "What would the canopies cost each year?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "The town should publish a map of stall locations.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "The canopies would cost twelve thousand dollars per year.",
+          "role": "claim",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        },
+        {
+          "speaker": "A",
+          "text": "Which estimate supports that annual canopy cost?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "I do not have the supplier estimate with me.",
+          "role": "claim",
+          "links": [
+            5
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lab-kits",
+      "topic": "Should universities lend portable science kits?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Loaned science kits could let remote students complete their experiments.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "Where would students return the kits?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "The collection point would be next to the science library entrance.",
+          "role": "claim",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        },
+        {
+          "speaker": "B",
+          "text": "The kits might be returned with missing components, leaving other students unable to finish.",
+          "role": "rebuttal",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "Each borrower could sign a checklist so missing components are replaced before the kit is lent again.",
+          "role": "rebuttal",
+          "links": [
+            4
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "The university should collect anonymous feedback about loan times.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "community-gardens",
+      "topic": "Should residents get free garden plots?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Gardens would increase access to fresh produce.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "How many plots could the city provide?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "The program could start on June 12.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "We estimate ninety plots across the three parks.",
+          "role": "claim",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        },
+        {
+          "speaker": "A",
+          "text": "For example, families could grow vegetables they would otherwise have to buy.",
+          "role": "reason",
+          "links": [
+            1
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "What evidence shows that gardens lower grocery bills?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": true,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "I decline to answer that question.",
+          "role": "unclassified",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    },
+    {
+      "id": "printer-stations",
+      "topic": "Should city libraries add accessible printing stations?",
+      "turns": [
+        {
+          "speaker": "A",
+          "text": "Accessible printers would make public documents easier to obtain.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "B",
+          "text": "How would people who cannot operate a touchscreen use the printers?",
+          "role": "question",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "An attendant at the service desk can take a file and print it on request.",
+          "role": "claim",
+          "links": [
+            2
+          ],
+          "evidence_requested": false,
+          "answer_to": [
+            2
+          ]
+        },
+        {
+          "speaker": "B",
+          "text": "I agree that a service desk attendant would make printing easier.",
+          "role": "agreement",
+          "links": [
+            3
+          ],
+          "evidence_requested": false,
+          "answer_to": []
+        },
+        {
+          "speaker": "A",
+          "text": "The library should run workshops on digital literacy.",
+          "role": "claim",
+          "links": [],
+          "evidence_requested": false,
+          "answer_to": []
+        }
+      ]
+    }
+  ]
+}

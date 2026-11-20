@@ -1,0 +1,48 @@
+{
+  "folds": 3,
+  "seed": 42,
+  "training_rows": 91683,
+  "champion_by_cv": "LinearSVC",
+  "models": [
+    {
+      "model": "LinearSVC",
+      "ngram_max": 2,
+      "max_features": 30000,
+      "C": 0.5,
+      "weighting": "uniform",
+      "cv_macro_f1": 0.8600974479052814,
+      "cv_macro_f1_sd": 0.004986671242422759,
+      "cv_attack_f1": 0.7487387155771831,
+      "features_seconds": 21.445528082666595,
+      "estimator_fit_seconds": 2.2464554453332917,
+      "artifact": "LinearSVC.joblib",
+      "features": 30000,
+      "final_features_seconds": 29.534652035000363,
+      "final_estimator_fit_seconds": 2.780590717999985
+    },
+    {
+      "model": "LogisticRegression",
+      "ngram_max": 2,
+      "max_features": 50000,
+      "C": 2.0,
+      "weighting": "balanced",
+      "cv_macro_f1": 0.8558327628525713,
+      "cv_macro_f1_sd": 0.0023451421895732166,
+      "cv_attack_f1": 0.7490191303176917,
+      "features_seconds": 23.547867963333374,
+      "estimator_fit_seconds": 1.2006317853329165,
+      "artifact": "LogisticRegression.joblib",
+      "features": 50000,
+      "final_features_seconds": 27.852296074999686,
+      "final_estimator_fit_seconds": 2.083428009000272
+    }
+  ],
+  "wall_seconds": 419.0175797009997,
+  "packages": {
+    "scikit-learn": "1.6.1",
+    "numpy": "2.4.6",
+    "scipy": "1.16.3",
+    "nltk": "3.9.1",
+    "joblib": "1.6.0"
+  }
+}

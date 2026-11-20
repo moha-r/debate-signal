@@ -1,0 +1,7 @@
+{
+  "tests_run": 72,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "scope": "Deterministic contracts and local provider fixture; separate from linguistic accuracy."
+}

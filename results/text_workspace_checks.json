@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "session isolation",
+    "model inference",
+    "attack and drift alerts",
+    "review and dismiss",
+    "escaped transcript",
+    "invalid input",
+    "new session"
+  ],
+  "flow_turns": 4,
+  "alerts": [
+    {
+      "kind": "Personal attack",
+      "speaker": "B",
+      "turn": 2
+    },
+    {
+      "kind": "Topic drift",
+      "speaker": "A",
+      "turn": 3
+    }
+  ]
+}

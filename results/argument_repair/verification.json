@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-11-18T12:50:32.572Z",
+  "scope": "Local functional/model repairs; no visual QA, no public deployment, no paid ASR call.",
+  "checks": [
+    {
+      "name": "python_contracts",
+      "exit_code": 0,
+      "tests": 105,
+      "output": "----------------------------------------------------------------------\nRan 105 tests in 2.963s\n\nOK\n"
+    },
+    {
+      "name": "frontend_production_build",
+      "exit_code": 0,
+      "warnings": [
+        "Bundle size warning; frontend also reports use-client directive warnings."
+      ]
+    },
+    {
+      "name": "landing_production_build",
+      "exit_code": 0,
+      "warnings": [
+        "Bundle size warning; frontend also reports use-client directive warnings."
+      ]
+    }
+  ],
+  "real_model_workflow": "results/argument_repair/workflow.json",
+  "semantic_regression": "results/argument_repair/verified_regression/summary.json",
+  "frozen_new_challenge": "results/argument_repair/verified_challenge/summary.json",
+  "quality_status": "Improvements verified, general argument target selection remains unreliable; human review required.",
+  "local_service": "http://127.0.0.1:7863",
+  "live_smoke": {
+    "landing": 200,
+    "login": 200,
+    "workspace_redirect_to_login": 200,
+    "argument_endpoint_unauthenticated": 401
+  },
+  "sha256": {
+    "argument_models.py": "4164494d52d2c98086e21e5eae3688ff6bc9bd7920704d73377595002fb8276f",
+    "question_tracker.py": "3655c5f82c58397596c20e1f9c325916b2737c8f3e4d60ba109e05c542b066f0",
+    "conversation_insights.py": "736b490d47311d8e8fc628f35ea42f5c9166cf6d72ccef61c72c984aba4d606a",
+    "moderation_session.py": "2a39c68e01fd4cd1c6d787d839c4cae197f68c68bff82389c3dbdce4d6f6773c",
+    "local_dashboard.py": "3ae7bd373ec8159e16ba5d839d238659b2ca1a4e7050db8d85428d324fc31bc5",
+    "voice_gateway.py": "6e6912d060e3c5d3f30f04a534113366fad21e16f2c8ee317b17080cac5a4753",
+    "train_argument_models.py": "8f3127b21ec2c197ee662e9c36e273cbfed327d55935f0dd5c5dd489303e5d87",
+    "evaluate_argument_quality.py": "b79289480b31ef24ab0f6a6c716da4a89566ef7219c865afd7afdb6ceb0a1f86",
+    "frontend/src/SessionInsights.tsx": "eb549d5c2c285c29e7cac5ab2f6191cb7bf79ea729ce51ecc7e2270db7c1a4e3",
+    "frontend/src/main.tsx": "9c266a9e17a24d4e1fa186dfc0cf1ccd5faa1f5a329d55178a84b02135584678",
+    "frontend/src/types.ts": "e11b5caa977b83bc08327c6fc8306cc8440acb85756ec2e35c6fd289ed224706",
+    "frontend/src/VoiceConsole.tsx": "5ce58d0e437d4175d511dfa8017944895772342a6ace8781430b4e012ecdf6ab",
+    "artifacts/argument_models_v2.joblib": "9a9cf318c27074076a942d7b6f4bf774b2b9202722630d96614a1ca8659a48e5",
+    "data/argument_quality_audit.json": "e28b29a11f9d3877c26da4da37c32fa10196f280eb2bdb6332e924ad888be3a3",
+    "data/argument_repair_holdout.json": "c87d252b3accc176d15f13f903e4c8020f0a924cc7137a01fc74b5eda8d4ab28"
+  }
+}

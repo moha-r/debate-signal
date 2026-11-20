@@ -1,0 +1,289 @@
+session,split,turn,speaker,text,reference,episode,state,score,direct_score,used_context,alert,off_topic_count
+topic_stress_01,stress,1,A,A charge would reduce traffic at the busiest times.,on_topic,,on_topic,0.5676144957542419,0.5676144957542419,False,False,0
+topic_stress_01,stress,2,B,It would also punish workers whose shifts begin before the trains run.,on_topic,,on_topic,0.35501986742019653,0.35501986742019653,False,False,0
+topic_stress_01,stress,3,A,We could offer exemptions when there is no realistic alternative.,on_topic,,on_topic,0.2669332027435303,0.2669332027435303,False,False,0
+topic_stress_01,stress,4,B,How would that work?,on_topic,,off_topic,0.09613462537527084,0.09613462537527084,False,False,1
+topic_stress_01,stress,5,A,Residents could apply using their work schedule and address.,on_topic,,on_topic,0.27358394861221313,0.27358394861221313,False,False,0
+topic_stress_01,stress,6,B,That creates administrative costs which should be in the budget.,on_topic,,on_topic,0.4025680124759674,0.4025680124759674,False,False,0
+topic_stress_01,stress,7,A,I agree.,unclear,,unclear,,,False,False,0
+topic_stress_01,stress,8,B,"I agree about counting costs, but cleaner air also has a financial value.",on_topic,,on_topic,0.15009984374046326,0.15009984374046326,False,False,0
+topic_stress_01,stress,9,A,Lower income drivers may still pay more than wealthier commuters.,on_topic,,on_topic,0.32635003328323364,0.32635003328323364,False,False,0
+topic_stress_01,stress,10,B,Then part of the revenue should fund discounted travel passes.,on_topic,,on_topic,0.4750604033470154,0.4750604033470154,False,False,0
+topic_stress_01,stress,11,A,I oppose the charge until those alternatives actually exist.,on_topic,,on_topic,0.2650364935398102,0.2650364935398102,False,False,0
+topic_stress_01,stress,12,B,We could make their introduction a condition of starting the charge.,on_topic,,on_topic,0.3524456024169922,0.3524456024169922,False,False,0
+topic_stress_02,stress,1,A,People finishing late shifts cannot visit during the current opening times.,on_topic,,on_topic,0.36678406596183777,0.36678406596183777,False,False,0
+topic_stress_02,stress,2,B,Keeping the building staffed after dark will be expensive.,on_topic,,on_topic,0.45614951848983765,0.45614951848983765,False,False,0
+topic_stress_02,stress,3,A,Rotating evening shifts could spread the burden.,on_topic,,on_topic,0.26998281478881836,0.26998281478881836,False,False,0
+topic_stress_02,stress,4,B,Who would pay?,on_topic,,on_topic,0.2444525957107544,0.06959272921085358,True,False,0
+topic_stress_02,stress,5,A,The council would need to allocate money in the next annual budget.,on_topic,,on_topic,0.22249414026737213,0.22249414026737213,False,False,0
+topic_stress_02,stress,6,B,I would prefer a limited trial in the busiest branch.,on_topic,,on_topic,0.18460330367088318,0.18460330367088318,False,False,0
+topic_stress_02,stress,7,A,Borrowers could use a staffed study room while the rest of the building closes.,on_topic,,on_topic,0.32693684101104736,0.32693684101104736,False,False,0
+topic_stress_02,stress,8,B,That would still require security and heating.,on_topic,,on_topic,0.19051593542099,0.19051593542099,False,False,0
+topic_stress_02,stress,9,A,Understood.,unclear,,unclear,,,False,False,0
+topic_stress_02,stress,10,B,Could we compare the number of late visitors with those running costs?,on_topic,,on_topic,0.20570363104343414,0.20570363104343414,False,False,0
+topic_stress_02,stress,11,A,"Yes, the trial could count visits without collecting names.",on_topic,,off_topic,0.07191155850887299,0.07191155850887299,False,False,1
+topic_stress_02,stress,12,B,We should also ask workers whether the later hours meet their needs.,on_topic,,on_topic,0.4417572021484375,0.4417572021484375,False,False,0
+topic_stress_03,stress,1,A,Applicants waste time interviewing for jobs that cannot meet their pay needs.,on_topic,,on_topic,0.31250250339508057,0.31250250339508057,False,False,0
+topic_stress_03,stress,2,B,Some small firms might not know their exact budget in advance.,on_topic,,on_topic,0.25107845664024353,0.25107845664024353,False,False,0
+topic_stress_03,stress,3,A,They can give a realistic lower and upper bound instead of one number.,on_topic,,on_topic,0.2581292390823364,0.2581292390823364,False,False,0
+topic_stress_03,stress,4,B,How wide?,on_topic,,off_topic,0.030842427164316177,0.030842427164316177,False,False,1
+topic_stress_03,stress,5,A,The range should reflect the actual budget for that vacancy.,on_topic,,on_topic,0.47078728675842285,0.47078728675842285,False,False,0
+topic_stress_03,stress,6,B,What about experience?,on_topic,,on_topic,0.4690471887588501,0.09909342229366302,True,False,0
+topic_stress_03,stress,7,A,The advertisement could explain which qualifications justify the upper end.,on_topic,,on_topic,0.5020074844360352,0.5020074844360352,False,False,0
+topic_stress_03,stress,8,B,That is a fair concern.,unclear,,unclear,,,False,False,0
+topic_stress_03,stress,9,A,Would this also apply to internal promotions?,on_topic,,on_topic,0.30174902081489563,0.30174902081489563,False,False,0
+topic_stress_03,stress,10,B,I think employees applying internally need the same information.,on_topic,,on_topic,0.36541685461997986,0.36541685461997986,False,False,0
+topic_stress_03,stress,11,A,I disagree because internal positions can have collective pay agreements already.,on_topic,,on_topic,0.2940865159034729,0.2940865159034729,False,False,0
+topic_stress_03,stress,12,B,Existing agreements could satisfy the rule if applicants can access them.,on_topic,,on_topic,0.1685079038143158,0.1685079038143158,False,False,0
+topic_stress_04,stress,1,A,Reusable containers could reduce waste from evening meals.,on_topic,,on_topic,0.4017627239227295,0.4017627239227295,False,False,0
+topic_stress_04,stress,2,B,"Containers must be cleaned, and washing them also uses energy.",on_topic,,on_topic,0.2969236373901367,0.2969236373901367,False,False,0
+topic_stress_04,stress,3,A,My local cafe runs a deposit scheme where customers return the boxes.,on_topic,,on_topic,0.3103846311569214,0.3103846311569214,False,False,0
+topic_stress_04,stress,4,B,"That is useful evidence, but a cafe has more repeat customers than an airport restaurant.",on_topic,,on_topic,0.2712709903717041,0.2712709903717041,False,False,0
+topic_stress_04,stress,5,A,The ban could allow shared return points across businesses.,on_topic,,on_topic,0.35132932662963867,0.35132932662963867,False,False,0
+topic_stress_04,stress,6,B,Could customers return a box bought at one restaurant to a different one?,on_topic,,on_topic,0.4447460174560547,0.4447460174560547,False,False,0
+topic_stress_04,stress,7,A,"Yes, a common container design would make that possible.",on_topic,,on_topic,0.3046954870223999,0.3046954870223999,False,False,0
+topic_stress_04,stress,8,B,People travelling long distances might never return it.,on_topic,,on_topic,0.2730700373649597,0.2730700373649597,False,False,0
+topic_stress_04,stress,9,A,We could allow recyclable alternatives in those specific cases.,on_topic,,on_topic,0.38523179292678833,0.38523179292678833,False,False,0
+topic_stress_04,stress,10,B,I would rather require waste reduction targets than ban a material outright.,on_topic,,on_topic,0.4187313914299011,0.4187313914299011,False,False,0
+topic_stress_04,stress,11,A,"Targets may be easier to adapt, though enforcement must be clear.",on_topic,,on_topic,0.22019614279270172,0.22019614279270172,False,False,0
+topic_stress_04,stress,12,B,The policy should compare actual waste rather than assume every reusable box is returned.,on_topic,,on_topic,0.39319655299186707,0.39319655299186707,False,False,0
+topic_stress_05,stress,1,A,A student needs a way to challenge a mark produced by software.,on_topic,,on_topic,0.36674726009368896,0.36674726009368896,False,False,0
+topic_stress_05,stress,2,B,An appeal process could overload lecturers near the end of term.,on_topic,,on_topic,0.5543806552886963,0.5543806552886963,False,False,0
+topic_stress_05,stress,3,A,Please let me finish the point about serious marking errors.,on_topic,,on_topic,0.25450804829597473,0.25450804829597473,False,False,0
+topic_stress_05,stress,4,B,Go on.,unclear,,unclear,,,False,False,0
+topic_stress_05,stress,5,A,I propose an initial review only when the student identifies a specific discrepancy.,on_topic,,on_topic,0.3662579655647278,0.3662579655647278,False,False,0
+topic_stress_05,stress,6,B,That seems more manageable than automatically remarking every script.,on_topic,,on_topic,0.18908043205738068,0.18908043205738068,False,False,0
+topic_stress_05,stress,7,A,What evidence would the student provide for the review?,on_topic,,on_topic,0.360676646232605,0.360676646232605,False,False,0
+topic_stress_05,stress,8,B,They could point to an answer marked wrong despite matching the published rubric.,on_topic,,on_topic,0.27131590247154236,0.27131590247154236,False,False,0
+topic_stress_05,stress,9,A,I still think a person should review all final failures.,on_topic,,on_topic,0.29865413904190063,0.29865413904190063,False,False,0
+topic_stress_05,stress,10,B,That is an additional safeguard we could include in the appeal policy.,on_topic,,on_topic,0.4726637005805969,0.4726637005805969,False,False,0
+topic_stress_05,stress,11,A,Can we define how long a student has to submit the appeal?,on_topic,,on_topic,0.5113677978515625,0.5113677978515625,False,False,0
+topic_stress_05,stress,12,B,Ten working days would give time to read the feedback and seek advice.,on_topic,,on_topic,0.15244507789611816,0.15244507789611816,False,False,0
+topic_stress_06,stress,1,A,Paying part of the repair bill could keep useful machines out of landfill.,on_topic,,on_topic,0.5802616477012634,0.5802616477012634,False,False,0
+topic_stress_06,stress,2,B,That is a terrible proposal if the old machine wastes far more electricity.,on_topic,,on_topic,0.4454045295715332,0.4454045295715332,False,False,0
+topic_stress_06,stress,3,A,The subsidy could exclude appliances that fail an efficiency threshold.,on_topic,,on_topic,0.5663959980010986,0.5663959980010986,False,False,0
+topic_stress_06,stress,4,B,Your estimate ignores the cost of checking that threshold.,on_topic,,off_topic,0.13132838904857635,0.13132838904857635,False,False,1
+topic_stress_06,stress,5,A,Then we should include an inspection allowance in the cost comparison.,on_topic,,on_topic,0.4707867503166199,0.4707867503166199,False,False,0
+topic_stress_06,stress,6,B,The current replacement policy is a damn mess for low income households.,on_topic,,on_topic,0.5191555023193359,0.5191555023193359,False,False,0
+topic_stress_06,stress,7,A,I agree that the policy needs simpler eligibility rules.,on_topic,,on_topic,0.30293139815330505,0.30293139815330505,False,False,0
+topic_stress_06,stress,8,B,I strongly reject your assumption that every household can pay upfront.,on_topic,,on_topic,0.314298152923584,0.314298152923584,False,False,0
+topic_stress_06,stress,9,A,A voucher paid directly to the repair shop could address that.,on_topic,,on_topic,0.47469091415405273,0.47469091415405273,False,False,0
+topic_stress_06,stress,10,B,This argument still needs evidence about the availability of technicians.,on_topic,,on_topic,0.2867746353149414,0.2867746353149414,False,False,0
+topic_stress_06,stress,11,A,We can use local repair waiting times before selecting pilot districts.,on_topic,,on_topic,0.2917516231536865,0.2917516231536865,False,False,0
+topic_stress_06,stress,12,B,"I remain unconvinced, but that would be a relevant measure.",on_topic,,off_topic,0.05949836224317551,0.05949836224317551,False,False,1
+topic_stress_07,stress,1,A,A remote appointment can save a patient a long journey when the issue can be assessed without a physical examination. I would keep it as an option rather than requiring it for everyone.,on_topic,,on_topic,0.4880426526069641,0.4880426526069641,False,False,0
+topic_stress_07,stress,2,B,Some symptoms are hard to describe and a poor internet connection can hide useful details. The booking process should make it easy to ask for an in-person visit.,on_topic,,on_topic,0.19300569593906403,0.19300569593906403,False,False,0
+topic_stress_07,stress,3,A,"Agreed, staff could offer an in-person appointment when the patient reports those symptoms.",on_topic,,on_topic,0.3917699456214905,0.3917699456214905,False,False,0
+topic_stress_07,stress,4,B,What about privacy?,on_topic,,on_topic,0.42279040813446045,0.24479268491268158,True,False,0
+topic_stress_07,stress,5,A,Patients should be told to choose a private room and the service should explain whether any recording is made.,on_topic,,on_topic,0.4747872054576874,0.4747872054576874,False,False,0
+topic_stress_07,stress,6,B,That may still be difficult for someone sharing a small home.,on_topic,,off_topic,0.08093050867319107,0.08093050867319107,False,False,1
+topic_stress_07,stress,7,A,They could choose a phone call or a clinic visit instead.,on_topic,,on_topic,0.4336661100387573,0.4336661100387573,False,False,0
+topic_stress_07,stress,8,B,Okay.,unclear,,unclear,,,False,False,0
+topic_stress_07,stress,9,A,"A clinic visit is not easy for a patient who cannot take time off work, so I do not want the online option removed.",on_topic,,on_topic,0.4118190109729767,0.4118190109729767,False,False,0
+topic_stress_07,stress,10,B,"I oppose replacing routine clinics entirely, but keeping several ways to get care seems reasonable.",on_topic,,on_topic,0.4272180497646332,0.4272180497646332,False,False,0
+topic_stress_07,stress,11,A,We should measure waiting time and missed diagnoses separately for each appointment type.,on_topic,,on_topic,0.3370106816291809,0.3370106816291809,False,False,0
+topic_stress_07,stress,12,B,The evaluation must account for which patients are selected for each type rather than compare the raw totals.,on_topic,,on_topic,0.21240292489528656,0.21240292489528656,False,False,0
+topic_stress_08,stress,1,A,um people with caring duties may need to begin an hour later,on_topic,,on_topic,0.4253181219100952,0.4253181219100952,False,False,0
+topic_stress_08,stress,2,B,yeah but the customer support desk has to be covered from eight,on_topic,,on_topic,0.26274365186691284,0.26274365186691284,False,False,0
+topic_stress_08,stress,3,A,we could have overlapping shifts instead of every person arriving together,on_topic,,on_topic,0.31254851818084717,0.31254851818084717,False,False,0
+topic_stress_08,stress,4,B,who would decide,on_topic,,on_topic,0.3091093897819519,0.05904392898082733,True,False,0
+topic_stress_08,stress,5,A,the team manager could agree a rota with staff,on_topic,,on_topic,0.17782098054885864,0.17782098054885864,False,False,0
+topic_stress_08,stress,6,B,uh i disagree if managers can refuse without giving a reason,on_topic,,on_topic,0.2755835950374603,0.2755835950374603,False,False,0
+topic_stress_08,stress,7,A,then they should explain the operational problem in writing,on_topic,,on_topic,0.22843389213085175,0.22843389213085175,False,False,0
+topic_stress_08,stress,8,B,okay,unclear,,unclear,,,False,False,0
+topic_stress_08,stress,9,A,what about a right to appeal that refusal,on_topic,,off_topic,0.1002490371465683,0.1002490371465683,False,False,1
+topic_stress_08,stress,10,B,an internal review could check whether the same rule is applied fairly,on_topic,,off_topic,0.12442465126514435,0.12442465126514435,False,True,2
+topic_stress_08,stress,11,A,look i mean some jobs need everyone present for the handover,on_topic,,on_topic,0.36662667989730835,0.36662667989730835,False,False,0
+topic_stress_08,stress,12,B,those teams could set a shared handover time while allowing flexibility outside it,on_topic,,on_topic,0.4074925184249878,0.4074925184249878,False,False,0
+topic_stress_09,stress,1,A,Shared plots can give apartment residents somewhere to grow food.,on_topic,,on_topic,0.45430251955986023,0.45430251955986023,False,False,0
+topic_stress_09,stress,2,B,The land might be needed for housing instead.,on_topic,,on_topic,0.6067383289337158,0.6067383289337158,False,False,0
+topic_stress_09,stress,3,A,We could start with vacant sites awaiting construction.,on_topic,,on_topic,0.42110690474510193,0.42110690474510193,False,False,0
+topic_stress_09,stress,4,B,My favourite detective series released a new episode yesterday.,off_topic,1.0,off_topic,-0.01756339520215988,-0.01756339520215988,False,False,1
+topic_stress_09,stress,5,A,I think the actor playing the detective should win an award.,off_topic,1.0,off_topic,0.06848123669624329,0.06848123669624329,False,True,2
+topic_stress_09,stress,6,B,The final scene was much better than last season's ending.,off_topic,1.0,off_topic,0.06942122429609299,0.06942122429609299,False,False,3
+topic_stress_09,stress,7,A,"Returning to gardens, temporary leases might make those empty sites useful.",on_topic,,on_topic,0.5341509580612183,0.5341509580612183,False,False,0
+topic_stress_09,stress,8,B,Temporary plots would need movable equipment if building work starts.,on_topic,,on_topic,0.19617754220962524,0.19617754220962524,False,False,0
+topic_stress_09,stress,9,A,Yes.,unclear,,unclear,,,False,False,0
+topic_stress_09,stress,10,B,The lease should state how much notice the gardeners receive.,on_topic,,on_topic,0.4058082401752472,0.4058082401752472,False,False,0
+topic_stress_09,stress,11,A,I would support that if the council does not promise permanent access.,on_topic,,on_topic,0.2502782642841339,0.2502782642841339,False,False,0
+topic_stress_09,stress,12,B,Then the proposal can explicitly cover temporary use.,on_topic,,on_topic,0.16899597644805908,0.16899597644805908,False,False,0
+topic_stress_10,stress,1,A,A morning meal can help children who arrive hungry.,on_topic,,on_topic,0.5383588671684265,0.5383588671684265,False,False,0
+topic_stress_10,stress,2,B,Serving everyone would cost more than targeting families who need support.,on_topic,,on_topic,0.3269691467285156,0.3269691467285156,False,False,0
+topic_stress_10,stress,3,A,Universal access can avoid making those children identify themselves publicly.,on_topic,,on_topic,0.3061615526676178,0.3061615526676178,False,False,0
+topic_stress_10,stress,4,B,My neighbour has just bought a blue motorbike.,off_topic,1.0,off_topic,0.006030367221683264,0.006030367221683264,False,False,1
+topic_stress_10,stress,5,A,He wants to repaint the fuel tank bright orange.,off_topic,1.0,off_topic,0.008100597187876701,0.008100597187876701,False,True,2
+topic_stress_10,stress,6,B,I prefer the original colour because the paint looks cleaner.,off_topic,1.0,off_topic,-0.004120383411645889,-0.004120383411645889,False,False,3
+topic_stress_10,stress,7,A,The breakfast budget should include staff and food storage.,on_topic,,on_topic,0.584182858467102,0.584182858467102,False,False,0
+topic_stress_10,stress,8,B,We could start with schools reporting the highest need.,on_topic,,on_topic,0.46962910890579224,0.46962910890579224,False,False,0
+topic_stress_10,stress,9,A,"That would be a useful trial, though eligibility should remain simple.",on_topic,,on_topic,0.16816949844360352,0.16816949844360352,False,False,0
+topic_stress_10,stress,10,B,Understood.,unclear,,unclear,,,False,False,0
+topic_stress_10,stress,11,A,We should evaluate participation and missed lessons during the first term.,on_topic,,on_topic,0.2627294659614563,0.2627294659614563,False,False,0
+topic_stress_10,stress,12,B,I would add a check for food waste before expanding it.,on_topic,,on_topic,0.17789024114608765,0.17789024114608765,False,False,0
+topic_stress_11,stress,1,A,Passengers may not be able to avoid having their faces scanned.,on_topic,,on_topic,0.690970778465271,0.690970778465271,False,False,0
+topic_stress_11,stress,2,B,The system might help locate a missing person in an emergency.,on_topic,,on_topic,0.2110355794429779,0.2110355794429779,False,False,0
+topic_stress_11,stress,3,A,Access could be limited to specific investigations with an audit trail.,on_topic,,on_topic,0.21448633074760437,0.21448633074760437,False,False,0
+topic_stress_11,stress,4,B,I just installed face filters for selfies on my phone.,off_topic,1.0,on_topic,0.31584566831588745,0.31584566831588745,False,False,0
+topic_stress_11,stress,5,A,My favourite filter adds a crown and changes the background to a beach.,off_topic,1.0,on_topic,0.18696296215057373,0.18696296215057373,False,False,0
+topic_stress_11,stress,6,B,I am choosing which selfie to use for my birthday invitation.,off_topic,1.0,off_topic,0.09109160304069519,0.09109160304069519,False,False,1
+topic_stress_11,stress,7,A,"Returning to station surveillance, the retention period needs a clear limit.",on_topic,,on_topic,0.2740497291088104,0.2740497291088104,False,False,0
+topic_stress_11,stress,8,B,Who would check that the stored images are actually deleted?,on_topic,,off_topic,0.08684660494327545,0.08684660494327545,False,False,1
+topic_stress_11,stress,9,A,An independent auditor could inspect deletion logs.,on_topic,,off_topic,0.029294490814208984,0.029294490814208984,False,True,2
+topic_stress_11,stress,10,B,Okay.,unclear,,unclear,,,False,False,2
+topic_stress_11,stress,11,A,I still oppose scanning every traveller by default.,on_topic,,on_topic,0.27019959688186646,0.27019959688186646,False,False,0
+topic_stress_11,stress,12,B,Then our disagreement is whether narrow emergency use justifies deployment.,on_topic,,on_topic,0.21845488250255585,0.21845488250255585,False,False,0
+topic_stress_12,stress,1,A,Public refill points could reduce the need to buy bottled water.,on_topic,,on_topic,0.6008716821670532,0.6008716821670532,False,False,0
+topic_stress_12,stress,2,B,The city would need to keep the taps clean and working.,on_topic,,on_topic,0.5921501517295837,0.5921501517295837,False,False,0
+topic_stress_12,stress,3,A,Maintenance costs should be included in the proposal.,on_topic,,on_topic,0.17690253257751465,0.17690253257751465,False,False,0
+topic_stress_12,stress,4,B,I have been collecting rare bottled water labels for years.,off_topic,1.0,on_topic,0.291606068611145,0.291606068611145,False,False,0
+topic_stress_12,stress,5,A,The blue label in my collection is signed by a film actor.,off_topic,1.0,off_topic,0.031410567462444305,0.031410567462444305,False,False,1
+topic_stress_12,stress,6,B,I am trying to sell that label to another collector next weekend.,off_topic,1.0,off_topic,0.0023312345147132874,0.0023312345147132874,False,True,2
+topic_stress_12,stress,7,A,The proposal also needs access for people using wheelchairs.,on_topic,,on_topic,0.3185538649559021,0.3185538649559021,False,False,0
+topic_stress_12,stress,8,B,The taps should be installed at different heights.,on_topic,,on_topic,0.20249177515506744,0.20249177515506744,False,False,0
+topic_stress_12,stress,9,A,That sounds reasonable.,unclear,,unclear,,,False,False,0
+topic_stress_12,stress,10,B,We could prioritize squares with heavy pedestrian traffic.,on_topic,,on_topic,0.28383123874664307,0.28383123874664307,False,False,0
+topic_stress_12,stress,11,A,I would also include places where people wait for buses.,on_topic,,on_topic,0.3727405071258545,0.3727405071258545,False,False,0
+topic_stress_12,stress,12,B,The trial should record broken taps and the time taken to repair them.,on_topic,,on_topic,0.15599757432937622,0.15599757432937622,False,False,0
+topic_stress_13,stress,1,A,Fewer commercial breaks would give programmes more uninterrupted time.,on_topic,,on_topic,0.5609606504440308,0.5609606504440308,False,False,0
+topic_stress_13,stress,2,B,Advertising currently pays part of the cost of making those programmes.,on_topic,,on_topic,0.4663815498352051,0.4663815498352051,False,False,0
+topic_stress_13,stress,3,A,We would need an alternative source of funding.,on_topic,,on_topic,0.35090458393096924,0.35090458393096924,False,False,0
+topic_stress_13,stress,4,B,I am planning a mountain climbing trip with my cousins.,off_topic,1.0,off_topic,-0.07465961575508118,-0.07465961575508118,False,False,1
+topic_stress_13,stress,5,A,Okay.,unclear,,unclear,,,False,False,1
+topic_stress_13,stress,6,B,The summit route has a narrow ridge with a spectacular view.,off_topic,1.0,off_topic,-0.02248748391866684,-0.02248748391866684,False,True,2
+topic_stress_13,stress,7,A,We are choosing which campsite has the best sunset.,off_topic,1.0,off_topic,0.04201100021600723,0.04201100021600723,False,False,3
+topic_stress_13,stress,8,B,"Back to broadcasting, a public grant could replace some advertising revenue.",on_topic,,on_topic,0.615392804145813,0.615392804145813,False,False,0
+topic_stress_13,stress,9,A,That could make the broadcaster more dependent on the government.,on_topic,,on_topic,0.6576787829399109,0.6576787829399109,False,False,0
+topic_stress_13,stress,10,B,An independent funding board might reduce that risk.,on_topic,,on_topic,0.2431594729423523,0.2431594729423523,False,False,0
+topic_stress_13,stress,11,A,The appointment process for that board would need scrutiny.,on_topic,,off_topic,0.11014997959136963,0.11014997959136963,False,False,1
+topic_stress_13,stress,12,B,"Agreed, independence should be part of the funding design.",on_topic,,on_topic,0.1750144511461258,0.1750144511461258,False,False,0
+topic_stress_14,stress,1,A,Publishing the evaluation criteria would help residents understand contract awards.,on_topic,,on_topic,0.4283008575439453,0.4283008575439453,False,False,0
+topic_stress_14,stress,2,B,Some commercial information needs to remain confidential.,on_topic,,on_topic,0.2571967840194702,0.2571967840194702,False,False,0
+topic_stress_14,stress,3,A,We can publish a summary while removing specific trade secrets.,on_topic,,on_topic,0.2362416386604309,0.2362416386604309,False,False,0
+topic_stress_14,stress,4,B,I learned a new recipe for chocolate cake last night.,off_topic,1.0,off_topic,-0.017422471195459366,-0.017422471195459366,False,False,1
+topic_stress_14,stress,5,A,Go on.,unclear,,unclear,,,False,False,1
+topic_stress_14,stress,6,B,It uses melted chocolate rather than cocoa powder.,off_topic,1.0,off_topic,0.07204268127679825,0.07204268127679825,False,True,2
+topic_stress_14,stress,7,A,The cake tastes best with a thick raspberry filling.,off_topic,1.0,off_topic,-0.023864369839429855,-0.023864369839429855,False,False,3
+topic_stress_14,stress,8,B,The contract summary could explain why the winning bid scored highest.,on_topic,,on_topic,0.1911543756723404,0.1911543756723404,False,False,0
+topic_stress_14,stress,9,A,Unsuccessful bidders should also receive enough detail to challenge an error.,on_topic,,on_topic,0.23520931601524353,0.23520931601524353,False,False,0
+topic_stress_14,stress,10,B,I agree.,unclear,,unclear,,,False,False,0
+topic_stress_14,stress,11,A,We should specify a publication deadline after the award.,on_topic,,on_topic,0.3077540695667267,0.3077540695667267,False,False,0
+topic_stress_14,stress,12,B,Thirty days might allow time to remove protected commercial details.,on_topic,,off_topic,0.1057623028755188,0.1057623028755188,False,False,1
+topic_stress_15,stress,1,A,A higher charge could reflect the environmental cost of short journeys.,on_topic,,on_topic,0.5330294370651245,0.5330294370651245,False,False,0
+topic_stress_15,stress,2,B,Some regions have no practical railway alternative.,on_topic,,off_topic,0.10227823257446289,0.10227823257446289,False,False,1
+topic_stress_15,stress,3,A,We adopted a puppy from a neighbour last week.,off_topic,1.0,off_topic,-0.030252844095230103,-0.030252844095230103,False,True,2
+topic_stress_15,stress,4,B,It keeps hiding its toys behind the sofa.,off_topic,1.0,off_topic,-0.01580958068370819,-0.01580958068370819,False,False,3
+topic_stress_15,stress,5,A,An exemption could apply to routes without a reasonable surface connection.,on_topic,,on_topic,0.39578843116760254,0.39578843116760254,False,False,0
+topic_stress_15,stress,6,B,How long would a rail journey have to be before an exemption applies?,on_topic,,on_topic,0.27475568652153015,0.27475568652153015,False,False,0
+topic_stress_15,stress,7,A,We could publish a maximum journey time and review it annually.,on_topic,,on_topic,0.2343038022518158,0.2343038022518158,False,False,0
+topic_stress_15,stress,8,B,I also started learning to play jazz on the saxophone.,off_topic,2.0,off_topic,-0.06373702734708786,-0.06373702734708786,False,False,1
+topic_stress_15,stress,9,A,My teacher gave me a new exercise for the lower notes.,off_topic,2.0,off_topic,-0.0038193222135305405,-0.0038193222135305405,False,True,2
+topic_stress_15,stress,10,B,"Returning to flights, the revenue could improve rail links.",on_topic,,on_topic,0.5197439193725586,0.5197439193725586,False,False,0
+topic_stress_15,stress,11,A,That would be fairer if improvements reach the regions paying the tax.,on_topic,,on_topic,0.5285096168518066,0.5285096168518066,False,False,0
+topic_stress_15,stress,12,B,The budget should show how the money is distributed.,on_topic,,on_topic,0.19497352838516235,0.19497352838516235,False,False,0
+topic_stress_16,stress,1,A,Verification might make it harder for a fraudulent seller to open another shop.,on_topic,,on_topic,0.6366934180259705,0.6366934180259705,False,False,0
+topic_stress_16,stress,2,B,It could also expose sensitive identity documents if the platform is breached.,on_topic,,on_topic,0.3187146782875061,0.3187146782875061,False,False,0
+topic_stress_16,stress,3,A,I am trying to solve a difficult chess puzzle today.,off_topic,1.0,off_topic,0.03724975138902664,0.03724975138902664,False,False,1
+topic_stress_16,stress,4,B,The winning move seems to involve sacrificing the queen.,off_topic,1.0,off_topic,0.03981468826532364,0.03981468826532364,False,True,2
+topic_stress_16,stress,5,A,The platform could verify the document without showing it to buyers.,on_topic,,on_topic,0.41063204407691956,0.41063204407691956,False,False,0
+topic_stress_16,stress,6,B,How long would it keep the original document?,on_topic,,on_topic,0.2742260694503784,0.040348418056964874,True,False,0
+topic_stress_16,stress,7,A,I would require deletion after the identity check is complete.,on_topic,,on_topic,0.24109777808189392,0.24109777808189392,False,False,0
+topic_stress_16,stress,8,B,My indoor plant has grown a second flower this morning.,off_topic,2.0,off_topic,-0.0035831034183502197,-0.0035831034183502197,False,False,1
+topic_stress_16,stress,9,A,The new petals are purple rather than the usual white.,off_topic,2.0,off_topic,-0.0019200770184397697,-0.0019200770184397697,False,True,2
+topic_stress_16,stress,10,B,Sellers should have a way to challenge a failed verification.,on_topic,,on_topic,0.6180191040039062,0.6180191040039062,False,False,0
+topic_stress_16,stress,11,A,The appeal should involve a person when an automated check rejects a valid document.,on_topic,,on_topic,0.24058620631694794,0.24058620631694794,False,False,0
+topic_stress_16,stress,12,B,We should include a published deadline for that review.,on_topic,,off_topic,0.12831485271453857,0.12831485271453857,False,False,1
+topic_stress_17,stress,1,A,Conversion could preserve buildings while increasing the supply of homes.,on_topic,,on_topic,0.6749037504196167,0.6749037504196167,False,False,0
+topic_stress_17,stress,2,B,I saw a shooting star last night.,off_topic,1.0,off_topic,-0.02127891778945923,-0.02127891778945923,False,False,1
+topic_stress_17,stress,3,A,Some buildings need expensive work before they are safe to live in.,on_topic,,on_topic,0.5525033473968506,0.5525033473968506,False,False,0
+topic_stress_17,stress,4,B,The budget should compare conversion with a new building on the same site.,on_topic,,on_topic,0.5318045616149902,0.5318045616149902,False,False,0
+topic_stress_17,stress,5,A,Protected architectural features could limit the number of rooms.,on_topic,,on_topic,0.3058956265449524,0.3058956265449524,False,False,0
+topic_stress_17,stress,6,B,I have been ranking the best fantasy novels I read this year.,off_topic,2.0,off_topic,0.05782753974199295,0.05782753974199295,False,False,1
+topic_stress_17,stress,7,A,The second volume has a better ending than the first.,off_topic,2.0,off_topic,-0.028106259182095528,-0.028106259182095528,False,True,2
+topic_stress_17,stress,8,B,I think the author should write a story about the wizard's childhood.,off_topic,2.0,off_topic,0.14253176748752594,0.14253176748752594,False,False,3
+topic_stress_17,stress,9,A,Housing conversions should still meet accessibility requirements.,on_topic,,on_topic,0.5645612478256226,0.5645612478256226,False,False,0
+topic_stress_17,stress,10,B,That could be hard where a listed staircase cannot be altered.,on_topic,,on_topic,0.1854381412267685,0.1854381412267685,False,False,0
+topic_stress_17,stress,11,A,The planning rules should explain how those conflicts are resolved.,on_topic,,off_topic,0.08144910633563995,0.08144910633563995,False,False,1
+topic_stress_17,stress,12,B,I would support a pilot with clear cost and accessibility criteria.,on_topic,,on_topic,0.1714727133512497,0.1714727133512497,False,False,0
+topic_stress_18,stress,1,A,A label could help customers compare choices on the same menu.,on_topic,,on_topic,0.3432982861995697,0.3432982861995697,False,False,0
+topic_stress_18,stress,2,B,Suppliers may not have reliable emissions figures for every ingredient.,on_topic,,on_topic,0.3317478895187378,0.3317478895187378,False,False,0
+topic_stress_18,stress,3,A,I lost my umbrella on the train yesterday.,off_topic,1.0,off_topic,0.009929005056619644,0.009929005056619644,False,False,1
+topic_stress_18,stress,4,B,The first version could show an estimated range rather than a precise number.,on_topic,,on_topic,0.19087889790534973,0.19087889790534973,False,False,0
+topic_stress_18,stress,5,A,We would need a shared calculation method to make the estimates comparable.,on_topic,,on_topic,0.24031206965446472,0.24031206965446472,False,False,0
+topic_stress_18,stress,6,B,I am learning a magic trick with a pack of cards.,off_topic,2.0,off_topic,-0.05351428687572479,-0.05351428687572479,False,False,1
+topic_stress_18,stress,7,A,The hardest part is hiding the selected card in the middle.,off_topic,2.0,off_topic,0.049040503799915314,0.049040503799915314,False,True,2
+topic_stress_18,stress,8,B,My cousin guessed how I did it after the second attempt.,off_topic,2.0,off_topic,-0.05031147226691246,-0.05031147226691246,False,False,3
+topic_stress_18,stress,9,A,We should return to how a restaurant would update its figures.,on_topic,,on_topic,0.5843214988708496,0.5843214988708496,False,False,0
+topic_stress_18,stress,10,B,Seasonal recipes might require a new estimate every few weeks.,on_topic,,on_topic,0.3061157763004303,0.3061157763004303,False,False,0
+topic_stress_18,stress,11,A,A standard database could make that process cheaper.,on_topic,,on_topic,0.15476486086845398,0.15476486086845398,False,False,0
+topic_stress_18,stress,12,B,Independent checks would still be needed to discourage misleading labels.,on_topic,,on_topic,0.20438067615032196,0.20438067615032196,False,False,0
+topic_stress_19,stress,1,A,Lower speeds can reduce the severity of collisions on residential roads.,on_topic,,on_topic,0.5980985164642334,0.5980985164642334,False,False,0
+topic_stress_19,stress,2,B,Enforcement matters more than putting up another sign.,on_topic,,on_topic,0.30122172832489014,0.30122172832489014,False,False,0
+topic_stress_19,stress,3,A,Street design can also encourage drivers to slow down.,on_topic,,on_topic,0.49791309237480164,0.49791309237480164,False,False,0
+topic_stress_19,stress,4,B,My road has a narrow bend where cars often travel too quickly.,on_topic,,on_topic,0.38385921716690063,0.38385921716690063,False,False,0
+topic_stress_19,stress,5,A,The house beside that bend has a beautiful kitchen extension.,off_topic,1.0,on_topic,0.17706654965877533,0.17706654965877533,False,False,0
+topic_stress_19,stress,6,B,I want similar kitchen cupboards with brass handles for my own home.,off_topic,1.0,off_topic,-0.002416355535387993,-0.002416355535387993,False,False,1
+topic_stress_19,stress,7,A,The dark green cupboard doors would match my new dining chairs.,off_topic,1.0,off_topic,0.01797587051987648,0.01797587051987648,False,True,2
+topic_stress_19,stress,8,B,"Returning to speed limits, physical traffic calming would need local consultation.",on_topic,,on_topic,0.5563621520996094,0.5563621520996094,False,False,0
+topic_stress_19,stress,9,A,Residents might object if it diverts vehicles to a neighbouring street.,on_topic,,on_topic,0.3743245005607605,0.3743245005607605,False,False,0
+topic_stress_19,stress,10,B,The trial should measure traffic volumes on surrounding roads too.,on_topic,,on_topic,0.38675346970558167,0.38675346970558167,False,False,0
+topic_stress_19,stress,11,A,Understood.,unclear,,unclear,,,False,False,0
+topic_stress_19,stress,12,B,That would show whether the scheme moves the problem elsewhere.,on_topic,,off_topic,0.128198504447937,0.128198504447937,False,False,1
+topic_stress_20,stress,1,A,Paid leave could help staff volunteer who cannot afford unpaid time.,on_topic,,on_topic,0.7886475324630737,0.7886475324630737,False,False,0
+topic_stress_20,stress,2,B,Small teams may find it difficult to cover absent workers.,on_topic,,on_topic,0.2899448275566101,0.2899448275566101,False,False,0
+topic_stress_20,stress,3,A,A yearly allowance could be booked with notice.,on_topic,,on_topic,0.3272225856781006,0.3272225856781006,False,False,0
+topic_stress_20,stress,4,B,The animal shelter near my workplace could use volunteers during the week.,on_topic,,on_topic,0.5483793020248413,0.5483793020248413,False,False,0
+topic_stress_20,stress,5,A,My own cat likes sleeping in a cardboard box beside the fridge.,off_topic,1.0,off_topic,0.07050497829914093,0.07050497829914093,False,False,1
+topic_stress_20,stress,6,B,It refuses to use the expensive bed I bought last month.,off_topic,1.0,off_topic,0.07282216846942902,0.07282216846942902,False,True,2
+topic_stress_20,stress,7,A,I have been taking photographs of its funny sleeping positions.,off_topic,1.0,off_topic,0.1078917533159256,0.1078917533159256,False,False,3
+topic_stress_20,stress,8,B,"Back to the leave policy, employers could ask a charity to confirm attendance.",on_topic,,on_topic,0.6095265746116638,0.6095265746116638,False,False,0
+topic_stress_20,stress,9,A,That should not require the employee to disclose private information about beneficiaries.,on_topic,,on_topic,0.2551810145378113,0.2551810145378113,False,False,0
+topic_stress_20,stress,10,B,"Agreed, confirmation of hours would be enough.",on_topic,,on_topic,0.1779121458530426,0.1779121458530426,False,False,0
+topic_stress_20,stress,11,A,I would also allow small charities to participate without complicated forms.,on_topic,,on_topic,0.37455064058303833,0.37455064058303833,False,False,0
+topic_stress_20,stress,12,B,The process should be simple enough for both the charity and the employer.,on_topic,,on_topic,0.459472119808197,0.459472119808197,False,False,0
+topic_stress_21,stress,1,A,Evening access would help people who work during normal opening hours.,on_topic,,on_topic,0.4874202609062195,0.4874202609062195,False,False,0
+topic_stress_21,stress,2,B,Staffing and security would add to operating costs.,on_topic,,off_topic,0.029214199632406235,0.029214199632406235,False,False,1
+topic_stress_21,stress,3,A,I bought a second-hand guitar at a market yesterday.,off_topic,1.0,off_topic,0.016424452885985374,0.016424452885985374,False,True,2
+topic_stress_21,stress,4,A,One of its tuning pegs is loose and needs replacing.,off_topic,1.0,off_topic,-0.10216935724020004,-0.10216935724020004,False,False,3
+topic_stress_21,stress,5,A,I am deciding whether to use silver or black replacement pegs.,off_topic,1.0,off_topic,-0.03696497529745102,-0.03696497529745102,False,False,4
+topic_stress_21,stress,6,B,The museum could begin with one gallery rather than opening every room.,on_topic,,on_topic,0.5625443458557129,0.5625443458557129,False,False,0
+topic_stress_21,stress,7,A,Would visitors still have access to the toilets and lifts?,on_topic,,on_topic,0.2527458667755127,0.2527458667755127,False,False,0
+topic_stress_21,stress,8,B,Those facilities would have to remain open as part of the route.,on_topic,,on_topic,0.31274789571762085,0.31274789571762085,False,False,0
+topic_stress_21,stress,9,A,Yes.,unclear,,unclear,,,False,False,0
+topic_stress_21,stress,10,B,We should track attendance before expanding the evening programme.,on_topic,,on_topic,0.40648597478866577,0.40648597478866577,False,False,0
+topic_stress_21,stress,11,A,The evaluation should include whether school groups use those hours.,on_topic,,on_topic,0.28217342495918274,0.28217342495918274,False,False,0
+topic_stress_21,stress,12,B,That could show whether the extra opening reaches new visitors.,on_topic,,on_topic,0.3455347418785095,0.3455347418785095,False,False,0
+topic_stress_22,stress,1,A,um there is food left at the end of the day that people could still eat,on_topic,,on_topic,0.35951751470565796,0.35951751470565796,False,False,0
+topic_stress_22,stress,2,B,yeah but it has to be stored safely before a charity collects it,on_topic,,on_topic,0.3688492774963379,0.3688492774963379,False,False,0
+topic_stress_22,stress,3,A,we could arrange fixed collection times and label the storage conditions,on_topic,,off_topic,0.05963589996099472,0.05963589996099472,False,False,1
+topic_stress_22,stress,4,B,i i have been watching a space adventure show all weekend,off_topic,1.0,off_topic,-0.004840293433517218,-0.004840293433517218,False,True,2
+topic_stress_22,stress,5,A,the robot in the last episode had a really funny voice,off_topic,1.0,off_topic,-0.07173443585634232,-0.07173443585634232,False,False,3
+topic_stress_22,stress,6,B,i think they should bring that robot back in the next season,off_topic,1.0,off_topic,0.0465172715485096,0.0465172715485096,False,False,4
+topic_stress_22,stress,7,A,anyway the donation plan needs someone responsible for refrigeration,on_topic,,on_topic,0.42724376916885376,0.42724376916885376,False,False,0
+topic_stress_22,stress,8,B,what about weekends,on_topic,,on_topic,0.3602081537246704,0.047616876661777496,True,False,0
+topic_stress_22,stress,9,A,the charity would need a rota or a partner that can collect on those days,on_topic,,on_topic,0.4282938241958618,0.4282938241958618,False,False,0
+topic_stress_22,stress,10,B,okay,unclear,,unclear,,,False,False,0
+topic_stress_22,stress,11,A,look i mean we should not send unsafe food just to avoid recording waste,on_topic,,on_topic,0.39766281843185425,0.39766281843185425,False,False,0
+topic_stress_22,stress,12,B,agreed safety rules must apply to donated stock too,on_topic,,on_topic,0.2450011670589447,0.2450011670589447,False,False,0
+topic_stress_23,stress,1,A,A deposit might encourage customers to return the containers.,on_topic,,on_topic,0.781516969203949,0.781516969203949,False,False,0
+topic_stress_23,stress,2,B,It would be difficult for someone who orders only while travelling.,on_topic,,on_topic,0.20528240501880646,0.20528240501880646,False,False,0
+topic_stress_23,stress,3,A,You are an idiot if you cannot understand why the container deposit needs a refund system.,on_topic,,on_topic,0.5211697220802307,0.5211697220802307,False,False,0
+topic_stress_23,stress,4,B,"I disagree with your insult, but I agree that returns must be convenient.",on_topic,,on_topic,0.2046397179365158,0.2046397179365158,False,False,0
+topic_stress_23,stress,5,A,The deposit proposal should allow returns at several participating businesses.,on_topic,,on_topic,0.5246308445930481,0.5246308445930481,False,False,0
+topic_stress_23,stress,6,B,"You are a pathetic fool, and I would rather discuss my new racing video game.",off_topic,1.0,off_topic,-0.05838530510663986,-0.05838530510663986,False,False,1
+topic_stress_23,stress,7,A,The fastest car in that game is unlocked after winning the desert circuit.,off_topic,1.0,off_topic,0.004827037453651428,0.004827037453651428,False,True,2
+topic_stress_23,stress,8,B,I am trying to beat my brother's lap time on that circuit.,off_topic,1.0,off_topic,-0.12390881776809692,-0.12390881776809692,False,False,3
+topic_stress_23,stress,9,A,"Back to the deposit, customers should get a refund without needing another purchase.",on_topic,,on_topic,0.405142605304718,0.405142605304718,False,False,0
+topic_stress_23,stress,10,B,That would require businesses to settle the payments between themselves.,on_topic,,on_topic,0.31339606642723083,0.31339606642723083,False,False,0
+topic_stress_23,stress,11,A,The operator could run a shared clearing account.,on_topic,,on_topic,0.19847533106803894,0.19847533106803894,False,False,0
+topic_stress_23,stress,12,B,We should include the cost of that administration in the trial.,on_topic,,off_topic,0.11005187034606934,0.11005187034606934,False,False,1
+topic_stress_24,stress,1,A,"Graduates make decisions about safety, access and environmental impact. A common module could give every engineering student a basic way to identify those responsibilities before working on a real project.",on_topic,,on_topic,0.5660659074783325,0.5660659074783325,False,False,0
+topic_stress_24,stress,2,B,"I support teaching ethics, but an extra compulsory module could displace technical content. Existing design courses might cover the same material more effectively if the learning outcomes are clear.",on_topic,,on_topic,0.6332181096076965,0.6332181096076965,False,False,0
+topic_stress_24,stress,3,A,Case studies could be included in design courses while a short shared module introduces common concepts.,on_topic,,on_topic,0.3565940260887146,0.3565940260887146,False,False,0
+topic_stress_24,stress,4,B,Who would teach it?,on_topic,,on_topic,0.36461156606674194,0.1967335194349289,True,False,0
+topic_stress_24,stress,5,A,It could be co-taught by engineering staff and specialists in professional ethics.,on_topic,,on_topic,0.6741889715194702,0.6741889715194702,False,False,0
+topic_stress_24,stress,6,B,"I spent my holiday visiting a castle with a huge collection of medieval armour, and I bought a miniature helmet at the gift shop. Now I want to collect a complete set of matching miniature weapons for my display cabinet.",off_topic,1.0,off_topic,-0.07518672943115234,-0.07518672943115234,False,False,1
+topic_stress_24,stress,7,A,"The next item I want is a tiny silver sword, but the online seller has several versions with different handles. I have been comparing their decorative details and asking other collectors which looks best beside the helmet.",off_topic,1.0,off_topic,0.006628317758440971,0.006628317758440971,False,True,2
+topic_stress_24,stress,8,B,"Returning to the curriculum, the assessment should examine a student's reasoning about a realistic engineering decision.",on_topic,,on_topic,0.432884156703949,0.432884156703949,False,False,0
+topic_stress_24,stress,9,A,We should avoid grading students on whether they share the lecturer's political opinion.,on_topic,,on_topic,0.3798633813858032,0.3798633813858032,False,False,0
+topic_stress_24,stress,10,B,"An explicit rubric could assess whether they identify affected people, risks and competing obligations.",on_topic,,on_topic,0.23233544826507568,0.23233544826507568,False,False,0
+topic_stress_24,stress,11,A,That sounds reasonable.,unclear,,unclear,,,False,False,0
+topic_stress_24,stress,12,B,The module trial should ask students whether it helped them justify a design decision rather than just memorize terminology.,on_topic,,on_topic,0.350510835647583,0.350510835647583,False,False,0

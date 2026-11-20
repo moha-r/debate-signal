@@ -1,0 +1,151 @@
+{
+  "provenance": "Authored by the project assistant on 2026-11-18 for prototype diagnostics. No natural recordings or independent annotator review.",
+  "labels": {
+    "on_topic": "Advances or questions the stated motion, including relevant examples and context-dependent follow-ups.",
+    "off_topic": "Discusses a separate subject with no stated connection to the motion.",
+    "unclear": "Acknowledgement or insufficient standalone content to judge relevance."
+  },
+  "sessions": [
+    {
+      "id": "dev_uniforms",
+      "split": "development",
+      "topic": "Should schools require students to wear uniforms?",
+      "turns": [
+        ["A", "School uniforms could reduce pressure to buy fashionable clothes.", "on_topic"],
+        ["B", "How much would they cost?", "on_topic"],
+        ["A", "Parents might spend more if only one shop sells the required school clothing.", "on_topic"],
+        ["B", "That is a fair concern.", "unclear"],
+        ["A", "Did you watch the football match last night?", "off_topic"],
+        ["B", "The goalkeeper saved two penalties and the crowd went wild.", "off_topic"],
+        ["A", "My cousin bought tickets for the next league game.", "off_topic"],
+        ["B", "We should return to whether uniforms actually help students learn.", "on_topic"],
+        ["A", "Some children need an exemption for religious or sensory reasons.", "on_topic"],
+        ["B", "Could the school allow that?", "on_topic"],
+        ["A", "Yes, the uniform policy should include reasonable exemptions.", "on_topic"]
+      ]
+    },
+    {
+      "id": "dev_buses",
+      "split": "development",
+      "topic": "Should the city make public bus travel free?",
+      "turns": [
+        ["A", "Free bus fares could encourage commuters to leave their cars at home.", "on_topic"],
+        ["B", "Who would pay for it?", "on_topic"],
+        ["A", "The city could use parking revenue to fund public transport.", "on_topic"],
+        ["B", "I bought a new coffee grinder this weekend.", "off_topic"],
+        ["A", "But even a free bus is unattractive if it arrives late.", "on_topic"],
+        ["B", "More frequent services may matter more than abolishing fares.", "on_topic"],
+        ["A", "What about students?", "on_topic"],
+        ["B", "Students with low incomes could receive discounted transit passes instead.", "on_topic"],
+        ["A", "Please continue.", "unclear"],
+        ["B", "We should compare the cost of fare subsidies with improving bus frequency.", "on_topic"]
+      ]
+    },
+    {
+      "id": "dev_phones",
+      "split": "development",
+      "topic": "Should mobile phones be banned during classroom lessons?",
+      "turns": [
+        ["A", "Phones interrupt classroom lessons when notifications distract students.", "on_topic"],
+        ["B", "A phone can also be a useful classroom dictionary.", "on_topic"],
+        ["A", "My sister is planning a beach holiday in December.", "off_topic"],
+        ["B", "She should book the hotel before the rooms sell out.", "off_topic"],
+        ["A", "Where will she stay?", "off_topic"],
+        ["B", "We should compare classroom phone restrictions with supervised educational use.", "on_topic"],
+        ["A", "Teachers could permit devices only for a specific activity.", "on_topic"],
+        ["B", "Would that be practical?", "on_topic"],
+        ["A", "It would require clear classroom rules and consistent enforcement.", "on_topic"],
+        ["B", "Okay.", "unclear"]
+      ]
+    },
+    {
+      "id": "dev_remote",
+      "split": "development",
+      "topic": "Should office employees be allowed to work from home?",
+      "turns": [
+        ["A", "Working from home removes the daily commute for many office staff.", "on_topic"],
+        ["B", "Some employees lack a quiet workspace or reliable internet at home.", "on_topic"],
+        ["A", "Could employers help with that?", "on_topic"],
+        ["B", "Companies might provide equipment and allow optional office days.", "on_topic"],
+        ["A", "A colleague in another firm says scheduled video calls help remote collaboration.", "on_topic"],
+        ["B", "How often should they happen?", "on_topic"],
+        ["A", "Too many meetings can reduce productive work regardless of location.", "on_topic"],
+        ["B", "I agree.", "unclear"],
+        ["A", "A hybrid schedule could balance flexibility and coordination.", "on_topic"],
+        ["B", "We should assess results rather than hours spent sitting in the office.", "on_topic"]
+      ]
+    },
+    {
+      "id": "test_tuition",
+      "split": "test",
+      "topic": "Should public universities stop charging tuition fees?",
+      "turns": [
+        ["A", "Removing university tuition could let more low-income students earn a degree.", "on_topic"],
+        ["B", "How would we fund it?", "on_topic"],
+        ["A", "Taxpayers would have to replace the income universities receive from tuition.", "on_topic"],
+        ["B", "My new headphones have much better noise cancellation.", "off_topic"],
+        ["A", "Which brand did you buy?", "off_topic"],
+        ["B", "They were expensive, but the sound quality is excellent.", "off_topic"],
+        ["A", "Let's return to whether free university education is fair to taxpayers.", "on_topic"],
+        ["B", "Graduates often earn more, so targeted grants may be fairer than universal free tuition.", "on_topic"],
+        ["A", "What about living expenses?", "on_topic"],
+        ["B", "Students still need support for rent and food even when tuition is covered.", "on_topic"],
+        ["A", "Understood.", "unclear"]
+      ]
+    },
+    {
+      "id": "test_nuclear",
+      "split": "test",
+      "topic": "Should the country build more nuclear power stations?",
+      "turns": [
+        ["A", "Nuclear power can supply electricity when wind and solar generation fall.", "on_topic"],
+        ["B", "New reactors take years to construct and can exceed their budgets.", "on_topic"],
+        ["A", "How long are we talking?", "on_topic"],
+        ["B", "Construction delays can postpone the expected electricity supply for several years.", "on_topic"],
+        ["A", "I tried making sourdough bread yesterday.", "off_topic"],
+        ["B", "We also have to account for radioactive waste storage when comparing power sources.", "on_topic"],
+        ["A", "Can it be stored safely?", "on_topic"],
+        ["B", "A nuclear expansion plan needs long-term waste management and independent inspection.", "on_topic"],
+        ["A", "Go on.", "unclear"],
+        ["B", "The decision should compare nuclear reliability, cost and safety with other low-carbon electricity.", "on_topic"]
+      ]
+    },
+    {
+      "id": "test_bikes",
+      "split": "test",
+      "topic": "Should the city replace some car lanes with protected bicycle lanes?",
+      "turns": [
+        ["A", "Protected bicycle lanes could make cycling safer for people travelling across the city.", "on_topic"],
+        ["B", "Removing a car lane may increase congestion before drivers change their habits.", "on_topic"],
+        ["A", "We could measure traffic around a temporary cycle lane before building a permanent one.", "on_topic"],
+        ["B", "My cat refuses to eat the new food I bought.", "off_topic"],
+        ["A", "Have you tried mixing it with the old food?", "off_topic"],
+        ["B", "No, I will try that tonight and ask the vet tomorrow.", "off_topic"],
+        ["A", "For the bicycle lane proposal, delivery drivers still need places to unload.", "on_topic"],
+        ["B", "Where could they stop?", "on_topic"],
+        ["A", "Loading bays could be placed beside the protected cycle route.", "on_topic"],
+        ["B", "Yes.", "unclear"],
+        ["A", "Did the bakery finally reopen on your street?", "off_topic"],
+        ["B", "It did, and the pastries sold out before noon.", "off_topic"],
+        ["A", "We should finish by deciding which streets are suitable for the bicycle lanes.", "on_topic"]
+      ]
+    },
+    {
+      "id": "test_homework",
+      "split": "test",
+      "topic": "Should primary schools limit the amount of homework?",
+      "turns": [
+        ["A", "Shorter homework assignments would leave children time to sleep and play.", "on_topic"],
+        ["B", "Children still need some practice reading and doing arithmetic outside class.", "on_topic"],
+        ["A", "How much would be enough?", "on_topic"],
+        ["B", "Teachers could set a short daily reading task instead of several worksheets.", "on_topic"],
+        ["A", "That sounds reasonable.", "unclear"],
+        ["B", "Some parents cannot help with schoolwork after a long work shift.", "on_topic"],
+        ["A", "A school library session could offer support before children go home.", "on_topic"],
+        ["B", "Would everyone have access?", "on_topic"],
+        ["A", "The school would need transport arrangements if the homework club runs late.", "on_topic"],
+        ["B", "A limit should vary with the child's age and learning needs.", "on_topic"]
+      ]
+    }
+  ]
+}

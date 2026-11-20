@@ -1,0 +1,176 @@
+[
+  {
+    "transform": "chat_prefix",
+    "changed_decisions": 8,
+    "change_rate": 0.047619047619047616,
+    "identical_preprocessed": 0,
+    "n": 168,
+    "positive_references": 84,
+    "accuracy": 0.7678571428571429,
+    "attack_precision": 0.8169014084507042,
+    "attack_recall": 0.6904761904761905,
+    "attack_f1": 0.7483870967741936,
+    "macro_f1": 0.7664587417572626,
+    "tn": 71,
+    "fp": 13,
+    "fn": 26,
+    "tp": 58,
+    "accuracy_wilson95": [
+      0.6984608386719704,
+      0.8252777318548861
+    ],
+    "precision_wilson95": [
+      0.7115182772560876,
+      0.889752738957151
+    ],
+    "recall_wilson95": [
+      0.5851119111696723,
+      0.779180763719981
+    ]
+  },
+  {
+    "transform": "disfluency_prefix",
+    "changed_decisions": 9,
+    "change_rate": 0.05357142857142857,
+    "identical_preprocessed": 0,
+    "n": 168,
+    "positive_references": 84,
+    "accuracy": 0.7619047619047619,
+    "attack_precision": 0.8142857142857143,
+    "attack_recall": 0.6785714285714286,
+    "attack_f1": 0.7402597402597403,
+    "macro_f1": 0.7602397602397603,
+    "tn": 71,
+    "fp": 13,
+    "fn": 27,
+    "tp": 57,
+    "accuracy_wilson95": [
+      0.6921003998024535,
+      0.8199995358238061
+    ],
+    "precision_wilson95": [
+      0.7077442179325669,
+      0.8881269999809797
+    ],
+    "recall_wilson95": [
+      0.5727856143388975,
+      0.7687387683701526
+    ]
+  },
+  {
+    "transform": "extra_whitespace",
+    "changed_decisions": 0,
+    "change_rate": 0.0,
+    "identical_preprocessed": 168,
+    "n": 168,
+    "positive_references": 84,
+    "accuracy": 0.8035714285714286,
+    "attack_precision": 0.8227848101265823,
+    "attack_recall": 0.7738095238095238,
+    "attack_f1": 0.7975460122699386,
+    "macro_f1": 0.8033972835916168,
+    "tn": 70,
+    "fp": 14,
+    "fn": 19,
+    "tp": 65,
+    "accuracy_wilson95": [
+      0.7369971311777509,
+      0.8565732487526864
+    ],
+    "precision_wilson95": [
+      0.7242380412359362,
+      0.8913957335191265
+    ],
+    "recall_wilson95": [
+      0.6735309285283279,
+      0.850139791625549
+    ]
+  },
+  {
+    "transform": "html_wrap",
+    "changed_decisions": 0,
+    "change_rate": 0.0,
+    "identical_preprocessed": 168,
+    "n": 168,
+    "positive_references": 84,
+    "accuracy": 0.8035714285714286,
+    "attack_precision": 0.8227848101265823,
+    "attack_recall": 0.7738095238095238,
+    "attack_f1": 0.7975460122699386,
+    "macro_f1": 0.8033972835916168,
+    "tn": 70,
+    "fp": 14,
+    "fn": 19,
+    "tp": 65,
+    "accuracy_wilson95": [
+      0.7369971311777509,
+      0.8565732487526864
+    ],
+    "precision_wilson95": [
+      0.7242380412359362,
+      0.8913957335191265
+    ],
+    "recall_wilson95": [
+      0.6735309285283279,
+      0.850139791625549
+    ]
+  },
+  {
+    "transform": "punctuation_removed",
+    "changed_decisions": 1,
+    "change_rate": 0.005952380952380952,
+    "identical_preprocessed": 155,
+    "n": 168,
+    "positive_references": 84,
+    "accuracy": 0.8095238095238095,
+    "attack_precision": 0.825,
+    "attack_recall": 0.7857142857142857,
+    "attack_f1": 0.8048780487804879,
+    "macro_f1": 0.8094157685762904,
+    "tn": 70,
+    "fp": 14,
+    "fn": 18,
+    "tp": 66,
+    "accuracy_wilson95": [
+      0.7434872080749009,
+      0.8617218067561332
+    ],
+    "precision_wilson95": [
+      0.7274245802116865,
+      0.8927936355902206
+    ],
+    "recall_wilson95": [
+      0.6865066777843957,
+      0.8599323345500843
+    ]
+  },
+  {
+    "transform": "uppercase",
+    "changed_decisions": 0,
+    "change_rate": 0.0,
+    "identical_preprocessed": 168,
+    "n": 168,
+    "positive_references": 84,
+    "accuracy": 0.8035714285714286,
+    "attack_precision": 0.8227848101265823,
+    "attack_recall": 0.7738095238095238,
+    "attack_f1": 0.7975460122699386,
+    "macro_f1": 0.8033972835916168,
+    "tn": 70,
+    "fp": 14,
+    "fn": 19,
+    "tp": 65,
+    "accuracy_wilson95": [
+      0.7369971311777509,
+      0.8565732487526864
+    ],
+    "precision_wilson95": [
+      0.7242380412359362,
+      0.8913957335191265
+    ],
+    "recall_wilson95": [
+      0.6735309285283279,
+      0.850139791625549
+    ]
+  }
+]

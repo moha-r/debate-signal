@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "scope": "Real local models, temporary SQLite, authenticated HTTP; no microphone/browser or paid API calls.",
+  "turns": 4,
+  "http_turn_ms": [
+    14.52,
+    14.3,
+    38.63,
+    137.94
+  ],
+  "detectors": {
+    "attack": "LinearSVC_alert",
+    "topic": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "context_policy": "short-direct-anchor-v1",
+    "attack_threshold": 0.35,
+    "attack_sha256": "43c59be21aef9b334e47d9d7156fde334a21e8bdc4b86d808b2c6611ac2f0cd1",
+    "topic_threshold": 0.15000000000000002,
+    "arguments": "argument-models-v2",
+    "argument_sha256": "9a9cf318c27074076a942d7b6f4bf774b2b9202722630d96614a1ca8659a48e5",
+    "argument_relations": {
+      "backend": "dialogue-roberta",
+      "model": "raruidol/ArgumentMining-EN-ARI-AIF-RoBERTa_L",
+      "revision": "7e7747dcc124d85e704edb11355fae452edada9c",
+      "device": "cpu",
+      "max_candidates": 6,
+      "max_tokens": 256,
+      "threshold": 0.5,
+      "margin": 0.015,
+      "license": "CC BY-NC-SA 4.0"
+    }
+  },
+  "roles_before_correction": [
+    "claim",
+    "question",
+    "claim",
+    "rebuttal"
+  ],
+  "checks": [
+    "real inference",
+    "account ownership",
+    "revision conflict",
+    "future-target rejection",
+    "original preserved",
+    "question moderator-confirmed",
+    "SQLite reload",
+    "JSON serialization",
+    "source integrity"
+  ]
+}

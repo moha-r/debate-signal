@@ -1,0 +1,18 @@
+{
+  "scope": "Warm CPU pair inference including tokenization. 2 Torch threads, 256-token cap; excludes ASR and HTTP. RSS platform units from getrusage.",
+  "batches": {
+    "1": {
+      "median_ms": 129.51941654318944,
+      "p95_ms": 291.4818975667001
+    },
+    "4": {
+      "median_ms": 253.77458351431414,
+      "p95_ms": 349.0810749994125
+    },
+    "6": {
+      "median_ms": 399.53231246909127,
+      "p95_ms": 1614.7482436732375
+    }
+  },
+  "peak_rss": 1516830720
+}

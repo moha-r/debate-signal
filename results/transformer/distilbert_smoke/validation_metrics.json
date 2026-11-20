@@ -1,0 +1,18 @@
+{
+  "n": 64,
+  "threshold": 0.48,
+  "accuracy": 0.78125,
+  "attack_precision": 0.23076923076923078,
+  "attack_recall": 0.42857142857142855,
+  "tn": 47,
+  "fp": 10,
+  "fn": 4,
+  "tp": 3,
+  "brier": 0.2236930355448092,
+  "macro_precision": 0.5761689291101055,
+  "macro_recall": 0.6265664160401002,
+  "macro_f1": 0.5851851851851851,
+  "weighted_precision": 0.8460124434389139,
+  "weighted_recall": 0.78125,
+  "weighted_f1": 0.8079861111111111
+}

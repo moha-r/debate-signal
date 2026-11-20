@@ -1,0 +1,340 @@
+@import "tailwindcss";
+
+/* Account entry keeps the landing's pearl, lavender and conversation motifs. */
+.account-page { min-height: 100svh; display: grid; grid-template-columns: 1fr 1fr; font-family: 'DM Sans', sans-serif; }
+.account-story { background: radial-gradient(ellipse at 10% 20%,#fff 0%,#f4f0fb 58%,#e9e2f6 100%); padding: 42px clamp(30px,5vw,80px); display: flex; flex-direction: column; border-right: 1px solid #e5dfef; position: relative; }
+.account-brand { display: inline-flex; align-items: center; gap: 11px; color: #272036; font-size: 16px; font-weight: 600; text-decoration: none; }
+.account-brand .pearl-mini { display: inline-block; width: 28px; height: 28px; border-radius: 50%; box-shadow: 0 4px 12px #745c9c20; }
+.account-story-copy { margin: auto 0; padding: 65px 0; max-width: 490px; }
+.account-story-copy h2 { color: #272036; font-size: clamp(30px,3.4vw,48px); line-height: 1.18; font-weight: 450; letter-spacing: -.045em; margin: 22px 0 18px; }
+.account-story-copy > p { color: #776b89; font-size: 15px; line-height: 1.85; max-width: 390px; }
+.account-preview { margin-top: 38px; border: 1px solid #e4dbee; border-radius: 16px; background: #ffffffb8; box-shadow: 0 10px 30px #6b4f8807; padding: 22px; }
+.account-preview-label { font: 9px 'IBM Plex Mono',monospace; letter-spacing: .08em; color: #a08fac; }
+.account-sample { display: flex; gap: 12px; margin-top: 20px; padding: 0 0 18px; border-bottom: 1px solid #eee8f3; }
+.account-sample > span { display: grid; place-items: center; width: 29px; height: 29px; border: 1px solid #e4d8f3; background: #eee5f9; color: #8a6da4; font-size: 11px; border-radius: 9px; flex: none; }
+.account-sample small { color: #8f7ca0; font-size: 10px; }
+.account-sample p { color: #61526f; font-size: 13px; line-height: 1.7; margin: 5px 0 0; }
+.account-sample.reply { padding-left: 22px; }
+.account-sample.reply > span { background: #f8eaf1; border-color: #f0dce7; color: #bc7b9a; }
+.account-preview-link { display: flex; gap: 7px; align-items: center; color: #9b88aa; font-size: 10px; margin-top: 17px; }
+.account-story-features { display: flex; gap: 22px; margin-top: 25px; flex-wrap: wrap; }
+.account-story-features span { display: flex; gap: 7px; align-items: center; color: #92809f; font-size: 11px; }
+.account-story-footer { font-size: 10px; color: #a496af; margin: 0; }
+.account-entry { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 42px clamp(24px,5vw,80px); background: #fdfcfe; }
+.account-back { align-self: flex-start; display: inline-flex; gap: 7px; align-items: center; color: #91819f; text-decoration: none; font-size: 12px; }
+.account-form { width: 100%; max-width: 410px; margin: auto 0; padding: 48px 0; }
+.account-form h1 { margin: 21px 0 12px; color: #2d233b; font-size: 32px; font-weight: 450; line-height: 1.22; letter-spacing: -.045em; }
+.account-intro { color: #83738e; font-size: 13px; line-height: 1.85; margin-bottom: 28px; }
+.account-first { border: 1px solid #e5daef; background: #f7f2fc; padding: 12px 14px; border-radius: 8px; color: #826b96; font-size: 11px; line-height: 1.8; margin-bottom: 24px; }
+.account-first button { display: inline-flex; align-items: center; gap: 4px; padding: 0; margin-top: 5px; background: none; border: 0; color: #74568f; font-weight: 600; }
+.account-form form > label { display: block; margin-top: 19px; color: #6f5f7e; font-size: 12px; font-weight: 500; }
+.account-input { display: flex; align-items: center; gap: 10px; height: 48px; background: #fff; border: 1px solid #e2d9ec; border-radius: 8px; padding: 0 13px; margin-top: 8px; transition: border-color .16s,box-shadow .16s; }
+.account-input:focus-within { border-color: #a48ac6; box-shadow: 0 0 0 3px #c7aceb1a; }
+.account-input > svg { flex: none; color: #aa99b7; }
+.account-input input { width: 100%; min-width: 0; background: transparent; border: 0; outline: none; font-size: 13px; color: #42324f; height: 100%; }
+.account-input input:focus-visible { outline: none; }
+.account-input input::placeholder { color: #b0a3bb; }
+.account-input button { display: grid; place-items: center; background: none; border: 0; color: #9b87ab; width: 30px; min-height: 36px; }
+.account-form label > small { display: block; font-weight: 400; color: #a28eaf; font-size: 10px; margin-top: 7px; }
+.account-form form > .account-remember { display: flex; align-items: center; gap: 8px; font-size: 11px; color: #8d799d; font-weight: 400; margin: 21px 0; }
+.account-remember input { accent-color: #8f6ac5; width: 14px; height: 14px; }
+.account-submit { display: flex; align-items: center; justify-content: center; gap: 9px; width: 100%; border-radius: 8px; min-height: 47px; font-size: 13px; font-weight: 500; }
+.account-submit:disabled { opacity: .6; cursor: wait; }
+.account-error { border: 1px solid #eed6e1; background: #fff5fa; color: #a3637e; padding: 11px 13px; font-size: 12px; border-radius: 7px; line-height: 1.7; }
+.account-switch { font-size: 12px; text-align: center; color: #9983a9; margin-top: 24px; }
+.account-switch button { color: #7b5b99; border: 0; background: transparent; padding: 0 3px; font-weight: 600; }
+.account-footnote { border-top: 1px solid #eee6f4; margin-top: 29px; padding-top: 17px; color: #ac9ab8; font-size: 10px; display: flex; justify-content: center; align-items: center; gap: 5px; line-height: 1.7; }
+.account-entry-footer { color: #b3a3bf; font-size: 10px; }
+.account-dialog { position: fixed; inset: 0; margin: auto; width: min(470px,calc(100% - 32px)); max-height: calc(100svh - 40px); overflow-y: auto; padding: 32px; border: 1px solid #e4d9ef; border-radius: 17px; background: #fdfbff; box-shadow: 0 25px 100px #3f2b631f; }
+.account-dialog::backdrop { background: #28203250; backdrop-filter: blur(5px); }
+.account-dialog .account-form { padding: 18px 0 10px; }
+.account-dialog .account-form h1 { font-size: 29px; }
+.account-close { display: grid; place-items: center; margin-left: auto; border: 1px solid #e6ddee; width: 32px; height: 32px; border-radius: 7px; color: #8b739c; background: #fff; }
+.account-full-page { display: block; margin-top: 10px; text-align: center; font-size: 10px; color: #a28caf; }
+.account-spin { animation: account-spin .8s linear infinite; }
+@keyframes account-spin { to { transform: rotate(360deg); } }
+@media(max-width:800px) { .account-page { grid-template-columns: 1fr; } .account-story { padding: 25px; border-right: 0; border-bottom: 1px solid #e5dfef; } .account-story-copy { padding: 35px 0 5px; } .account-story-copy h2 { font-size: 31px; margin-top: 15px; } .account-story-copy > p { font-size: 13px; } .account-preview,.account-story-features,.account-story-footer,.account-story-copy > .chip-lavender { display: none; } .account-entry { padding: 26px 24px; } .account-form { padding: 33px 0; } .account-form h1 { font-size: 29px; } .account-back { display: none; } }
+@media(prefers-reduced-motion:reduce) { .account-spin { animation: none; } }
+
+:root {
+  --page: #fcfbfe;
+  --page-alt: #f3effb;
+  --surface: #ffffff;
+  --ink: #1e1934;
+  --ink2: #524b6b;
+  --muted: #787192;
+  --muted-light: #a39dba;
+  --pearl-silver: #d4d9e6;
+  --line: rgba(212, 217, 230, 0.65);
+  --accent: #6f5ac4;
+  --accent-bright: #8673d6;
+  --accent-soft: #f2eefb;
+  --speaker-a: #6f5ac4;
+  --speaker-b: #d87098;
+  --speaker-unknown: #8e87a6;
+  --drift-amber: #8e7cc3;
+  --attack-pink: #ce5c8a;
+  --agreement-mint: #5f4cb3;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--page);
+    color: var(--ink);
+    font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--page);
+    color: var(--ink);
+    overflow-x: clip;
+  }
+
+  button,
+  a {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+.font-mono-data {
+  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Editorial telemetry tag (very light lavender + calm medium purple) */
+.chip-lavender {
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  padding: 0 9px;
+  background-color: #f2eefb;
+  color: #5845a8;
+  border: 1px solid rgba(111, 90, 196, 0.28);
+  border-radius: 4px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Calm medium lavender-purple primary CTA */
+.btn-primary {
+  background: linear-gradient(180deg, #7c68cf 0%, #604cb5 100%);
+  color: #ffffff;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.28),
+    0 8px 22px rgba(96, 76, 181, 0.22);
+  transition:
+    transform 180ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 180ms cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 180ms ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.36),
+    0 12px 28px rgba(96, 76, 181, 0.3);
+}
+
+.btn-primary:active {
+  transform: translateY(1px);
+}
+
+.btn-secondary {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #1e1934;
+  border: 1px solid rgba(212, 217, 230, 0.92);
+  box-shadow: 0 4px 14px rgba(30, 25, 52, 0.05);
+  transition:
+    transform 180ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 180ms ease,
+    background-color 180ms ease;
+}
+
+.btn-secondary:hover {
+  background-color: #f4f1fa;
+  border-color: rgba(111, 90, 196, 0.45);
+  transform: translateY(-1px);
+}
+
+.btn-secondary:active {
+  transform: translateY(1px);
+}
+
+/* Subtle pearl-silver architectural grid */
+.mesh-grid-bg {
+  background-image:
+    linear-gradient(to right, rgba(155, 162, 188, 0.09) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(155, 162, 188, 0.09) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+/* Fallback & mini brand dual-voice pearl mark (pearl silver, calm purple & rose) */
+.pearl-fallback {
+  background:
+    radial-gradient(circle at 30% 45%, rgba(111, 90, 196, 0.18), transparent 55%),
+    radial-gradient(circle at 70% 55%, rgba(216, 112, 152, 0.2), transparent 55%),
+    #fcfbfe;
+  border: 1px solid rgba(212, 217, 230, 0.85);
+}
+
+.pearl-mini {
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #d4d9e6 34%,
+    #826fd1 68%,
+    #df80a4 100%
+  );
+  box-shadow:
+    0 2px 10px rgba(111, 90, 196, 0.22),
+    inset 0 1px 1px rgba(255, 255, 255, 0.92);
+}
+
+.pearl-card-surface {
+  background: linear-gradient(
+    155deg,
+    rgba(255, 255, 255, 0.94) 0%,
+    rgba(244, 241, 250, 0.88) 100%
+  );
+  border: 1px solid rgba(212, 217, 230, 0.85);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.96),
+    0 20px 50px rgba(30, 25, 52, 0.06);
+}
+
+/* Cinematic scroll & ambient keyframes */
+@keyframes rise {
+  from {
+    transform: translateY(105%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.animate-rise {
+  animation: rise 1.05s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes drift {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(4%, -2%, 0);
+  }
+}
+
+.animate-drift {
+  animation: drift 18s ease-in-out infinite alternate;
+}
+
+@keyframes nudge {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(2.5px);
+  }
+}
+
+.animate-nudge {
+  animation: nudge 1.6s ease-in-out infinite;
+}
+
+@keyframes hotspot-ping {
+  0% {
+    box-shadow: 0 0 0 0 rgba(111, 90, 196, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(111, 90, 196, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(111, 90, 196, 0);
+  }
+}
+
+.hotspot-ring {
+  animation: hotspot-ping 2.4s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+}
+
+/* Corner bracket frame for the hero HUD */
+.hud-brackets {
+  clip-path: polygon(
+    0 0,
+    14px 0,
+    14px 1px,
+    1px 1px,
+    1px 14px,
+    0 14px,
+    0 0,
+    calc(100% - 14px) 0,
+    100% 0,
+    100% 14px,
+    calc(100% - 1px) 14px,
+    calc(100% - 1px) 1px,
+    calc(100% - 14px) 1px,
+    calc(100% - 14px) 0,
+    100% calc(100% - 14px),
+    100% 100%,
+    calc(100% - 14px) 100%,
+    calc(100% - 14px) calc(100% - 1px),
+    calc(100% - 1px) calc(100% - 1px),
+    calc(100% - 1px) calc(100% - 14px),
+    100% calc(100% - 14px),
+    0 calc(100% - 14px),
+    1px calc(100% - 14px),
+    1px calc(100% - 1px),
+    14px calc(100% - 1px),
+    14px 100%,
+    0 100%
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-rise,
+  .animate-drift,
+  .animate-nudge,
+  .hotspot-ring {
+    animation: none !important;
+  }
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    transform: none;
+  }
+}
+
+/* The complete introduction enters as one unit; scrolling animates its parent chapter. */
+@keyframes intro-enter-surface {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.intro-enter-surface {
+  animation: intro-enter-surface 850ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .intro-enter-surface { animation: none; }
+}
+
+/* Keep both text positions readable in short landscape viewports. */
+@media (max-height: 650px) {
+  .intro-centered-copy { top: 55%; }
+  .intro-centered-copy .chip-lavender { height: 18px; font-size: 8px; }
+  .intro-centered-headline { margin-block: 10px; font-size: clamp(24px, 3.2vw, 48px); }
+  .intro-centered-copy p { font-size: 12px; line-height: 1.4; }
+}

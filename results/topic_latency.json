@@ -1,0 +1,7 @@
+{
+  "device": "cpu",
+  "median_ms": 5.443957983516157,
+  "p95_ms": 8.306625531986356,
+  "measured_turns": 11,
+  "embedding_cache": false
+}

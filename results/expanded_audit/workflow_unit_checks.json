@@ -1,0 +1,8 @@
+{
+  "tests_run": 27,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "passed": true,
+  "scope": "Deterministic test doubles validate session logic, alert decisions, preprocessing and rendering. These are not language-accuracy observations."
+}

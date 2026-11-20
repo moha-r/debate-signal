@@ -1,0 +1,16 @@
+{
+  "tests_run": 38,
+  "failures": 0,
+  "errors": 0,
+  "mps_forward_backward": true,
+  "distilbert_synthetic_benchmark_completed": true,
+  "full_candidate_fine_tuning_completed": false,
+  "executed_notebook": "notebooks/local_training_workspace.ipynb",
+  "standalone_figures": 5,
+  "formats": [
+    "png_300dpi",
+    "svg",
+    "pdf"
+  ],
+  "pdf_render_reviewed": true
+}

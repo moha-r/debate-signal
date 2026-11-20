@@ -1,0 +1,28 @@
+{
+  "n": 22921,
+  "positive_references": 2679,
+  "accuracy": 0.9486060817590856,
+  "attack_precision": 0.8037231889923108,
+  "attack_recall": 0.7413213885778276,
+  "attack_f1": 0.7712621359223301,
+  "macro_f1": 0.8711564783612437,
+  "tn": 19757,
+  "fp": 485,
+  "fn": 693,
+  "tp": 1986,
+  "accuracy_wilson95": [
+    0.9456717142111202,
+    0.9513901056902467
+  ],
+  "precision_wilson95": [
+    0.7875965293720236,
+    0.8189069679127087
+  ],
+  "recall_wilson95": [
+    0.7244018045829838,
+    0.757549894705415
+  ],
+  "source_md5": "7e39135b410eaed85c7ffec85cf829fd",
+  "all_predictions_reproduced": true,
+  "independence": "This is the existing test set, not 22,921 new observations. Slices overlap and are lexical flags, not human semantic labels."
+}

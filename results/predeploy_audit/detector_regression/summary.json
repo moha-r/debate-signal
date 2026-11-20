@@ -1,0 +1,139 @@
+{
+  "scope": "Previously inspected assistant-authored diagnostics. Regression evidence, not independent accuracy validation.",
+  "argument_extraction": "Rules with tentative semantic links; no independent argument annotation benchmark yet.",
+  "topic": {
+    "original_reserved": {
+      "before": {
+        "event_precision": 1.0,
+        "event_recall": 0.6666666666666666,
+        "event_f1": 0.8,
+        "false_alerts": 0,
+        "events": 3,
+        "detected": 2,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.0,
+        "turn_macro_f1": 0.9479166666666666
+      },
+      "after": {
+        "event_precision": 1.0,
+        "event_recall": 0.6666666666666666,
+        "event_f1": 0.8,
+        "false_alerts": 0,
+        "events": 3,
+        "detected": 2,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.0,
+        "turn_macro_f1": 0.9479166666666666
+      },
+      "changed_turns": 0
+    },
+    "challenge": {
+      "before": {
+        "event_precision": 1.0,
+        "event_recall": 0.75,
+        "event_f1": 0.8571428571428571,
+        "false_alerts": 0,
+        "events": 4,
+        "detected": 3,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.0,
+        "turn_macro_f1": 0.9023199023199023
+      },
+      "after": {
+        "event_precision": 1.0,
+        "event_recall": 0.75,
+        "event_f1": 0.8571428571428571,
+        "false_alerts": 0,
+        "events": 4,
+        "detected": 3,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.0,
+        "turn_macro_f1": 0.9023199023199023
+      },
+      "changed_turns": 0
+    },
+    "expanded": {
+      "before": {
+        "event_precision": 0.8947368421052632,
+        "event_recall": 0.9444444444444444,
+        "event_f1": 0.918918918918919,
+        "false_alerts": 2,
+        "events": 18,
+        "detected": 17,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.08333333333333333,
+        "turn_macro_f1": 0.91643371878666
+      },
+      "after": {
+        "event_precision": 0.9444444444444444,
+        "event_recall": 0.9444444444444444,
+        "event_f1": 0.9444444444444444,
+        "false_alerts": 1,
+        "events": 18,
+        "detected": 17,
+        "median_delay_turns": 1.0,
+        "false_alerts_per_session": 0.041666666666666664,
+        "turn_macro_f1": 0.9195672116993147
+      },
+      "changed_turns": 1
+    }
+  },
+  "attack": {
+    "before": {
+      "n": 168,
+      "positive_references": 84,
+      "accuracy": 0.8035714285714286,
+      "attack_precision": 0.8227848101265823,
+      "attack_recall": 0.7738095238095238,
+      "attack_f1": 0.7975460122699386,
+      "macro_f1": 0.8033972835916168,
+      "tn": 70,
+      "fp": 14,
+      "fn": 19,
+      "tp": 65,
+      "accuracy_wilson95": [
+        0.7369971311777509,
+        0.8565732487526864
+      ],
+      "precision_wilson95": [
+        0.7242380412359362,
+        0.8913957335191265
+      ],
+      "recall_wilson95": [
+        0.6735309285283279,
+        0.850139791625549
+      ]
+    },
+    "after": {
+      "n": 168,
+      "positive_references": 84,
+      "accuracy": 0.8095238095238095,
+      "attack_precision": 0.8333333333333334,
+      "attack_recall": 0.7738095238095238,
+      "attack_f1": 0.8024691358024691,
+      "macro_f1": 0.8092805449127288,
+      "tn": 71,
+      "fp": 13,
+      "fn": 19,
+      "tp": 65,
+      "accuracy_wilson95": [
+        0.7434872080749009,
+        0.8617218067561332
+      ],
+      "precision_wilson95": [
+        0.7354442476924203,
+        0.8999305458327835
+      ],
+      "recall_wilson95": [
+        0.6735309285283279,
+        0.850139791625549
+      ]
+    },
+    "changed_cases": 1
+  },
+  "latency": {
+    "scope": "Warm CPU, 15 scripted turns including graph extraction, encoder cache disabled.",
+    "median_ms": 32.56233304273337,
+    "p95_ms": 43.64763731136918
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "topic": "Should schools require students to wear uniforms?",
+  "source": "Synthetic speech using macOS Samantha and Daniel voices, one clip per scripted turn.",
+  "turns": [
+    {
+      "speaker": "A",
+      "reference": "School uniforms could reduce pressure to buy expensive clothes.",
+      "audio": "turn_01.wav"
+    },
+    {
+      "speaker": "B",
+      "reference": "I disagree because a uniform can cost more than clothes families already own.",
+      "audio": "turn_02.wav"
+    },
+    {
+      "speaker": "A",
+      "reference": "I do not think you are an idiot. I think your cost estimate needs a source.",
+      "audio": "turn_03.wav"
+    },
+    {
+      "speaker": "B",
+      "reference": "You are an idiot if you think every family can afford that.",
+      "audio": "turn_04.wav"
+    },
+    {
+      "speaker": "A",
+      "reference": "My neighbour is learning to play the saxophone.",
+      "audio": "turn_05.wav"
+    },
+    {
+      "speaker": "B",
+      "reference": "The saxophone in his band needs a new mouthpiece.",
+      "audio": "turn_06.wav"
+    },
+    {
+      "speaker": "A",
+      "reference": "Returning to the uniform policy, a subsidy could help families pay for it.",
+      "audio": "turn_07.wav"
+    }
+  ]
+}

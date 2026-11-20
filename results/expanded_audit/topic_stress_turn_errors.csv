@@ -1,0 +1,24 @@
+session,split,turn,speaker,text,reference,episode,state,score,direct_score,used_context,alert,off_topic_count
+topic_stress_01,stress,4,B,How would that work?,on_topic,,off_topic,0.09613462537527084,0.09613462537527084,False,False,1
+topic_stress_02,stress,11,A,"Yes, the trial could count visits without collecting names.",on_topic,,off_topic,0.07191155850887299,0.07191155850887299,False,False,1
+topic_stress_03,stress,4,B,How wide?,on_topic,,off_topic,0.030842427164316177,0.030842427164316177,False,False,1
+topic_stress_06,stress,4,B,Your estimate ignores the cost of checking that threshold.,on_topic,,off_topic,0.13132838904857635,0.13132838904857635,False,False,1
+topic_stress_06,stress,12,B,"I remain unconvinced, but that would be a relevant measure.",on_topic,,off_topic,0.05949836224317551,0.05949836224317551,False,False,1
+topic_stress_07,stress,6,B,That may still be difficult for someone sharing a small home.,on_topic,,off_topic,0.08093050867319107,0.08093050867319107,False,False,1
+topic_stress_08,stress,9,A,what about a right to appeal that refusal,on_topic,,off_topic,0.1002490371465683,0.1002490371465683,False,False,1
+topic_stress_08,stress,10,B,an internal review could check whether the same rule is applied fairly,on_topic,,off_topic,0.12442465126514435,0.12442465126514435,False,True,2
+topic_stress_11,stress,4,B,I just installed face filters for selfies on my phone.,off_topic,1.0,on_topic,0.31584566831588745,0.31584566831588745,False,False,0
+topic_stress_11,stress,5,A,My favourite filter adds a crown and changes the background to a beach.,off_topic,1.0,on_topic,0.18696296215057373,0.18696296215057373,False,False,0
+topic_stress_11,stress,8,B,Who would check that the stored images are actually deleted?,on_topic,,off_topic,0.08684660494327545,0.08684660494327545,False,False,1
+topic_stress_11,stress,9,A,An independent auditor could inspect deletion logs.,on_topic,,off_topic,0.029294490814208984,0.029294490814208984,False,True,2
+topic_stress_12,stress,4,B,I have been collecting rare bottled water labels for years.,off_topic,1.0,on_topic,0.291606068611145,0.291606068611145,False,False,0
+topic_stress_13,stress,11,A,The appointment process for that board would need scrutiny.,on_topic,,off_topic,0.11014997959136963,0.11014997959136963,False,False,1
+topic_stress_14,stress,12,B,Thirty days might allow time to remove protected commercial details.,on_topic,,off_topic,0.1057623028755188,0.1057623028755188,False,False,1
+topic_stress_15,stress,2,B,Some regions have no practical railway alternative.,on_topic,,off_topic,0.10227823257446289,0.10227823257446289,False,False,1
+topic_stress_16,stress,12,B,We should include a published deadline for that review.,on_topic,,off_topic,0.12831485271453857,0.12831485271453857,False,False,1
+topic_stress_17,stress,11,A,The planning rules should explain how those conflicts are resolved.,on_topic,,off_topic,0.08144910633563995,0.08144910633563995,False,False,1
+topic_stress_19,stress,5,A,The house beside that bend has a beautiful kitchen extension.,off_topic,1.0,on_topic,0.17706654965877533,0.17706654965877533,False,False,0
+topic_stress_19,stress,12,B,That would show whether the scheme moves the problem elsewhere.,on_topic,,off_topic,0.128198504447937,0.128198504447937,False,False,1
+topic_stress_21,stress,2,B,Staffing and security would add to operating costs.,on_topic,,off_topic,0.029214199632406235,0.029214199632406235,False,False,1
+topic_stress_22,stress,3,A,we could arrange fixed collection times and label the storage conditions,on_topic,,off_topic,0.05963589996099472,0.05963589996099472,False,False,1
+topic_stress_23,stress,12,B,We should include the cost of that administration in the trial.,on_topic,,off_topic,0.11005187034606934,0.11005187034606934,False,False,1

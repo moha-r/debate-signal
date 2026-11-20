@@ -1,0 +1,7 @@
+{
+  "state": "interrupted",
+  "time": "2026-11-17T17:52:22.598010+00:00",
+  "epoch": 1,
+  "update": 103,
+  "saved_checkpoint": "artifacts/DistilBERT_candidate/training_checkpoint.pt"
+}

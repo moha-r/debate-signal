@@ -1,0 +1,88 @@
+{
+  "provenance": {
+    "author": "Primary project assistant; no predictions for these cases inspected before label creation",
+    "created": "2026-11-18",
+    "purpose": "Authored stress diagnostic, not an independently human-annotated benchmark or natural speech",
+    "label_definition": "Personal degradation, insult or abusive dismissal of another person is positive. Criticism of a claim/policy, reported abuse without endorsement, self-deprecation and respectful disagreement are negative. Context-dependent items are excluded from primary metrics.",
+    "limitations": "The author knows the project design and previous aggregate results; this is not a blind independent annotation. Some opening examples deliberately repeat known probes as regression cases."
+  },
+  "excluded_ambiguous": 12,
+  "models": {
+    "alert_prediction": {
+      "n": 168,
+      "positive_references": 84,
+      "accuracy": 0.8035714285714286,
+      "attack_precision": 0.8227848101265823,
+      "attack_recall": 0.7738095238095238,
+      "attack_f1": 0.7975460122699386,
+      "macro_f1": 0.8033972835916168,
+      "tn": 70,
+      "fp": 14,
+      "fn": 19,
+      "tp": 65,
+      "accuracy_wilson95": [
+        0.7369971311777509,
+        0.8565732487526864
+      ],
+      "precision_wilson95": [
+        0.7242380412359362,
+        0.8913957335191265
+      ],
+      "recall_wilson95": [
+        0.6735309285283279,
+        0.850139791625549
+      ]
+    },
+    "LinearSVC": {
+      "n": 168,
+      "positive_references": 84,
+      "accuracy": 0.7797619047619048,
+      "attack_precision": 0.821917808219178,
+      "attack_recall": 0.7142857142857143,
+      "attack_f1": 0.7643312101910829,
+      "macro_f1": 0.7788136497882789,
+      "tn": 71,
+      "fp": 13,
+      "fn": 24,
+      "tp": 60,
+      "accuracy_wilson95": [
+        0.7112331036860692,
+        0.8357827366419809
+      ],
+      "precision_wilson95": [
+        0.7187827114087395,
+        0.8928662697704473
+      ],
+      "recall_wilson95": [
+        0.6099796004669878,
+        0.7998496587838723
+      ]
+    },
+    "LogisticRegression": {
+      "n": 168,
+      "positive_references": 84,
+      "accuracy": 0.8095238095238095,
+      "attack_precision": 0.7954545454545454,
+      "attack_recall": 0.8333333333333334,
+      "attack_f1": 0.813953488372093,
+      "macro_f1": 0.8094157685762904,
+      "tn": 66,
+      "fp": 18,
+      "fn": 14,
+      "tp": 70,
+      "accuracy_wilson95": [
+        0.7434872080749009,
+        0.8617218067561332
+      ],
+      "precision_wilson95": [
+        0.6996803607394827,
+        0.8665127362312627
+      ],
+      "recall_wilson95": [
+        0.739469602546601,
+        0.8980425785102926
+      ]
+    }
+  },
+  "interval_caution": "Wilson intervals describe these authored cases under an iid approximation; they do not quantify generalization to natural conversations."
+}

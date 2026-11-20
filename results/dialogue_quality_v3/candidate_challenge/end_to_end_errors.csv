@@ -1,0 +1,8 @@
+session,turn,speaker,text,reference_role,predicted_role,reference_links,predicted_link,reference_evidence_request,predicted_evidence_request,topic_state,personal_attack,cue
+night-buses,3,A,The buses could also stop near the main hospital.,claim,rebuttal,[],1,False,False,on_topic,False,Locally trained contextual role classifier
+night-buses,6,B,A late-night network would require a subsidy the council cannot afford.,rebuttal,rebuttal,[1],,False,False,on_topic,False,Locally trained contextual role classifier
+lab-kits,4,B,"The kits might be returned with missing components, leaving other students unable to finish.",rebuttal,rebuttal,[1],3,False,False,on_topic,False,Locally trained contextual role classifier
+lab-kits,5,A,Each borrower could sign a checklist so missing components are replaced before the kit is lent again.,rebuttal,claim,[4],1,False,False,on_topic,False,Substantive statement; learned role withheld below development confidence gate
+lab-kits,6,B,The university should collect anonymous feedback about loan times.,claim,claim,[],1,False,False,on_topic,False,Explicit policy position
+community-gardens,3,A,The program could start on June 12.,claim,unclassified,[],,False,False,off_topic,False,Outside the current discussion; argument role withheld
+printer-stations,4,B,I agree that a service desk attendant would make printing easier.,agreement,agreement,[3],1,False,False,on_topic,False,Explicit agreement language

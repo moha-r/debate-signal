@@ -1,0 +1,3 @@
+Model,Median warm latency (ms),P95 warm latency (ms)
+LinearSVC,1.4210895,2.4261044
+LogisticRegression,0.9397,1.6092399999999996

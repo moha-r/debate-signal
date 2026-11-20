@@ -1,0 +1,107 @@
+{
+  "provenance": "Six conversations authored by the project assistant on 2026-11-18 after the first diagnostic. The original topic policy is frozen. These challenge examples have no independent annotation or natural audio.",
+  "sessions": [
+    {
+      "id": "challenge_meals",
+      "split": "challenge",
+      "topic": "Should primary schools provide free lunches to every pupil?",
+      "turns": [
+        ["A", "Universal school lunches would help children concentrate without being hungry.", "on_topic"],
+        ["B", "Would families with high incomes benefit too?", "on_topic"],
+        ["A", "Yes, but universal meals could avoid singling out children who need help.", "on_topic"],
+        ["B", "Is that worth the cost?", "on_topic"],
+        ["A", "The school budget would need to cover ingredients and kitchen staff.", "on_topic"],
+        ["B", "I had lunch at a new restaurant yesterday and the chef was on television.", "off_topic"],
+        ["A", "I watched his cooking show last week, the final round was dramatic.", "off_topic"],
+        ["B", "One contestant forgot the sauce and nearly cried.", "off_topic"],
+        ["A", "Returning to school meals, allergy requirements would need careful planning.", "on_topic"],
+        ["B", "I agree.", "unclear"]
+      ]
+    },
+    {
+      "id": "challenge_congestion",
+      "split": "challenge",
+      "topic": "Should drivers pay a congestion charge to enter the city centre?",
+      "turns": [
+        ["A", "Charging drivers could reduce traffic on busy central streets.", "on_topic"],
+        ["B", "It could hurt workers who cannot reach the centre by public transport.", "on_topic"],
+        ["A", "What about exemptions?", "on_topic"],
+        ["B", "An exemption for disabled drivers and a discount for low-income workers could help.", "on_topic"],
+        ["A", "My uncle paid a fortune for a used sports car.", "off_topic"],
+        ["B", "The engine has a ridiculous amount of horsepower.", "off_topic"],
+        ["A", "He wants to take it to a racetrack next month.", "off_topic"],
+        ["B", "The city charge should be assessed by congestion reduction and economic impact.", "on_topic"],
+        ["A", "When should we measure that?", "on_topic"],
+        ["B", "We could compare traffic and shop visits before and after a trial period.", "on_topic"]
+      ]
+    },
+    {
+      "id": "challenge_ai_essays",
+      "split": "challenge",
+      "topic": "Should universities allow students to use generative AI when writing essays?",
+      "turns": [
+        ["A", "Students should disclose AI assistance when submitting a university essay.", "on_topic"],
+        ["B", "A ban could prevent useful help with grammar and accessibility.", "on_topic"],
+        ["A", "Would a declaration be enough?", "on_topic"],
+        ["B", "Oral questions could test whether students understand the arguments in their essays.", "on_topic"],
+        ["A", "You are a stupid idiot if you think AI-written essays prove understanding.", "on_topic"],
+        ["B", "Let's focus on assessing learning rather than insulting each other.", "on_topic"],
+        ["A", "There is a film about a robot that I want to see on Friday.", "off_topic"],
+        ["B", "The actor in that film won an award at the festival.", "off_topic"],
+        ["A", "Could assessment include drafts to show how an essay developed?", "on_topic"],
+        ["B", "Yes, draft reviews would give teachers more evidence of the student's work.", "on_topic"]
+      ]
+    },
+    {
+      "id": "challenge_cameras",
+      "split": "challenge",
+      "topic": "Should the city install more surveillance cameras in public parks?",
+      "turns": [
+        ["A", "Cameras in public parks might deter vandalism and help investigate attacks.", "on_topic"],
+        ["B", "Recording everyone also creates a privacy risk for ordinary park visitors.", "on_topic"],
+        ["A", "Who should have access?", "on_topic"],
+        ["B", "Only authorized investigators should access footage, with audit logs and short retention.", "on_topic"],
+        ["A", "A wildlife documentary showed cameras tracking rare animals.", "on_topic"],
+        ["B", "That example raises the question of whether surveillance equipment can be aimed only at entrances.", "on_topic"],
+        ["A", "Okay.", "unclear"],
+        ["B", "Have you seen the new smartphone camera? Its zoom is amazing.", "off_topic"],
+        ["A", "It costs too much for me.", "off_topic"],
+        ["B", "Back to public parks, an independent review could check whether crime actually falls.", "on_topic"]
+      ]
+    },
+    {
+      "id": "challenge_museums",
+      "split": "challenge",
+      "topic": "Should publicly funded museums offer free admission?",
+      "turns": [
+        ["A", "Free museum admission would let more families explore local history.", "on_topic"],
+        ["B", "Ticket income also pays for conservation and staff.", "on_topic"],
+        ["A", "Could donations replace it?", "on_topic"],
+        ["B", "Voluntary donations are uncertain, so museums would need stable public funding.", "on_topic"],
+        ["A", "I missed the train this morning.", "off_topic"],
+        ["B", "Families outside the city also need affordable transport if free museums are to be accessible.", "on_topic"],
+        ["A", "That is a fair concern.", "unclear"],
+        ["B", "School visits could be scheduled to avoid overcrowding the galleries.", "on_topic"],
+        ["A", "Would timed tickets help?", "on_topic"],
+        ["B", "They could control capacity while keeping museum entry free.", "on_topic"]
+      ]
+    },
+    {
+      "id": "challenge_workweek",
+      "split": "challenge",
+      "topic": "Should employers introduce a four-day working week without reducing pay?",
+      "turns": [
+        ["A", "A shorter working week might improve employee wellbeing and retention.", "on_topic"],
+        ["B", "Some businesses would need more staff to maintain service over five weekdays.", "on_topic"],
+        ["A", "Could shifts solve that?", "on_topic"],
+        ["B", "Staggered shifts could preserve opening hours, but payroll costs may increase.", "on_topic"],
+        ["A", "Working longer hours on four days could make the policy exhausting.", "on_topic"],
+        ["B", "Yes, the trial should distinguish shorter hours from compressed hours.", "on_topic"],
+        ["A", "Please continue.", "unclear"],
+        ["B", "Customer complaints and productivity should be tracked throughout the trial.", "on_topic"],
+        ["A", "How would we compare the results?", "on_topic"],
+        ["B", "Use similar teams with the usual schedule as a comparison group.", "on_topic"]
+      ]
+    }
+  ]
+}

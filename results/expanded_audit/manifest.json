@@ -1,0 +1,22 @@
+{
+  "frozen_sha256": {
+    "artifacts/LinearSVC.joblib": "c50d3c95c5d2fc0821cf6f5ef5cf9f5641380c14b465f8d66df495939d9fa6c9",
+    "artifacts/LogisticRegression.joblib": "2155cbd149645b7cbbce3061eca97c583aa6f9c688f80696e15fa5f83bb36f95",
+    "artifacts/LinearSVC_alert.joblib": "43c59be21aef9b334e47d9d7156fde334a21e8bdc4b86d808b2c6611ac2f0cd1",
+    "results/topic_policy.json": "d4b7b626244adf25306fea481746201dc7045608ea3dc7357c3e0a57e6ab2c48",
+    "moderation_session.py": "bb32be28ae6dbc965cf818177b8073fba6418d199702b1186d300d23eb6c300d",
+    "topic_relevance.py": "3967dde8fcaa10934dc0a89c18039438e09700128b8572a9efa7a359e1d897fb",
+    "nlp_pipeline.py": "96b78067fc8aaeaaedc96584d5614cf556cf4b602f6f31193b9c6606c866e059",
+    "data/attack_stress.json": "63261d02c3e311ae7378274c2f2a1c00fd869390d8b93c55da058a87b9c76975",
+    "data/topic_stress.json": "df61d8cc29dcacc8f082c3af1c7117d025b5afba3ac29551da45fa190821c8d5",
+    "evaluate_expanded_audit.py": "b496eadce9516ca5ea64bcfbbdfe9f72dbc8f32882687ffd59bb9c1ef7a0c151",
+    "tests/test_moderation_contract.py": "1f67b317bb6d123673033bb6283c3025daaed9b2d8788cd80c35ffb418151c57"
+  },
+  "packages": {
+    "scikit-learn": "1.6.1",
+    "numpy": "2.4.6",
+    "sentence-transformers": "6.3.0",
+    "torch": "2.15.0"
+  },
+  "design": "Policies, models and labels frozen before inference. Authored stress cases, existing holdout re-audit and workflow checks reported separately."
+}

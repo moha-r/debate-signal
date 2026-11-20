@@ -1,0 +1,16 @@
+{
+  "backend": "minilm",
+  "use_context": true,
+  "threshold": 0.15000000000000002,
+  "consecutive_off_topic": 2,
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "packages": {
+    "sentence-transformers": "6.3.0",
+    "torch": "2.15.0",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.5"
+  },
+  "provenance": "Authored by the project assistant on 2026-11-18 for prototype diagnostics. No natural recordings or independent annotator review.",
+  "evaluation_scope": "Small authored diagnostic; natural dialogue validation remains pending."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "epoch": 1,
+    "update": 5,
+    "n": 64,
+    "threshold": 0.5,
+    "accuracy": 0.875,
+    "attack_precision": 0.0,
+    "attack_recall": 0.0,
+    "tn": 56,
+    "fp": 1,
+    "fn": 7,
+    "tp": 0,
+    "brier": 0.2236930355448092,
+    "macro_precision": 0.4444444444444444,
+    "macro_recall": 0.49122807017543857,
+    "macro_f1": 0.4666666666666667,
+    "weighted_precision": 0.7916666666666666,
+    "weighted_recall": 0.875,
+    "weighted_f1": 0.83125
+  }
+]

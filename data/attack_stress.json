@@ -1,0 +1,1451 @@
+{
+  "provenance": {
+    "author": "Primary project assistant; no predictions for these cases inspected before label creation",
+    "created": "2026-11-18",
+    "purpose": "Authored stress diagnostic, not an independently human-annotated benchmark or natural speech",
+    "label_definition": "Personal degradation, insult or abusive dismissal of another person is positive. Criticism of a claim/policy, reported abuse without endorsement, self-deprecation and respectful disagreement are negative. Context-dependent items are excluded from primary metrics.",
+    "limitations": "The author knows the project design and previous aggregate results; this is not a blind independent annotation. Some opening examples deliberately repeat known probes as regression cases."
+  },
+  "cases": [
+    {
+      "id": "attack_stress_001",
+      "category": "explicit_insult",
+      "text": "You are a stupid idiot.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_002",
+      "category": "explicit_insult",
+      "text": "You have absolutely no brain.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_003",
+      "category": "explicit_insult",
+      "text": "Only a fool like you would say that.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_004",
+      "category": "explicit_insult",
+      "text": "You are a dishonest liar.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_005",
+      "category": "explicit_insult",
+      "text": "Shut up, you ignorant clown.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_006",
+      "category": "explicit_insult",
+      "text": "You are too dumb to understand the question.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_007",
+      "category": "explicit_insult",
+      "text": "Nobody needs to hear your worthless opinions.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_008",
+      "category": "explicit_insult",
+      "text": "You are a pathetic excuse for a debater.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_009",
+      "category": "explicit_insult",
+      "text": "Your stupidity is wasting everyone's time.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_010",
+      "category": "explicit_insult",
+      "text": "You are an arrogant moron.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_011",
+      "category": "explicit_insult",
+      "text": "Get lost, you obnoxious fool.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_012",
+      "category": "explicit_insult",
+      "text": "You are a disgusting bully.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Direct degradation of a person."
+    },
+    {
+      "id": "attack_stress_013",
+      "category": "respectful_disagreement",
+      "text": "I disagree with your conclusion because the sample is too small.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_014",
+      "category": "respectful_disagreement",
+      "text": "Your evidence does not establish that the policy caused the change.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_015",
+      "category": "respectful_disagreement",
+      "text": "I think you have misunderstood the question; let me clarify it.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_016",
+      "category": "respectful_disagreement",
+      "text": "Could you provide a source for that claim?",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_017",
+      "category": "respectful_disagreement",
+      "text": "That argument contains a contradiction between its first and final premises.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_018",
+      "category": "respectful_disagreement",
+      "text": "I do not accept the proposed cost estimate.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_019",
+      "category": "respectful_disagreement",
+      "text": "Your calculations omit maintenance and training expenses.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_020",
+      "category": "respectful_disagreement",
+      "text": "Please let me finish before you respond.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_021",
+      "category": "respectful_disagreement",
+      "text": "You have not answered the moderator's question yet.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_022",
+      "category": "respectful_disagreement",
+      "text": "That is an unfair characterization of my position.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_023",
+      "category": "respectful_disagreement",
+      "text": "The proposal is impractical, although its goal is reasonable.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_024",
+      "category": "respectful_disagreement",
+      "text": "I strongly oppose a ban on private vehicles.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Criticism or challenge directed at evidence, reasoning or procedure, without personal degradation."
+    },
+    {
+      "id": "attack_stress_025",
+      "category": "claim_person_contrasts",
+      "text": "That is a stupid argument because it assumes unlimited money.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_026",
+      "category": "claim_person_contrasts",
+      "text": "You are stupid because you cannot understand a budget.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_027",
+      "category": "claim_person_contrasts",
+      "text": "The proposal is dishonest in the way it presents those figures.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_028",
+      "category": "claim_person_contrasts",
+      "text": "You are a dishonest person who cannot be trusted.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_029",
+      "category": "claim_person_contrasts",
+      "text": "This policy is cruel to families who cannot afford the fees.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_030",
+      "category": "claim_person_contrasts",
+      "text": "You are a cruel, worthless human being.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_031",
+      "category": "claim_person_contrasts",
+      "text": "Your response is irrelevant to the question about access.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_032",
+      "category": "claim_person_contrasts",
+      "text": "You are irrelevant and nobody cares what you think.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_033",
+      "category": "claim_person_contrasts",
+      "text": "The explanation is confused and needs a clearer definition.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_034",
+      "category": "claim_person_contrasts",
+      "text": "You are a confused idiot with nothing useful to contribute.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_035",
+      "category": "claim_person_contrasts",
+      "text": "That prediction is absurd given the available evidence.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_036",
+      "category": "claim_person_contrasts",
+      "text": "You are an absurd little clown.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Distinguish criticism of a proposition from degradation of a person."
+    },
+    {
+      "id": "attack_stress_037",
+      "category": "negation",
+      "text": "You are not stupid; the instructions were unclear.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_038",
+      "category": "negation",
+      "text": "I do not think you are an idiot.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_039",
+      "category": "negation",
+      "text": "You are not a liar simply because we disagree.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_040",
+      "category": "negation",
+      "text": "Nobody here is calling you a fool.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_041",
+      "category": "negation",
+      "text": "Please do not tell people they are worthless.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_042",
+      "category": "negation",
+      "text": "It would be wrong to call you an ignorant person.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_043",
+      "category": "negation",
+      "text": "You are not merely mistaken; you are a complete idiot.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_044",
+      "category": "negation",
+      "text": "I am not going to pretend you have a brain.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_045",
+      "category": "negation",
+      "text": "No sensible person is as stupid as you.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_046",
+      "category": "negation",
+      "text": "You are not worth listening to.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_047",
+      "category": "negation",
+      "text": "I cannot believe how ignorant you are.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_048",
+      "category": "negation",
+      "text": "I will not waste another minute on a moron like you.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Scope of negation changes whether a personal insult is asserted."
+    },
+    {
+      "id": "attack_stress_049",
+      "category": "quoted_reported_abuse",
+      "text": "Calling someone \"an idiot\" is a personal attack; please stop doing that.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_050",
+      "category": "quoted_reported_abuse",
+      "text": "She reported that another participant had called her stupid.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_051",
+      "category": "quoted_reported_abuse",
+      "text": "The sentence \"you are worthless\" should not be used in this debate.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_052",
+      "category": "quoted_reported_abuse",
+      "text": "He apologized for saying \"shut up, fool\" during the meeting.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_053",
+      "category": "quoted_reported_abuse",
+      "text": "We should discuss the policy instead of calling opponents morons.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_054",
+      "category": "quoted_reported_abuse",
+      "text": "The moderator asked us not to use the phrase \"you have no brain\".",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_055",
+      "category": "quoted_reported_abuse",
+      "text": "I mean exactly what I said: \"you are an idiot\".",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_056",
+      "category": "quoted_reported_abuse",
+      "text": "My description of you is simple: \"a dishonest fool\".",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_057",
+      "category": "quoted_reported_abuse",
+      "text": "Let me repeat my message to you: \"shut up, moron\".",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_058",
+      "category": "quoted_reported_abuse",
+      "text": "Everyone should hear this about you: \"you are a pathetic liar\".",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_059",
+      "category": "quoted_reported_abuse",
+      "text": "To quote my own assessment of you, \"an arrogant idiot\".",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_060",
+      "category": "quoted_reported_abuse",
+      "text": "I stand by calling you \"a useless clown\".",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Reporting or condemning abuse differs from endorsing an insult directed at a person."
+    },
+    {
+      "id": "attack_stress_061",
+      "category": "impersonal_profanity",
+      "text": "This damn microphone keeps cutting out.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_062",
+      "category": "impersonal_profanity",
+      "text": "The bus service is a bloody mess during rush hour.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_063",
+      "category": "impersonal_profanity",
+      "text": "That fucking spreadsheet deleted the entire budget column.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_064",
+      "category": "impersonal_profanity",
+      "text": "What the hell happened to the published figures?",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_065",
+      "category": "impersonal_profanity",
+      "text": "I am pissed off about the delay, not about you.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_066",
+      "category": "impersonal_profanity",
+      "text": "This is a shitty policy for people working nights.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_067",
+      "category": "impersonal_profanity",
+      "text": "You are a fucking idiot.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_068",
+      "category": "impersonal_profanity",
+      "text": "Piss off, you miserable fool.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_069",
+      "category": "impersonal_profanity",
+      "text": "You are a bloody moron.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_070",
+      "category": "impersonal_profanity",
+      "text": "Shut your stupid mouth.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_071",
+      "category": "impersonal_profanity",
+      "text": "You are a shitty person who enjoys wasting our time.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_072",
+      "category": "impersonal_profanity",
+      "text": "What the hell is wrong with you, you arrogant idiot?",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Profanity alone is not a personal attack; insulting a person is."
+    },
+    {
+      "id": "attack_stress_073",
+      "category": "subtle_degradation",
+      "text": "You seem incapable of even basic reasoning.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_074",
+      "category": "subtle_degradation",
+      "text": "I would explain it, but you lack the intelligence to follow.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_075",
+      "category": "subtle_degradation",
+      "text": "You clearly never learned how to think.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_076",
+      "category": "subtle_degradation",
+      "text": "A child could understand this better than you.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_077",
+      "category": "subtle_degradation",
+      "text": "You have nothing between your ears.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_078",
+      "category": "subtle_degradation",
+      "text": "You are living proof that confidence does not require intelligence.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_079",
+      "category": "subtle_degradation",
+      "text": "The reasoning skips a step between correlation and causation.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_080",
+      "category": "subtle_degradation",
+      "text": "This needs a simpler explanation for people unfamiliar with the terminology.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_081",
+      "category": "subtle_degradation",
+      "text": "We should check the arithmetic before accepting either estimate.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_082",
+      "category": "subtle_degradation",
+      "text": "You may have overlooked the control group in that study.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_083",
+      "category": "subtle_degradation",
+      "text": "That assumption does not follow from the evidence you presented.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_084",
+      "category": "subtle_degradation",
+      "text": "I need you to explain how the proposed exception would work.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Personal degradation may lack an explicit swear word; reasoning criticism alone is negative."
+    },
+    {
+      "id": "attack_stress_085",
+      "category": "polite_surface",
+      "text": "With all due respect, you are an idiot.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_086",
+      "category": "polite_surface",
+      "text": "Please stop embarrassing yourself, you brainless fool.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_087",
+      "category": "polite_surface",
+      "text": "I appreciate your effort, but you are too stupid for this discussion.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_088",
+      "category": "polite_surface",
+      "text": "Respectfully, you are a pathetic liar.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_089",
+      "category": "polite_surface",
+      "text": "Thank you for demonstrating how ignorant you are.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_090",
+      "category": "polite_surface",
+      "text": "If you do not mind my saying so, you are utterly worthless.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_091",
+      "category": "polite_surface",
+      "text": "With all due respect, your conclusion is unsupported.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_092",
+      "category": "polite_surface",
+      "text": "Please reconsider the assumption about staffing costs.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_093",
+      "category": "polite_surface",
+      "text": "I appreciate your effort, but the survey does not answer our question.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_094",
+      "category": "polite_surface",
+      "text": "Respectfully, I cannot agree with that interpretation.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_095",
+      "category": "polite_surface",
+      "text": "Thank you for explaining; I still need the original source.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_096",
+      "category": "polite_surface",
+      "text": "If you do not mind, could we return to the question of funding?",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Polite framing does not remove an endorsed personal insult."
+    },
+    {
+      "id": "attack_stress_097",
+      "category": "slang_manglish",
+      "text": "You got no brain ah?",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_098",
+      "category": "slang_manglish",
+      "text": "Eh, you really stupid lah.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_099",
+      "category": "slang_manglish",
+      "text": "Bro you are a total idiot.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_100",
+      "category": "slang_manglish",
+      "text": "Your head empty one, cannot think ah?",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_101",
+      "category": "slang_manglish",
+      "text": "You damn blur, useless fellow.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_102",
+      "category": "slang_manglish",
+      "text": "Oi, shut up lah, you clown.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_103",
+      "category": "slang_manglish",
+      "text": "This cost too much lah, can explain the funding?",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_104",
+      "category": "slang_manglish",
+      "text": "I disagree leh, the figures do not match.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_105",
+      "category": "slang_manglish",
+      "text": "Can show the source ah?",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_106",
+      "category": "slang_manglish",
+      "text": "Bro that conclusion does not follow from the chart.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_107",
+      "category": "slang_manglish",
+      "text": "We discuss school funding first lah.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_108",
+      "category": "slang_manglish",
+      "text": "I blur about the graph, can explain again?",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "English slang or Manglish retains the same personal-attack definition."
+    },
+    {
+      "id": "attack_stress_109",
+      "category": "obfuscation_typographical",
+      "text": "You are an id10t.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_110",
+      "category": "obfuscation_typographical",
+      "text": "u r so stoopid.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_111",
+      "category": "obfuscation_typographical",
+      "text": "You are a m0ron.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_112",
+      "category": "obfuscation_typographical",
+      "text": "Shut up you i d i o t.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_113",
+      "category": "obfuscation_typographical",
+      "text": "You have n0 br@in.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_114",
+      "category": "obfuscation_typographical",
+      "text": "You are a stuuupid cl0wn.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_115",
+      "category": "obfuscation_typographical",
+      "text": "Ur argument needs a source.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_116",
+      "category": "obfuscation_typographical",
+      "text": "I dnt agree with the c0st estimate.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_117",
+      "category": "obfuscation_typographical",
+      "text": "Pls explain the evidence again.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_118",
+      "category": "obfuscation_typographical",
+      "text": "The system is stuuupidly slow today.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_119",
+      "category": "obfuscation_typographical",
+      "text": "This p0licy wastes money.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_120",
+      "category": "obfuscation_typographical",
+      "text": "U missed a step in the calc, can we check it?",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Spelling changes are interpreted by meaning, not exact token form."
+    },
+    {
+      "id": "attack_stress_121",
+      "category": "punctuation_free_disfluency",
+      "text": "um you are you are just a complete idiot",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_122",
+      "category": "punctuation_free_disfluency",
+      "text": "look i mean you have no brain at all",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_123",
+      "category": "punctuation_free_disfluency",
+      "text": "uh shut up you stupid fool",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_124",
+      "category": "punctuation_free_disfluency",
+      "text": "you know youre a pathetic liar honestly",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_125",
+      "category": "punctuation_free_disfluency",
+      "text": "well youre too dumb to get it really",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_126",
+      "category": "punctuation_free_disfluency",
+      "text": "i i think you are a worthless person",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_127",
+      "category": "punctuation_free_disfluency",
+      "text": "um i disagree because the number is from last year",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_128",
+      "category": "punctuation_free_disfluency",
+      "text": "look i mean the policy has costs we have not counted",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_129",
+      "category": "punctuation_free_disfluency",
+      "text": "uh can you explain where that figure came from",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_130",
+      "category": "punctuation_free_disfluency",
+      "text": "you know i am not convinced by the evidence",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_131",
+      "category": "punctuation_free_disfluency",
+      "text": "well youre missing the transport cost in that calculation",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_132",
+      "category": "punctuation_free_disfluency",
+      "text": "i i think we should ask the moderator to clarify",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Manually authored transcript-like text; not actual ASR output."
+    },
+    {
+      "id": "attack_stress_133",
+      "category": "long_mixed_turn",
+      "text": "I agree that the city needs affordable housing and that construction takes time. We should compare rental assistance with new building. However, you are a brainless idiot and your presence makes this conversation unbearable.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_134",
+      "category": "long_mixed_turn",
+      "text": "There are useful points on both sides of a four-day week. Hospitals would need separate staffing arrangements and trials should measure patient safety. You, on the other hand, are a worthless fool who cannot understand any of it.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_135",
+      "category": "long_mixed_turn",
+      "text": "The library budget has declined for several years. Extending evening hours may require more staff or a different rota. Stop talking, you pathetic liar, because nobody should take you seriously.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_136",
+      "category": "long_mixed_turn",
+      "text": "We can look at ticket revenue and the cost of maintaining the museum collection. A subsidy might improve access for local families. You are too stupid to be trusted with even this simple discussion.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_137",
+      "category": "long_mixed_turn",
+      "text": "The climate targets include emissions from transport and buildings, and we need a baseline before comparing the options. Your last chart used a different year. You are an ignorant clown who should just leave.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_138",
+      "category": "long_mixed_turn",
+      "text": "I listened to your account of the pilot scheme, including the staffing problems and the uneven demand between districts. Those issues deserve a response. But you are a dishonest scumbag and I have no interest in your explanation.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_139",
+      "category": "long_mixed_turn",
+      "text": "I agree that the city needs affordable housing and that construction takes time. We should compare rental assistance with new building. Your estimate excludes the cost of acquiring land, so I do not think it supports your conclusion yet.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_140",
+      "category": "long_mixed_turn",
+      "text": "There are useful points on both sides of a four-day week. Hospitals would need separate staffing arrangements and trials should measure patient safety. I disagree with applying the same schedule to every industry before testing it.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_141",
+      "category": "long_mixed_turn",
+      "text": "The library budget has declined for several years. Extending evening hours may require more staff or a different rota. Your response does not explain how you would fund the additional shifts, and I would like a concrete estimate.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_142",
+      "category": "long_mixed_turn",
+      "text": "We can look at ticket revenue and the cost of maintaining the museum collection. A subsidy might improve access for local families. The argument about visitor spending is weak because it uses an unrelated city as its only example.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_143",
+      "category": "long_mixed_turn",
+      "text": "The climate targets include emissions from transport and buildings, and we need a baseline before comparing the options. Your last chart used a different year. Please explain that discrepancy before we use the figures to set a target.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_144",
+      "category": "long_mixed_turn",
+      "text": "I listened to your account of the pilot scheme, including the staffing problems and the uneven demand between districts. Those issues deserve a response. I still disagree with your conclusion because it overlooks the expansion costs.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "An explicit personal attack anywhere in the turn makes the whole turn positive."
+    },
+    {
+      "id": "attack_stress_145",
+      "category": "person_not_participant",
+      "text": "The previous speaker is a stupid idiot.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_146",
+      "category": "person_not_participant",
+      "text": "That researcher is a worthless fraud with no brain.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_147",
+      "category": "person_not_participant",
+      "text": "Anyone who supports this is a moron.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_148",
+      "category": "person_not_participant",
+      "text": "The chairperson is a pathetic liar.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_149",
+      "category": "person_not_participant",
+      "text": "Your colleague is an ignorant fool.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_150",
+      "category": "person_not_participant",
+      "text": "Those students are brainless idiots.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_151",
+      "category": "person_not_participant",
+      "text": "The previous speaker used an outdated cost estimate.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_152",
+      "category": "person_not_participant",
+      "text": "That researcher did not disclose the study's funding source.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_153",
+      "category": "person_not_participant",
+      "text": "Supporters of this proposal have not answered the access question.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_154",
+      "category": "person_not_participant",
+      "text": "The chairperson's statement contradicts the published minutes.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_155",
+      "category": "person_not_participant",
+      "text": "Your colleague's calculation uses the wrong population figure.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_156",
+      "category": "person_not_participant",
+      "text": "Those students raised a relevant concern about travel costs.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "A personal attack can target someone other than the current interlocutor."
+    },
+    {
+      "id": "attack_stress_157",
+      "category": "boundaries_and_format",
+      "text": "I feel stupid because I used the wrong table.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_158",
+      "category": "boundaries_and_format",
+      "text": "I was an idiot to forget my notes; please give me a moment.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_159",
+      "category": "boundaries_and_format",
+      "text": "The word \"moron\" appears in the transcript we are analyzing.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_160",
+      "category": "boundaries_and_format",
+      "text": "<b>I disagree</b> because the figures are incomplete.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_161",
+      "category": "boundaries_and_format",
+      "text": "I CANNOT ACCEPT THAT CONCLUSION WITHOUT EVIDENCE.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_162",
+      "category": "boundaries_and_format",
+      "text": "Your claim is unsupported. See https://example.org/study for the data.",
+      "attack": 0,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_163",
+      "category": "boundaries_and_format",
+      "text": "<b>You are a stupid idiot.</b>",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_164",
+      "category": "boundaries_and_format",
+      "text": "YOU ARE A PATHETIC LIAR.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_165",
+      "category": "boundaries_and_format",
+      "text": "You are an ignorant fool!!!",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_166",
+      "category": "boundaries_and_format",
+      "text": "You are a worthless person. https://example.org/",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_167",
+      "category": "boundaries_and_format",
+      "text": "You are a brainless idiot. NEWLINE_TOKEN Stop wasting our time.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_168",
+      "category": "boundaries_and_format",
+      "text": "You're an arrogant moron, and I mean you personally.",
+      "attack": 1,
+      "ambiguous": false,
+      "rationale": "Self-deprecation, formatting and evidence requests are contrasted with attacks on another person."
+    },
+    {
+      "id": "attack_stress_169",
+      "category": "ambiguous_context",
+      "text": "That was clever of you.",
+      "attack": 0,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    },
+    {
+      "id": "attack_stress_170",
+      "category": "ambiguous_context",
+      "text": "You are a real genius.",
+      "attack": 0,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    },
+    {
+      "id": "attack_stress_171",
+      "category": "ambiguous_context",
+      "text": "Nice job, professor.",
+      "attack": 0,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    },
+    {
+      "id": "attack_stress_172",
+      "category": "ambiguous_context",
+      "text": "Sure, you know everything.",
+      "attack": 0,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    },
+    {
+      "id": "attack_stress_173",
+      "category": "ambiguous_context",
+      "text": "You always have an answer, do you not?",
+      "attack": 0,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    },
+    {
+      "id": "attack_stress_174",
+      "category": "ambiguous_context",
+      "text": "I expected better from you.",
+      "attack": 0,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    },
+    {
+      "id": "attack_stress_175",
+      "category": "ambiguous_context",
+      "text": "You never listen.",
+      "attack": 1,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    },
+    {
+      "id": "attack_stress_176",
+      "category": "ambiguous_context",
+      "text": "You are impossible.",
+      "attack": 1,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    },
+    {
+      "id": "attack_stress_177",
+      "category": "ambiguous_context",
+      "text": "That is typical of you.",
+      "attack": 1,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    },
+    {
+      "id": "attack_stress_178",
+      "category": "ambiguous_context",
+      "text": "You are being ridiculous.",
+      "attack": 1,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    },
+    {
+      "id": "attack_stress_179",
+      "category": "ambiguous_context",
+      "text": "Stop playing games with us.",
+      "attack": 1,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    },
+    {
+      "id": "attack_stress_180",
+      "category": "ambiguous_context",
+      "text": "Look who is talking.",
+      "attack": 1,
+      "ambiguous": true,
+      "rationale": "Interpretation depends on delivery or missing context; placeholder labels excluded from primary accuracy."
+    }
+  ]
+}

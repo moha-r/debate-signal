@@ -1,0 +1,13 @@
+{
+  "scope": "Real serving models with synthetic accounts and a temporary database; no live user account or data access. HTTPS/WSS transport is tested separately with a local relay fixture.",
+  "cached_local_model_load_ms": 3338.9214579947293,
+  "steps": [
+    "Registration and secure cookie: passed",
+    "Seven-turn example with real NLP models: passed",
+    "Feedback, revision persistence, restored session and JSONL export: passed",
+    "Production landing/workspace assets and relocated audio worklet: passed",
+    "Logout revocation and second-account isolation: passed"
+  ],
+  "example_creation_ms": 321.16233301348984,
+  "new_turn_http_ms": 16.519124968908727
+}

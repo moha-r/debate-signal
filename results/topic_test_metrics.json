@@ -1,0 +1,10 @@
+{
+  "event_precision": 1.0,
+  "event_recall": 0.6666666666666666,
+  "event_f1": 0.8,
+  "false_alerts": 0,
+  "events": 3,
+  "detected": 2,
+  "median_delay_turns": 1.0,
+  "false_alerts_per_session": 0.0
+}

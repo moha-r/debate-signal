@@ -1,0 +1,35 @@
+{
+  "machine": "arm64",
+  "macOS": "26.5.1",
+  "device": "mps",
+  "model": "distilbert/distilbert-base-uncased",
+  "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "batch_size": 4,
+  "padded_max_length": 128,
+  "precision": "float32",
+  "trainable_parameters": 66955010,
+  "measured_steps": 6,
+  "warmup_steps": 2,
+  "median_step_seconds": 0.2456706665107049,
+  "p95_step_seconds": 0.31599167705280706,
+  "examples_per_second": 16.281960141243413,
+  "mps_tensor_memory_GiB": 1.0197653770446777,
+  "mps_driver_memory_GiB": 2.1745147705078125,
+  "mps_recommended_memory_GiB": 5.333343505859375,
+  "losses": [
+    0.6655670404434204,
+    0.6537250876426697,
+    0.5883128046989441,
+    0.5574676990509033,
+    0.5186425447463989,
+    0.49670761823654175
+  ],
+  "packages": {
+    "torch": "2.15.0",
+    "transformers": "5.23.0",
+    "numpy": "2.4.6"
+  },
+  "scope": "Synthetic repeated batches measure feasibility and approximate throughput, not accuracy. Excludes data preparation, tokenization, validation, checkpoint I/O and prolonged memory/thermal effects. Benchmark weights are discarded.",
+  "fit_rows": 82513,
+  "estimated_training_only_minutes_per_epoch": 84.46259877415747
+}

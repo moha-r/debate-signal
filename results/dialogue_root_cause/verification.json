@@ -1,0 +1,17 @@
+{
+  "functional_tests": 119,
+  "workflow": "passed",
+  "backend": "dialogue-roberta",
+  "live_health": "ok",
+  "error_ledger": {
+    "new": 6,
+    "fixed": 18,
+    "remaining": 23
+  },
+  "sources": {
+    "results/dialogue_root_cause/comparison.json": "ad195bc4ab699f9f0b51cee7a584e02a335b337470a7017c95252a948e0a0c92",
+    "results/dialogue_root_cause/error_log.csv": "1bef687dcd7d9d1e26ec75b14fdb4069d079a9854bf4552320587b8fe1dc635f",
+    "results/dialogue_root_cause/spoken_errors.csv": "2b6a70c961b1c4fad8eb7af906a7b1671e5e17391bf25046464604265e91e6b5",
+    "results/dialogue_root_cause/qualified/summary.json": "082889cc166437f446491ae846bf8c4bd2876b8bb6fc2543f6481ff6989ac5e9"
+  }
+}
